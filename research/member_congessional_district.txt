@@ -1,0 +1,23 @@
+Lookup via zip from Sunlight Labs API, see documentation
+Google map of congressional districts via code at http://www.govtrack.us/embed/googlemaps.xpd
+  <script src="http://www.govtrack.us/scripts/gmap-wms.js"/>
+  I adapted this code from elsewhere and apologize to the original author that I don't remember where I got the code from.
+
+  Then add this after you initialize the GMap[2] object:
+
+  var WMS_URL = 'http://www.govtrack.us/perl/wms-cd.cgi?';
+  var G_MAP_LAYER_FILLED = createWMSTileLayer(WMS_URL, "cd-filled", null, "image/gif", null, null, null, .25);
+  var G_MAP_LAYER_OUTLINES = createWMSTileLayer(WMS_URL, "cd-outline", null, "image/gif", null, null, null, .66, "Data from GovTrack.us");
+  var G_MAP_OVERLAY = createWMSOverlayMapType([G_NORMAL_MAP.getTileLayers()[0], G_MAP_LAYER_FILLED, G_MAP_LAYER_OUTLINES], "Overlay");
+
+  map.addMapType(G_MAP_OVERLAY);
+  //map.addControl(new GMapTypeControl());
+  //map.setCenter(new GLatLng(39, -96), 4);
+  map.setMapType(G_MAP_OVERLAY);
+  To display the districts just for a single state, or to display just a single district, use instead of "cd-filled" and "cd-outline", for instance:
+
+  cd-filled,state=TX
+  cd-outline,state=TX
+  or
+  cd-filled,district=CA5
+  cd-outline,district=CA5

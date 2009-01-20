@@ -1,0 +1,1 @@
+Start collecting issues from opensecrets cvs of lobbying issues/categories
