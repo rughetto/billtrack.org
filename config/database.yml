@@ -1,0 +1,17 @@
+development: &defaults
+  :adapter:  mysql
+  :database: billtrack
+  :username: root
+  :password: 
+  :host: localhost
+  :socket: "/tmp/mysql.sock"
+ 
+test:
+  <<:       *defaults
+  database: billtrack_test
+ 
+production:
+  <<:       *defaults
+ 
+rake:
+  <<: *defaults
