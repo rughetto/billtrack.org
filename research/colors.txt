@@ -1,0 +1,5 @@
+BLUE: Everyone seems to use #003366, midnight/teal color
+RED: Republicans favor #700F0F
+
+CNN Election: Red = #CA0002, Blue #004276 only not so teal looking, also a light blue #97D1FF
+  grays: light=#949494 and dark=#1E1E1E

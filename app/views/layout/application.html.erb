@@ -1,12 +1,71 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
   <head>
-    <title>Fresh Merb App</title>
+    <title>Bill Track | Track US Congressional Bills as they related to issues of your choosing!</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="/stylesheets/master.css" type="text/css" media="screen" charset="utf-8" />
   </head>
   <body>
-    <%#= message[:notice] %>
-    <%= catch_content :for_layout %>
+    <div id="all">
+      <div id="header">
+        <h1 class="header"><%= image_tag "bill_track.png", :alt => "Bill Track logo" %></h1>
+        <div id="top_menu" >
+          <ul class="menu">
+            <li class="first"><%= link_to 'Issues', '/issues' %></li>
+            <li><%= link_to 'Bills', '/bills' %></li>
+            <li><%= link_to 'Politicians', '/politicians' %></li>
+            <li><%= link_to 'Members', '/members' %></li>
+            <li><%= link_to 'Blog', '/blog' %></li>
+            <%= image_tag "sm_star.png", :class => "spacer" %>
+            <% if session.user -%>
+              <li class="first"><%= link_to 'My Bill Track', '/home' %></li>
+            <% else -%>  
+              <li class="first">
+                <%= link_to 'Sign up', '/signup' %> 
+                - or - <%= link_to 'Login', '/login' %>
+              </li>
+            <% end -%>   
+            <li>
+              Search form
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id="content" class="<%= controller_name %> <%= action_name %>">
+        <%= message[:notice] %>
+        <%= catch_content :for_layout %>
+      </div>  
+      <div id="footer">
+        <ul id="bottom_menu">
+          <ul class="menu">
+            <li class="first">copyright &copy; 2009 BillTrack.org</li>
+            <li><%= link_to "CONTACT", "/contact" %></li>
+            <li><%= link_to "ABOUT BillTrack.org", "/about" %></li>
+          </ul>
+        </ul>
+        <div id="fat_footer">
+          <div class="quote_block">
+            <blockquote>
+              &ldquo;
+              A popular government, without popular information, or the means of acquiring it, is but a prologue to a farce or a tragedy; or, perhaps, both. &rdquo;
+            </blockquote>
+            <h6> ~ President James Madison, August 4, 1822</h6>
+          </div>
+          <ul class="menu">
+            <h4>My Links:</h4>
+            <li><%= link_to 'Manage issues', '/home/issues' %></li>
+            <li><%= link_to 'Socialize', '/home/people' %></li>
+            <li><%= link_to 'Write representatives', '/home/write' %></li>
+          </ul> 
+          <ul class="menu">
+            <h4>Explore the Site:</h4>
+            <li><%= link_to 'Issues', '/issues' %></li>
+            <li><%= link_to 'Bills', '/bills' %></li>
+            <li><%= link_to 'People', '/people' %></li>
+            <li><%= link_to 'the Blog', '/blog' %></li>
+          </ul> 
+        </div>  
+      </div>
+    </div>
   </body>
 </html>

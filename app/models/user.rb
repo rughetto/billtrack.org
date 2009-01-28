@@ -15,6 +15,7 @@ class User < ActiveRecord::Base
   # name_visibility
   # address
   # zipcode
+  # party_affilation
 
   
 end
