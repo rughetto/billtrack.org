@@ -24,7 +24,7 @@ img.spacer { margin: 3px 30px -3px 30px;}
 
 /* TEXT -------------------------- */
 * { text-decoration: none; }
-body { font-family: 'Trebuchet MS', Truebuchet, Veranda, sans-serif; font-size: 16px; text-align: left; }
+body { font-family: 'Trebuchet MS', Truebuchet, Veranda, sans-serif; font-size: 14px; text-align: left; }
 h1, h2, h4 { font-family: Georgia, serif;  }
 h1 { font-size: 32px; line-height: 1.4; font-weight: normal; letter-spacing: 0.05em;}
 h2 { font-size: 18px; margin-bottom: 6px; }

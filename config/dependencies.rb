@@ -20,8 +20,10 @@ dependency "activerecord",              ar_gems_version
 dependency "merb_activerecord"
 
 dependency "RedCloth"
-#dependency "rughetto-merb_paperclip",   :require_as => "merb_paperclip"
+dependency "rughetto-merb_paperclip",   :require_as => "merb_paperclip"
 dependency "rughetto-rear_views",       :require_as => "rear_views"
+dependency "rughetto-sunlight",         :require_as => "sunlight"
+
 
 # testing factories!
 dependency "notahat-machinist",         :require_as => "machinist"
