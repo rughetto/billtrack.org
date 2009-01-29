@@ -15,7 +15,9 @@ describe Party do
     it "should have a unique name" do
       Party.new(:name => 'Democrat', :abbreviation => 'N').should_not be_valid
     end  
-    
+    it "should be valid with a unique name and abbreviation" do
+      Party.new(:name => "Peace and Freedom", :abbreviation =>  "P").should be_valid
+    end  
   end  
 
   describe "caching" do
@@ -27,11 +29,26 @@ describe Party do
     
     it "Party.find_by_abbreviation should find the right record" do
       found_party = Party.find_by_abbreviation('D')
-      puts found_party.inspect
       found_party.class.should == Party
       found_party.abbreviation.should == 'D'
-    end  
+    end 
+    
+    it "Party.find_by_abbreviation should cache the result in memory" do
+      Party.clear_cache
+      Party.all
+      Party.should_not_receive(:find)
+      Party.all
+    end
   end  
-   
-
+  
+  it "Party.find_or_create_by_abbreviation should create a record when necessary" do
+    Party.should_receive(:create)
+    Party.find_or_create_by_abbreviation('P')
+  end  
+  
+  it "Party.find_or_create_by_abbreviation should not create a record when it exists" do
+    Party.find_or_create_by_abbreviation('P')
+    Party.should_not_receive(:create)
+    Party.find_or_create_by_abbreviation('P')
+  end
 end

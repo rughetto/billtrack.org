@@ -16,9 +16,15 @@ Merb::Config.use do |c|
 end
  
 Merb::BootLoader.before_app_loads do
-  # This will get executed after dependencies have been loaded but before your app's classes have loaded.
+  require File.join( File.dirname(__FILE__), '..', 'lib', 'poor_mans_memecache')
 end
  
 Merb::BootLoader.after_app_loads do
-  # This will get executed after your app's classes have been loaded.
+  Time::DATE_FORMATS[:us_date] = "%D"
+  
+  Merb::Cache.setup do
+    unless exists?(:default)
+      register(:default, Merb::Cache::FileStore, :dir => Merb.root / :tmp / :cache) 
+    end   
+  end
 end

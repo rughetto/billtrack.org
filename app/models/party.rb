@@ -8,9 +8,6 @@ class Party < ActiveRecord::Base
   # VALIDAITONS ----------------------------
   validates_uniqueness_of :abbreviation, :name
   
-  # HOOKS ----------------------------------
-   
-  
   # CACHING --------------------------------
   # if the app moves to memcache we can do this ...
   # def self.find_by_abbreviation(abbrev)
@@ -26,6 +23,10 @@ class Party < ActiveRecord::Base
   # can be used to save text calculations like politican on member name
   # so this module is used instead
   include PoorMansMemecache
+  
+  def self.find_or_create_by_abbreviation(abbrev)
+    find_by_abbreviation(abbrev) || create(:abbreviation => abbrev)
+  end  
   
 
 end
