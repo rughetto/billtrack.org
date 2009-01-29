@@ -7,6 +7,7 @@ class Party < ActiveRecord::Base
   
   # VALIDAITONS ----------------------------
   validates_uniqueness_of :abbreviation, :name
+  validates_presence_of :abbreviation # can't insist on name since may be coming from Politician object
   
   # CACHING --------------------------------
   # if the app moves to memcache we can do this ...
