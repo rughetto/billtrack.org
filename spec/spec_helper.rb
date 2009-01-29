@@ -13,6 +13,7 @@ require "spec" # Satisfies Autotest and anyone else not using the Rake tasks
 # here again, Merb will do it for you
 Merb.start_environment(:testing => true, :adapter => 'runner', :environment => ENV['MERB_ENV'] || 'test')
 
+require File.expand_path(File.dirname(__FILE__) + "/blueprint") # for machinist
 Spec::Runner.configure do |config|
   config.include(Merb::Test::ViewHelper)
   config.include(Merb::Test::RouteHelper)
@@ -21,5 +22,5 @@ Spec::Runner.configure do |config|
   config.before(:all) do
     DataMapper.auto_migrate! if Merb.orm == :datamapper
   end
-  
+  config.before(:each) { Sham.reset } # for machinist
 end
