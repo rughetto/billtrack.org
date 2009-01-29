@@ -19,3 +19,4 @@ src/*
 gems/gems/*
 gems/specifications/*
 merb_profile_results
+research/sunlight_api_key.txt

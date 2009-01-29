@@ -16,20 +16,23 @@ class MemberMigration < ActiveRecord::Migration
       t.text :visibility
       
       t.text :address
+      t.string :city
       t.string :zipcode
-      t.string :party_affiliation
+      t.string :state
+      t.integer :district_id
+      t.string :party
       
       t.timestamps
     end
-    add_index :members, :username, :unique
-    add_index :members, :zipcode
-    add_index :members, :party_affiliation
+    add_index :members, :username, :unique => true, :name => "members_name"
+    add_index :members, :district_id, :name => "members_district"
+    add_index :members, :party, :name => "members_party"
   end
 
   def self.down
+    remove_index :members, :members_name
+    remove_index :members, :members_district
+    remove_index :members, :members_party
     drop_table :members
-    remove_index :members, :username
-    remove_index :members, :zipcode
-    remove_index :members, :party_affiliation
   end
 end
