@@ -20,19 +20,19 @@ class MemberMigration < ActiveRecord::Migration
       t.string :zipcode
       t.string :state
       t.integer :district_id
-      t.string :party
+      t.integer :party_id
       
       t.timestamps
     end
     add_index :members, :username, :unique => true, :name => "members_name"
     add_index :members, :district_id, :name => "members_district"
-    add_index :members, :party, :name => "members_party"
+    add_index :members, :party_id, :name => "members_party"
   end
 
   def self.down
-    remove_index :members, :members_name
-    remove_index :members, :members_district
-    remove_index :members, :members_party
+    remove_index :members, :name => :members_name
+    remove_index :members, :name => :members_district
+    remove_index :members, :name => :members_party
     drop_table :members
   end
 end

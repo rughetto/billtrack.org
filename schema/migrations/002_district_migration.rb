@@ -10,8 +10,8 @@ class DistrictMigration < ActiveRecord::Migration
   end
 
   def self.down
-    remove_index   :districts, :districts_state_number
-    remove_index   :districts, :districts_zipcode
+    remove_index    :districts, :name => :districts_state_number
+    remove_index    :districts, :name => :districts_zipcode
     drop_table  :districts
   end
 end

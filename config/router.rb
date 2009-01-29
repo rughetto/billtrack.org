@@ -4,6 +4,8 @@ Merb::Router.prepare do
 
   resources :members
   resources :districts
+  resources :politicians
+  resources :parties
 
   # authenticate do
   #   resources :members
