@@ -73,17 +73,42 @@ class Politician < ActiveRecord::Base
       
   
   def self.new_from_sunlight( sunlight )
+    initialize_from_sunlight( sunlight ).populate_from_sunlight( sunlight )
+  end 
+  
+  def self.initialize_from_sunlight( sunlight )
     if sunlight.title.match(/Rep/i)
-      new_politician = Representative.new(:district_number => sunlight.district )
-      new_politician.district = District.find_or_create(sunlight.state, sunlight.district) 
+      politician = Representative.new(:district_number => sunlight.district )
     else
-      new_politician = Senator.new(:seat => sunlight.district )
-    end 
-    sunlight_map.each do |sunlight_key, local_key|
-      new_politician.send( "#{local_key}=", sunlight.send( sunlight_key ) )
-    end  
-    new_politician.party = Party.find_or_create_by_abbreviation(sunlight.party)
-    new_politician
+      politician = Senator.new(:seat => sunlight.district )
+    end
+    politician
   end   
+  
+  def self.from_sunlight( sunlight )
+    politician = first(:conditions => {:fec_id => sunlight.fec_id})
+    politician = initialize_from_sunlight( sunlight ) unless politician
+    politician.populate_from_sunlight( sunlight )
+  end
+  
+  def populate_from_sunlight( sunlight )
+    self.class.sunlight_map.each do |sunlight_key, local_key|
+      self.send( "#{local_key}=", sunlight.send( sunlight_key ) )
+    end
+    self.district = District.find_or_create(sunlight.state, sunlight.district) if self[:type] == "Representative"
+    self.party = Party.find_or_create_by_abbreviation(sunlight.party)
+    self
+  end 
+  
+  def self.import_from_sunlight
+    all_active_from_sunlight.each do |sunlight|
+      from_sunlight(sunlight).save
+    end  
+    all
+  end 
+  
+  def self.all_active_from_sunlight
+    Sunlight::Legislator.all_where(:in_office => 1)
+  end     
   
 end
