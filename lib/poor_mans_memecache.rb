@@ -5,7 +5,7 @@
 module PoorMansMemecache
   def self.included( ar_class )
     # these sends need to be changed for Ruby 1.9
-    ar_class.send(:extend, ClassMethods)
+    ar_class.send(:extend, ClassMethods.clone) # this clone means one set of class instance variable per class
     ar_class.send(:include, InstanceMethods)
     # ###
     ar_class.class_eval do
@@ -32,7 +32,49 @@ module PoorMansMemecache
   
     def clear_cache
       @all = nil
-    end   
+      @caches ||= []
+      @caches.each do |c|
+        instance_variable_set(c, nil)
+      end  
+    end 
+    
+    def register_cache( cache_var_name ) # without the starting @ symbol
+      @caches ||= []
+      @caches << "@#{cache_var_name}"
+    end    
+    
+    # #chache_on_keys add a memory cache keyed on the method names passed into key_arr
+    # It will create a class method that is called 'find_on_' followed by a underscored list of passed methods
+    # The created method looks at the already memory cached @all instance_variable, and 
+    def cache_on_keys(*key_arr)
+      # normalize arguments
+      if key_arr.class == Array
+        key_arr.flatten!
+        key = key_arr.join("_")
+      elsif key_arr.class == String || key_arr.class == Symbol
+        key = key_arr.to_s
+        key_arr = [key_arr]
+      else
+        raise ArgumentError, "passed argument(s), must be a string/symbol or an array of strings/symbols"
+      end   
+      arg_list = key_arr.map{|k| (k.to_s + "_arg")} 
+      tests = []
+      key_arr.each_with_index do |val, index|
+        tests << "rec.#{val} == #{arg_list[index]}"
+      end 
+      
+      # build the methods
+      class_eval %{
+        def self.find_on_#{key}(#{arg_list.join(", ")})
+          @cache_#{key} ||= {}
+          @cache_#{key}[ #{ arg_list.collect{|a| a + '.to_s' }.join(" + '_'+ ")} ] ||= all.select{|rec| #{tests.join(" && ")}}
+        end  
+        
+        # register this cache as something that needs to be deleted when the cache expires
+        register_cache('cache_#{key}')  
+      }
+    end  
+    
   end # ClassMethods  
   
   module InstanceMethods
