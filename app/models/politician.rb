@@ -1,15 +1,17 @@
 class Politician < ActiveRecord::Base
+  # ATTRIBUTES ------------------------------
   # type -  Senator or Representative, STI ...
   
   # BIO DATA
   # first_name - firstname in Sunlight model
-  # middlename  - middlename in Sunlight model
-  # lastname  - lastname in Sunlight model
+  # middle_name  - middlename in Sunlight model
+  # last_name  - lastname in Sunlight model
   # name_suffix 
   # nickname  
   # party_id (D, I, or R)
   # state
-  # district # only for reps
+  # district_number # only for reps
+  # district_id # only for reps
   # seat  # only for senators
   # gender
   # active - in_office in the Sunlight model
@@ -32,5 +34,56 @@ class Politician < ActiveRecord::Base
   # fec_id  - Federal Election Commission ID
   # govtrack_id,  - ID assigned by Govtrack.us
   # crp_id  ID provided by Center for Responsive Politics
+  
+  # RELATIONSHIPS ---------------------------------------
+  belongs_to :party
+  def party_through_abbreviation(abbrev)
+    Merb::Cache[:default].fetch("party_#{abbrev}") do
+      Party.find_by_abbreviation(abbrev)
+    end
+  end  
+  # district and districts relationships are in Representative and Senator models (STI)
+  
+  
+  # VALIDATIONS 
+  validates_presence_of :fec_id
+  validates_uniqueness_of :fec_id
+  
+  # IMPORTING DATA FROM SUNLIGHT
+  private
+    def self.sunlight_map
+      {
+        :firstname => :first_name,
+        :middlename => :middle_name,
+        :lastname => :last_name,
+        :in_office => :active
+      }.merge( direct_sunlight_map )
+    end
+  
+    def self.direct_sunlight_map
+      hash = {}
+      [ :name_suffix, :nickname, :state, :gender, :phone, :website, :webform, :email, 
+        :eventful_id, :congresspedia_url, :twitter_id, :youtube_url,  
+        :bioguide_id, :votesmart_id, :fec_id, :govtrack_id, :govtrack_id, :crp_id ].each do |key|
+        hash[key] = key
+      end
+      hash    
+    end    
+  public  
+      
+  
+  def self.new_from_sunlight( sunlight )
+    if sunlight.title.match(/Rep/i)
+      new_politician = Representative.new(:district_number => sunlight.district )
+      new_politician.district = District.find_or_create(sunlight.state, sunlight.district) 
+    else
+      new_politician = Senator.new(:seat => sunlight.district )
+    end 
+    sunlight_map.each do |sunlight_key, local_key|
+      new_politician.send( "#{local_key}=", sunlight.send( sunlight_key ) )
+    end  
+    new_politician.party = Party.find_or_create_by_abbreviation(sunlight.party)
+    new_politician
+  end   
   
 end

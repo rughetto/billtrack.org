@@ -1,16 +1,13 @@
 class District < ActiveRecord::Base
   # ATTRIBUTES --------------------
-  # t.string  :state
-  # t.integer :number
-  # t.integer :zipcode # 5 digit if 1-1 relationship, otherwise 5-4 digits
+  # t.string  :number
+  # t.integer :state 
   
-  # NOTES -------------------------
-  # The Ruby API can pull from the zip, but there isn't a 1-1 relationship between zips and districts.
-  # Still want to create a map here between zip (5-digit if 1-1, 9-digit otherwise), that way when new
-  # members are created, a new api call only has to be created for zips not cached
+  # CACHING -----------------------
+  include PoorMansMemecache
   
-  # There should be a class method for retrievivng via zipcode ... def self.[]( zipcode )
-  # There should be a class method also for retrieving all the zipcodes for all the districts via Politicians  
+  def self.find_or_create(st, num)
+    all.select{|rec| rec.state == st && rec.number == num.to_i }.first || create(:state => st, :number => num)
+  end  
   
-  
-end
+end  

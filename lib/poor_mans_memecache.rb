@@ -8,10 +8,21 @@ module PoorMansMemecache
     ar_class.send(:extend, ClassMethods)
     ar_class.send(:include, InstanceMethods)
     # ###
-    ar_class.build_finders( ar_class.columns, ar_class)
     ar_class.class_eval do
       after_save :clear_cache
-    end  
+      after_destroy :clear_cache
+    end
+    ar_class.columns.each do |col|
+      ar_class.class_eval %{
+        def self.find_by_#{col.name}( val )
+          all_by_#{col.name}( val ).first   
+        end
+        
+        def self.all_by_#{col.name}( val )
+          all.select{|rec| rec.#{col.name} == val }
+        end  
+      }
+    end   
   end  
   
   module ClassMethods
@@ -22,16 +33,6 @@ module PoorMansMemecache
     def clear_cache
       @all = nil
     end   
-  
-    # method for accessing the cache via any column
-    def build_finders( cols, klass )
-      cols.each do |col|
-        define_method( "#{klass}.find_by_#{col}".to_sym ) do |col_val|
-          all.select{|rec| rec.send(col.to_sym) == col_val}   
-        end 
-      end
-    end  
-    
   end # ClassMethods  
   
   module InstanceMethods

@@ -2,6 +2,7 @@ require File.join( File.dirname(__FILE__), '..', "spec_helper" )
 describe Party do
   before(:each) do
     Party.delete_all
+    Party.clear_cache
     Party.create(:abbreviation => 'D', :name => 'Democrat')
     Party.create(:abbreviation => 'R', :name => 'Republican')
     Party.create(:abbreviation => 'I', :name => 'Independent')
@@ -34,7 +35,6 @@ describe Party do
     end 
     
     it "Party.find_by_abbreviation should cache the result in memory" do
-      Party.clear_cache
       Party.all
       Party.should_not_receive(:find)
       Party.all
