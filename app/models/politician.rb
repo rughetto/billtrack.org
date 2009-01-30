@@ -46,8 +46,8 @@ class Politician < ActiveRecord::Base
   
   
   # VALIDATIONS 
-  validates_presence_of :fec_id
-  validates_uniqueness_of :fec_id
+  validates_presence_of :bioguide_id
+  validates_uniqueness_of :bioguide_id
   
   # IMPORTING DATA FROM SUNLIGHT
   private

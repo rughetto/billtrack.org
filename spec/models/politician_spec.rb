@@ -21,17 +21,17 @@ describe Politician do
       @pol = Politician.new_from_sunlight( @rep )
     end  
     
-    it "should not be valid without a fec_id" do 
-      @pol.fec_id = nil
+    it "should not be valid without a bioguide_id" do 
+      @pol.bioguide_id = nil
       @pol.should_not be_valid
     end
       
-    it "should not be valid without a unique fec_id" do
+    it "should not be valid without a unique bioguide_id" do
       @pol.save
       Politician.new_from_sunlight(@rep).should_not be_valid
     end  
     
-    it "should valid with a unique, non-empty fec_id" do
+    it "should valid with a unique, non-empty bioguide_id" do
       @pol.should be_valid
     end
       
