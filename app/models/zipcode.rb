@@ -36,5 +36,7 @@ class Zipcode
     else  
       "#{self.main}-#{self.plus_four}"
     end  
-  end    
+  end 
+  
+  class AccessError; end   
 end  
