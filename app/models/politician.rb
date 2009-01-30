@@ -86,7 +86,7 @@ class Politician < ActiveRecord::Base
   end   
   
   def self.from_sunlight( sunlight )
-    politician = first(:conditions => {:fec_id => sunlight.fec_id})
+    politician = first(:conditions => {:bioguide_id => sunlight.bioguide_id})
     politician = initialize_from_sunlight( sunlight ) unless politician
     politician.populate_from_sunlight( sunlight )
   end

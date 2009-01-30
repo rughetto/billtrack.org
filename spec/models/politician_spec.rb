@@ -102,5 +102,13 @@ describe Politician do
       Politician.new_from_sunlight( @junior ).save
       Party.all.size.should == 1
     end  
+    
+    it "should bulk import all records from the active sunlight api" do
+      sunlights = Politician.all_active_from_sunlight
+      Politician.should_receive(:all_active_from_sunlight).and_return( sunlights )
+      Politician.count.should == 0
+      records = Politician.import_from_sunlight
+      sunlights.size.should == records.size
+    end  
   end
 end
