@@ -16,6 +16,9 @@ class DistrictMap < ActiveRecord::Base
   # EXTENSIONS & LIBRARIES
   has_zipcode_accessor # from /lib/zipcoder
   
+  # include PoorMansMemecache
+  # cache_on_keys :district_id, :zipcode
+  
   
   # VALIDATIONS
   def validate
@@ -35,6 +38,29 @@ class DistrictMap < ActiveRecord::Base
     end  
   end  
   
+  # BATCH IMPORTING FROM SUNLIGHT
+  def self.import_district_set_from_sunlight( district )
+    set = []
+    all_from_sunlight_for_district( district ).each do |zip|
+      dm = DistrictMap.new(:district_id => district.id, :zipcode => zip)
+      if dm.save
+        set << dm
+      end  
+    end
+    set  
+  end  
+  
+  def self.all_from_sunlight_for_district( district )
+    Sunlight::District.zipcodes_in(district.state, district.number)
+  end  
+  
+  def self.all_from_sunlight
+    set = []
+    District.all.each do |district|
+      set << import_district_set_from_sunlight( district )
+    end  
+    set.flatten
+  end  
    
   
 end

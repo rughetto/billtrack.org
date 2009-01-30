@@ -3,6 +3,8 @@ require File.join( File.dirname(__FILE__), '..', "spec_helper" )
 describe DistrictMap do
   before(:each) do
     DistrictMap.delete_all
+    District.delete_all
+    District.clear_cache
     @district = DistrictMap.new(:district_id => 3, :zipcode => '94102-1234')
   end  
   describe "validations" do
@@ -24,6 +26,34 @@ describe DistrictMap do
       dm = DistrictMap.new(:district_id => @district.district_id, :zipcode => @district.zipcode )
       dm.should_not be_valid
     end  
+  end  
+  
+  describe "importing data" do
+    before(:each) do
+      @district = District.create(:state => 'CA', :number => 8)
+      @zips = DistrictMap.all_from_sunlight_for_district( @district )
+    end
+      
+    it "should import all the records from sunshine for a given district" do
+      DistrictMap.should_receive(:all_from_sunlight_for_district).and_return( @zips )
+      set = DistrictMap.import_district_set_from_sunlight( @district )
+      set.size.should == @zips.size
+      DistrictMap.count.should == @zips.size
+    end 
+    
+    it "should not duplicate imported records" do
+      DistrictMap.should_receive(:all_from_sunlight_for_district).any_number_of_times.and_return( @zips )
+      set = DistrictMap.import_district_set_from_sunlight( @district )
+      set_2 = DistrictMap.import_district_set_from_sunlight( @district )
+      set_2.size.should == 0
+    end  
+    
+    it "should import from all districts in the database" do
+      District.create(:state => 'CA', :number => 7)
+      District.count.should == 2
+      set = DistrictMap.all_from_sunlight
+      (set.size > @zips.size).should == true
+    end   
   end  
   
   describe "zipcoder" do
