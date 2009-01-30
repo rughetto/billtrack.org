@@ -17,6 +17,7 @@ end
  
 Merb::BootLoader.before_app_loads do
   require File.join( File.dirname(__FILE__), '..', 'lib', 'poor_mans_memecache')
+  require File.join( File.dirname(__FILE__), '..', 'lib', 'zipcoder')
 end
  
 Merb::BootLoader.after_app_loads do
