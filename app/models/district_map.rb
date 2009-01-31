@@ -1,3 +1,7 @@
+# The main job of the district map in to cache locally the relationship between zipcodes and districts
+# If a map is complex (ie. a zip has many districts), then the other sunshine methods should be called
+# When user data like the full +4 zip is known, another record should be added to this set
+
 class DistrictMap < ActiveRecord::Base
   # ATTRIBUTES --------------------
   # t.integer  :distric_id
@@ -5,13 +9,11 @@ class DistrictMap < ActiveRecord::Base
   # t.string  :zip_plus_four
   # t.boolean  :complex
 
-  # NOTES -------------------------
-  # The Ruby API can pull from the zip, but there isn't a 1-1 relationship between zips and districts.
-  # Still want to create a map here between zip (5-digit if 1-1, 9-digit otherwise), that way when new
-  # members are created, a new api call only has to be created for zips not cached
+  attr_accessor :district_count # used for custom mysql query
   
-  # There should be a class method for retrievivng via zipcode ... def self.[]( zipcode )
-  # There should be a class method also for retrieving all the zipcodes for all the districts via Politicians  
+  # RELATIONSHIPS
+  belongs_to :district
+  
   
   # EXTENSIONS & LIBRARIES
   has_zipcode_accessor # from /lib/zipcoder
@@ -69,6 +71,20 @@ class DistrictMap < ActiveRecord::Base
     Merb.logger.error("DistrictMap import from districts failed to import from districts with the following ids:
     #{bad_districts.collect(&:id).inspect}")
     bad_districts
+  end  
+  
+  # this goes directly to the sql and in two queries makes zips with more than one district complex = true
+  def self.set_complex_mapping
+    ids = self.find_by_sql("
+      SELECT *
+      FROM     (SELECT *,  COUNT( district_id ) AS district_count
+      		FROM district_maps 
+      		GROUP BY district_maps.zip_main
+      		ORDER BY district_count DESC) AS district_counter
+      WHERE district_count > 1
+    ").collect(&:id)
+    id_str = ids.map{|i| "'#{i}'"}.join(', ')
+    ActiveRecord::Base.connection.execute "UPDATE district_maps SET complex = 1 WHERE id IN (#{id_str})"
   end  
    
   
