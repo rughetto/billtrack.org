@@ -41,13 +41,19 @@ class DistrictMap < ActiveRecord::Base
   # BATCH IMPORTING FROM SUNLIGHT
   def self.import_district_set_from_sunlight( district )
     set = []
-    all_from_sunlight_for_district( district ).each do |zip|
-      dm = DistrictMap.new(:district_id => district.id, :zipcode => zip)
-      if dm.save
-        set << dm
-      end  
-    end
-    set  
+    bad_districts = []
+    begin
+      all_from_sunlight_for_district( district ).each do |zip|
+        dm = DistrictMap.new(:district_id => district.id, :zipcode => zip)
+        if dm.valid? 
+          dm.save
+          set << dm
+        end  
+      end
+    rescue
+      bad_districts << district
+    end  
+    bad_districts 
   end  
   
   def self.all_from_sunlight_for_district( district )
@@ -55,11 +61,14 @@ class DistrictMap < ActiveRecord::Base
   end  
   
   def self.all_from_sunlight
-    set = []
+    bad_districts = []
     District.all.each do |district|
-      set << import_district_set_from_sunlight( district )
+      bad_districts << import_district_set_from_sunlight( district )
     end  
-    set.flatten
+    bad_districts.flatten!
+    Merb.logger.error("DistrictMap import from districts failed to import from districts with the following ids:
+    #{bad_districts.collect(&:id).inspect}")
+    bad_districts
   end  
    
   
