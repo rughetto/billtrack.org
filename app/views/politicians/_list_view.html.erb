@@ -1,0 +1,9 @@
+<h4>
+  <%= link_to( @politician.name, url(:politicians, @politician) ) %> 
+  <%= @politician.state %> - <%=  @politician.seat || 'District #' + @politician.district.number.to_s %>
+</h4>
+picture<br/>
+<ul>
+  <li>Bill list</li>
+  <li>Issue list</li>
+</ul>

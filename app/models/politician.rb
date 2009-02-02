@@ -44,10 +44,17 @@ class Politician < ActiveRecord::Base
   end  
   # district and districts relationships are in Representative and Senator models (STI)
   
-  
   # VALIDATIONS 
   validates_presence_of :bioguide_id
   validates_uniqueness_of :bioguide_id
+  
+  # INSTANCE METHODS 
+  def name
+    str = self[:type]
+    str << " " + self.first_name
+    str << " " + self.last_name
+  end  
+  
   
   # IMPORTING DATA FROM SUNLIGHT
   private

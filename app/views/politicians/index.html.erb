@@ -1,3 +1,7 @@
-<h1>Politicians controller, index action</h1>
+<h1>Politicians</h1>
 
-<p>Edit this file in <tt>app/views/politicians/index.html.erb</tt></p>
+<ul>
+  <% for @politician in @politicians -%>
+    <li><%= partial :list_view %></li>
+  <% end -%>  
+</ul>
