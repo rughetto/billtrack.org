@@ -1,0 +1,35 @@
+<bill session="111" type="s" number="147" updated="2009-01-14T09:33:08-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Lawful Interrogation and Detention Act</title>
+		<title type="official" as="introduced">A bill to require the closure of the detention facility at Guantanamo Bay, Cuba, to limit the use of certain interrogation techniques, to prohibit interrogation by contractors, to require notification of the International Committee of the Red Cross of detainees, and for other purposes.</title>
+	</titles>
+	<sponsor id="300043"/>
+	<cosponsors>
+		<cosponsor id="412247" joined="2009-01-06"/>
+		<cosponsor id="300084" joined="2009-01-06"/>
+		<cosponsor id="300100" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Sponsor introductory remarks on measure. (CR S131-133)</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Read twice and referred to the Select Committee on Intelligence.</text><reference label="text of measure as introduced" ref="CR S133"/></action>
+		<action date="1231304400" datetime="2009-01-07"><text>Sponsor introductory remarks on measure. (CR S157-158, S159)</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Intelligence (Select)" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

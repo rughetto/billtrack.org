@@ -1,0 +1,33 @@
+<bill session="111" type="s" number="206" updated="2009-01-13T12:00:42-05:00">
+	<status><introduced date="1231736400" datetime="2009-01-12"/></status>
+
+	<introduced date="1231736400" datetime="2009-01-12"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Elementary and Secondary Education Act of 1965 to establish a program to help States expand the education system to include at least 1 year of early education preceding the year a child enters kindergarten.</title>
+	</titles>
+	<sponsor id="300011"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231736400" datetime="2009-01-12"><text>Sponsor introductory remarks on measure. (CR S313)</text></action>
+		<action date="1231736400" datetime="2009-01-12"><text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Health, Education, Labor, and Pensions" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Education"/>
+		<term name="Education programs funding"/>
+		<term name="Preschool education"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

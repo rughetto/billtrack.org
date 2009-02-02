@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="5" updated="2009-01-22T12:05:38-05:00">
+	<amends type="h" number="384" sequence="4"/>
+	<status date="1232080980" datetime="2009-01-15T12:43:00-05:00">withdrawn</status>
+	<sponsor id="400184"/>
+	<offered date="1231995600" datetime="2009-01-15"/>
+	<description>An amendment numbered 4 printed in House Report 111-3 to amend the EESA to require that, provided TARP funds are not used for their purchase, the Secretary shall facilitate an auction of troubled assets by third party purchases and, if such auction does not take place within 3 months from enactment, the Secretary must report to Congress on the mechanism the Secretary deems best to use to value and liquidate such assets.</description>
+	<purpose>An amendment numbered 4 printed in House Report 111-3 to amend the EESA to require that, provided TARP funds are not used for their purchase, the Secretary shall facilitate an auction of troubled assets by third party purchases and, if such auction does not take place within 3 months from enactment, the Secretary must report to Congress on the mechanism the Secretary deems best to use to value and liquidate such assets.</purpose>
+	<actions>
+		<action date="1232080140" datetime="2009-01-15T12:29:00-05:00"><text>Amendment (A004) offered by Mr. Holt.</text><reference label="consideration" ref="CR H359-360"/><reference label="text" ref="CR H359"/><reference label="text as modified" ref="CR H359"/></action>
+		<withdrawn date="1232080980" datetime="2009-01-15T12:43:00-05:00"><text>By unanimous consent, the Holt amendment was withdrawn.</text></withdrawn>
+
+	</actions>
+</amendment>

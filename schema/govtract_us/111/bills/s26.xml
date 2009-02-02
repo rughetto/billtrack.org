@@ -1,0 +1,34 @@
+<bill session="111" type="s" number="26" updated="2009-01-14T09:19:12-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">Working Family Child Assistance Act</title>
+		<title type="official" as="introduced">A bill to amend the Internal Revenue Code of 1986 to reset the income threshold used to calculate the refundable portion of the child tax credit and to repeal the sunset for certain prior modifications made to the credit.</title>
+	</titles>
+	<sponsor id="300068"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Sponsor introductory remarks on measure. (CR S173)</text></action>
+		<action date="1231304400" datetime="2009-01-07"><text>Read twice and referred to the Committee on Finance.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Taxation"/>
+		<term name="Income tax credits"/>
+		<term name="Inflation, prices, interest rates"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

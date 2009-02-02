@@ -1,0 +1,42 @@
+<bill session="111" type="hj" number="18" updated="2009-01-16T12:09:34-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">Providing for congressional disapproval of the rule submitted by the Department of the Interior and the Department of Commerce under chapter 8 of title 5, United States Code, relating to interagency cooperation under the Endangered Species Act of 1973.</title>
+	</titles>
+	<sponsor id="400331"/>
+	<cosponsors>
+		<cosponsor id="400253" joined="2009-01-15"/>
+		<cosponsor id="400193" joined="2009-01-15"/>
+		<cosponsor id="400109" joined="2009-01-15"/>
+		<cosponsor id="400110" joined="2009-01-15"/>
+		<cosponsor id="400033" joined="2009-01-15"/>
+		<cosponsor id="400162" joined="2009-01-15"/>
+		<cosponsor id="400184" joined="2009-01-15"/>
+		<cosponsor id="400178" joined="2009-01-15"/>
+		<cosponsor id="400062" joined="2009-01-15"/>
+		<cosponsor id="400100" joined="2009-01-15"/>
+		<cosponsor id="400129" joined="2009-01-15"/>
+		<cosponsor id="400278" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Sponsor introductory remarks on measure. (CR E93)</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

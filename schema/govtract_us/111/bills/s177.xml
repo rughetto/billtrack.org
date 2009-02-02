@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="177" updated="2009-01-09T08:11:13-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Small Business Act to extend the Small Business Innovation Research and Small Business Technology Transfer programs, to increase the allocation of Federal agency grants for those programs, to add water, energy, transportation, and domestic security related research to the list of topics deserving special consideration, and for other purposes.</title>
+	</titles>
+	<sponsor id="300042"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Read twice and referred to the Committee on Small Business and Entrepreneurship.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Small Business and Entrepreneurship" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

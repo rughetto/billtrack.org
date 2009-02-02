@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="21" updated="2009-01-31T12:02:21-05:00">
+	<amends type="h" number="1" sequence="10"/>
+	<status date="1233171060" datetime="2009-01-28T15:31:00-05:00">pass</status>
+	<sponsor id="412316"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 10 printed in Part B in House Report 111-9 to require that the Recovery.gov website contain links and other information on how to access job information created at or by entities receiving funding under the bill; including links to local employment agencies, state, local, and other public agencies receiving recovery funds, and private firms contracted to perform work funded by the bill.</description>
+	<purpose>An amendment numbered 10 printed in Part B in House Report 111-9 to require that the Recovery.gov website contain links and other information on how to access job information created at or by entities receiving funding under the bill; including links to local employment agencies, state, local, and other public agencies receiving recovery funds, and private firms contracted to perform work funded by the bill.</purpose>
+	<actions>
+		<action date="1233170640" datetime="2009-01-28T15:24:00-05:00"><text>Amendment (A010) offered by Mr. Teague.</text><reference label="consideration" ref="CR H731-732"/><reference label="text" ref="CR H731"/></action>
+		<vote date="1233171060" datetime="2009-01-28T15:31:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Teague amendment (A010) Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

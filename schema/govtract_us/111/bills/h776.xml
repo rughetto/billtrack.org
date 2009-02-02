@@ -1,0 +1,46 @@
+<bill session="111" type="h" number="776" updated="2009-01-29T12:07:31-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Emergency Planning and Community Right-to-Know Act of 1986 to strike a provision relating to modifications in reporting frequency.</title>
+	</titles>
+	<sponsor id="400308"/>
+	<cosponsors>
+		<cosponsor id="400647" joined="2009-01-28"/>
+		<cosponsor id="400041" joined="2009-01-28"/>
+		<cosponsor id="400133" joined="2009-01-28"/>
+		<cosponsor id="412186" joined="2009-01-28"/>
+		<cosponsor id="400003" joined="2009-01-28"/>
+		<cosponsor id="400160" joined="2009-01-28"/>
+		<cosponsor id="400283" joined="2009-01-28"/>
+		<cosponsor id="400259" joined="2009-01-28"/>
+		<cosponsor id="400166" joined="2009-01-28"/>
+		<cosponsor id="400033" joined="2009-01-28"/>
+		<cosponsor id="400162" joined="2009-01-28"/>
+		<cosponsor id="400238" joined="2009-01-28"/>
+		<cosponsor id="400426" joined="2009-01-28"/>
+		<cosponsor id="400114" joined="2009-01-28"/>
+		<cosponsor id="400062" joined="2009-01-28"/>
+		<cosponsor id="400312" joined="2009-01-28"/>
+		<cosponsor id="400360" joined="2009-01-28"/>
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="34" updated="2009-01-30T12:03:47-05:00">
+	<amends type="s" number="181" sequence=""/>
+	<status date="1232600400" datetime="2009-01-22">fail</status>
+	<sponsor id="400418"/>
+	<offered date="1232514000" datetime="2009-01-21"/>
+	<description>To preserve open competition and Federal Government neutrality towards the labor relations of Federal Government contractors on Federal and federally funded construction projects.</description>
+	<purpose>To preserve open competition and Federal Government neutrality towards the labor relations of Federal Government contractors on Federal and federally funded construction projects.</purpose>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Amendment SA 34 proposed by Senator Vitter.</text><reference label="consideration" ref="CR S772-775"/><reference label="text" ref="CR S772-773"/></action>
+		<vote date="1232600400" datetime="2009-01-22" result="fail" how="roll" roll="13"><text>Motion to table amendment SA 34 agreed to in Senate by Yea-Nay Vote. 59 - 38. Record Vote Number: 13.</text></vote>
+
+	</actions>
+</amendment>

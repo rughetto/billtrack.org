@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="155" updated="2009-01-14T08:37:17-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Suspension of Federal Income Tax on Unemployment Benefits Act of 2009</title>
+		<title type="official" as="introduced">To amend the Internal Revenue Code of 1986 to suspend the taxation of unemployment compensation for 2 years.</title>
+	</titles>
+	<sponsor id="400264"/>
+	<cosponsors>
+		<cosponsor id="400311" joined="2009-01-13"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

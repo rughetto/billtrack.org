@@ -1,0 +1,35 @@
+<bill session="111" type="h" number="495" updated="2009-01-15T12:03:56-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">To authorize additional resources to identify and eliminate illicit sources of firearms smuggled into Mexico for use by violent drug trafficking organizations, and for other purposes.</title>
+	</titles>
+	<sponsor id="400339"/>
+	<cosponsors>
+		<cosponsor id="400337" joined="2009-01-14"/>
+		<cosponsor id="400122" joined="2009-01-14"/>
+		<cosponsor id="412316" joined="2009-01-14"/>
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the Committee on the Judiciary, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to House Judiciary</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to House Foreign Affairs</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

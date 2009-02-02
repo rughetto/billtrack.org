@@ -1,0 +1,33 @@
+<bill session="111" type="s" number="227" updated="2009-01-14T12:01:29-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">A bill to establish the Harriet Tubman National Historical Park in Auburn, New York, and the Harriet Tubman Underground Railroad National Historical Park in Caroline, Dorchester, and Talbot Counties, Maryland, and for other purposes.</title>
+	</titles>
+	<sponsor id="400064"/>
+	<cosponsors>
+		<cosponsor id="300022" joined="2009-01-13"/>
+		<cosponsor id="300073" joined="2009-01-13"/>
+		<cosponsor id="300087" joined="2009-01-13"/>
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Sponsor introductory remarks on measure. (CR S342-343)</text></action>
+		<action date="1231822800" datetime="2009-01-13"><text>Read twice and referred to the Committee on Energy and Natural Resources.</text><reference label="text of measure as introduced" ref="CR S343-345"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Energy and Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="112" updated="2009-01-14T08:32:23-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Homestead National Monument of America Boundary Expansion Act</title>
+		<title type="official" as="introduced">To authorize the Secretary of the Interior to expand the boundary of the Homestead National Monument of America, in the State of Nebraska, and for other purposes.</title>
+	</titles>
+	<sponsor id="400640"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

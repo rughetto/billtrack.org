@@ -1,0 +1,50 @@
+<bill session="111" type="h" number="699" updated="2009-01-28T12:02:29-05:00">
+	<status><introduced date="1233032400" datetime="2009-01-27"/></status>
+
+	<introduced date="1233032400" datetime="2009-01-27"/>
+	<titles>
+		<title type="official" as="introduced">To modify the requirements applicable to locatable minerals on public domain lands, consistent with the principles of self-initiation of mining claims, and for other purposes.</title>
+	</titles>
+	<sponsor id="400331"/>
+	<cosponsors>
+		<cosponsor id="400218" joined="2009-01-27"/>
+		<cosponsor id="400162" joined="2009-01-27"/>
+		<cosponsor id="400253" joined="2009-01-27"/>
+		<cosponsor id="400387" joined="2009-01-27"/>
+		<cosponsor id="400215" joined="2009-01-27"/>
+		<cosponsor id="400620" joined="2009-01-27"/>
+		<cosponsor id="400184" joined="2009-01-27"/>
+		<cosponsor id="412254" joined="2009-01-27"/>
+		<cosponsor id="400073" joined="2009-01-27"/>
+		<cosponsor id="400025" joined="2009-01-27"/>
+		<cosponsor id="400178" joined="2009-01-27"/>
+		<cosponsor id="400361" joined="2009-01-27"/>
+		<cosponsor id="400216" joined="2009-01-27"/>
+		<cosponsor id="400124" joined="2009-01-27"/>
+		<cosponsor id="400062" joined="2009-01-27"/>
+		<cosponsor id="400425" joined="2009-01-27"/>
+		<cosponsor id="400185" joined="2009-01-27"/>
+		<cosponsor id="400618" joined="2009-01-27"/>
+		<cosponsor id="400278" joined="2009-01-27"/>
+		<cosponsor id="400033" joined="2009-01-27"/>
+	</cosponsors>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Sponsor introductory remarks on measure. (CR E148)</text></action>
+		<action date="1233032400" datetime="2009-01-27"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

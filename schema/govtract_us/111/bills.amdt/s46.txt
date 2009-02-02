@@ -1,0 +1,82 @@
+SA 46. Mr. KYL submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+
+ On page 76, after line 23, add the following:
+SEC. 116. PREVENTING SUBSTITUTION OF CHIP COVERAGE FOR PRIVATE COVERAGE. 
+ (a) Findings.--
+ (1) Congress agrees with the President that low-income children should be the first priority of all States in providing child health assistance under CHIP.
+ (2) Congress agrees with the President and the Congressional Budget Office that the substitution of CHIP coverage for private coverage occurs more frequently for children in families at higher income levels.
+ (3) Congress agrees with the President that it is appropriate that States that expand CHIP eligibility to children at higher income levels should have achieved a high level of health benefits coverage for low-income children and should implement strategies to address such substitution.
+ (4) Congress concludes that the policies specified in this section (and the amendments made by this section) are the appropriate policies to address these issues.
+ (b) Analyses of Best Practices and Methodology in Addressing Crowd-Out.--
+ (1) GAO REPORT.--Not later than 18 months after the date of the enactment of this Act, the Comptroller General of the United States shall submit to the Committee on Finance of the Senate and the Committee on Energy and Commerce of the House of Representatives and the Secretary a report describing the best practices by States in addressing the issue of CHIP crowd-out. Such report shall include analyses of--
+ (A) the impact of different geographic areas, including urban and rural areas, on CHIP crowd-out;
+ (B) the impact of different State labor markets on CHIP crowd-out;
+ (C) the impact of different strategies for addressing CHIP crowd-out;
+ (D) the incidence of crowd-out for children with different levels of family income; and
+ (E) the relationship (if any) between changes in the availability and affordability of dependent coverage under employer-sponsored health insurance and CHIP crowd-out.
+ (2) IOM REPORT ON METHODOLOGY.--The Secretary shall enter into an arrangement with the Institute of Medicine under which the Institute submits to the Committee on Finance of the Senate and the Committee on Energy and Commerce of the House of Representatives and the Secretary, not later than 18 months after the date of the enactment of this Act, a report on--
+ (A) the most accurate, reliable, and timely way to measure--
+ (i) on a State-by-State basis, the rate of public and private health benefits coverage among low-income children with family income that does not exceed 200 percent of the poverty line; and
+ (ii) CHIP crowd-out, including in the case of children with family income that exceeds 200 percent of the poverty line; and
+ (B) the least burdensome way to gather the necessary data to conduct the measurements described in subparagraph (A).
+Out of any money in the Treasury not otherwise appropriated, there are hereby appropriated $2,000,000 to carry out this paragraph for the period ending September 30, 2010.
+ (3) INCORPORATION OF DEFINITIONS.--In this section, the terms ``CHIP crowd-out'', ``children'', ``poverty line'', and ``State'' have the meanings given such terms for purposes of CHIP.
+ (4) DEFINITION OF CHIP CROWD-OUT.--Section 2110(c) (42 U.S.C. 1397jj(c)) is amended by adding at the end the following:
+ ``(9) CHIP CROWD-OUT.--The term `CHIP crowd-out' means the substitution of--
+ ``(A) health benefits coverage for a child under this title, for
+ ``(B) health benefits coverage for the child other than under this title or title XIX.''.
+ (c) Development of Best Practice Recommendations.--Section 2107 (42 U.S.C. 1397gg) is amended by adding at the end the following:
+ ``(g) Development of Best Practice Recommendations.--Within 6 months after the date of receipt of the reports under subsections (a) and (b) of section 116 of the Children's Health Insurance Program Reauthorization Act of 2009, the Secretary, in consultation with States, including Medicaid and CHIP directors in States, shall publish in the Federal Register, and post on the public website for the Department of Health and Human Services--
+ ``(1) recommendations regarding best practices for States to use to address CHIP crowd-out; and
+ ``(2) uniform standards for data collection by States to measure and report--
+ ``(A) health benefits coverage for children with family income below 200 percent of the poverty line; and
+ ``(B) on CHIP crowd-out, including for children with family income that exceeds 200 percent of the poverty line.
+The Secretary, in consultation with States, including Medicaid and CHIP directors in States, may from time to time update the best practice recommendations and uniform standards set published under paragraphs (1) and (2) and shall provide for publication and posting of such updated recommendations and standards.''.
+ (d) Requirement To Address CHIP Crowd-Out; Secretarial Review.--Section 2106 (42 U.S.C. 1397ff) is amended by adding at the end the following:
+ ``(f) Requirement To Address CHIP Crowd-Out; Secretarial Review.--
+ ``(1) IN GENERAL.--Not later than 6 months after the best practice application date described in paragraph (2), each State that has a State child health plan shall submit to the Secretary a State plan amendment describing how the State--
+ ``(A) will address CHIP crowd-out; and
+ ``(B) will incorporate recommended best practices referred to in such paragraph.
+ ``(2) BEST PRACTICE APPLICATION DATE.--The best practice application date described in this paragraph is the date that is 6 months after the date of publication of recommendations regarding best practices under section 2107(g)(1).
+ ``(3) SECRETARIAL REVIEW.--The Secretary shall--
+ ``(A) review each State plan amendment submitted under paragraph (1);
+ ``(B) determine whether the amendment incorporates recommended best practices referred to in paragraph (2);
+ ``(C) in the case of a higher income eligibility State (as defined in section 2105(c)(9)(B)), determine whether the State meets the enrollment targets required under reference section 2105(c)(9)(C); and
+ ``(D) notify the State of such determinations.''.
+ (e) Limitation on Payments for States Covering Higher Income Children.--
+ (1) IN GENERAL.--Section 2105(c) (42 U.S.C. 1397ee(c)), as amended by section 114(a), is amended by adding at the end the following new paragraph:
+ ``(9) LIMITATION ON PAYMENTS FOR STATES COVERING HIGHER INCOME CHILDREN.--
+ ``(A) DETERMINATIONS.--
+ ``(i) IN GENERAL.--The Secretary shall determine, for each State that is a higher income eligibility State as of April 1 of 2011 and each subsequent year, whether the State meets the target rate of coverage of low-income children required under subparagraph (C) and shall notify the State in that month of such determination.
+ ``(ii) DETERMINATION OF FAILURE.--If the Secretary determines in such month that a higher income eligibility State does not meet such target rate of coverage, subject to subparagraph (E), no payment shall be made as of October 1 of such year on or after October 1, 2011, under this section for child health assistance provided for higher-income children (as defined in subparagraph (D)) under the State child health plan unless and until the State establishes it is in compliance with such
+requirement.
+ ``(B) HIGHER INCOME ELIGIBILITY STATE.--A higher income eligibility State described in this clause is a State that--
+ ``(i) applies under its State child health plan an eligibility income standard for targeted low-income children that exceeds 300 percent of the poverty line; or
+ ``(ii) because of the application of a general exclusion of a block of income that is not determined by type of expense or type of income, applies an effective income standard under the State child health plan for such children that exceeds 300 percent of the poverty line. 
+ ``(C) REQUIREMENT FOR TARGET RATE OF COVERAGE OF LOW-INCOME CHILDREN.--
+ ``(i) IN GENERAL.--The requirement of this subparagraph for a State is that the rate of health benefits coverage (both private and public) for low-income children in the State is not statistically significantly (at a p=0.05 level) less than the target rate of coverage specified in clause (ii).
+ ``(ii) TARGET RATE.--The target rate of coverage specified in this clause is the average rate (determined by the Secretary) of health benefits coverage (both private and public) as of January 1, 2011, among the 10 of the 50 States and the District of Columbia with the highest percentage of health benefits coverage (both private and public) for low-income children.
+ ``(iii) STANDARDS FOR DATA.--In applying this subparagraph, rates of health benefits coverage for States shall be determined using the uniform standards identified by the Secretary under section 2107(g)(2).
+ ``(D) HIGHER-INCOME CHILD.--For purposes of this paragraph, the term `higher income child' means, with respect to a State child health plan, a targeted low-income child whose family income--
+ ``(i) exceeds 300 percent of the poverty line; or
+ ``(ii) would exceed 300 percent of the poverty line if there were not taken into account any general exclusion described in subparagraph (B)(ii).
+ ``(E) NOTICE AND OPPORTUNITY TO COMPLY WITH TARGET RATE.--If the Secretary makes a determination described in subparagraph (A)(ii) in April of a year, the Secretary--
+ ``(i) shall provide the State with the opportunity to submit and implement a corrective  action plan for the State to come into compliance with the requirement of subparagraph (C) before October 1 of such year;
+ ``(ii) shall not effect a denial of payment under subparagraph (A) on the basis of such determination before October 1 of such year; and
+ ``(iii) shall not effect such a denial if the Secretary determines that there is a reasonable likelihood that the implementation of such a correction action plan will bring the State into compliance with the requirement of subparagraph (C).''.
+ (2) CONSTRUCTION.--Nothing in the amendment made by paragraph (1) or this section this shall be construed as authorizing the Secretary to limit payments under title XXI of the Social Security Act in the case of a State that is not a higher income eligibility State (as defined in section 2105(c)(9)(B) of such Act, as added by paragraph (1)).
+ (f) Treatment of Medical Support Orders.--Section 2102(b) (42 U.S.C. 1397bb(c)) is amended by adding at the end the following:
+ ``(5) TREATMENT OF MEDICAL SUPPORT ORDERS.--
+ ``(A) IN GENERAL.--Nothing in this title shall be construed to allow the Secretary to require that a State deny eligibility for child health assistance to a child who is otherwise eligible on the basis of the existence of a valid medical support order being in effect.
+ ``(B) STATE ELECTION.--A State may elect to limit eligibility for child health assistance to a targeted low-income child on the basis of the existence of a valid medical support order on the child's behalf, but only if the State does not deny such eligibility for a child on such basis if the child asserts that the order is not being complied with for any of the reasons described in subparagraph (C) unless the State demonstrates that none of such reasons applies in the case involved.
+ ``(C) REASONS FOR NONCOMPLIANCE.--The reasons described in this subparagraph for noncompliance with a medical support order with respect to a child are that the child is not being provided health benefits coverage pursuant to such order because--
+ ``(i) of failure of the noncustodial parent to comply with the order;
+ ``(ii) of the failure of an employer, group health plan or health insurance issuer to comply with such order; or
+ ``(iii) the child resides in a geographic area in which benefits under the health benefits coverage are generally unavailable.''.
+ (g) Effective Date of Amendments; Consistency of Policies.--The amendments made by this section shall take effect as if enacted on August 16, 2007. The Secretary may not impose (or continue in effect) any requirement, prevent the implementation of any provision, or condition the approval of any provision under any State child health plan, State plan amendment, or waiver request on the basis of any policy or interpretation relating to CHIP crowd-out, coordination with other sources of
+coverage, target rate of coverage, or medical support order other than under the amendments made by this section. In the case of a State plan amendment which was denied on or after August 16, 2007, on the basis of any such policy or interpretation in effect before the date of the enactment of this Act, if the State submits a modification of such State
+plan amendment that complies with title XXI of the Social Security Act as amended by this Act, such submitted State plan amendment, as so modified, shall be considered as if it had been submitted (as so modified) as of the date of its original submission, but such State plan amendment shall not be effective before the date of the enactment of this Act.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

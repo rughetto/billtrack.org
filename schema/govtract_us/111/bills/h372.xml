@@ -1,0 +1,33 @@
+<bill session="111" type="h" number="372" updated="2009-01-14T09:01:33-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">San Joaquin River Restoration Settlement Act</title>
+		<title type="official" as="introduced">To authorize implementation of the San Joaquin River Restoration Settlement, and for other purposes.</title>
+	</titles>
+	<sponsor id="400618"/>
+	<cosponsors>
+		<cosponsor id="400330" joined="2009-01-09"/>
+		<cosponsor id="400065" joined="2009-01-09"/>
+		<cosponsor id="412189" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

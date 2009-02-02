@@ -1,0 +1,34 @@
+<bill session="111" type="h" number="22" updated="2009-01-14T08:22:18-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="official" as="introduced">To amend chapter 89 of title 5, United States Code, to allow the United States Postal Service to pay its share of contributions for annuitants' health benefits out of the Postal Service Retiree Health Benefits Fund.</title>
+	</titles>
+	<sponsor id="400264"/>
+	<cosponsors>
+		<cosponsor id="400093" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Oversight and Government Reform.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Government operations and politics"/>
+		<term name="Government employee pay, benefits, personnel management"/>
+		<term name="Government trust funds"/>
+		<term name="Health care costs and insurance"/>
+		<term name="U.S. Postal Service"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	1/6/2009--Introduced.<br/>Amends federal civil service provisions to provide for government contributions for health benefits for an individual who first becomes an annuitant by reason of retirement from employment with the United States Postal Service on or after July 1, 1971, or for a survivor of such an individual or of an individual who died on or after that date, while employed by the Postal Service, to be paid first from the Postal Service Retiree Health Benefits Fund.<br/>
+	</summary>
+</bill>

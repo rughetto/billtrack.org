@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="85" updated="2009-02-02T12:01:15-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233205200" datetime="2009-01-29">fail</status>
+	<sponsor id="400105"/>
+	<offered date="1233205200" datetime="2009-01-29"/>
+	<description>To provide an above-the-line Federal income tax deduction for health care costs of certain children in an amount comparable to the average federal share of the benefit provided to any non-citizen child for medical assistance or child health assistance.</description>
+	<purpose>To provide an above-the-line Federal income tax deduction for health care costs of certain children in an amount comparable to the average federal share of the benefit provided to any non-citizen child for medical assistance or child health assistance.</purpose>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Amendment SA 85 proposed by Senator DeMint.</text><reference label="consideration" ref="CR S1032-1033, S1038-1040, S1040-1042, S1043"/><reference label="text" ref="CR S1032"/></action>
+		<vote date="1233205200" datetime="2009-01-29" result="fail" how="roll" roll="27"><text>Amendment SA 85 not agreed to in Senate by Yea-Nay Vote. 40 - 58. Record Vote Number: 27.</text></vote>
+
+	</actions>
+</amendment>

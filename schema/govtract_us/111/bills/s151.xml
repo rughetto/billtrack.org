@@ -1,0 +1,32 @@
+<bill session="111" type="s" number="151" updated="2009-01-14T09:33:36-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Indian Arts and Crafts Amendments Act of 2009</title>
+		<title type="official" as="introduced">A bill to protect Indian arts and crafts through the improvement of applicable criminal proceedings, and for other purposes.</title>
+	</titles>
+	<sponsor id="300071"/>
+	<cosponsors>
+		<cosponsor id="300062" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Sponsor introductory remarks on measure. (CR S137)</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Read twice and referred to the Committee on Indian Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Indian Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

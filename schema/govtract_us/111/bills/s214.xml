@@ -1,0 +1,33 @@
+<bill session="111" type="s" number="214" updated="2009-01-13T12:01:51-05:00">
+	<status><introduced date="1231736400" datetime="2009-01-12"/></status>
+
+	<introduced date="1231736400" datetime="2009-01-12"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title XXI of the Social Security Act to permit qualifying States to use their allotments under the State Children's Health Insurance Program for any fiscal year for certain Medicaid expenditures.</title>
+	</titles>
+	<sponsor id="300009"/>
+	<cosponsors>
+		<cosponsor id="300065" joined="2009-01-12"/>
+		<cosponsor id="400064" joined="2009-01-12"/>
+		<cosponsor id="300067" joined="2009-01-12"/>
+	</cosponsors>
+	<actions>
+		<action date="1231736400" datetime="2009-01-12"><text>Sponsor introductory remarks on measure. (CR S315)</text></action>
+		<action date="1231736400" datetime="2009-01-12"><text>Read twice and referred to the Committee on Finance.</text><reference label="text of measure as introduced" ref="CR S315"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

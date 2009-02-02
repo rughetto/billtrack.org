@@ -1,0 +1,15 @@
+SA 78. Mr. MARTINEZ submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ On page 43, between lines 11 and 12, and insert the following:
+ ``(3) EXCEPTION.--
+ ``(A) IN GENERAL.--Notwithstanding paragraph (1)(B), if a State submits, by not later than 18 months after the date of enactment of this paragraph, a plan to the Secretary that the Secretary determines is likely to reduce the levels of improper payments for the State under the Medicaid program under title XIX and the program under this title, such paragraph shall be applied with respect to such State by substituting `second succeeding fiscal year' for `succeeding fiscal year'.
+ ``(B) DETERMINATION.--In making the determination under subparagraph (A), the Secretary shall take into account the results of the study conducted under paragraph (4).
+ ``(4) GAO STUDY AND REPORT ON IMPROPER PAYMENTS UNDER THE MEDICAID AND CHIP PROGRAMS AND WAYS TO REDUCE SUCH IMPROPER PAYMENTS.--
+ ``(A) STUDY.--The Comptroller General of the United States shall conduct a study on--
+ ``(i) the mechanisms that States are currently using to reduce improper payments under the Medicaid program under title XIX the program under this title;
+ ``(ii) the levels of such improper payments for each State; and
+ ``(iii) the mechanisms that States should implement in order to reduce such improper payments.
+ ``(B) REPORT.--Not later than 12 months after the date of enactment of this paragraph, the Comptroller General of the United States shall submit a report to Congress on the study conducted under subsection (a) together with such recommendations as the Comptroller General determines appropriate.''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 28, 2009.)

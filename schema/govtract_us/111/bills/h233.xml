@@ -1,0 +1,36 @@
+<bill session="111" type="h" number="233" updated="2009-01-14T08:46:02-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">Railroad Antitrust Enforcement Act of 2009</title>
+		<title type="official" as="introduced">To amend the Federal antitrust laws to provide expanded coverage and to eliminate exemptions from such laws that are contrary to the public interest with respect to railroads.</title>
+	</titles>
+	<sponsor id="400013"/>
+	<cosponsors>
+		<cosponsor id="400006" joined="2009-01-07"/>
+		<cosponsor id="400323" joined="2009-01-07"/>
+		<cosponsor id="412214" joined="2009-01-07"/>
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the Committee on the Judiciary, and in addition to the Committee on Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to House Judiciary</text></action>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to House Transportation and Infrastructure</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

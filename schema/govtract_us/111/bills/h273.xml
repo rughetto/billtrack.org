@@ -1,0 +1,32 @@
+<bill session="111" type="h" number="273" updated="2009-01-14T08:50:26-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Internal Revenue Code of 1986 to modify the treatment of qualified restaurant property as 15-year property for purposes of the depreciation deduction.</title>
+	</titles>
+	<sponsor id="400270"/>
+	<cosponsors>
+		<cosponsor id="400176" joined="2009-01-07"/>
+		<cosponsor id="400406" joined="2009-01-07"/>
+		<cosponsor id="400024" joined="2009-01-07"/>
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

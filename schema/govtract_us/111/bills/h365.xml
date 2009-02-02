@@ -1,0 +1,43 @@
+<bill session="111" type="h" number="365" updated="2009-01-14T09:00:46-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Ocean and Coastal Mapping Integration Act</title>
+		<title type="official" as="introduced">To direct the President to establish a program to develop a coordinated and comprehensive Federal ocean and coastal mapping plan for the Great Lakes and coastal state waters, the territorial sea, the exclusive economic zone, and the continental shelf of the United States, and for other purposes.</title>
+	</titles>
+	<sponsor id="400041"/>
+	<cosponsors>
+		<cosponsor id="400128" joined="2009-01-13"/>
+		<cosponsor id="400073" joined="2009-01-09"/>
+		<cosponsor id="400308" joined="2009-01-09"/>
+		<cosponsor id="400001" joined="2009-01-09"/>
+		<cosponsor id="400129" joined="2009-01-09"/>
+		<cosponsor id="400193" joined="2009-01-09"/>
+		<cosponsor id="400049" joined="2009-01-09"/>
+		<cosponsor id="412219" joined="2009-01-09"/>
+		<cosponsor id="400062" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Sponsor introductory remarks on measure. (CR E362)</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the Committee on Natural Resources, and in addition to the Committee on Science and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to House Natural Resources</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to House Science and Technology</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Science and Technology" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

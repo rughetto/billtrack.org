@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="74" updated="2009-02-02T12:01:02-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233205200" datetime="2009-01-29">fail</status>
+	<sponsor id="300014"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>To eliminate any exceptions to the prohibition on States receiving an enhanced Federal matching rate for providing coverage to children whose family income exceeds 300 percent of the poverty line.</description>
+	<purpose>To eliminate any exceptions to the prohibition on States receiving an enhanced Federal matching rate for providing coverage to children whose family income exceeds 300 percent of the poverty line.</purpose>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Amendment SA 74 proposed by Senator Bunning.</text><reference label="consideration" ref="CR S1015-1016, S1019-1025, S1029-1030, S1031"/><reference label="text" ref="CR S1015"/><reference label="text as modified" ref="CR S1031"/></action>
+		<vote date="1233205200" datetime="2009-01-29" result="fail" how="roll" roll="25"><text>Motion to table amendment SA 74 agreed to in Senate by Yea-Nay Vote. 54 - 44. Record Vote Number: 25.</text></vote>
+
+	</actions>
+</amendment>

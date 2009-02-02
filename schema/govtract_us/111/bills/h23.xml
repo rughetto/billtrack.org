@@ -1,0 +1,35 @@
+<bill session="111" type="h" number="23" updated="2009-01-14T08:22:25-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Belated Thank You to the Merchant Mariners of World War II Act of 2009</title>
+		<title type="official" as="introduced">To amend title 38, United States Code, to direct the Secretary of Veterans Affairs to establish the Merchant Mariner Equity Compensation Fund to provide benefits to certain individuals who served in the United States merchant marine (including the Army Transport Service and the Naval Transport Service) during World War II.</title>
+	</titles>
+	<sponsor id="400133"/>
+	<cosponsors>
+		<cosponsor id="400219" joined="2009-01-13"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Veterans' Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Armed forces and national security"/>
+		<term name="Conflicts and wars"/>
+		<term name="Marine and inland water transportation"/>
+		<term name="Transportation employees"/>
+		<term name="Veterans' pensions and compensation"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

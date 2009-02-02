@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="13" updated="2009-01-31T12:02:12-05:00">
+	<amends type="h" number="1" sequence="2"/>
+	<status date="1233166380" datetime="2009-01-28T14:13:00-05:00">pass</status>
+	<sponsor id="400253"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 2 printed in Part B of House Report 111-9 to require that the Secretary require, as a condition of receiving funding under Title XIII of the Energy Independence and Security Act of 2007, that the demonstration projects utilize Internet-based or other open protocols and standards if available and appropriate.</description>
+	<purpose>An amendment numbered 2 printed in Part B of House Report 111-9 to require that the Secretary require, as a condition of receiving funding under Title XIII of the Energy Independence and Security Act of 2007, that the demonstration projects utilize Internet-based or other open protocols and standards if available and appropriate.</purpose>
+	<actions>
+		<action date="1233166260" datetime="2009-01-28T14:11:00-05:00"><text>Amendment (A002) offered by Mr. Markey (MA).</text><reference label="consideration" ref="CR H712-713"/><reference label="text" ref="CR H713"/></action>
+		<vote date="1233166380" datetime="2009-01-28T14:13:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Markey (MA) amendment (A002) Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

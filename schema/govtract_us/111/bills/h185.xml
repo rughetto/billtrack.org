@@ -1,0 +1,34 @@
+<bill session="111" type="h" number="185" updated="2009-01-14T08:40:40-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Sewage Sludge in Food Production Consumer Notification Act</title>
+		<title type="official" as="introduced">To amend the Food, Drug, and Cosmetic Act and the egg, meat, and poultry inspection laws to ensure that consumers receive notification regarding food products produced from crops, livestock, or poultry raised on land on which sewage sludge was applied.</title>
+	</titles>
+	<sponsor id="400366"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Agriculture, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Energy and Commerce</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Agriculture</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Agriculture" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

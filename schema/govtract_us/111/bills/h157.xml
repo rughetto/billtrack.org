@@ -1,0 +1,32 @@
+<bill session="111" type="h" number="157" updated="2009-01-28T12:08:46-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">District of Columbia House Voting Rights Act of 2009</title>
+		<title type="official" as="introduced">To provide for the treatment of the District of Columbia as a Congressional district for purposes of representation in the House of Representatives, and for other purposes.</title>
+	</titles>
+	<sponsor id="400295"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on the Judiciary.</text></action>
+		<action date="1231304400" datetime="2009-01-07"><text>Sponsor introductory remarks on measure. (CR E26-27)</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+		<bill relation="unknown" session="111" type="s" number="160" />
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	1/6/2009--Introduced.<br/>District of Columbia House Voting Rights Act of 2009 - Considers the District of Columbia a congressional district for purposes of representation in the House of Representatives. Applies to the District in the same manner as it applies to a state the federal law providing for the fifteenth and subsequent decennial censuses and for apportionment of Representatives in Congress. Limits the District to one Member under any reapportionment of Members. Modifies the formula regarding the number of presidential electors to subject it to the 23rd amendment to the Constitution in the case of the District. Increases membership of the House from 435 to 437 Members. Provides for a reapportionment of Members resulting from such increase. Directs the Clerk of the House to: (1) certify to the Governor of each state the number of Representatives to which the state is entitled; and (2) identify to the Speaker of the House the state (other than the District of Columbia) entitled to one additional Representative.<br/>
+	</summary>
+</bill>

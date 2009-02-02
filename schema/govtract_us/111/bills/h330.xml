@@ -1,0 +1,32 @@
+<bill session="111" type="h" number="330" updated="2009-01-14T08:56:53-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">MEGA</title>
+		<title type="short" as="introduced">Metro Economies Green Act</title>
+		<title type="official" as="introduced">To establish grant programs to encourage energy-efficient economic development and green job training and creation, and to establish the Metro Area Green Institute to produce and disseminate best practice information to economic and workforce development initiatives undertaken by metropolitan communities nationally.</title>
+	</titles>
+	<sponsor id="400237"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

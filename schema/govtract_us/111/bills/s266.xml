@@ -1,0 +1,35 @@
+<bill session="111" type="s" number="266" updated="2009-01-16T12:02:13-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title XVIII of the Social Security Act to reduce the coverage gap in prescription drug coverage under part D of such title based on savings to the Medicare program resulting from the negotiation of prescription drug prices.</title>
+	</titles>
+	<sponsor id="300078"/>
+	<cosponsors>
+		<cosponsor id="300058" joined="2009-01-15"/>
+		<cosponsor id="300025" joined="2009-01-15"/>
+		<cosponsor id="300060" joined="2009-01-15"/>
+		<cosponsor id="300061" joined="2009-01-15"/>
+		<cosponsor id="412247" joined="2009-01-15"/>
+		<cosponsor id="300011" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Read twice and referred to the Committee on Finance.</text></action>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

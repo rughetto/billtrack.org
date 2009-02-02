@@ -1,0 +1,41 @@
+<bill session="111" type="h" number="663" updated="2009-01-24T12:00:21-05:00">
+	<status><introduced date="1232686800" datetime="2009-01-23"/></status>
+
+	<introduced date="1232686800" datetime="2009-01-23"/>
+	<titles>
+		<title type="official" as="introduced">To designate the facility of the United States Postal Service located at 12877 Broad Street in Sparta, Georgia, as the &quot;Yvonne Ingram-Ephraim Post Office Building&quot;.</title>
+	</titles>
+	<sponsor id="400628"/>
+	<cosponsors>
+		<cosponsor id="400099" joined="2009-01-23"/>
+		<cosponsor id="412199" joined="2009-01-23"/>
+		<cosponsor id="400626" joined="2009-01-23"/>
+		<cosponsor id="400242" joined="2009-01-23"/>
+		<cosponsor id="400363" joined="2009-01-23"/>
+		<cosponsor id="400240" joined="2009-01-23"/>
+		<cosponsor id="400151" joined="2009-01-23"/>
+		<cosponsor id="400030" joined="2009-01-23"/>
+		<cosponsor id="400627" joined="2009-01-23"/>
+		<cosponsor id="412252" joined="2009-01-23"/>
+		<cosponsor id="400221" joined="2009-01-23"/>
+		<cosponsor id="400254" joined="2009-01-23"/>
+	</cosponsors>
+	<actions>
+		<action date="1232686800" datetime="2009-01-23"><text>Referred to the House Committee on Oversight and Government Reform.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	1/23/2009--Introduced.<br/>Designates the facility of the United States Postal Service located at 12877 Broad Street in Sparta, Georgia, as the &quot;Yvonne Ingram-Ephraim Post Office Building.&quot;<br/>
+	</summary>
+</bill>

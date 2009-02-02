@@ -1,0 +1,43 @@
+<bill session="111" type="h" number="496" updated="2009-01-15T12:04:03-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">To amend United States trade laws to eliminate foreign barriers to exports of United States goods and services, to restore rights under trade remedy laws, to strengthen enforcement of United States intellectual property rights and health and safety laws at United States borders, and for other purposes.</title>
+	</titles>
+	<sponsor id="400333"/>
+	<cosponsors>
+		<cosponsor id="412313" joined="2009-01-14"/>
+		<cosponsor id="400092" joined="2009-01-14"/>
+		<cosponsor id="400647" joined="2009-01-14"/>
+		<cosponsor id="400291" joined="2009-01-14"/>
+		<cosponsor id="412231" joined="2009-01-14"/>
+		<cosponsor id="400024" joined="2009-01-14"/>
+		<cosponsor id="400285" joined="2009-01-14"/>
+		<cosponsor id="400238" joined="2009-01-14"/>
+		<cosponsor id="400417" joined="2009-01-14"/>
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the Committee on Ways and Means, and in addition to the Committees on Rules, and Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to House Ways and Means</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to House Rules</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to House Homeland Security</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Rules" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Homeland Security" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

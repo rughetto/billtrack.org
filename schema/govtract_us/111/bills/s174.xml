@@ -1,0 +1,32 @@
+<bill session="111" type="s" number="174" updated="2009-01-14T09:35:25-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">A bill to establish a coordinated and comprehensive Federal ocean and coastal mapping program.</title>
+	</titles>
+	<sponsor id="300056"/>
+	<cosponsors>
+		<cosponsor id="300091" joined="2009-01-08"/>
+		<cosponsor id="300081" joined="2009-01-13"/>
+		<cosponsor id="300084" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Commerce, Science, and Transportation" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

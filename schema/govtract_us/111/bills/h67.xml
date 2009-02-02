@@ -1,0 +1,51 @@
+<bill session="111" type="h" number="67" updated="2009-01-14T08:27:29-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">No FEAR Act of 2009</title>
+		<title type="short" as="introduced">Notification and Federal Employee Antidiscrimination and Retaliation Act of 2009</title>
+		<title type="official" as="introduced">To amend and to strengthen accountability features introduced by the Notification and Federal Employee Antidiscrimination and Retaliation Act of 2002, and for other purposes.</title>
+	</titles>
+	<sponsor id="400199"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on the Judiciary, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Oversight and Government Reform</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Judiciary</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Government operations and politics"/>
+		<term name="Civil actions and liability"/>
+		<term name="Congressional operations and organization"/>
+		<term name="Employment and training programs"/>
+		<term name="Employment discrimination and employee rights"/>
+		<term name="Evidence and witnesses"/>
+		<term name="Fraud offenses"/>
+		<term name="Government Accountability Office (GAO)"/>
+		<term name="Government employee pay, benefits, personnel management"/>
+		<term name="Government ethics and transparency, public corruption"/>
+		<term name="Government information and archives"/>
+		<term name="Government liability"/>
+		<term name="Government trust funds"/>
+		<term name="Investigation, prosecution, interrogation methods"/>
+		<term name="Performance measurement"/>
+		<term name="Public contracts and procurement"/>
+		<term name="Worker safety and health"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

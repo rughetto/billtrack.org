@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="511" updated="2009-01-15T12:06:03-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">To authorize the Secretary of Agriculture to terminate certain easements held by the Secretary on land owned by the Village of Caseyville, Illinois, and to terminate associated contractual arrangements with the Village.</title>
+	</titles>
+	<sponsor id="400082"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the House Committee on Agriculture.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Agriculture" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

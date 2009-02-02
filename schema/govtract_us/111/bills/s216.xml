@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="216" updated="2009-01-14T12:00:12-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">A bill to authorize the Secretary of the Interior to conduct a special resource study to determine the suitability and feasibility of designating Estate Grange and other sites related to Alexander Hamilton's life on the island of St. Croix in the United State Virgin islands as a unit of the National Park System, and for other purposes.</title>
+	</titles>
+	<sponsor id="300052"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Read twice and referred to the Committee on Energy and Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Energy and Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

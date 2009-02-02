@@ -1,0 +1,25 @@
+SA 66. Mr. CORNYN submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ Strike section 114 and insert the following:
+SEC. 114. DENIAL OF PAYMENTS FOR COVERAGE OF CHILDREN WITH EFFECTIVE FAMILY INCOME THAT EXCEEDS 200 PERCENT OF THE POVERTY LINE.
+ (a) In General.--Section 2105(c) (42 U.S.C. 1397ee(c)) is amended by adding at the end the following new paragraph:
+ ``(8) DENIAL OF PAYMENTS FOR EXPENDITURES FOR CHILD HEALTH ASSISTANCE FOR CHILDREN WHOSE EFFECTIVE FAMILY INCOME EXCEEDS 200 PERCENT OF THE POVERTY LINE.--For child health assistance furnished after the date of the enactment of this paragraph, no payment shall be made under this section for any expenditures for providing child health assistance or health benefits coverage for a targeted low-income child whose family income (as determined without regard to the application of any general
+exclusion or disregard of a block of income that is not determined by type of expense or type of income (regardless of whether such an exclusion or disregard is permitted under section 1902(r))) would exceed 200 percent of the poverty line but for the application of a general exclusion of a block of income that is not determined by type of expense or type of income.''.
+ (b) Grants to States.--
+ (1) IN GENERAL.--From amounts appropriated under paragraph (2), the Secretary shall make grants to States as follows:
+ (A) 75 percent of such amounts shall be directed toward increasing coverage for low-income children under CHIP.
+ (B) 25 percent of such amounts shall be directed toward activities assisting States, especially States with a high percentage of eligible, but not enrolled children, in outreach and enrollment activities under CHIP, such as--
+ (i) improving and simplifying enrollment systems, including--
+ (I) increasing staffing and computer systems to meet Federal and State standards;
+ (II) decreasing turn-around time while maintaining program integrity; and
+ (ii) improving outreach and application assistance, including--
+ (I) connecting children with a medical home and keeping them healthy;
+ (II) developing systems to identify, inform, and fix enrollment system problems;
+ (III) supporting awareness of, and access to, other critical health programs;
+ (IV) pursuing new performance goals to cut ``procedural denials'' to the lowest possible level; and
+ (V) coordinating community- and school-based outreach programs.
+ (2) FUNDING.--There is appropriated to provide grants under paragraph (1) an amount equal to the amount of Federal funds that the Director of the Congressional Budget Office certifies would have been expended for the period beginning April 1, 2009, and ending September 30, 2013, if section 114 (relating to limitation on matching rate for States that propose to cover children with effective family income that exceeds 300 percent of the poverty line) of S. 275 (111th Congress) as reported
+by the Committee on Finance of the Senate and placed on the Senate calendar on January 16, 2009, had been enacted.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

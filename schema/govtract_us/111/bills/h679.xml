@@ -1,0 +1,33 @@
+<bill session="111" type="h" number="679" updated="2009-01-27T12:07:14-05:00">
+	<status><calendar date="1233012660" datetime="2009-01-26T19:31:00-05:00" /></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="short" as="introduced">American Recovery and Reinvestment Act of 2009</title>
+		<title type="official" as="introduced">Making supplemental appropriations for job preservation and creation, infrastructure investment, energy efficiency and science, assistance to the unemployed, and State and local fiscal stabilization, for the fiscal year ending September 30, 2009, and for other purposes.</title>
+	</titles>
+	<sponsor id="400300"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the House Committee on Appropriations.</text></action>
+		<action date="1233012660" datetime="2009-01-26T19:31:00-05:00"><text>Reported by the Committee on Appropriations. H. Rept. 111-4.</text></action>
+		<calendar date="1233012660" datetime="2009-01-26T19:31:00-05:00" ><text>Placed on the Union Calendar, Calendar No. 1.</text></calendar>
+	</actions>
+	<committees>
+		<committee name="House Appropriations" subcommittee="" activity="Referral, Reporting" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

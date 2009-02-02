@@ -1,0 +1,43 @@
+SA 71. Mr. GRASSLEY submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ Strike all after the enacting clause and insert the following:
+SECTION 1. SHORT TITLE.
+ This Act may be cited as the ``SCHIP Funding Extension Act of 2009''.
+SEC. 2. FUNDING THROUGH FISCAL YEAR 2010.
+ (a) Through Fiscal Year 2010.--
+ (1) IN GENERAL.--Section 2104 of the Social Security Act (42 U.S.C. 1397dd(a)), as amended by section 201(a)(1) of the Medicare, Medicaid, and SCHIP Extension Act of 2007 (Public Law 110-173) is amended--
+ (A) in subsection (a)(11), by striking ``and 2009'' and inserting ``through 2010''; and
+ (B) in subsection (c)(4)(B), by striking ``2009'' and inserting ``2010''.
+ (2) AVAILABILITY OF EXTENDED FUNDING.--Funds made available from any allotment made from funds appropriated under subsection (a)(11) or (c)(4)(B) of section 2104 of the Social Security Act (42 U.S.C. 1397dd) for fiscal year 2009 or 2010 shall not be available for child health assistance for items and services furnished after September 30, 2010.
+ (b) Additional Allotments To Maintain SCHIP Programs Through Fiscal Year 2010.--Section 2104 of the Social Security Act (42 U.S.C. 1397dd) is amended by striking subsection (l) and inserting the following new subsections:
+ ``(l) Additional Allotments To Maintain SCHIP Programs for Fiscal Year 2009.--
+ ``(1) APPROPRIATION; ALLOTMENT AUTHORITY.--For the purpose of providing additional allotments described in subparagraphs (A) and (B) of paragraph (3), there is appropriated, out of any money in the Treasury not otherwise appropriated, such sums as may be necessary, not to exceed $3,000,000,000 for fiscal year 2009.
+ ``(2) SHORTFALL STATES DESCRIBED.--For purposes of paragraph (3), a shortfall State described in this paragraph is a State with a State child health plan approved under this title for which the Secretary estimates, on the basis of the most recent data available to the Secretary, that the Federal share amount of the projected expenditures under such plan for such State for fiscal year 2009 will exceed the sum of--
+ ``(A) the amount of the State's allotments for each of fiscal years 2007 and 2008 that will not be expended by the end of fiscal year 2008;
+ ``(B) the amount, if any, that is to be redistributed to the State during fiscal year 2009 in accordance with subsection (f); and
+ ``(C) the amount of the State's allotment for fiscal year 2009.
+ ``(3) ALLOTMENTS.--In addition to the allotments provided under subsections (b) and (c), subject to paragraph (4), of the amount available for the additional allotments under paragraph (1) for fiscal year 2009, the Secretary shall allot--
+ ``(A) to each shortfall State described in paragraph (2) not described in subparagraph (B), such amount as the Secretary determines will eliminate the estimated shortfall described in such paragraph for the State; and
+ ``(B) to each commonwealth or territory described in subsection (c)(3), an amount equal to the percentage specified in subsection (c)(2) for the commonwealth or territory multiplied by 1.05 percent of the sum of the amounts determined for each shortfall State under subparagraph (A).
+ ``(4) PRORATION RULE.--If the amounts available for additional allotments under paragraph (1) are less than the total of the amounts determined under subparagraphs (A) and (B) of paragraph (3), the amounts computed under such subparagraphs shall be reduced proportionally.
+ ``(5) RETROSPECTIVE ADJUSTMENT.--The Secretary may adjust the estimates and determinations made to carry out this subsection as necessary on the basis of the amounts reported by States not later than November 30, 2008, on CMS Form 64 or CMS Form 21, as the case may be, and as approved by the Secretary.
+ ``(6) ONE-YEAR AVAILABILITY; NO REDISTRIBUTION OF UNEXPENDED ADDITIONAL ALLOTMENTS.--Notwithstanding subsections (e) and (f), amounts allotted to a State pursuant to this subsection for fiscal year 2009, subject to paragraph (5), shall only remain available for expenditure by the State through September 30, 2009. Any amounts of such allotments that remain unexpended as of such date shall not be subject to redistribution under subsection (f).
+ ``(m) Additional Allotments To Maintain SCHIP Programs for Fiscal Year 2010.--
+ ``(1) APPROPRIATION; ALLOTMENT AUTHORITY.--For the purpose of providing additional allotments described in subparagraphs (A) and (B) of paragraph (3), there is appropriated, out of any money in the Treasury not otherwise appropriated, such sums as may be necessary, not to exceed $4,000,000,000 for fiscal year 2010.
+ ``(2) SHORTFALL STATES DESCRIBED.--For purposes of paragraph (3), a shortfall State described in this paragraph is a State with a State child health plan approved under this title for which the Secretary estimates, on the basis of the most recent data available to the Secretary, that the Federal share amount of the projected expenditures under such plan for such State for fiscal year 2010 will exceed the sum of--
+ ``(A) the amount of the State's allotments for each of fiscal years 2008 and 2009 that will not be expended by the end of fiscal year 2009;
+ ``(B) the amount, if any, that is to be redistributed to the State during fiscal year 2010 in accordance with subsection (f); and
+ ``(C) the amount of the State's allotment for fiscal year 2010.
+ ``(3) ALLOTMENTS.--In addition to the allotments provided under subsections (b) and (c), subject to paragraph (4), of the amount available for the additional allotments under paragraph (1) for fiscal year 2010, the Secretary shall allot--
+ ``(A) to each shortfall State described in paragraph (2) not described in subparagraph (B) such amount as the Secretary determines will eliminate the estimated shortfall described in such paragraph for the State; and
+ ``(B) to each commonwealth or territory described in subsection (c)(3), an amount equal to the percentage specified in subsection (c)(2) for the commonwealth or territory multiplied by 1.05 percent of the sum of the amounts determined for each shortfall State under subparagraph (A).
+ ``(4) PRORATION RULE.--If the amounts available for additional allotments under paragraph (1) are less than the total of the amounts determined under subparagraphs (A) and (B) of paragraph (3), the amounts  computed under such subparagraphs shall be reduced proportionally.
+ ``(5) RETROSPECTIVE ADJUSTMENT.--The Secretary may adjust the estimates and determinations made to carry out this subsection as necessary on the basis of the amounts reported by States not later than November 30, 2010, on CMS Form 64 or CMS Form 21, as the case may be, and as approved by the Secretary.
+ ``(6) AVAILABILITY; NO REDISTRIBUTION OF UNEXPENDED ADDITIONAL ALLOTMENTS.--Notwithstanding subsections (e) and (f), amounts allotted to a State pursuant to this subsection for fiscal year 2010, subject to paragraph (5), shall only remain available for expenditure by the State through September 30, 2010. Any amounts of such allotments that remain unexpended as of such date shall not be subject to redistribution under subsection (f).''.
+ (c) Extension of Treatment of Qualifying States.--
+ (1) IN GENERAL.--Section 2105(g)(1)(A) of the Social Security Act (42 U.S.C. 1397ee(g)(1)(A)) is amended by striking ``or 2009'' and inserting ``2009, or 2010''.
+ (2) APPLICABILITY.--The amendment made by paragraph (1) shall be in effect through September 30, 2010.
+ (3) REPEAL OF LIMITATION ON AVAILABILITY OF FISCAL YEAR 2009 ALLOTMENTS.--Paragraph (2) of section 201(b) of the Medicare, Medicaid, and SCHIP Extension Act of 2007 (Public Law 110-173) is repealed.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

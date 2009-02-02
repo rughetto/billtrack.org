@@ -1,0 +1,32 @@
+<bill session="111" type="s" number="252" updated="2009-01-16T12:00:21-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title 38, United States Code, to enhance the capacity of the Department of Veterans Affairs to recruit and retain nurses and other critical health-care professionals, to improve the provision of health care veterans, and for other purposes.</title>
+	</titles>
+	<sponsor id="300001"/>
+	<cosponsors>
+		<cosponsor id="300038" joined="2009-01-15"/>
+		<cosponsor id="300076" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Sponsor introductory remarks on measure. (CR S599)</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Read twice and referred to the Committee on Veterans' Affairs.</text><reference label="text of measure as introduced" ref="CR S599-612"/></action>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

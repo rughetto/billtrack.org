@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="726" updated="2009-01-28T12:05:45-05:00">
+	<status><introduced date="1233032400" datetime="2009-01-27"/></status>
+
+	<introduced date="1233032400" datetime="2009-01-27"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Internal Revenue Code of 1986 to provide a credit and a deduction for small political contributions.</title>
+	</titles>
+	<sponsor id="400318"/>
+	<cosponsors>
+		<cosponsor id="400210" joined="2009-01-27"/>
+	</cosponsors>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Sponsor introductory remarks on measure. (CR E151-152)</text></action>
+		<action date="1233032400" datetime="2009-01-27"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

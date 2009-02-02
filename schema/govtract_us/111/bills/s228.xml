@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="228" updated="2009-01-14T12:01:37-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title XIX of the Social Security Act to permit States, at their option, to require certain individuals to present satisfactory documentary evidence of proof of citizenship or nationality for purposes of eligibility for Medicaid, and for other purposes.</title>
+	</titles>
+	<sponsor id="300009"/>
+	<cosponsors>
+		<cosponsor id="300001" joined="2009-01-13"/>
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Sponsor introductory remarks on measure. (CR S345-346)</text></action>
+		<action date="1231822800" datetime="2009-01-13"><text>Read twice and referred to the Committee on Finance.</text><reference label="text of measure as introduced" ref="CR S346-348"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

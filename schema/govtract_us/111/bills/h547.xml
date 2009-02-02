@@ -1,0 +1,38 @@
+<bill session="111" type="h" number="547" updated="2009-01-16T12:03:40-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Atomic Energy Act of 1954 to require congressional approval of agreements for peaceful nuclear cooperation with foreign countries, and for other purposes.</title>
+	</titles>
+	<sponsor id="400344"/>
+	<cosponsors>
+		<cosponsor id="400253" joined="2009-01-15"/>
+		<cosponsor id="400348" joined="2009-01-15"/>
+		<cosponsor id="400371" joined="2009-01-15"/>
+		<cosponsor id="400260" joined="2009-01-15"/>
+		<cosponsor id="400654" joined="2009-01-15"/>
+		<cosponsor id="400055" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the Committee on Foreign Affairs, and in addition to the Committee on Rules, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Foreign Affairs</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Rules</text></action>
+	</actions>
+	<committees>
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Rules" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

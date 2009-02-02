@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="116" updated="2009-01-14T08:32:50-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Robo Calls Off Phones (Robo COP) Act</title>
+		<title type="official" as="introduced">To direct the Federal Trade Commission to revise the regulations regarding the Do-not-call registry to prohibit politically-oriented recorded message telephone calls to telephone numbers listed on that registry.</title>
+	</titles>
+	<sponsor id="400643"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

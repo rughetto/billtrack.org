@@ -1,0 +1,32 @@
+<bill session="111" type="h" number="559" updated="2009-01-16T12:05:05-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Homeland Security Act of 2002 to establish an appeal and redress process for individuals wrongly delayed or prohibited from boarding a flight, or denied a right, benefit, or privilege, and for other purposes.</title>
+	</titles>
+	<sponsor id="412221"/>
+	<cosponsors>
+		<cosponsor id="400219" joined="2009-01-15"/>
+		<cosponsor id="412192" joined="2009-01-15"/>
+		<cosponsor id="400402" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Homeland Security.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Homeland Security" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

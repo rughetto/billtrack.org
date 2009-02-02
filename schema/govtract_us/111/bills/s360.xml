@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="360" updated="2009-01-31T12:00:26-05:00">
+	<status><introduced date="1233291600" datetime="2009-01-30"/></status>
+
+	<introduced date="1233291600" datetime="2009-01-30"/>
+	<titles>
+		<title type="official" as="introduced">A bill to limit compensation to officers and directors of entities receiving emergency economic assistance from the Government.</title>
+	</titles>
+	<sponsor id="412243"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233291600" datetime="2009-01-30"><text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Banking, Housing, and Urban Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

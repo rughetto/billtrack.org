@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="431" updated="2009-01-14T09:08:21-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Emergency Fueling Station Designation Act of 2009</title>
+		<title type="official" as="introduced">To provide Federal assistance to assist an eligible State to purchase and install transfer switches and generators at designated emergency service stations in hurricane zones within such State.</title>
+	</titles>
+	<sponsor id="400652"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Transportation and Infrastructure.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

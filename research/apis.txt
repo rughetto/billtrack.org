@@ -1,0 +1,193 @@
+PROJECT VOTE SMART API ----------------------------
+http://www.votesmart.org/services_api.php
+
+Address
+This class will fetch address and contact information for various offices for incumbents and candidates.
+getCampaign
+getOffice
+getOfficeByOfficeState
+
+CandidateBio
+CandidateBio provides all the various biographical data we collect on candidates.
+getAddlBio
+getBio
+
+Candidates
+This class fetches a list of candidates according to the criteria of the method.
+getByElection
+getByLastname
+getByLevenstein
+getByOfficeState
+
+Committee
+Provides information on committees and their members.
+getTypes
+getCommitteesByTypeState
+getCommittee
+getCommitteeMembers
+
+District
+Returns lists of districts according to the criteria supplied.
+getByOfficeState
+
+Election
+This class provides basic election information and candidates in the election.
+getElection
+getElectionByYearState
+getStageCandidates
+
+Leadership
+Information on officials that hold certain leadership positions.
+getPositions
+getCandidates
+
+Local
+Basic local information on cities and counties..
+getCities
+getCounties
+
+Political Courage Test
+Returns a candidates most recently filled out Political Courage Test.
+getNpat
+
+Office
+Get various lists of offices that PVS tracks according to various criteria.
+getBranches
+getLevels
+getOfficesByBranchLevel
+getOfficesByLevel
+getOfficesByType
+getOfficesByTypeLevel
+getTypes
+
+Rating
+This class provides information on special interest groups(SIGs) and their ratings on candidates.
+getCandidateRating
+getCategories
+getSig
+getSigList
+
+State
+Returns basic info on states.
+getStateIDs
+getState
+
+Votes
+Votes provides information on state and federal key legislation and the candidate's respective votes.
+getBill
+getBillAction
+getBillActionVoteByCandidate
+getBillActionVotes
+getBillsByCandidateCategoryOffice
+getBillsByCandidateYearOffice
+getBillsByCategoryYearState
+getBillsBySponsorCategory
+getBillsBySponsorYear
+getBillsByStateRecent
+getBillsByYearState
+getByBillNumber
+getCategories
+getVetoes
+
+FOLLOW THE MONEY ----------------------------------
+http://www.followthemoney.org/services/methods.phtml
+-------------
+Method Objects
+base_level - The base level object contains methods that do not necessarily return specific campaign finance data, but rather return contextual data. To view the documentation on any of the following methods simply click on the name:
+
+base_level.elections.state.list.php
+base_level.elections.year.list.php
+base_level.industries.list.php
+base_level.old_id_convert.php
+states - The states object contains methods that return various summary information for an entire state or just a specific office. To view the documentation on any of the following methods simply click on the name:
+
+states.offices.breakdowns.php
+states.offices.businesses.php
+states.offices.districts.php
+states.offices.industries.php
+states.offices.php
+states.offices.sectors.php
+states.top_contributors.php
+candidates - The candidates object contains methods that return various summary information for specific candidates, or a list of a candidates. To view the documentation on any of the following methods simply click on the name:
+
+candidates.businesses.php
+candidates.contributions.php
+candidates.industries.php
+candidates.list.php
+candidates.sectors.php
+candidates.top_contributors.php
+party_pacs - The party_pacs object contains methods that return various summary information for specific party pac committees, or a list of a party pac committees. To view the documentation on any of the following methods simply click on the name:
+
+party_pacs.committees.businesses.php
+party_pacs.committees.contributions.php
+party_pacs.committees.industries.php
+party_pacs.committees.php
+party_pacs.committees.sectors.php
+party_pacs.committees.top_contributors.php
+ballot_measures - The ballot_measures object contains methods that return various summary information for specific ballot measure committees, or a list of a ballot measure committees. To view the documentation on any of the following methods simply click on the name:
+
+ballot_measures.committees.businesses.php
+ballot_measures.committees.contributions.php
+ballot_measures.committees.industries.php
+ballot_measures.committees.php
+ballot_measures.committees.sectors.php
+ballot_measures.committees.top_contributors.php
+ballot_measures.list.php
+contributors - The contributors object will return various summary and contribution information for specific contributors. This object is still under development and most methods of this object are available on request only. To view the documentation on any of the following methods simply click on the name:
+
+contributors.name_search.php
+
+
+GOVTRACK.US --------------------
+http://www.govtrack.us/source.xpd
+
+Bill Search API
+
+Get the results of a bill search in XML using the bill search API. See this example. (There's no other documentation other than the example. As with the search page on this site, append a slash and a number to search previous congresses, like "iraq/109".)
+
+Member of Congress API
+
+Get some information about a Member of Congress in XML using the MoC API. See this example. You can also pass a "session" parameter to get sponsored and cosponsored bills from the current or a previous Congresses, i.e. this example with bills. (There's no other documentation other than the example, and there are no other query string options. On Nov 14, 2008, the API now requires the session parameter to get the list of bills.)
+
+Vote Database API
+
+Get voting records in XML, too. To get an overall list, see the XML download link at the top of the votes page. To include the votes of members of Congress, first find the member, then follow the link to the votes database, and then grab the XML download link.
+
+Congressional District Look-up API
+
+Look up a congressional district by ZIP code (ZIP or ZIP+4) latitude/longitude, or by street address (which uses geocoder.us underlyingly). It'll also tell you the GovTrack IDs for the senators and representatives for the district (as of Nov 14, 2008). Here are four examples: by 5-digit ZIP code (which happens to yield multiple matches but can also return a single match as with the rest of the examples), by 9-digit ZIP code, by address, and by latitude/longitude. Try fake zip codes, addresses, etc. to see what the results look like if no match is found. ZIP+4 lookups is based on USPS data purchased by Public.Resource.Org. I have compactified the ZIP+4 database here so that if all ZIP+4 codes starting with "XYZ" map to the same district, then there is a single entry in the file for "XYZ". (The information in the API and file is current as of Summer 2008.)
+
+
+MAPLIGHT.ORG --------------------
+http://www.maplight.org/widgets/apis
+financial summaries via fec_id
+
+OPENSECRETS.ORG-------------------
+http://www.opensecrets.org/action/api_doc.php
+
+Members
+memPFDprofile: Summary profile from a members personal financial disclosure statement.
+memTravelTrips: Returns data from a member's privately funded travel.
+Candidates
+candSummary: Returns summary contribution information on a candidate for indicated cycle.
+candContrib: Returns the top contributors to a candidate/member for indicated period.
+candIndustry: Returns the top industries to a candidate/member for indicated period.
+candIndByInd: Returns data from a specified industry to a specified candidate.
+candSector: Returns the top sectors to a candidate/member for indicated period.
+
+WATCHDOG.NET ---------------------
+States
+
+You can get at states through URLs of the form http://watchdog.net/us/va -- there you'll find all the information we have on a given state.
+
+Districts
+
+Districts have URLs of the form http://watchdog.net/us/va-01 where at-large districts have the number suffix -00.
+
+For a full list of districts (although not everything we have on each district) visit http://watchdog.net/us/
+
+Politicians
+
+Politicians have URLs of the form http://watchdog.net/p/nancy_pelosi
+
+A full list of politicians (although not everything we have on each of them) can be found at http://watchdog.net/p/

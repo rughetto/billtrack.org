@@ -1,0 +1,49 @@
+<bill session="111" type="h" number="593" updated="2009-01-16T12:08:58-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To amend title 10, United States Code, to expand the authorized concurrent receipt of disability severance pay from the Department of Defense and compensation for the same disability under any law administered by the Department of Veterans Affairs to cover all veterans who have a combat-related disability, as defined under section 1413a of such title.</title>
+	</titles>
+	<sponsor id="400379"/>
+	<cosponsors>
+		<cosponsor id="412187" joined="2009-01-15"/>
+		<cosponsor id="412193" joined="2009-01-15"/>
+		<cosponsor id="400343" joined="2009-01-15"/>
+		<cosponsor id="412263" joined="2009-01-15"/>
+		<cosponsor id="400155" joined="2009-01-15"/>
+		<cosponsor id="400263" joined="2009-01-15"/>
+		<cosponsor id="400162" joined="2009-01-15"/>
+		<cosponsor id="412240" joined="2009-01-15"/>
+		<cosponsor id="412222" joined="2009-01-15"/>
+		<cosponsor id="400178" joined="2009-01-15"/>
+		<cosponsor id="412215" joined="2009-01-15"/>
+		<cosponsor id="400344" joined="2009-01-15"/>
+		<cosponsor id="412254" joined="2009-01-15"/>
+		<cosponsor id="400440" joined="2009-01-15"/>
+		<cosponsor id="400274" joined="2009-01-15"/>
+		<cosponsor id="412214" joined="2009-01-15"/>
+		<cosponsor id="412219" joined="2009-01-15"/>
+		<cosponsor id="412301" joined="2009-01-15"/>
+		<cosponsor id="400345" joined="2009-01-15"/>
+		<cosponsor id="400316" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Armed Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

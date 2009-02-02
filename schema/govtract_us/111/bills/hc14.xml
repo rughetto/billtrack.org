@@ -1,0 +1,36 @@
+<bill session="111" type="hc" number="14" updated="2009-01-14T08:18:14-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">Supporting the goals and ideals of Multiple Sclerosis Awareness Week.</title>
+	</titles>
+	<sponsor id="400237"/>
+	<cosponsors>
+		<cosponsor id="400052" joined="2009-01-08"/>
+		<cosponsor id="400638" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Health"/>
+		<term name="Commemorative events and holidays"/>
+		<term name="Congressional tributes"/>
+		<term name="Health personnel"/>
+		<term name="Medical research"/>
+		<term name="Neurological disorders"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	1/8/2009--Introduced.<br/>Expresses support for the goals and ideals of Multiple Sclerosis Awareness Week. Reaffirms the nation's commitment to combating multiple sclerosis.<br/>Recognizes people living with multiple sclerosis and salutes the health care professionals and medical researchers who assist those afflicted and continue to work to find cures and improve treatments.<br/>
+	</summary>
+</bill>

@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="17" updated="2009-01-31T12:02:16-05:00">
+	<amends type="h" number="1" sequence="6"/>
+	<status date="1233168600" datetime="2009-01-28T14:50:00-05:00">pass</status>
+	<sponsor id="400422"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 6 printed in Part B of House Report 111-9 to provide that job training funds may be used for broadband deployment and related activities provided in the bill.</description>
+	<purpose>An amendment numbered 6 printed in Part B of House Report 111-9 to provide that job training funds may be used for broadband deployment and related activities provided in the bill.</purpose>
+	<actions>
+		<action date="1233168360" datetime="2009-01-28T14:46:00-05:00"><text>Amendment (A006) offered by Ms. Waters.</text><reference label="consideration" ref="CR H721"/><reference label="text" ref="CR H721"/></action>
+		<vote date="1233168600" datetime="2009-01-28T14:50:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Waters amendment (A006) Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

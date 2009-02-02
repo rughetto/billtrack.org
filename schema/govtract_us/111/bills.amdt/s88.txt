@@ -1,0 +1,21 @@
+SA 88. Ms. STABENOW submitted an amendment intended to be proposed by her to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ After section 622 insert the following:
+SEC. 623. TREATMENT OF A CERTAIN CANCER HOSPITAL.
+ (a) In General.--Section 1886(d)(1) of the Social Security Act (42 U.S.C. 1395ww(d)(1)) is amended--
+ (1) in subparagraph (B)(v)--
+ (A) by striking ``or'' at the end of subclause (II),
+ (B) by striking the semicolon at the end of subclause (III) and inserting ``, or''; and
+ (C) by adding the following after subclause (III):
+ ``(IV) a hospital that is a nonprofit corporation, the sole member of which is affiliated with a university that has been the recipient of a cancer center support grant from the National Cancer Institute of the National Institutes of Health, and which sole member (or its predecessors or such university) was recognized as a comprehensive cancer center by the National Cancer Institute of the National Institutes of Health as of April 20, 1983, if the hospital's articles of incorporation specify
+that at least 50 percent of its total discharges have a principal finding of neoplastic disease (as defined in subparagraph (E)) and if, of December 31, 2005, the hospital was licensed for less than 150 acute care beds, or''; and
+ (2) in subparagraph (E), by striking ``subclauses (II) and (III)'' and inserting ``subclauses (II), (III), and (IV)''.
+ (b) Effective Date; Payments.--
+ (1) APPLICATION TO COST REPORTING PERIODS.--Any classification by virtue of the application of the provisions of section 1886(D)(1)(B)(v)(IV) of the Social Security Act, as inserted by subsection (a), shall apply to cost reporting periods beginning on or after January 1, 2006.
+ (2) BASE PERIOD.--Notwithstanding the provisions of subsection (b)(3)(E) of section 1886 of the Social Security Act (42 U.S.C. 1395ww) or any other provision of law, the base cost reporting period for purposes of determining the target amount for any hospital described in subsection (d)(1)(B)(v)(IV) of such section, as inserted by subsection (a), shall be the first full 12-month cost reporting period beginning on or after January 1, 2006, and the hospital's target amount under subsection
+(b)(3)(E)(i) of such section for the first cost reporting period shall be the allowable operating costs of inpatient hospital services (referred to in subclause (I) of such subsection) for such first cost reporting period.
+ (3) OUTPATIENT SERVICES.--The ``pre-BBA'' amount, with respect to covered OPD services furnished by any hospital described in subsection (d)(1)(B)(v)(IV) of section 1886 of the Social Security Act (42 U.S.C. 1395ww), as inserted by subsection (a), or for any other hospital described in clause (v) of subsection (d)(1)(B) of such section that did not submit a cost report prior to 2001, for purposes of section 1833(t)(7)(F) of such Act (42 U.S.C. 13951(t)(7)(F)), shall be determined by using
+the weighted average ``base payment-to-cost'' ratio, as determined by the Secretary of Health and Human Services on a volume-related basis, of all hospitals described in such clause (v) that did submit a cost report prior to 2001, as such ratio is determined for each such hospital under section 1833(t)(7)(F)(ii) of such Act (42 U.S.C. 13951(t)(7)(F)(ii)).
+
+
+(As printed in the Congressional Record for the Senate on Jan 29, 2009.)

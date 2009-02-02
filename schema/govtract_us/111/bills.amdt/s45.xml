@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="45" updated="2009-02-02T12:00:28-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233032400" datetime="2009-01-27">fail</status>
+	<sponsor id="300052"/>
+	<offered date="1233032400" datetime="2009-01-27"/>
+	<description>To prohibit any Federal matching payment for Medicaid or CHIP coverage of noncitizen children or pregnant women until a State demonstrates that it has enrolled 95 percent of the children eligible for Medicaid or CHIP who reside in the State and whose family income does not exceed 200 percent of the poverty line.</description>
+	<purpose>To prohibit any Federal matching payment for Medicaid or CHIP coverage of noncitizen children or pregnant women until a State demonstrates that it has enrolled 95 percent of the children eligible for Medicaid or CHIP who reside in the State and whose family income does not exceed 200 percent of the poverty line.</purpose>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Amendment SA 45 proposed by Senator Hatch to Amendment SA 39.</text><reference label="consideration" ref="CR S857-859, S880-881"/><reference label="text" ref="CR S857"/></action>
+		<vote date="1233032400" datetime="2009-01-27" result="fail" how="Voice Vote"><text>Amendment SA 45 not agreed to in Senate by Voice Vote.</text></vote>
+
+	</actions>
+</amendment>

@@ -1,0 +1,38 @@
+<bill session="111" type="s" number="193" updated="2009-01-10T12:00:14-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="official" as="introduced">A bill to create and extend certain temporary district court judgeships.</title>
+	</titles>
+	<sponsor id="300043"/>
+	<cosponsors>
+		<cosponsor id="300056" joined="2009-01-09"/>
+		<cosponsor id="300083" joined="2009-01-09"/>
+		<cosponsor id="412320" joined="2009-01-09"/>
+		<cosponsor id="400050" joined="2009-01-09"/>
+		<cosponsor id="300011" joined="2009-01-09"/>
+		<cosponsor id="300001" joined="2009-01-09"/>
+		<cosponsor id="300098" joined="2009-01-09"/>
+		<cosponsor id="300013" joined="2009-01-09"/>
+		<cosponsor id="300077" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Read twice and referred to the Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

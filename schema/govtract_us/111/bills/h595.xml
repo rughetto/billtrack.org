@@ -1,0 +1,62 @@
+<bill session="111" type="h" number="595" updated="2009-01-16T12:09:13-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To require certain Federal agencies to use iron and steel produced in the United States in carrying out projects for the construction, alteration, or repair of a public building or public work, and for other purposes.</title>
+	</titles>
+	<sponsor id="400417"/>
+	<cosponsors>
+		<cosponsor id="400061" joined="2009-01-15"/>
+		<cosponsor id="412229" joined="2009-01-15"/>
+		<cosponsor id="400147" joined="2009-01-15"/>
+		<cosponsor id="400082" joined="2009-01-15"/>
+		<cosponsor id="412227" joined="2009-01-15"/>
+		<cosponsor id="400414" joined="2009-01-15"/>
+		<cosponsor id="400160" joined="2009-01-15"/>
+		<cosponsor id="400263" joined="2009-01-15"/>
+		<cosponsor id="400183" joined="2009-01-15"/>
+		<cosponsor id="412240" joined="2009-01-15"/>
+		<cosponsor id="412204" joined="2009-01-15"/>
+		<cosponsor id="412234" joined="2009-01-15"/>
+		<cosponsor id="400217" joined="2009-01-15"/>
+		<cosponsor id="400211" joined="2009-01-15"/>
+		<cosponsor id="412305" joined="2009-01-15"/>
+		<cosponsor id="412228" joined="2009-01-15"/>
+		<cosponsor id="400630" joined="2009-01-15"/>
+		<cosponsor id="400391" joined="2009-01-15"/>
+		<cosponsor id="400047" joined="2009-01-15"/>
+		<cosponsor id="412231" joined="2009-01-15"/>
+		<cosponsor id="400274" joined="2009-01-15"/>
+		<cosponsor id="400286" joined="2009-01-15"/>
+		<cosponsor id="412299" joined="2009-01-15"/>
+		<cosponsor id="412273" joined="2009-01-15"/>
+		<cosponsor id="400433" joined="2009-01-15"/>
+		<cosponsor id="400285" joined="2009-01-15"/>
+		<cosponsor id="400114" joined="2009-01-15"/>
+		<cosponsor id="400252" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the Committee on Transportation and Infrastructure, and in addition to the Committees on Homeland Security, and Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Transportation and Infrastructure</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Homeland Security</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Armed Services</text></action>
+	</actions>
+	<committees>
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Homeland Security" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

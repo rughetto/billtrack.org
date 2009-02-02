@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="357" updated="2009-01-31T12:00:05-05:00">
+	<status><introduced date="1233291600" datetime="2009-01-30"/></status>
+
+	<introduced date="1233291600" datetime="2009-01-30"/>
+	<titles>
+		<title type="official" as="introduced">A bill to allow for certiorari review of certain cases denied relief or review by the United States Court of Appeals for the Armed Forces.</title>
+	</titles>
+	<sponsor id="300043"/>
+	<cosponsors>
+		<cosponsor id="300092" joined="2009-01-30"/>
+		<cosponsor id="300042" joined="2009-01-30"/>
+	</cosponsors>
+	<actions>
+		<action date="1233291600" datetime="2009-01-30"><text>Read twice and referred to the Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

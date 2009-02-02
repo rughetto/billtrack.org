@@ -1,0 +1,126 @@
+<bill session="111" type="h" number="44" updated="2009-01-14T08:24:51-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Guam World War II Loyalty Recognition Act</title>
+		<title type="official" as="introduced">To implement the recommendations of the Guam War Claims Review Commission.</title>
+	</titles>
+	<sponsor id="400041"/>
+	<cosponsors>
+		<cosponsor id="412253" joined="2009-01-06"/>
+		<cosponsor id="400290" joined="2009-01-06"/>
+		<cosponsor id="400006" joined="2009-01-06"/>
+		<cosponsor id="400133" joined="2009-01-06"/>
+		<cosponsor id="400128" joined="2009-01-06"/>
+		<cosponsor id="400017" joined="2009-01-06"/>
+		<cosponsor id="400331" joined="2009-01-06"/>
+		<cosponsor id="400082" joined="2009-01-06"/>
+		<cosponsor id="400073" joined="2009-01-06"/>
+		<cosponsor id="400230" joined="2009-01-06"/>
+		<cosponsor id="400199" joined="2009-01-06"/>
+		<cosponsor id="400008" joined="2009-01-06"/>
+		<cosponsor id="400356" joined="2009-01-06"/>
+		<cosponsor id="412223" joined="2009-01-06"/>
+		<cosponsor id="412209" joined="2009-01-06"/>
+		<cosponsor id="400335" joined="2009-01-06"/>
+		<cosponsor id="400364" joined="2009-01-06"/>
+		<cosponsor id="400257" joined="2009-01-06"/>
+		<cosponsor id="400308" joined="2009-01-06"/>
+		<cosponsor id="400289" joined="2009-01-06"/>
+		<cosponsor id="400001" joined="2009-01-06"/>
+		<cosponsor id="400616" joined="2009-01-06"/>
+		<cosponsor id="400103" joined="2009-01-06"/>
+		<cosponsor id="400110" joined="2009-01-06"/>
+		<cosponsor id="400166" joined="2009-01-06"/>
+		<cosponsor id="400080" joined="2009-01-06"/>
+		<cosponsor id="400436" joined="2009-01-06"/>
+		<cosponsor id="400657" joined="2009-01-06"/>
+		<cosponsor id="400162" joined="2009-01-06"/>
+		<cosponsor id="400237" joined="2009-01-06"/>
+		<cosponsor id="412221" joined="2009-01-06"/>
+		<cosponsor id="400209" joined="2009-01-06"/>
+		<cosponsor id="400013" joined="2009-01-06"/>
+		<cosponsor id="412204" joined="2009-01-06"/>
+		<cosponsor id="400282" joined="2009-01-06"/>
+		<cosponsor id="400653" joined="2009-01-06"/>
+		<cosponsor id="400195" joined="2009-01-06"/>
+		<cosponsor id="400302" joined="2009-01-06"/>
+		<cosponsor id="400246" joined="2009-01-06"/>
+		<cosponsor id="400217" joined="2009-01-06"/>
+		<cosponsor id="400366" joined="2009-01-06"/>
+		<cosponsor id="400295" joined="2009-01-06"/>
+		<cosponsor id="400021" joined="2009-01-06"/>
+		<cosponsor id="400129" joined="2009-01-06"/>
+		<cosponsor id="400170" joined="2009-01-06"/>
+		<cosponsor id="400211" joined="2009-01-06"/>
+		<cosponsor id="412200" joined="2009-01-06"/>
+		<cosponsor id="400065" joined="2009-01-06"/>
+		<cosponsor id="400189" joined="2009-01-06"/>
+		<cosponsor id="400344" joined="2009-01-06"/>
+		<cosponsor id="400266" joined="2009-01-06"/>
+		<cosponsor id="412312" joined="2009-01-06"/>
+		<cosponsor id="400009" joined="2009-01-06"/>
+		<cosponsor id="400440" joined="2009-01-06"/>
+		<cosponsor id="400124" joined="2009-01-06"/>
+		<cosponsor id="400185" joined="2009-01-06"/>
+		<cosponsor id="400423" joined="2009-01-06"/>
+		<cosponsor id="400274" joined="2009-01-06"/>
+		<cosponsor id="400204" joined="2009-01-06"/>
+		<cosponsor id="400090" joined="2009-01-06"/>
+		<cosponsor id="400240" joined="2009-01-06"/>
+		<cosponsor id="400365" joined="2009-01-06"/>
+		<cosponsor id="400396" joined="2009-01-06"/>
+		<cosponsor id="400384" joined="2009-01-06"/>
+		<cosponsor id="400433" joined="2009-01-06"/>
+		<cosponsor id="400024" joined="2009-01-06"/>
+		<cosponsor id="400238" joined="2009-01-06"/>
+		<cosponsor id="400055" joined="2009-01-06"/>
+		<cosponsor id="400363" joined="2009-01-06"/>
+		<cosponsor id="400377" joined="2009-01-06"/>
+		<cosponsor id="400216" joined="2009-01-06"/>
+		<cosponsor id="400062" joined="2009-01-06"/>
+		<cosponsor id="400437" joined="2009-01-06"/>
+		<cosponsor id="412194" joined="2009-01-06"/>
+		<cosponsor id="400425" joined="2009-01-06"/>
+		<cosponsor id="400233" joined="2009-01-06"/>
+		<cosponsor id="400030" joined="2009-01-06"/>
+		<cosponsor id="400179" joined="2009-01-06"/>
+		<cosponsor id="400309" joined="2009-01-06"/>
+		<cosponsor id="400245" joined="2009-01-06"/>
+		<cosponsor id="400402" joined="2009-01-06"/>
+		<cosponsor id="400278" joined="2009-01-06"/>
+		<cosponsor id="400075" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Law"/>
+		<term name="Administrative remedies"/>
+		<term name="Asia"/>
+		<term name="Civil actions and liability"/>
+		<term name="Conflicts and wars"/>
+		<term name="Crime victims"/>
+		<term name="Crimes against women"/>
+		<term name="Department of Justice"/>
+		<term name="Guam"/>
+		<term name="Human trafficking"/>
+		<term name="Japan"/>
+		<term name="Monuments and memorials"/>
+		<term name="War crimes, genocide, crimes against humanity"/>
+		<term name="World history"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

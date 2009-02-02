@@ -1,0 +1,35 @@
+<bill session="111" type="h" number="411" updated="2009-01-14T09:06:00-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Great Cats and Rare Canids Act of 2009</title>
+		<title type="official" as="introduced">To assist in the conservation of rare felids and rare canids by supporting and providing financial resources for the conservation programs of nations within the range of rare felid and rare canid populations and projects of persons with demonstrated expertise in the conservation of rare felid and rare canid populations.</title>
+	</titles>
+	<sponsor id="400193"/>
+	<cosponsors>
+		<cosponsor id="400041" joined="2009-01-09"/>
+		<cosponsor id="400395" joined="2009-01-09"/>
+		<cosponsor id="400340" joined="2009-01-09"/>
+		<cosponsor id="400348" joined="2009-01-09"/>
+		<cosponsor id="400264" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

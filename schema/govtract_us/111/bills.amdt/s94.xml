@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="94" updated="2009-02-02T12:01:25-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233205200" datetime="2009-01-29">pass</status>
+	<sponsor id="300005"/>
+	<offered date="1233205200" datetime="2009-01-29"/>
+	<description>To make a technical correction to the option to cover legal immigrant children and pregnant women.</description>
+	<purpose>To make a technical correction to the option to cover legal immigrant children and pregnant women.</purpose>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Amendment SA 94 proposed by Senator Baucus.</text><reference label="consideration" ref="CR S1042-1043"/><reference label="text" ref="CR S1042"/></action>
+		<vote date="1233205200" datetime="2009-01-29" result="pass" how="Unanimous Consent"><text>Amendment SA 94 agreed to in Senate by Unanimous Consent.</text></vote>
+
+	</actions>
+</amendment>

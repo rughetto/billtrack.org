@@ -1,0 +1,14 @@
+SA 72. Mr. GRASSLEY submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+
+ On page 153, between lines 12 and 13, insert the following:
+ (d) Requirement for States Covering Children Whose Income Exceeds 200 Percent of the Poverty Line to Offer Premium Assistance for All Families of Targeted Low-Income Children.--
+ (1) IN GENERAL.--Section 2102(a) (42 U.S.C. 1397b(a)) is amended--
+ (A) in paragraph (6), by striking ``and'' at the end;
+ (B) in paragraph (7), by striking the period at the end and inserting ``; and''; and
+ (C) by adding at the end the following new paragraph:
+ ``(8) effective for plan years beginning on or after October 1, 2009, in the case of a State that provides child health assistance for any targeted low-income child with a family gross income (determined without regard to any block or other income disregard and without excluding any type of expense (regardless, in the case of child health assistance or health benefits coverage provided in the form of coverage under a Medicaid program under paragraph (2) of section 2101(a) (or a combination of
+the coverage options under paragraphs (1) and (2) of such section) of whether such a disregard or exclusion is permitted under section 1902(r))) that exceeds 200 percent of the poverty line, how the plan shall offer child health assistance in the form of premium assistance to all targeted low-income children who have access to private health insurance coverage or coverage under a group health plan.''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

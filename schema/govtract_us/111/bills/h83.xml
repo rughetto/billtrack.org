@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="83" updated="2009-01-14T08:29:17-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Homeowners Insurance Protection Act of 2009</title>
+		<title type="official" as="introduced">To establish a program to provide reinsurance for State natural catastrophe insurance programs to help the United States better prepare for and protect its citizens against the ravages of natural catastrophes, to encourage and promote mitigation and prevention for, and recovery and rebuilding from such catastrophes, and to better assist in the financial recovery from such catastrophes.</title>
+	</titles>
+	<sponsor id="400051"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Financial Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Financial Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

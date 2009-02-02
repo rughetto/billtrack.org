@@ -1,0 +1,37 @@
+<bill session="111" type="s" number="108" updated="2009-01-14T09:28:45-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Protection from Enemy Combatants Act</title>
+		<title type="official" as="introduced">A bill to prohibit the admission of an alien who was detained as an enemy combatant at Guantanamo Bay, Cuba, unless the President determines that such admission is consistent with the national security of the United States, and for other purposes.</title>
+	</titles>
+	<sponsor id="400418"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Read twice and referred to the Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Immigration"/>
+		<term name="Correctional facilities and imprisonment"/>
+		<term name="Cuba"/>
+		<term name="Immigration status and procedures"/>
+		<term name="Military facilities and property"/>
+		<term name="Presidents and presidential powers"/>
+		<term name="Visas and passports"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

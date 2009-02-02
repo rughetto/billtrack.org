@@ -1,0 +1,44 @@
+<bill session="111" type="h" number="47" updated="2009-01-14T08:25:13-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Expand and Preserve Home Ownership Through Counseling Act</title>
+		<title type="official" as="introduced">To establish an Office of Housing Counseling to carry out and coordinate the responsibilities of the Department of Housing and Urban Development regarding counseling on homeownership and rental housing issues, to make grants to entities for providing such counseling, to launch a national housing counseling advertising campaign, and for other purposes.</title>
+	</titles>
+	<sponsor id="400027"/>
+	<cosponsors>
+		<cosponsor id="400061" joined="2009-01-06"/>
+		<cosponsor id="400179" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Financial Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Financial Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Housing and community development"/>
+		<term name="Advisory bodies"/>
+		<term name="Computers and information technology"/>
+		<term name="Consumer affairs"/>
+		<term name="Department of Health and Human Services"/>
+		<term name="Executive agency funding and structure"/>
+		<term name="Financial services and investments"/>
+		<term name="Government information and archives"/>
+		<term name="Housing and community development funding"/>
+		<term name="Housing finance and home ownership"/>
+		<term name="Licensing and registrations"/>
+		<term name="Low- and moderate-income housing"/>
+		<term name="Residential rehabilitation and home repair"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

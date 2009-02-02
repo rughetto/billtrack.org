@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="299" updated="2009-01-14T08:53:21-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">National Digital Television Consumer Education Act</title>
+		<title type="official" as="introduced">To provide American consumers information about the broadcast television transition from an analog to a digital format, and to provide additional funds for the converter box coupon program under the Digital Television Transition and Public Safety Act of 2005.</title>
+	</titles>
+	<sponsor id="400122"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

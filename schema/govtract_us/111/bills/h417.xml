@@ -1,0 +1,45 @@
+<bill session="111" type="h" number="417" updated="2009-01-14T09:06:45-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Next Steps for Haiti Act of 2009</title>
+		<title type="official" as="introduced">To provide for professional exchanges with Haiti, and for other purposes.</title>
+	</titles>
+	<sponsor id="400237"/>
+	<cosponsors>
+		<cosponsor id="400073" joined="2009-01-09"/>
+		<cosponsor id="400048" joined="2009-01-09"/>
+		<cosponsor id="412199" joined="2009-01-09"/>
+		<cosponsor id="400087" joined="2009-01-09"/>
+		<cosponsor id="412263" joined="2009-01-09"/>
+		<cosponsor id="400270" joined="2009-01-09"/>
+		<cosponsor id="400080" joined="2009-01-09"/>
+		<cosponsor id="412221" joined="2009-01-13"/>
+		<cosponsor id="400422" joined="2009-01-13"/>
+		<cosponsor id="400122" joined="2009-01-09"/>
+		<cosponsor id="400350" joined="2009-01-09"/>
+		<cosponsor id="400333" joined="2009-01-09"/>
+		<cosponsor id="400170" joined="2009-01-09"/>
+		<cosponsor id="400409" joined="2009-01-09"/>
+		<cosponsor id="400240" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Foreign Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

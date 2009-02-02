@@ -1,0 +1,43 @@
+<bill session="111" type="h" number="54" updated="2009-01-14T08:26:00-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Great Lakes Water Protection Act</title>
+		<title type="official" as="introduced">To amend the Federal Water Pollution Control Act to establish a deadline for restricting sewage dumping into the Great Lakes and to fund programs and activities for improving wastewater discharges into the Great Lakes.</title>
+	</titles>
+	<sponsor id="400222"/>
+	<cosponsors>
+		<cosponsor id="400630" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Sponsor introductory remarks on measure. (CR E11)</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Transportation and Infrastructure.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Environmental protection"/>
+		<term name="Aquatic ecology"/>
+		<term name="Coastal and marine pollution"/>
+		<term name="Government information and archives"/>
+		<term name="Government trust funds"/>
+		<term name="Great Lakes"/>
+		<term name="Lakes and rivers"/>
+		<term name="Pollution liability"/>
+		<term name="Solid waste and recycling"/>
+		<term name="Water quality"/>
+		<term name="Wetlands"/>
+		<term name="Wildlife conservation and habitat protection"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

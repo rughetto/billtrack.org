@@ -1,0 +1,47 @@
+<bill session="111" type="s" number="326" updated="2009-01-27T12:01:55-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title XXI of the Social Security Act to reauthorize the State Children's Health Insurance Program through fiscal year 2013, and for other purposes.</title>
+	</titles>
+	<sponsor id="300072"/>
+	<cosponsors>
+		<cosponsor id="300062" joined="2009-01-26"/>
+		<cosponsor id="300040" joined="2009-01-26"/>
+		<cosponsor id="400576" joined="2009-01-26"/>
+		<cosponsor id="400194" joined="2009-01-26"/>
+		<cosponsor id="300049" joined="2009-01-26"/>
+		<cosponsor id="300007" joined="2009-01-26"/>
+		<cosponsor id="412251" joined="2009-01-26"/>
+		<cosponsor id="300014" joined="2009-01-26"/>
+		<cosponsor id="300047" joined="2009-01-26"/>
+		<cosponsor id="300013" joined="2009-01-26"/>
+		<cosponsor id="400546" joined="2009-01-26"/>
+		<cosponsor id="300023" joined="2009-01-26"/>
+		<cosponsor id="300055" joined="2009-01-26"/>
+		<cosponsor id="300021" joined="2009-01-26"/>
+		<cosponsor id="300027" joined="2009-01-26"/>
+		<cosponsor id="400054" joined="2009-01-26"/>
+		<cosponsor id="400418" joined="2009-01-26"/>
+		<cosponsor id="400105" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Read twice and referred to the Committee on Finance.</text><reference label="text of measure as introduced" ref="CR S838-843"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

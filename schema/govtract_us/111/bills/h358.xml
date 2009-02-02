@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="358" updated="2009-01-14T08:59:59-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">For the relief of Alemseghed Mussie Tesfamical.</title>
+	</titles>
+	<sponsor id="400219"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	1/8/2009--Introduced.<br/>Provides for the relief of Alemseghed Mussie Tesfamical.<br/>
+	</summary>
+</bill>

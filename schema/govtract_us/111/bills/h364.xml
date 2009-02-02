@@ -1,0 +1,37 @@
+<bill session="111" type="h" number="364" updated="2009-01-14T09:00:39-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Limitation on Nuclear Cooperation with the United Arab Emirates Act of 2009</title>
+		<title type="official" as="introduced">To restrict nuclear cooperation with the United Arab Emirates, and for other purposes.</title>
+	</titles>
+	<sponsor id="400344"/>
+	<cosponsors>
+		<cosponsor id="400253" joined="2009-01-09"/>
+		<cosponsor id="400640" joined="2009-01-09"/>
+		<cosponsor id="400348" joined="2009-01-09"/>
+		<cosponsor id="400371" joined="2009-01-09"/>
+		<cosponsor id="400040" joined="2009-01-09"/>
+		<cosponsor id="400433" joined="2009-01-09"/>
+		<cosponsor id="400055" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Foreign Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

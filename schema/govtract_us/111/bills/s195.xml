@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="195" updated="2009-01-14T09:35:59-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="official" as="introduced">A bill to extend oversight, accountability, and transparency provisions of the Emergency Economic Assistance Act of 2008 to all Federal emergency economic assistance to private entities, to impose tough conditions for all recipients of such emergency economic assistance, to set up a Federal task force to investigate and prosecute criminal activities that contributed to our economic crisis, and to establish a bipartisan financial market investigation and reform commission, and for other purposes.</title>
+	</titles>
+	<sponsor id="300037"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Sponsor introductory remarks on measure. (CR S239-244)</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Banking, Housing, and Urban Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

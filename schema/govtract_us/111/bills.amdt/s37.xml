@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="37" updated="2009-01-30T12:03:51-05:00">
+	<amends type="s" number="181" sequence=""/>
+	<status date="1232600400" datetime="2009-01-22">fail</status>
+	<sponsor id="400194"/>
+	<offered date="1232600400" datetime="2009-01-22"/>
+	<description>To limit the application of the Act to claims resulting from discriminatory compensation decisions that are adopted on or after the date of enactment of the Act.</description>
+	<purpose>To limit the application of the Act to claims resulting from discriminatory compensation decisions that are adopted on or after the date of enactment of the Act.</purpose>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Amendment SA 37 proposed by Senator Isakson.</text><reference label="consideration" ref="CR S745, S760-761, S764"/><reference label="text" ref="CR S745"/></action>
+		<vote date="1232600400" datetime="2009-01-22" result="fail" how="roll" roll="12"><text>Motion to table amendment SA 37 agreed to in Senate by Yea-Nay Vote. 59 - 38. Record Vote Number: 12.</text></vote>
+
+	</actions>
+</amendment>

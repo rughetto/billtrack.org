@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="96" updated="2009-02-02T12:01:28-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233205200" datetime="2009-01-29">pass</status>
+	<sponsor id="300005"/>
+	<offered date="1233205200" datetime="2009-01-29"/>
+	<description>To clarify that no eligible entity that receives an outreach and enrollment grant is required to provide matching funds.</description>
+	<purpose>To clarify that no eligible entity that receives an outreach and enrollment grant is required to provide matching funds.</purpose>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Amendment SA 96 proposed by Senator Baucus.</text><reference label="consideration" ref="CR S1042-1043"/><reference label="text" ref="CR S1042"/></action>
+		<vote date="1233205200" datetime="2009-01-29" result="pass" how="Unanimous Consent"><text>Amendment SA 96 agreed to in Senate by Unanimous Consent.</text></vote>
+
+	</actions>
+</amendment>

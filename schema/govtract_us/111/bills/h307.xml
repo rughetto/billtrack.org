@@ -1,0 +1,33 @@
+<bill session="111" type="h" number="307" updated="2009-01-14T08:54:14-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">Christopher and Dana Reeve Paralysis Act</title>
+		<title type="official" as="introduced">To enhance and further research into paralysis and to improve rehabilitation and the quality of life for persons living with paralysis and other physical disabilities, and for other purposes.</title>
+	</titles>
+	<sponsor id="400013"/>
+	<cosponsors>
+		<cosponsor id="400230" joined="2009-01-08"/>
+		<cosponsor id="400039" joined="2009-01-08"/>
+		<cosponsor id="412250" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

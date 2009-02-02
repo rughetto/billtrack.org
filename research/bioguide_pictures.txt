@@ -1,0 +1,2 @@
+http://bioguide.congress.gov/bioguide/photo/P/P000197.jpg
+where P000197 is the bioguide_id

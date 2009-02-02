@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="341" updated="2009-01-29T12:00:56-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Economic Adjustment Assistance grant program to improve assistance for areas affected by long-term economic deterioration and severe economic dislocation relating to the manufacturing industry sector, to amend the Workforce Investment Act of 1998 to expand the national emergency grants program, and for other purposes.</title>
+	</titles>
+	<sponsor id="300093"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Health, Education, Labor, and Pensions" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

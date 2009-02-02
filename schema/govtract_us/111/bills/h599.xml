@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="599" updated="2009-01-17T12:01:37-05:00">
+	<status><introduced date="1232082000" datetime="2009-01-16"/></status>
+
+	<introduced date="1232082000" datetime="2009-01-16"/>
+	<titles>
+		<title type="official" as="introduced">To prohibit the receipt of Federal funds by any institution of higher education with a football team that participates in the NCAA Division I Football Bowl Subdivision, unless the national championship game of such Subdivision is the culmination of a playoff system.</title>
+	</titles>
+	<sponsor id="400277"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232082000" datetime="2009-01-16"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

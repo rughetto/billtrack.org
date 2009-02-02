@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="300" updated="2009-01-23T12:01:03-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">A bill to enable the Assistant Secretary for Communications and Information of the Department of Commerce to resume timely processing and distribution of TV converter box coupons by increasing its fiscal authority to make payments, and for other purposes.</title>
+	</titles>
+	<sponsor id="300049"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Commerce, Science, and Transportation" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

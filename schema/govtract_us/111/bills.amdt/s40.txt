@@ -1,0 +1,255 @@
+SA 40. Mr. McCONNELL (for himself, Mr. Kyl, Mr. Vitter, Mr. Chambliss, Mr. Bunning, Mr. Gregg, Mr. Coburn, Mr. Burr, Mr. Isakson, Mr. Graham, Mr. Inhofe, Mr. Cornyn, Mr. Brownback, Mr. Cochran, Mr. Ensign, Mr. Thune, Mr. DeMint, Mr. Bennett, Mr. Barrasso, Mr. Enzi, and Mr. Wicker) proposed an amendment to amendment
+SA 39 proposed by Mr. Reid (for Mr. Baucus) to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; as follows:
+
+
+ In lieu of the matter proposed to be inserted insert
+SECTION 1. SHORT TITLE; TABLE OF CONTENTS.
+ (a) Short Title.--This Act may be cited as the ``Kids First Act''.
+ (b) Table of Contents.--The table of contents for this Act is as follows:
+
+Sec..1..Short title; table of contents.
+Sec..2..Reauthorization through fiscal year 2013.
+Sec..3..Allotments for the 50 States and the District of Columbia based on expenditures and numbers of low-income children.
+Sec..4..Limitations on matching rates for populations other than low-income children or pregnant women covered through a section 1115 waiver.
+Sec..5..Prohibition on new section 1115 waivers for coverage of adults other than pregnant women.
+Sec..6..Standardization of determination of family income for targeted low-income children under title XXI and optional targeted low-income children under title XIX.
+Sec..7..Grants for outreach and enrollment.
+Sec..8..Improved State option for offering premium assistance for coverage of children through private plans under SCHIP and Medicaid.
+Sec..9..Treatment of unborn children.
+Sec..10..50 percent matching rate for all Medicaid administrative costs.
+Sec..11..Reduction in payments for Medicaid administrative costs to prevent duplication of such payments under TANF.
+Sec..12..Elimination of waiver of certain Medicaid provider tax provisions.
+Sec..13..Elimination of special payments for certain public hospitals.
+Sec..14..Effective date; coordination of funding for fiscal year 2009.
+SEC. 2. REAUTHORIZATION THROUGH FISCAL YEAR 2013.
+ (a) Increase in National Allotment.--Section 2104 of the Social Security Act (42 U.S.C. 1397dd(a)) is amended--
+ (1) in subsection (a)--
+ (A) by striking ``and'' at the end of paragraph (10);
+ (B) in paragraph (11)--
+ (i) by striking ``each of fiscal years 2008 and 2009'' and inserting ``fiscal year 2008''; and
+ (ii) by striking the period at the end and inserting a semicolon; and
+ (C) by adding at the end the following new paragraphs:
+ ``(12) for fiscal year 2009, $7,780,000,000;
+ ``(13) for fiscal year 2010, $8,044,000,000;
+ ``(14) for fiscal year 2011, $8,568,000,000;
+ ``(15) for fiscal year 2012, $9,032,000,000; and
+ ``(16) for fiscal year 2013, $9,505,000,000.''; and
+ (2) in subsection (c)(4)(B), by striking ``2009'' and inserting ``2008, $62,000,000 for fiscal year 2009, $64,000,000 for fiscal year 2010, $68,000,000 for fiscal year 2011, $72,000,000 for fiscal year 2012, and $75,000,000 for fiscal year 2013''.
+ (b) Repeal of Limitation on Availability of Funding for Fiscal Years 2008 and 2009.--Section 201 of the Medicare, Medicaid, and SCHIP Extension Act of 2007 (Public Law 110-173) is amended--
+ (1) in subsection (a), by striking paragraph (2) and redesignating paragraphs (3) and (4), as paragraphs (2) and (3) respectively; and
+ (2) in subsection (b), by striking paragraph (2).
+SEC. 3. ALLOTMENTS FOR THE 50 STATES AND THE DISTRICT OF COLUMBIA BASED ON EXPENDITURES AND NUMBERS OF LOW-INCOME CHILDREN.
+ (a) In General.--Section 2104 of the Social Security Act (42 U.S.C. 1397dd) is amended by adding at the end the following new subsection:
+ ``(m) Determination of Allotments for the 50 States and the District of Columbia for Fiscal Years 2009 Through 2013.--
+ ``(1) IN GENERAL.--Notwithstanding the preceding provisions of this subsection and subject to paragraph (3), the Secretary shall allot to each subsection (b) State for each of fiscal years 2009 through 2013, the amount determined for the fiscal year that is equal to the product of--
+ ``(A) the amount available for allotment under subsection (a) for the fiscal year, reduced by the amount of allotments made under subsection (c) (determined without regard to paragraph (4) thereof) for the fiscal year; and
+ ``(B) the sum of the State allotment factors determined under paragraph (2) with respect to the State and weighted in accordance with subparagraph (B) of that paragraph for the fiscal year.
+ ``(2) STATE ALLOTMENT FACTORS.--
+ ``(A) IN GENERAL.--For purposes of paragraph (1)(B), the State allotment factors are the following:
+ ``(i) The ratio of the projected expenditures for targeted low-income children under the State child health plan and pregnant women under a waiver of such plan for the fiscal year to the sum of such projected expenditures for all States for the fiscal year, multiplied by the applicable percentage weight assigned under subparagraph (B).
+ ``(ii) The ratio of the number of low-income children who have not attained age 19 with no health insurance coverage in the State, as determined by the Secretary on the basis of the arithmetic average of the number of such children for the 3 most recent Annual Social and Economic Supplements to the Current Population Survey of the Bureau of the Census available before the beginning of the calendar year before such fiscal year begins, to the sum of the number of such children determined for all
+States for such fiscal year, multiplied by the applicable percentage weight assigned under subparagraph (B).
+ ``(iii) The ratio of the projected expenditures for targeted low-income children under the State child health plan and pregnant women under a waiver of such plan for the preceding fiscal year to the sum of such projected expenditures for all States for such preceding fiscal year, multiplied by the applicable percentage weight assigned under subparagraph (B).
+ ``(iv) The ratio of the actual expenditures for targeted low-income children under the State child health plan and pregnant women under a waiver of such plan for the second preceding fiscal year to the sum of such actual expenditures for all States for such second preceding fiscal year, multiplied by the applicable percentage weight assigned under subparagraph (B).
+ ``(B) ASSIGNMENT OF WEIGHTS.--For each of fiscal years 2009 through 2013, the following percentage weights shall be applied to the ratios determined under subparagraph (A) for each such fiscal year:
+ ``(i) 40 percent for the ratio determined under subparagraph (A)(i).
+ ``(ii) 5 percent for the ratio determined under subparagraph (A)(ii).
+ ``(iii) 50 percent for the ratio determined under subparagraph (A)(iii).
+ ``(iv) 5 percent for the ratio determined under subparagraph (A)(iv).
+ ``(C) DETERMINATION OF PROJECTED AND ACTUAL EXPENDITURES.--For purposes of subparagraph (A):
+ ``(i) PROJECTED EXPENDITURES.--The projected expenditures described in clauses (i) and (iii) of such subparagraph with respect to a fiscal year shall be determined on the basis of amounts reported by States to the Secretary on the May 15th submission of Form CMS-37 and Form CMS-21B submitted not later than June 30th of the fiscal year preceding such year.
+ ``(ii) ACTUAL EXPENDITURES.--The actual expenditures described in clause (iv) of such subparagraph with respect to a second preceding fiscal year shall be determined on the basis of amounts reported by States to the Secretary on Form CMS-64 and Form CMS-21 submitted not later than November 30 of the preceding fiscal year.''.
+ (b) 2-Year Availability of Allotments; Expenditures Counted Against Oldest Allotments.--Section 2104(e) of the Social Security Act (42 U.S.C. 1397dd(e)) is amended to read as follows:
+ ``(e) Availability of Amounts Allotted.--
+ ``(1) IN GENERAL.--Except as provided in the succeeding paragraphs of this subsection, amounts allotted to a State pursuant to this section--
+ ``(A) for each of fiscal years 1998 through 2008, shall remain available for expenditure by the State through the end of the second succeeding fiscal year; and
+ ``(B) for each of fiscal years 2009 through 2013, shall remain available for expenditure by the State only through the end of the fiscal year succeeding the fiscal year for which such amounts are allotted.
+ ``(2) ELIMINATION OF REDISTRIBUTION OF ALLOTMENTS NOT EXPENDED WITHIN 3 YEARS.--Notwithstanding subsection (f), amounts allotted to a State under this section for fiscal years beginning with fiscal year 2009 that remain unexpended as of the end of the fiscal year succeeding the fiscal year for which the amounts are allotted shall not be redistributed to other States and shall revert to the Treasury on October 1 of the third succeeding fiscal year.
+ ``(3) RULE FOR COUNTING EXPENDITURES AGAINST FISCAL YEAR ALLOTMENTS.--Expenditures under the State child health plan made on or after April 1, 2009, shall be counted against allotments for the earliest fiscal year for which funds are available for expenditure under this subsection.''.
+ (c) Conforming Amendments.--
+ (1) Section 2104(b)(1) of the Social Security Act (42 U.S.C. 1397dd(b)(1)) is amended by striking ``subsection (d)'' and inserting ``the succeeding subsections of this section''.
+ (2) Section 2104(f) of such Act (42 U.S.C. 1397dd(f)) is amended by striking ``The'' and inserting ``Subject to subsection (e)(2), the''.
+SEC. 4. LIMITATIONS ON MATCHING RATES FOR POPULATIONS OTHER THAN LOW-INCOME CHILDREN OR PREGNANT WOMEN COVERED THROUGH A SECTION 1115 WAIVER.
+ (a) Limitation on Payments.--Section 2105(c) of the Social Security Act (42 U.S.C. 1397ee(c)) is amended by adding at the end the following new paragraph:
+ ``(8) LIMITATIONS ON MATCHING RATE FOR POPULATIONS OTHER THAN TARGETED LOW-INCOME CHILDREN OR PREGNANT WOMEN COVERED THROUGH A SECTION 1115 WAIVER.--For child health assistance or health benefits coverage furnished in any fiscal year beginning with fiscal year 2010:
+ ``(A) FMAP APPLIED TO PAYMENTS FOR COVERAGE OF CHILDREN OR PREGNANT WOMEN COVERED THROUGH A SECTION 1115 WAIVER ENROLLED IN THE STATE CHILD HEALTH PLAN ON THE DATE OF ENACTMENT OF THE KIDS FIRST ACT AND WHOSE GROSS FAMILY INCOME IS DETERMINED TO EXCEED THE INCOME ELIGIBILITY  LEVEL SPECIFIED FOR A TARGETED LOW-INCOME CHILD.--Notwithstanding subsections (b)(1)(B) and (d) of section 2110, in the case of any individual described in subsection (c)
+of section 105 of the Kids First Act who the State elects to continue to provide child health assistance for under the State child health plan in accordance with the requirements of such subsection, the Federal medical assistance percentage (as determined under section 1905(b) without regard to clause (4) of such section) shall be substituted for the enhanced FMAP under subsection (a)(1) with respect to such assistance.
+ ``(B) FMAP APPLIED TO PAYMENTS ONLY FOR NONPREGNANT CHILDLESS ADULTS AND PARENTS AND CARETAKER RELATIVES ENROLLED UNDER A SECTION 1115 WAIVER ON THE DATE OF ENACTMENT OF THE KIDS FIRST ACT.--The Federal medical assistance percentage (as determined under section 1905(b) without regard to clause (4) of such section) shall be substituted for the enhanced FMAP under subsection (a)(1) with respect to payments for child health assistance or health benefits coverage provided under the State
+child health plan for any of the following:
+ ``(i) PARENTS OR CARETAKER RELATIVES ENROLLED UNDER A WAIVER ON THE DATE OF ENACTMENT OF THE KIDS FIRST ACT.--A nonpregnant parent or a nonpregnant caretaker relative of a targeted low-income child who is enrolled in the State child health plan under a waiver, experimental, pilot, or demonstration project on the date of enactment of the Kids First Act and whose family income does not exceed the income eligibility applied under such waiver with respect to that population on such date.
+ ``(ii) NONPREGNANT CHILDLESS ADULTS ENROLLED UNDER A WAIVER ON SUCH DATE.--A nonpregnant childless adult enrolled in the State child health plan under a waiver, experimental, pilot, or demonstration project described in section 6102(c)(3) of the Deficit Reduction Act of 2005 (42 U.S.C. 1397gg note) on the date of enactment of the Kids First Act and whose family income does not exceed the income eligibility applied under such waiver with respect to that population on such date.
+ ``(iii) NO REPLACEMENT ENROLLEES.--Nothing in clauses (i) or (ii) shall be construed as authorizing a State to provide child health assistance or health benefits coverage under a waiver described in either such clause to a nonpregnant parent or a nonpregnant caretaker relative of a targeted low-income child, or a nonpregnant childless adult, who is not enrolled under the waiver on the date of enactment of the Kids First Act.
+ ``(C) NO FEDERAL PAYMENT FOR ANY NEW NONPREGNANT ADULT ENROLLEES OR FOR SUCH ENROLLEES WHO NO LONGER SATISFY INCOME ELIGIBILITY REQUIREMENTS.--Payment shall not be made under this section for child health assistance or other health benefits coverage provided under the State child health plan or under a waiver under section 1115 for any of the following:
+ ``(i) PARENTS OR CARETAKER RELATIVES UNDER A SECTION 1115 WAIVER APPROVED AFTER THE DATE OF ENACTMENT OF THE KIDS FIRST ACT.--A nonpregnant parent or a nonpregnant caretaker relative of a targeted low-income child under a waiver, experimental, pilot, or demonstration project that is approved on or after the date of enactment of the Kids First Act.
+ ``(ii) PARENTS, CARETAKER RELATIVES, AND NONPREGNANT CHILDLESS ADULTS WHOSE FAMILY INCOME EXCEEDS THE INCOME ELIGIBILITY LEVEL SPECIFIED UNDER A SECTION 1115 WAIVER APPROVED PRIOR TO THE KIDS FIRST ACT.--Any nonpregnant parent or a nonpregnant caretaker relative of a targeted low-income child whose family income exceeds the income eligibility level referred to in subparagraph (B)(i), and any nonpregnant childless adult whose family income exceeds the income eligibility level referred
+to in subparagraph (B)(ii).
+ ``(iii) NONPREGNANT CHILDLESS ADULTS, PARENTS, OR CARETAKER RELATIVES NOT ENROLLED UNDER A SECTION 1115 WAIVER ON THE DATE OF ENACTMENT OF THE KIDS FIRST ACT.--Any nonpregnant parent or a nonpregnant caretaker relative of a targeted low-income child who is not enrolled in the State child health plan under a section 1115 waiver, experimental, pilot, or demonstration project referred to in subparagraph (B)(i) on the date of enactment of the Kids First Act, and any nonpregnant childless
+adult who is not enrolled in the State child health plan under a section 1115 waiver, experimental, pilot, or demonstration project referred to in subparagraph (B)(ii)(I) on such date.
+ ``(D) DEFINITION OF CARETAKER RELATIVE.--In this subparagraph, the term `caretaker relative' has the meaning given that term for purposes of carrying out section 1931.
+ ``(E) RULE OF CONSTRUCTION.--Nothing in this paragraph shall be construed as implying that payments for coverage of populations for which the Federal medical assistance percentage (as so determined) is to be substituted for the enhanced FMAP under subsection (a)(1) in accordance with this paragraph are to be made from funds other than the allotments determined for a State under section 2104.''.
+ (b) Conforming Amendment.--Section 2105(a)(1) of the Social Security Act ( 42 U.S.C. 1397dd(a)(1)) is amended, in the matter preceding subparagraph (A), by inserting ``or subsection (c)(8)'' after ``subparagraph (B)''.
+SEC. 5. PROHIBITION ON NEW SECTION 1115 WAIVERS FOR COVERAGE OF ADULTS OTHER THAN PREGNANT WOMEN.
+ (a) In General.--Section 2107(f) of the Social Security Act (42 U.S.C. 1397gg(f)) is amended--
+ (1) by striking ``, the Secretary'' and inserting ``:
+ ``(1) The Secretary''; and
+ (2) by adding at the end the following new paragraphs:
+ ``(2) The Secretary may not approve, extend, renew, or amend a waiver, experimental, pilot, or demonstration project with respect to a State after the date of enactment of the Kids First Act that would allow funds made available under this title to be used to provide child health assistance or other health benefits coverage for any other adult other than a pregnant woman whose family income does not exceed the income eligibility level specified for a targeted low-income child in that State under
+a waiver or project approved as of such date.
+ ``(3) The Secretary may not approve, extend, renew, or amend a waiver, experimental, pilot, or demonstration project with respect to a State after the date of enactment of the Kids First Act that would waive or modify the requirements of section 2105(c)(8).''.
+ (b) Clarification of Authority for Coverage of Pregnant Women.--Section 2106 of the Social Security Act (42 U.S.C. 1397ff) is amended by adding at the end the following new subsection:
+ ``(f) No Authority To Cover Pregnant Women Through State Plan.--For purposes of this title, a State may provide assistance to a pregnant woman under the State child health plan only--
+ ``(1) by virtue of a waiver under section 1115; or
+ ``(2) through the application of sections 457.10, 457.350(b)(2), 457.622(c)(5), and 457.626(a)(3) of title 42, Code of Federal Regulations (as in effect on the date of enactment of the Kids First Act).''.
+ (c) Assurance of Notice to Affected Enrollees.--The Secretary of Health and Human Services shall establish procedures to ensure that States provide adequate public notice for parents, caretaker relatives, and nonpregnant childless adults whose eligibility for child health assistance or health benefits coverage under a waiver under section 1115 of the Social Security Act will be terminated as a result of the amendments made by subsection (a), and that States otherwise adhere to regulations
+of the Secretary relating to procedures for terminating waivers under section 1115 of the Social Security Act.
+SEC. 6. STANDARDIZATION OF DETERMINATION OF FAMILY INCOME FOR TARGETED LOW-INCOME CHILDREN UNDER TITLE XXI AND OPTIONAL TARGETED LOW-INCOME CHILDREN UNDER TITLE XIX.
+ (a) Eligibility Based on Gross Income.--
+ (1) IN GENERAL.--Section 2110 of the Social Security Act (42 U.S.C. 1397jj) is amended--
+ (A) in subsection (b)(1)(A), by inserting ``in accordance with subsection (d)'' after ``State plan''; and
+ (B) by adding at the end the following new subsection:
+ ``(d) Standardization of Determination of Family Income.--A State shall determine family income for purposes of determining income eligibility for child health assistance or other health benefits coverage under the State child health plan (or under a waiver of such plan under section 1115) solely on the basis of the gross income (as defined by the Secretary) of the family.''.
+ (2) PROHIBITION ON WAIVER OF REQUIREMENTS.--Section 2107(f) (42 U.S.C. 1397gg(f)), as amended by section 5(a), is amended by adding at the end the following new paragraph:
+ ``(4) The Secretary may not approve a waiver, experimental, pilot, or demonstration project with respect to a State after the date of enactment of the Kids First Act that would waive or modify the requirements of section 2110(d) (relating to determining income eligibility on the basis of gross income) and regulations promulgated to carry out such requirements.''.
+ (b) Regulations.--Not later than 90 days after the date of enactment of this Act, the Secretary of Health and Human Services shall promulgate interim final regulations defining gross income for purposes of section 2110(d) of the Social Security Act, as added by subsection (a).
+ (c) Application to Current Enrollees.--The interim final regulations promulgated under subsection (b) shall not be used to determine the income eligibility of any individual enrolled in a State child health plan under title XXI of the Social Security Act on the date of enactment of this Act before the date on which such eligibility of the individual is required to be redetermined under the plan as in effect on such date. In the case of any individual enrolled in such plan on such date
+who, solely as a result of the application of subsection (d) of section 2110 of the Social Security Act (as added by subsection (a)) and the regulations promulgated under subsection (b), is determined to be ineligible for child health assistance under the State child health plan, a State may elect, subject to substitution of the Federal medical assistance percentage for the enhanced FMAP under section 2105(c)(8)(A) of the Social Security Act (as added by section 4(a)),
+to continue to provide the individual with such assistance for so long as the individual otherwise would be eligible for such assistance and the individual's family income, if determined under the income and resource standards and methodologies applicable under the State child health plan on September 30,  2008, would not exceed the income eligibility level applicable to the individual under the State child health plan.
+SEC. 7. GRANTS FOR OUTREACH AND ENROLLMENT.
+ (a) Grants.--Title XXI of the Social Security Act (42 U.S.C. 1397aa et seq.) is amended by adding at the end the following:
+``SEC. 2111. GRANTS TO IMPROVE OUTREACH AND ENROLLMENT.
+ ``(a) Outreach and Enrollment Grants; National Campaign.--
+ ``(1) IN GENERAL.--From the amounts appropriated for a fiscal year under subsection (f), subject to paragraph (2), the Secretary shall award grants to eligible entities to conduct outreach and enrollment efforts that are designed to increase the enrollment and participation of eligible children under this title and title XIX.
+ ``(2) 10 PERCENT SET ASIDE FOR NATIONAL ENROLLMENT CAMPAIGN.--An amount equal to 10 percent of such amounts for the fiscal year shall be used by the Secretary for expenditures during the fiscal year to carry out a national enrollment campaign in accordance with subsection (g).
+ ``(b) Award of Grants.--
+ ``(1) PRIORITY FOR AWARDING.--
+ ``(A) IN GENERAL.--In awarding grants under subsection (a), the Secretary shall give priority to eligible entities that--
+ ``(i) propose to target geographic areas with high rates of--
+ ``(I) eligible but unenrolled children, including such children who reside in rural areas; or
+ ``(II) racial and ethnic minorities and health disparity populations, including those proposals that address cultural and linguistic barriers to enrollment; and
+ ``(ii) submit the most demonstrable evidence required under paragraphs (1) and (2) of subsection (c).
+ ``(B) 10 PERCENT SET ASIDE FOR OUTREACH TO INDIAN CHILDREN.--An amount equal to 10 percent of the funds appropriated under subsection (f) for a fiscal year shall be used by the Secretary to award grants to Indian Health Service providers and urban Indian organizations receiving funds under title V of the Indian Health Care Improvement Act (25 U.S.C. 1651 et seq.) for outreach to, and enrollment of, children who are Indians.
+ ``(2) 2-year AVAILABILITY.--A grant awarded under this section for a fiscal year shall remain available for expenditure through the end of the succeeding fiscal year.
+ ``(c) Application.--An eligible entity that desires to receive a grant under subsection (a) shall submit an application to the Secretary in such form and manner, and containing such information, as the Secretary may decide. Such application shall include--
+ ``(1) evidence demonstrating that the entity includes members who have access to, and credibility with, ethnic or low-income populations in the communities in which activities funded under the grant are to be conducted;
+ ``(2) evidence demonstrating that the entity has the ability to address barriers to enrollment, such as lack of awareness of eligibility, stigma concerns and punitive fears associated with receipt of benefits, and other cultural barriers to applying for and receiving child health assistance or medical assistance;
+ ``(3) specific quality or outcomes performance measures to evaluate the effectiveness of activities funded by a grant awarded under this section; and
+ ``(4) an assurance that the eligible entity shall--
+ ``(A) conduct an assessment of the effectiveness of such activities against the performance measures;
+ ``(B) cooperate with the collection and reporting of enrollment data and other information in order for the Secretary to conduct such assessments.
+ ``(C) in the case of an eligible entity that is not the State, provide the State with enrollment data and other information as necessary for the State to make necessary projections of eligible children and pregnant women.
+ ``(d) Supplement, Not Supplant.--Federal funds awarded under this section shall be used to supplement, not supplant, non-Federal funds that are otherwise available for activities funded under this section.
+ ``(e) Definitions.--In this section:
+ ``(1) ELIGIBLE ENTITY.--The term `eligible entity' means any of the following:
+ ``(A) A State with an approved child health plan under this title.
+ ``(B) A local government.
+ ``(C) An Indian tribe or tribal consortium, a tribal organization, an urban Indian organization receiving funds under title V of the Indian Health Care Improvement Act (25 U.S.C. 1651 et seq.), or an Indian Health Service provider.
+ ``(D) A Federal health safety net organization.
+ ``(E) A State, national, local, or community-based public or nonprofit private organization.
+ ``(F) A faith-based organization or consortia, to the extent that a grant awarded to such an entity is consistent with the requirements of section 1955 of the Public Health Service Act (42 U.S.C. 300x-65) relating to a grant award to non-governmental entities.
+ ``(G) An elementary or secondary school.
+ ``(H) A national, local, or community-based public or nonprofit private organization, including organizations that use community health workers or community-based doula programs.
+ ``(2) FEDERAL HEALTH SAFETY NET ORGANIZATION.--The term `Federal health safety net organization' means--
+ ``(A) a federally-qualified health center (as defined in section 1905(l)(2)(B));
+ ``(B) a hospital defined as a disproportionate share hospital for purposes of section 1923;
+ ``(C) a covered entity described in section 340B(a)(4) of the Public Health Service Act (42 U.S.C. 256b(a)(4)); and
+ ``(D) any other entity or consortium that serves children under a federally-funded program, including the special supplemental nutrition program for women, infants, and children (WIC) established under section 17 of the Child Nutrition Act of 1966 (42 U.S.C. 1786), the head start and early head start programs under the Head Start Act (42 U.S.C. 9801 et seq.), the school lunch program established under the Richard B. Russell National School Lunch Act, and an elementary or secondary school.
+ ``(3) INDIANS; INDIAN TRIBE; TRIBAL ORGANIZATION; URBAN INDIAN ORGANIZATION.--The terms `Indian', `Indian tribe', `tribal organization', and `urban Indian organization' have the meanings given such terms in section 4 of the Indian Health Care Improvement Act (25 U.S.C. 1603).
+ ``(4) COMMUNITY HEALTH WORKER.--The term `community health worker' means an individual who promotes health or nutrition within the community in which the individual resides--
+ ``(A) by serving as a liaison between communities and health care agencies;
+ ``(B) by providing guidance and social assistance to community residents;
+ ``(C) by enhancing community residents' ability to effectively communicate with health care providers;
+ ``(D) by providing culturally and linguistically appropriate health or nutrition education;
+ ``(E) by advocating for individual and community health or nutrition needs; and
+ ``(F) by providing referral and followup services.
+ ``(f) Appropriation.--
+ ``(1) IN GENERAL.--There is appropriated, out of any money in the Treasury not otherwise appropriated, for the purpose of awarding grants under this section--
+ ``(A) $100,000,000 for each of fiscal years 2009 and 2010;
+ ``(B) $75,000,000 for each of fiscal years 2011 and 2012; and
+ ``(C) $50,000,000 for fiscal year 2013.
+ ``(2) GRANTS IN ADDITION TO OTHER AMOUNTS PAID.--Amounts appropriated and paid under the authority of this section shall be in addition to amounts appropriated under section 2104 and paid to States in accordance with section 2105, including with respect to expenditures for outreach activities in accordance with subsections (a)(1)(D)(iii) and (c)(2)(C) of that section.
+ ``(g) National Enrollment Campaign.--From the amounts made available under subsection (a)(2) for a fiscal year, the Secretary shall develop and implement a national enrollment campaign to improve the enrollment of underserved child populations in the programs established under this title and title XIX. Such campaign may include--
+ ``(1) the establishment of partnerships with the Secretary of Education and the Secretary of Agriculture to develop national campaigns to link the eligibility and enrollment systems for the assistance programs each Secretary administers that often serve the same children;
+ ``(2) the integration of information about the programs established under this title and title XIX in public health awareness campaigns administered by the Secretary;
+ ``(3) increased financial and technical support for enrollment hotlines maintained by the Secretary to ensure that all States participate in such hotlines;
+ ``(4) the establishment of joint public awareness outreach initiatives with the Secretary of Education and the Secretary of Labor regarding the importance of health insurance to building strong communities and the economy;
+ ``(5) the development of special outreach materials for Native Americans or for individuals with limited English proficiency; and
+ ``(6) such other outreach initiatives as the Secretary determines would increase public awareness of the programs under this title and title XIX.''.
+ (b) Nonapplication of Administrative Expenditures Cap.--Section 2105(c)(2) of the Social Security Act (42 U.S.C. 1397ee(c)(2)) is amended by adding at the end the following:
+ ``(C) NONAPPLICATION TO EXPENDITURES FOR OUTREACH AND ENROLLMENT.--The limitation under subparagraph (A) shall not apply with respect to expenditures for outreach activities under section 2102(c)(1), or for enrollment activities, for children eligible for child health assistance under the State child health plan or medical assistance under the State plan under title XIX.''.
+SEC. 8. IMPROVED STATE OPTION FOR OFFERING PREMIUM ASSISTANCE FOR COVERAGE OF CHILDREN THROUGH PRIVATE PLANS UNDER SCHIP AND MEDICAID.
+ (a) In General.--Section 2105(c) of the Social Security Act (42 U.S.C. 1397ee(c)), as amended by section 4(a) is amended by adding at the end the following:
+ ``(9) ADDITIONAL STATE OPTION FOR OFFERING PREMIUM ASSISTANCE.--
+ ``(A) IN GENERAL.--Subject to the succeeding provisions of this paragraph, a State  may elect to offer a premium assistance subsidy (as defined in subparagraph (C)) for qualified coverage (as defined in subparagraph (B)) to all targeted low-income children who are eligible for child health assistance under the plan and have access to such coverage in accordance with the requirements of this paragraph.
+ ``(B) QUALIFIED COVERAGE.--In this paragraph, the term `qualified coverage' means the following:
+ ``(i) QUALIFIED EMPLOYER SPONSORED COVERAGE.--
+ ``(I) IN GENERAL.--A group health plan or health insurance coverage offered through an employer that is--
+ ``(aa) substantially equivalent to the benefits coverage in a benchmark benefit package described in section 2103(b) or benchmark-equivalent coverage that meets the requirements of section 2103(a)(2);
+ ``(bb) made similarly available to all of the employer's employees and for which the employer makes a contribution to the premium that is not less for employees receiving a premium assistance subsidy under any option available under the State child health plan under this title or the State plan under title XIX to provide such assistance than the employer contribution provided for all other employees; and
+ ``(cc) cost-effective, as determined under subclause (II).
+ ``(II) COST-EFFECTIVENESS.--A group health plan or health insurance coverage offered through an employer shall be considered to be cost-effective if--
+ ``(aa) the marginal premium cost to purchase family coverage through the employer is less than the State cost of providing child health assistance through the State child health plan for all the children in the family who are targeted low-income children; or
+ ``(bb) the marginal premium cost between individual coverage and purchasing family coverage through the employer is not greater than 175 percent of the cost to the State to provide child health assistance through the State child health plan for a targeted low-income child.
+ ``(ii) QUALIFIED NON-GROUP COVERAGE.--Health insurance coverage offered to individuals in the non-group health insurance market that is substantially equivalent to the benefits coverage in a benchmark benefit package described in section 2103(b) or benchmark-equivalent coverage that meets the requirements of section 2103(a)(2).
+ ``(iii) HIGH DEDUCTIBLE HEALTH PLAN.--A high deductible health plan (as defined in section 223(c)(2) of the Internal Revenue Code of 1986) purchased through a health savings account (as defined under section 223(d) of such Code).
+ ``(C) PREMIUM ASSISTANCE SUBSIDY.--
+ ``(i) IN GENERAL.--In this paragraph, the term `premium assistance subsidy' means, with respect to a targeted low-income child, the amount equal to the difference between the employee contribution required for enrollment only of the employee under qualified employer sponsored coverage and the employee contribution required for enrollment of the employee and the child in such coverage, less any applicable premium cost-sharing applied under the State child health plan, subject to the annual
+aggregate cost-sharing limit applied under section 2103(e)(3)(B).
+ ``(ii) STATE PAYMENT OPTION.--Subject to clause (iii), a State may provide a premium assistance subsidy directly to an employer or as reimbursement to an employee for out-of-pocket expenditures.
+ ``(iii) REQUIREMENT FOR DIRECT PAYMENT TO EMPLOYEE.--A State shall not pay a premium assistance subsidy directly to the employee, unless the State has established procedures to ensure that the targeted low-income child on whose behalf such payments are made are actually enrolled in the qualified employer sponsored coverage.
+ ``(iv) TREATMENT AS CHILD HEALTH ASSISTANCE.--Expenditures for the provision of premium assistance subsidies shall be considered child health assistance described in paragraph (1)(C) of subsection (a) for purposes of making payments under that subsection.
+ ``(v) STATE OPTION TO REQUIRE ACCEPTANCE OF SUBSIDY.--A State may condition the provision of child health assistance under the State child health plan for a targeted low-income child on the receipt of a premium assistance subsidy for enrollment in qualified employer sponsored coverage if the State determines the provision of such a subsidy to be more cost-effective in accordance with subparagraph (B)(ii).
+ ``(vi) NOT TREATED AS INCOME.--Notwithstanding any other provision of law, a premium assistance subsidy provided in accordance with this paragraph shall not be treated as income to the child or the parent of the child for whom such subsidy is provided.
+ ``(D) NO REQUIREMENT TO PROVIDE SUPPLEMENTAL COVERAGE FOR BENEFITS AND ADDITIONAL COST-SHARING PROTECTION PROVIDED UNDER THE STATE CHILD HEALTH PLAN.--
+ ``(i) IN GENERAL.--A State that elects the option to provide a premium assistance subsidy under this paragraph shall not be required to provide a targeted low-income child enrolled in qualified employer sponsored coverage with supplemental coverage for items or services that are not covered, or are only partially covered, under the qualified employer sponsored coverage or cost-sharing protection other than the protection required under section 2103(e)(3)(B).
+ ``(ii) NOTICE OF COST-SHARING REQUIREMENTS.--A State shall provide a targeted low-income child or the parent of such a child (as appropriate) who is provided with a premium assistance subsidy in accordance with this paragraph with notice of the cost-sharing requirements and limitations imposed under the qualified employer sponsored coverage in which the child is enrolled upon the enrollment of the child in such coverage and annually thereafter.
+ ``(iii) RECORD KEEPING REQUIREMENTS.--A State may require a parent of a targeted low-income child that is enrolled in qualified employer-sponsored coverage to bear the responsibility for keeping track of out-of-pocket expenditures incurred for cost-sharing imposed under such coverage and to notify the State when the limit on such expenditures imposed under section 2103(e)(3)(B) has been reached for a year from the effective date of enrollment for such year.
+ ``(iv) STATE OPTION FOR REIMBURSEMENT.--A State may retroactively reimburse a parent of a targeted low-income child for out-of-pocket expenditures incurred after reaching the 5 percent cost-sharing limitation imposed under section 2103(e)(3)(B) for a year.
+ ``(E) 6-month WAITING PERIOD REQUIRED.--A State shall impose at least a 6-month waiting period from the time an individual is enrolled in private health insurance prior to the provision of a premium assistance subsidy for a targeted low-income child in accordance with this paragraph.
+ ``(F) NON APPLICATION OF WAITING PERIOD FOR ENROLLMENT IN THE STATE MEDICAID PLAN OR THE STATE CHILD HEALTH PLAN.--A targeted low-income child provided a premium assistance subsidy in accordance with this paragraph who loses eligibility for such subsidy shall not be treated as having been enrolled in private health insurance coverage for purposes of applying any waiting period imposed under the State child health plan or the State plan under title XIX for the enrollment of the child under
+such plan.
+ ``(G) ASSURANCE OF SPECIAL ENROLLMENT PERIOD UNDER GROUP HEALTH PLANS IN CASE OF ELIGIBILITY FOR PREMIUM SUBSIDY ASSISTANCE.--No payment shall be made under subsection (a) for amounts expended for the provision of premium assistance subsidies under this paragraph unless a State provides assurances to the Secretary that the State has in effect laws requiring a group health plan, a health insurance issuer offering group health insurance coverage in connection with a group health plan, and
+a self-funded health plan, to permit an employee who is eligible, but not enrolled, for coverage under the terms of the plan (or a child of such an employee if the child is eligible, but not enrolled, for coverage under such terms) to enroll for coverage under the terms of the plan if the employee's child becomes eligible for a premium assistance subsidy under this paragraph.
+ ``(H) NO EFFECT ON PREVIOUSLY APPROVED PREMIUM ASSISTANCE PROGRAMS.--Nothing in this paragraph shall be construed as limiting the authority of a State to offer premium assistance under section 1906, a waiver described in paragraph (2)(B) or (3), a waiver approved under section 1115, or other authority in effect on February 1, 2009.
+ ``(I) NOTICE OF AVAILABILITY.--A State shall--
+ ``(i) include on any application or enrollment form for child health assistance a notice of the availability of premium assistance subsidies for the enrollment of targeted low-income children in qualified employer sponsored coverage;
+ ``(ii) provide, as part of the application and enrollment process under the State child health plan, information describing the availability of such subsidies and how to elect to obtain such a subsidy; and
+ ``(iii) establish such other procedures as the State determines necessary to ensure that parents are informed of the availability of such subsidies under the State child health plan.''.
+ (b) Application to Medicaid.--Section 1906 of the Social Security Act (42 U.S.C. 1396e) is amended by inserting after subsection (c) the following:
+ ``(d) The provisions of section 2105(c)(9) shall apply to a child who is eligible for medical assistance under the State plan in the same manner as such provisions apply to a targeted low-income child under a State child health plan under title XXI. Section 1902(a)(34) shall not apply to a child who is provided a premium assistance subsidy under the State plan in accordance with the preceding sentence.''.
+SEC. 9. TREATMENT OF UNBORN CHILDREN.
+ (a) Codification of Current Regulations.--Section 2110(c)(1) of the Social Security Act (42 U.S.C. 1397jj(c)(1)) is amended by striking the period at the end and inserting the following: ``, and includes, at the option of a State, an unborn child. For purposes of the previous sentence, the term `unborn child' means a member of the species Homo sapiens, at any stage of development, who is carried in the womb.''.
+ (b) Clarifications Regarding Coverage of Mothers.--Section 2103 (42 U.S.C. 1397cc) is amended by adding at the end the following new subsection:
+ ``(g) Clarifications Regarding Authority To Provide Postpartum Services and Maternal Health Care.--Any State that provides child health assistance to an unborn child under the option described in section 2110(c)(1) may--
+ ``(1) continue to provide such assistance to the mother, as well as postpartum services, through the end of the month in which the  60-day period (beginning on the last day of pregnancy) ends; and
+ ``(2) in the interest of the child to be born, have flexibility in defining and providing services to benefit either the mother or unborn child consistent with the health of both.''.
+SEC. 10. 50 PERCENT MATCHING RATE FOR ALL MEDICAID ADMINISTRATIVE COSTS.
+ Section 1903(a) of the Social Security Act (42 U.S.C. 1396b(a)) is amended--
+ (1) by striking paragraph (2);
+ (2) by redesignating paragraph (3)(E) as paragraph (2) and re-locating and indenting it appropriately;
+ (3) in paragraph (2), as so redesignated, by redesignating clauses (i) and (ii) as subparagraphs (A) and (B), and indenting them appropriately;
+ (4) by striking paragraphs (3) and (4);
+ (5) in paragraph (5), by striking ``which are attributable to the offering, arranging, and furnishing'' and inserting ``which are for the medical assistance costs of furnishing'';
+ (6) by striking paragraph (6);
+ (7) in paragraph (7), by striking ``subject to section 1919(g)(3)(B),''; and
+ (8) by redesignating paragraphs (5) and (7) as paragraphs (3) and (4), respectively.
+SEC. 11. REDUCTION IN PAYMENTS FOR MEDICAID ADMINISTRATIVE COSTS TO PREVENT DUPLICATION OF SUCH PAYMENTS UNDER TANF.
+ Section 1903 of the Social Security Act (42 U.S.C. 1396b) is amended--
+ (1) in subsection (a)(7), by striking ``section 1919(g)(3)(B)'' and inserting ``subsection (h)'';
+ (2) in subsection (a)(2)(D) by inserting ``, subject to subsection (g)(3)(C) of such section'' after ``as are attributable to State activities under section 1919(g)''; and
+ (3) by adding after subsection (g) the following new subsection:
+ ``(h) Reduction in Payments for Administrative Costs To Prevent Duplication of Payments Under Title IV.--Beginning with the calendar quarter commencing April 1, 2009, the Secretary shall reduce the amount paid to each State under subsection (a)(7) for each quarter by an amount equal to  1/4  of the annualized amount determined for the Medicaid program under section 16(k)(2)(B) of the Food Stamp Act of 1977 (7 U.S.C. 2025(k)(2)(B)).''.
+SEC. 12. ELIMINATION OF WAIVER OF CERTAIN MEDICAID PROVIDER TAX PROVISIONS.
+ Effective October 1, 2009, subsection (c) of section 4722 of the Balanced Budget Act of 1997 (Public Law 105-33; 111 Stat. 515) is repealed.
+SEC. 13. ELIMINATION OF SPECIAL PAYMENTS FOR CERTAIN PUBLIC HOSPITALS.
+ Effective October 1, 2009, subsection (d) of section 701 of the Medicare, Medicaid, and SCHIP Benefits Improvement and Protection Act of 2000, as enacted into law by section 1(a)(6) of Public Law 106-554 (42 U.S.C. 1396r-4 note), is repealed.
+SEC. 14. EFFECTIVE DATE; COORDINATION OF FUNDING FOR FISCAL YEAR 2009.
+ (a) In General.--Unless otherwise specified, subject to subsection (b), the amendments made by this Act shall take effect on the date of enactment of this Act.
+ (b) Delay if State Legislation Required.--In the case of a State child health plan under title XXI of the Social Security Act or a waiver of such plan under section 1115 of such Act which the Secretary of Health and Human Services determines requires State legislation (other than legislation appropriating funds) in order for the plan or waiver to meet the additional requirements imposed by the amendments made by this Act, the State child health plan or waiver shall not be regarded as
+failing to comply with the requirements of such title XXI solely on the basis of its failure to meet such additional requirements before the first day of the first calendar quarter beginning after the close of the first regular session of the State legislature
+that begins after the date of the enactment of this Act. For purposes of the previous sentence, in the case of a State that has a 2-year legislative session, each year of such session shall be deemed to be a separate regular session of the State legislature.
+ (c) Coordination of Funding for Fiscal Year 2009.--Notwithstanding any other provision of law, insofar as funds have been appropriated under section 2104(a)(11) of the Social Security Act, as amended by section 201(a) of Public Law 110-173 and in effect on January 1, 2009, to provide allotments to States under title XXI of the Social Security Act for fiscal year 2009--
+ (1) any amounts that are so appropriated that are not so allotted and obligated before the date of the enactment of this Act are rescinded; and
+ (2) any amount provided for allotments under title XXI of such Act to a State under the amendments made by this Act for such fiscal year shall be reduced by the amount of such appropriations so allotted and obligated before such date.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

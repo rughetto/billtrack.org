@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="603" updated="2009-01-17T12:02:04-05:00">
+	<status><introduced date="1232082000" datetime="2009-01-16"/></status>
+
+	<introduced date="1232082000" datetime="2009-01-16"/>
+	<titles>
+		<title type="official" as="introduced">To require the conveyance of certain public land within the boundaries of Camp Williams, Utah, to support the training and readiness of the Utah National Guard.</title>
+	</titles>
+	<sponsor id="400029"/>
+	<cosponsors>
+		<cosponsor id="412270" joined="2009-01-16"/>
+		<cosponsor id="400255" joined="2009-01-16"/>
+	</cosponsors>
+	<actions>
+		<action date="1232082000" datetime="2009-01-16"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

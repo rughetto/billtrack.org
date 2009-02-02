@@ -1,0 +1,94 @@
+<bill session="111" type="h" number="25" updated="2009-01-14T08:22:39-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Fair Tax Act of 2009</title>
+		<title type="official" as="introduced">To promote freedom, fairness, and economic opportunity by repealing the income tax and other taxes, abolishing the Internal Revenue Service, and enacting a national sales tax to be administered primarily by the States.</title>
+	</titles>
+	<sponsor id="400242"/>
+	<cosponsors>
+		<cosponsor id="400627" joined="2009-01-06"/>
+		<cosponsor id="400006" joined="2009-01-06"/>
+		<cosponsor id="400273" joined="2009-01-09"/>
+		<cosponsor id="400068" joined="2009-01-06"/>
+		<cosponsor id="400017" joined="2009-01-06"/>
+		<cosponsor id="400051" joined="2009-01-06"/>
+		<cosponsor id="400220" joined="2009-01-06"/>
+		<cosponsor id="400099" joined="2009-01-06"/>
+		<cosponsor id="400626" joined="2009-01-06"/>
+		<cosponsor id="400570" joined="2009-01-06"/>
+		<cosponsor id="400655" joined="2009-01-06"/>
+		<cosponsor id="400089" joined="2009-01-06"/>
+		<cosponsor id="400175" joined="2009-01-06"/>
+		<cosponsor id="400404" joined="2009-01-06"/>
+		<cosponsor id="400151" joined="2009-01-06"/>
+		<cosponsor id="400441" joined="2009-01-06"/>
+		<cosponsor id="400284" joined="2009-01-13"/>
+		<cosponsor id="412230" joined="2009-01-06"/>
+		<cosponsor id="400247" joined="2009-01-06"/>
+		<cosponsor id="400005" joined="2009-01-06"/>
+		<cosponsor id="400388" joined="2009-01-06"/>
+		<cosponsor id="400221" joined="2009-01-06"/>
+		<cosponsor id="400196" joined="2009-01-09"/>
+		<cosponsor id="400440" joined="2009-01-06"/>
+		<cosponsor id="400116" joined="2009-01-06"/>
+		<cosponsor id="400049" joined="2009-01-06"/>
+		<cosponsor id="400315" joined="2009-01-06"/>
+		<cosponsor id="400046" joined="2009-01-06"/>
+		<cosponsor id="400652" joined="2009-01-06"/>
+		<cosponsor id="400405" joined="2009-01-06"/>
+		<cosponsor id="400654" joined="2009-01-06"/>
+		<cosponsor id="400288" joined="2009-01-08"/>
+		<cosponsor id="400055" joined="2009-01-06"/>
+		<cosponsor id="400141" joined="2009-01-06"/>
+		<cosponsor id="400010" joined="2009-01-06"/>
+		<cosponsor id="412191" joined="2009-01-06"/>
+		<cosponsor id="400392" joined="2009-01-06"/>
+		<cosponsor id="412255" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Taxation"/>
+		<term name="Administrative law and regulatory procedures"/>
+		<term name="Constitution and constitutional amendments"/>
+		<term name="Department of the Treasury"/>
+		<term name="Employment taxes"/>
+		<term name="Executive agency funding and structure"/>
+		<term name="Foreign and international corporations"/>
+		<term name="Fraud offenses"/>
+		<term name="Gambling"/>
+		<term name="Games and hobbies"/>
+		<term name="General taxation matters"/>
+		<term name="Government information and archives"/>
+		<term name="Government trust funds"/>
+		<term name="Income tax credits"/>
+		<term name="Interest and interest rates"/>
+		<term name="Intergovernmental relations"/>
+		<term name="Internal Revenue Service (IRS)"/>
+		<term name="Medicare"/>
+		<term name="Poverty and welfare assistance"/>
+		<term name="Sales and excise taxes"/>
+		<term name="Small business"/>
+		<term name="Social security and elderly assistance"/>
+		<term name="State and local government operations"/>
+		<term name="Tax administration and collection, taxpayers"/>
+		<term name="Tax reform and tax simplification"/>
+		<term name="Taxation of foreign income"/>
+		<term name="Transfer and inheritance taxes"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,40 @@
+<bill session="111" type="h" number="399" updated="2009-01-14T09:04:34-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="official" as="introduced">To direct the Secretary of Labor to make a grant to a public university to establish the Center for the Study of Women and Workplace Policy.</title>
+	</titles>
+	<sponsor id="400110"/>
+	<cosponsors>
+		<cosponsor id="400251" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Sponsor introductory remarks on measure. (CR E62)</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Labor and employment"/>
+		<term name="Education programs funding"/>
+		<term name="Employment discrimination and employee rights"/>
+		<term name="Government information and archives"/>
+		<term name="Higher education"/>
+		<term name="Policy sciences"/>
+		<term name="Sex, gender, sexual orientation discrimination"/>
+		<term name="Wages and earnings"/>
+		<term name="Women in business"/>
+		<term name="Women's employment"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

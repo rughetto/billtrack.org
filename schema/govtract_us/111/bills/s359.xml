@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="359" updated="2009-01-31T12:00:19-05:00">
+	<status><introduced date="1233291600" datetime="2009-01-30"/></status>
+
+	<introduced date="1233291600" datetime="2009-01-30"/>
+	<titles>
+		<title type="official" as="introduced">A bill to establish the Hawai'i Capital National Heritage Area, and for other purposes.</title>
+	</titles>
+	<sponsor id="300056"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233291600" datetime="2009-01-30"><text>Read twice and referred to the Committee on Energy and Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Energy and Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

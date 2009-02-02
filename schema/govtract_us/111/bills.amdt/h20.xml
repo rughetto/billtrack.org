@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="20" updated="2009-01-31T12:02:20-05:00">
+	<amends type="h" number="1" sequence="9"/>
+	<status date="1233170580" datetime="2009-01-28T15:23:00-05:00">pass</status>
+	<sponsor id="400321"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 9 printed in Part B of House Report 111-9 to insert the text of the Whistleblower Protection Enhancement Act (H.R. 985 in the 110th Congress) regarding protections for federal employees who report waste, fraud, and abuse.</description>
+	<purpose>An amendment numbered 9 printed in Part B of House Report 111-9 to insert the text of the Whistleblower Protection Enhancement Act (H.R. 985 in the 110th Congress) regarding protections for federal employees who report waste, fraud, and abuse.</purpose>
+	<actions>
+		<action date="1233169860" datetime="2009-01-28T15:11:00-05:00"><text>Amendment (A009) offered by Mr. Platts.</text><reference label="consideration" ref="CR H724-731"/><reference label="text" ref="CR H724-728"/></action>
+		<vote date="1233170580" datetime="2009-01-28T15:23:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Platts amendment Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

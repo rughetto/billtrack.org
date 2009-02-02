@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="77" updated="2009-02-02T12:01:05-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233118800" datetime="2009-01-28">fail</status>
+	<sponsor id="300075"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>To provide for the development of best practice recommendations and to ensure coverage of low income children.</description>
+	<purpose>To provide for the development of best practice recommendations and to ensure coverage of low income children.</purpose>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Amendment SA 77 proposed by Senator Murkowski.</text><reference label="consideration" ref="CR S976-978, S986"/><reference label="text" ref="CR S976"/></action>
+		<vote date="1233118800" datetime="2009-01-28" result="fail" how="roll" roll="23"><text>Amendment SA 77 not agreed to in Senate by Yea-Nay. 47 - 51. Record Vote Number: 23.</text></vote>
+
+	</actions>
+</amendment>

@@ -1,0 +1,56 @@
+<bill session="111" type="s" number="182" updated="2009-01-14T09:35:39-05:00">
+	<status><calendar date="1231477200" datetime="2009-01-09" /></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">Paycheck Fairness Act</title>
+		<title type="official" as="introduced">A bill to amend the Fair Labor Standards Act of 1938 to provide more effective remedies to victims of discrimination in the payment of wages on the basis of sex, and for other purposes.</title>
+	</titles>
+	<sponsor id="300022"/>
+	<cosponsors>
+		<cosponsor id="412242" joined="2009-01-08"/>
+		<cosponsor id="412325" joined="2009-01-08"/>
+		<cosponsor id="300065" joined="2009-01-08"/>
+		<cosponsor id="400272" joined="2009-01-08"/>
+		<cosponsor id="400050" joined="2009-01-08"/>
+		<cosponsor id="400064" joined="2009-01-08"/>
+		<cosponsor id="300059" joined="2009-01-08"/>
+		<cosponsor id="300018" joined="2009-01-08"/>
+		<cosponsor id="300082" joined="2009-01-08"/>
+		<cosponsor id="300011" joined="2009-01-08"/>
+		<cosponsor id="300001" joined="2009-01-08"/>
+		<cosponsor id="300093" joined="2009-01-08"/>
+		<cosponsor id="300076" joined="2009-01-08"/>
+		<cosponsor id="300042" joined="2009-01-08"/>
+		<cosponsor id="300060" joined="2009-01-08"/>
+		<cosponsor id="300038" joined="2009-01-08"/>
+		<cosponsor id="300066" joined="2009-01-08"/>
+		<cosponsor id="300073" joined="2009-01-08"/>
+		<cosponsor id="300087" joined="2009-01-08"/>
+		<cosponsor id="300034" joined="2009-01-08"/>
+		<cosponsor id="400357" joined="2009-01-09"/>
+		<cosponsor id="300081" joined="2009-01-08"/>
+		<cosponsor id="300051" joined="2009-01-08"/>
+		<cosponsor id="300100" joined="2009-01-09"/>
+		<cosponsor id="300064" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Introduced in the Senate. Read the first time. Placed on Senate Legislative Calendar under Read the First Time.</text></action>
+		<calendar date="1231477200" datetime="2009-01-09" ><text>Read the second time. Placed on Senate Legislative Calendar under General Orders. Calendar No. 15.</text></calendar>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

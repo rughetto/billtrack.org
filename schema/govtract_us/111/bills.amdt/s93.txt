@@ -1,0 +1,20 @@
+SA 93. Mrs. HUTCHISON (for herself and Mr. CORNYN) submitted an amendment intended to be proposed by her to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; as follows:
+
+ Beginning on page 42, strike line 20 and all that follows through page 43, line 11, and insert the following:
+ ``(e) Availability of Amounts Allotted.--
+ ``(1) IN GENERAL.--Except as provided in paragraphs (2) and (3), amounts allotted to a State pursuant to this section--
+ ``(A) for each of fiscal years 1998 through 2008, shall remain available for expenditure by the State through the end of the second succeeding fiscal year; and
+ ``(B) for fiscal year 2009 and each fiscal year thereafter, shall remain available for expenditure by the State through the end of the succeeding fiscal year.
+ ``(2) SPECIAL RULE EXTENDING AVAILABILITY FOR OUTREACH AND ENROLLMENT FOR CERTAIN STATES.--
+ ``(A) IN GENERAL.--In the case of a State described in subparagraph (B), any amounts allotted or redistributed to the State pursuant to this subsection for a fiscal year that are not expended by the State by March 31, 2009, (including any amounts available to the State for the first 2 quarters of fiscal year 2009 from the fiscal year 2009 allotment for the State or from amounts redistributed to the State under subsection (k) or allotted to the State under subsection (l) for such quarters),
+shall remain available for expenditure by the State through the end of fiscal year 2012, without regard to the limitation on expenditures under section 2105(c)(2)(A).
+ ``(B) STATE DESCRIBED.--A State is described in this subparagraph if the State is 1 of the 5 States with the highest percentage of children with no health insurance coverage (as determined by the Secretary on the basis of the most recent data available as of the date of enactment of the Children's Health Insurance Program Reauthorization Act of 2009).
+ ``(3) AVAILABILITY OF AMOUNTS REDISTRIBUTED.--Amounts redistributed to a State under subsection (f) shall be available for expenditure by the State through the end of the fiscal year in which they are redistributed.''.
+ On page 38, line 18, insert ``subject to paragraph (5),'' after ``(3)(A),''.
+ On page 42, between lines 15 and 16, insert the following:
+ ``(5) AUTHORITY TO MODIFY REQUIRED NUMBER OF ENROLLMENT AND RETENTION PROVISIONS.--Upon the request of a State in which the percentage of children with no health insurance coverage is above the national average (as determined by the Secretary on the basis of the most recent data available as of the date of enactment of the Children's Health Insurance Program Reauthorization Act of 2009), the Secretary may reduce the number of enrollment and retention provisions that the State must satisfy
+in order to meet the conditions of paragraph (4) for a fiscal year, but not below 2.''.
+ On page 84, line 20, insert ``The Secretary shall prioritize implementation of such campaign in States in which the percentage of children with no health insurance coverage is above the national average (as determined by the Secretary on the basis of the most recent data available as of the date of enactment of the Children's Health Insurance Program Reauthorization Act of 2009).'' after ``title XIX.''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 29, 2009.)

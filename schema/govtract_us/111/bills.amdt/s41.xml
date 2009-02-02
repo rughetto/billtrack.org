@@ -1,0 +1,16 @@
+<amendment session="111" chamber="s" number="41" updated="2009-02-02T12:00:23-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233118800" datetime="2009-01-28">fail</status>
+	<sponsor id="300048"/>
+	<offered date="1233032400" datetime="2009-01-27"/>
+	<description>To strike the option to provide coverage to legal immigrants and increase the enrollment of uninsured low income American children.</description>
+	<purpose>To strike the option to provide coverage to legal immigrants and increase the enrollment of uninsured low income American children.</purpose>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Amendment SA 41 proposed by Senator Grassley to Amendment SA 39.</text><reference label="consideration" ref="CR S854-857"/><reference label="text" ref="CR S854"/></action>
+		<action date="1233032400" datetime="2009-01-27"><text>Amendment SA 41 modified to reflect a first degree status by Unanimous Consent.</text></action>
+		<action date="1233032400" datetime="2009-01-27"><text>Amendment SA 41 proposed by Senator Grassley.</text></action>
+		<action date="1233118800" datetime="2009-01-28"><text>Considered by Senate.</text><reference label="consideration" ref="CR S950, S954"/></action>
+		<vote date="1233118800" datetime="2009-01-28" result="fail" how="Voice Vote"><text>Amendment SA 41 not agreed to in Senate by Voice Vote.</text></vote>
+
+	</actions>
+</amendment>

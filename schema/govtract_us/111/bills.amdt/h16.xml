@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="16" updated="2009-01-31T12:02:15-05:00">
+	<amends type="h" number="1" sequence="5"/>
+	<status date="1233177000" datetime="2009-01-28T17:10:00-05:00">fail</status>
+	<sponsor id="400441"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 5 printed in Part B of House Report 111-9 to strike the appropriations provisions from the bill.</description>
+	<purpose>An amendment numbered 5 printed in Part B of House Report 111-9 to strike the appropriations provisions from the bill.</purpose>
+	<actions>
+		<action date="1233167700" datetime="2009-01-28T14:35:00-05:00"><text>Amendment (A005) offered by Mr. Neugebauer.</text><reference label="consideration" ref="CR H720-721, H743-744"/><reference label="text" ref="CR H720"/></action>
+		<vote date="1233177000" datetime="2009-01-28T17:10:00-05:00" result="fail" how="roll" roll="42"><text>On agreeing to the Neugebauer amendment (A005) Failed by recorded vote: 134 - 302 (Roll no. 42).</text></vote>
+
+	</actions>
+</amendment>

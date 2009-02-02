@@ -1,0 +1,10 @@
+SA 49. Mr. COBURN submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+
+ Strike section 602 and insert the following:
+SEC. 602. LIMITATION ON EXPANSION. 
+ Section 2105(c)(8) (42 U.S.C. 1397ee(c)(8)), as added by section 114(a), is amended by adding at the end the following:
+ ``(C) REQUIREMENT.--Notwithstanding subparagraphs (A) and (B), on or after the date of enactment of this subparagraph, the Secretary may not approve a State plan amendment or waiver for child health assistance or health benefits to children whose family income exceeds 300 percent of the poverty line unless the improper payment rate for Medicaid and CHIP (as measured by the payment error rate measurement (PERM)) is equal to or is less than 3.5 percent.''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

@@ -1,0 +1,33 @@
+<bill session="111" type="hr" number="60" updated="2009-01-15T12:11:26-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">Recognizing and commending University of Oklahoma quarterback Sam Bradford for winning the 2008 Heisman Trophy and for his academic and athletic accomplishments.</title>
+	</titles>
+	<sponsor id="412230"/>
+	<cosponsors>
+		<cosponsor id="400645" joined="2009-01-14"/>
+		<cosponsor id="400247" joined="2009-01-14"/>
+		<cosponsor id="400077" joined="2009-01-14"/>
+		<cosponsor id="400392" joined="2009-01-14"/>
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

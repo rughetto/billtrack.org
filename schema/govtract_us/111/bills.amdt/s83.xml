@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="83" updated="2009-02-02T12:01:12-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233205200" datetime="2009-01-29">fail</status>
+	<sponsor id="300048"/>
+	<offered date="1233205200" datetime="2009-01-29"/>
+	<description>In the nature of a substitute.</description>
+	<purpose>In the nature of a substitute.</purpose>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Amendment SA 83 proposed by Senator Grassley.</text><reference label="consideration" ref="CR S1025-1029, S1030-1031, S1036"/></action>
+		<vote date="1233205200" datetime="2009-01-29" result="fail" how="Voice Vote"><text>Amendment SA 83 not agreed to in Senate by Voice Vote.</text></vote>
+
+	</actions>
+</amendment>

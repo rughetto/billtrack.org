@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="223" updated="2009-01-14T12:01:00-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Farm Security and Rural Investment Act of 2002 to further the adoption of technologies developed by the Department of Agriculture, to encourage small business partnerships in the development of energy through biorefineries, and for other purposes.</title>
+	</titles>
+	<sponsor id="300042"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Agriculture, Nutrition, and Forestry" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,32 @@
+<bill session="111" type="s" number="336" updated="2009-01-28T12:01:09-05:00">
+	<status><calendar date="1233032400" datetime="2009-01-27" /></status>
+
+	<introduced date="1233032400" datetime="2009-01-27"/>
+	<titles>
+		<title type="official" as="introduced">An original bill making supplemental appropriations for job preservation and creation, infrastructure investment, energy efficiency and science, assistance to the unemployed, and State and local fiscal stabilization, for the fiscal year ending September 30, 2009, and for other purposes.</title>
+	</titles>
+	<sponsor id="300056"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Committee on Appropriations. Original measure reported to Senate by Senator Inouye. With written report No. 111-3.</text></action>
+		<calendar date="1233032400" datetime="2009-01-27" ><text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 19.</text></calendar>
+		<calendar date="1233032400" datetime="2009-01-27" ><text>Committee on Appropriations ordered to be reported an original measure.</text></calendar>
+	</actions>
+	<committees>
+		<committee name="Senate Appropriations" subcommittee="" activity="Origin, Reporting, Markup" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

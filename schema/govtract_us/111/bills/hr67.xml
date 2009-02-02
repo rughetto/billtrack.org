@@ -1,0 +1,35 @@
+<bill session="111" type="hr" number="67" updated="2009-01-16T12:10:13-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">Recognizing and commending the National Aeronautics and Space Administration (NASA), the Jet Propulsion Laboratory (JPL), and Cornell University for the success of the Mars Exploration Rovers, Spirit and Opportunity, on the 5th anniversary of the Rovers' successful landing.</title>
+	</titles>
+	<sponsor id="400115"/>
+	<cosponsors>
+		<cosponsor id="400057" joined="2009-01-15"/>
+		<cosponsor id="400343" joined="2009-01-15"/>
+		<cosponsor id="400089" joined="2009-01-15"/>
+		<cosponsor id="400178" joined="2009-01-15"/>
+		<cosponsor id="400361" joined="2009-01-15"/>
+		<cosponsor id="400437" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Science and Technology.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Science and Technology" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

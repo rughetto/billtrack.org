@@ -1,0 +1,13 @@
+SA 43. Mr. DeMINT submitted an amendment intended to be proposed to amendment SA 39 proposed by Mr. REID (for Mr. BAUCUS) to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; as follows:
+
+ At the appropriate place, add the following:
+SEC. __. REQUIRED COST-SHARING FOR HIGHER INCOME INDIVIDUALS.
+ Section 2103(e) (42 U.S.C. 1397cc(e)) is amended--
+ (1) in paragraph (3)(B), by striking ``and (2)'' and inserting ``, (2), and (5)'';
+ (2) in paragraph (4), by striking ``Nothing'' and inserting ``Except as provided in paragraph (5), nothing''; and
+ (3) by adding at the end the following new paragraph:
+ ``(5) REQUIRED COST-SHARING FOR HIGHER INCOME INDIVIDUALS.--Subject to paragraphs (1)(B) and (2), a State child health plan shall impose premiums, deductibles, coinsurance, and other cost-sharing (regardless of whether such plan is implemented under this title, title XIX, or both) for any targeted low-income child or other individual enrolled in the plan whose family income exceeds 200 percent of the poverty line in a manner that is consistent with the authority and limitations for imposing
+cost-sharing under section 1916A.''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

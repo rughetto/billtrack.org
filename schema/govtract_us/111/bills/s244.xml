@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="244" updated="2009-01-15T12:02:09-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">A bill to expand programs of early childhood home visitation that increase school readiness, child abuse and neglect prevention, and early identification of developmental and health delays, including potential mental health concerns, and for other purposes.</title>
+	</titles>
+	<sponsor id="300010"/>
+	<cosponsors>
+		<cosponsor id="300022" joined="2009-01-14"/>
+		<cosponsor id="300076" joined="2009-01-14"/>
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Health, Education, Labor, and Pensions" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

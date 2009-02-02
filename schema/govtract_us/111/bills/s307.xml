@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="307" updated="2009-01-23T12:01:55-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title XVIII of the Social Security Act to provide flexibility in the manner in which beds are counted for purposes of determining whether a hospital may be designated as a critical access hospital under the Medicare program and to exempt from the critical access hospital inpatient bed limitation the number of beds provided for certain veterans.</title>
+	</titles>
+	<sponsor id="300100"/>
+	<cosponsors>
+		<cosponsor id="300030" joined="2009-01-22"/>
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Sponsor introductory remarks on measure. (CR S791)</text></action>
+		<action date="1232600400" datetime="2009-01-22"><text>Read twice and referred to the Committee on Finance.</text><reference label="text of measure as introduced" ref="CR S792"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

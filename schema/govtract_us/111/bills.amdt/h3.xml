@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="3" updated="2009-01-22T12:05:35-05:00">
+	<amends type="h" number="384" sequence="2"/>
+	<status date="1232079240" datetime="2009-01-15T12:14:00-05:00">pass</status>
+	<sponsor id="400663"/>
+	<offered date="1231995600" datetime="2009-01-15"/>
+	<description>An amendment numbered 2 printed in House Report 111-3 to provide a sense of Congress stating that TARP participants, who receive from future TARP funds, should not initiate a foreclosure proceeding or foreclosure sale on any principal homeowner until the new systematic loan modification plan is implemented and deemed fully operational by the Secretary and Chair of FDIC.</description>
+	<purpose>An amendment numbered 2 printed in House Report 111-3 to provide a sense of Congress stating that TARP participants, who receive from future TARP funds, should not initiate a foreclosure proceeding or foreclosure sale on any principal homeowner until the new systematic loan modification plan is implemented and deemed fully operational by the Secretary and Chair of FDIC.</purpose>
+	<actions>
+		<action date="1232078520" datetime="2009-01-15T12:02:00-05:00"><text>Amendment (A002) offered by Ms. Matsui.</text><reference label="consideration" ref="CR H355-357"/><reference label="text" ref="CR H355-356"/></action>
+		<vote date="1232079240" datetime="2009-01-15T12:14:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Matsui amendment (A002) Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

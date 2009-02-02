@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="278" updated="2009-01-14T08:51:00-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">OLC Reporting Act of 2009</title>
+		<title type="official" as="introduced">To ensure that Congress is notified when the Department of Justice determines that the Executive Branch is not bound by a statute.</title>
+	</titles>
+	<sponsor id="400280"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the House Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

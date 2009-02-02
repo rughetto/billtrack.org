@@ -1,0 +1,35 @@
+SA 61. Mr. BINGAMAN submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ On page 130, strike lines 8 through 13, and insert the following:
+ (d) Applicability; General Effective Date.--
+ (1) CONDITION FOR APPLICATION.--
+ (A) IN GENERAL.--
+ (i) GENERAL EFFECTIVE DATE.--Subject to clause (ii), except as provided in subparagraph (B), the amendments made by this section shall take effect on January 1, 2010.
+ (ii) CERTIFICATION REQUIREMENT.--Notwithstanding any other provision of law, no State with a State plan under Medicaid or a State child health plan under CHIP shall be required to comply with section 1902(a)(46)(B) or 2105(c)(9) of the Social Security Act before the date on which the Secretary and the Commissioner of Social Security jointly certify that a significant number of United States citizens, including citizen children, who are eligible for coverage under such plans will not lose
+that coverage as a result of the application of such requirements. For purposes of the preceding sentence, the Secretary and the Commissioner of Social Security shall determine what is a significant number of such citizens on the basis of the best estimates available of the number of non-citizens that the application
+of such requirements may prevent from fraudulently obtaining assistance under such plans, compared to the best estimates available of the number of United States citizens that may be inappropriately disenrolled from, or prevented from enrolling in, such plans as a result of the application of such requirements.
+ (iii) EXTENSION OF PRESCRIPTION DRUG DISCOUNTS TO ENROLLEES OF MEDICAID MANAGED CARE ORGANIZATIONS.--Section 1903(m)(2)(A) (42 U.S.C. 1396b(m)(2)(A)) is amended--
+ (I) IN GENERAL.--
+ (aa) in clause (xi), by striking ``and'' at the end;
+ (bb) in clause (xii), by striking the period at the end and inserting ``; and''; and
+ (cc) by adding at the end the following:
+ ``(xiii) such contract provides that (I) payment for covered outpatient drugs dispensed to individuals eligible for medical assistance who are enrolled with the entity shall be subject to the same rebate required by the agreement entered into under section 1927 as the State is subject to and that the State shall allow the entity to collect such rebates from manufacturers, and (II) capitation rates paid to the entity shall be based on actual cost experience related to rebates and subject to the
+Federal regulations requiring actuarially sound rates.''.
+ (II) CONFORMING AMENDMENTS.--Section 1927 (42 U.S.C. 1396r-8) is amended--
+ (aa) in subsection (d)--
+ (AA) in paragraph (1), by adding at the end the following:
+ ``(C) Notwithstanding the subparagraphs (A) and (B)--
+ ``(i) a medicaid managed care organization with a contract under section 1903(m) may exclude or otherwise restrict coverage of a covered outpatient drug on the basis of policies or practices of the organization, such as  those affecting utilization management, formulary adherence, and cost sharing or dispute resolution, in lieu of any State policies or practices relating to the exclusion or restriction of coverage of such drugs; and
+ ``(ii) nothing in this section or paragraph (2)(A)(xiii) of section 1903(m) shall be construed as requiring a medicaid managed care organization with a contract under such section to maintain the same such polices and practices as those established by the State for purposes of individuals who receive medical assistance for covered outpatient drugs on a fee-for service basis.''; and
+ (bb) in paragraph (4), by inserting after subparagraph (E) the following:
+ ``(F) Notwithstanding the preceding subparagraphs of this paragraph, any formulary established by medicaid managed care organization with a contract under section 1903(m) may be based on positive inclusion of drugs selected by a formulary committee consisting of physicians, pharmacists, and other individuals with appropriate clinical experience as long as drugs excluded from the formulary are available through prior authorization, as described in paragraph (5).''; and
+ (cc) in subsection (j), by striking paragraph (1) and inserting the following:
+ ``(1) Covered outpatients drugs are not subject to the requirements of this section if such drugs are--
+ ``(A) dispensed by a health maintenance organization other than a medicaid managed care organization with a contract under section 1903(m); and
+ ``(B) subject to discounts under section 340B of the Public Health Service Act.''.
+ (III) EFFECTIVE DATE.--The amendments made by this subsection take effect on the date of enactment of this Act and apply to rebate agreements entered into or renewed under section 1927 of the Social Security Act (42 U.S.C. 1396r-8) on or after such date.
+ (iv) INCREASED FUNDING FOR THE MEDICAID IMPROVEMENT FUND.--[Review with CBO to specify numbers and whether savings all go to 2014 or also to 2015 through 2018]Section 1941(b)(1)(A) (42 U.S.C. 1936w-1(b)(1)(A)) is amended by striking ``$100,000,000'' and inserting ``$__XX''.
+
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

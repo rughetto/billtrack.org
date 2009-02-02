@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="145" updated="2009-01-14T08:36:09-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Online Job Training Act of 2009</title>
+		<title type="official" as="introduced">To amend the Workforce Investment Act of 1998 to include workforce investment programs on the Internet.</title>
+	</titles>
+	<sponsor id="400184"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

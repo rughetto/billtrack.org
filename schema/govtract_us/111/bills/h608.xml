@@ -1,0 +1,40 @@
+<bill session="111" type="h" number="608" updated="2009-01-17T12:02:37-05:00">
+	<status><introduced date="1232082000" datetime="2009-01-16"/></status>
+
+	<introduced date="1232082000" datetime="2009-01-16"/>
+	<titles>
+		<title type="official" as="introduced">To authorize the Board of Regents of the Smithsonian Institution to carry out certain construction projects, and for other purposes.</title>
+	</titles>
+	<sponsor id="400299"/>
+	<cosponsors>
+		<cosponsor id="400663" joined="2009-01-16"/>
+		<cosponsor id="400206" joined="2009-01-16"/>
+		<cosponsor id="400273" joined="2009-01-16"/>
+		<cosponsor id="400295" joined="2009-01-16"/>
+		<cosponsor id="400021" joined="2009-01-16"/>
+		<cosponsor id="400189" joined="2009-01-16"/>
+		<cosponsor id="400047" joined="2009-01-16"/>
+		<cosponsor id="400108" joined="2009-01-16"/>
+	</cosponsors>
+	<actions>
+		<action date="1232082000" datetime="2009-01-16"><text>Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on House Administration, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1232082000" datetime="2009-01-16"><text>Referred to House Transportation and Infrastructure</text></action>
+		<action date="1232082000" datetime="2009-01-16"><text>Referred to House House Administration</text></action>
+	</actions>
+	<committees>
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Administration" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

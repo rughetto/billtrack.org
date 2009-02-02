@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="640" updated="2009-01-23T12:04:26-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">To require the President to transmit to Congress a report on every program of the Federal Government that authorizes or requires the gathering of information on United States persons in the United States, established whether in whole or in part pursuant to the &quot;all necessary and appropriate force&quot; clause contained in the Authorization for Use of Military Force (Public Law 107-40).</title>
+	</titles>
+	<sponsor id="400134"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Referred to the House Committee on Foreign Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="248" updated="2009-01-15T12:02:59-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">A bill to prohibit the use of certain interrogation techniques and for other purposes.</title>
+	</titles>
+	<sponsor id="300010"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Sponsor introductory remarks on measure. (CR S397-398)</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Read twice and referred to the Select Committee on Intelligence.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Intelligence (Select)" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

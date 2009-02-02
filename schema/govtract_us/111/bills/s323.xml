@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="323" updated="2009-01-27T12:01:31-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">A bill to provide infrastructure, nutrition, and housing assistance to rural areas of the United States.</title>
+	</titles>
+	<sponsor id="300026"/>
+	<cosponsors>
+		<cosponsor id="300068" joined="2009-01-26"/>
+		<cosponsor id="300077" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Read twice and referred to the Committee on Finance.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

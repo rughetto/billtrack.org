@@ -1,0 +1,44 @@
+<bill session="111" type="s" number="160" updated="2009-01-14T09:34:31-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">District of Columbia House Voting Rights Act of 2009</title>
+		<title type="official" as="introduced">A bill to provide the District of Columbia a voting seat and the State of Utah an additional seat in the House of Representatives.</title>
+	</titles>
+	<sponsor id="300067"/>
+	<cosponsors>
+		<cosponsor id="300065" joined="2009-01-06"/>
+		<cosponsor id="300059" joined="2009-01-06"/>
+		<cosponsor id="300022" joined="2009-01-06"/>
+		<cosponsor id="412243" joined="2009-01-07"/>
+		<cosponsor id="300042" joined="2009-01-06"/>
+		<cosponsor id="300052" joined="2009-01-06"/>
+		<cosponsor id="300060" joined="2009-01-06"/>
+		<cosponsor id="300038" joined="2009-01-06"/>
+		<cosponsor id="300063" joined="2009-01-07"/>
+		<cosponsor id="300073" joined="2009-01-12"/>
+		<cosponsor id="300034" joined="2009-01-06"/>
+		<cosponsor id="400357" joined="2009-01-06"/>
+		<cosponsor id="300019" joined="2009-01-07"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Sponsor introductory remarks on measure. (CR S141-142)</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text><reference label="text of measure as introduced" ref="CR S142-143"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Homeland Security and Governmental Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

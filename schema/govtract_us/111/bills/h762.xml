@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="762" updated="2009-01-29T12:05:40-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">To validate final patent number 27-2005-0081, and for other purposes.</title>
+	</titles>
+	<sponsor id="412218"/>
+	<cosponsors>
+		<cosponsor id="400024" joined="2009-01-28"/>
+		<cosponsor id="412318" joined="2009-01-28"/>
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>
