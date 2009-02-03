@@ -24,7 +24,8 @@ dependency "rughetto-merb_paperclip",             :require_as => "merb_paperclip
 dependency "rughetto-rear_views",                 :require_as => "rear_views"
 dependency "rughetto-sunlight",                   :require_as => "sunlight"
 dependency "collectiveidea-awesome_nested_set",   :require_as => "awesome_nested_set"
-  # need to add something to the before_load in init to make sure the library is seen in AR
+  # ActiveRecord include also added to init.rb to get nested sets working
+dependency "hpricot"  
 
 # testing factories!
 dependency "notahat-machinist",         :require_as => "machinist"

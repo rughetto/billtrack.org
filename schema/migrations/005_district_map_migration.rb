@@ -4,7 +4,7 @@ class DistrictMapMigration < ActiveRecord::Migration
       t.integer  :district_id
       t.string  :zip_main
       t.string  :zip_plus_four
-      t.boolean :complex
+      t.boolean :complex, :default => false
       t.timestamps
     end
     add_index :district_maps, [:district_id, :zip_main], :name => :district_zip_main
