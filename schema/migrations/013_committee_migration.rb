@@ -1,12 +1,18 @@
 class CommitteeMigration < ActiveRecord::Migration
   def self.up
     create_table :committees do |t|
-
-      t.timestamps
+      t.string  :name
+      t.string  :url
+      t.string  :code
+      t.integer :parent_id
     end
+    add_index :committees, [:id], :name => "committee_id"
+    add_index :committees, [:parent_id], :name => "committee_parents"
   end
 
   def self.down
+    remove_index :committees, :name => "committee_id"
+    remove_index :committees, :name => "committee_parents"
     drop_table :committees
   end
 end
