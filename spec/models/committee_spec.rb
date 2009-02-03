@@ -1,12 +1,10 @@
 require File.join( File.dirname(__FILE__), '..', "spec_helper" )
 
-# load politicians etc from the dump
-system "mysql -u root billtrack_test < #{Merb.root}/schema/dump.sql"
-
 describe Committee do
 
   describe "import" do
     before(:all) do
+      Politician.load_from_file
       Committee.delete_all
       CommitteeMember.delete_all
       @file = Hpricot.parse(File.open("#{Merb.root}/spec/xml/committees.xml"))

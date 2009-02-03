@@ -155,7 +155,7 @@ CREATE TABLE `committee_members` (
   `role` varchar(255) default NULL,
   PRIMARY KEY  (`id`),
   KEY `committee_member_ids` (`committee_id`,`politician_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=277 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=367 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `committee_members`
@@ -163,7 +163,7 @@ CREATE TABLE `committee_members` (
 
 LOCK TABLES `committee_members` WRITE;
 /*!40000 ALTER TABLE `committee_members` DISABLE KEYS */;
-INSERT INTO `committee_members` VALUES (231,31,262,'Tom Harkin','Chairman'),(232,31,340,'Leahy, Patrick J.',NULL),(233,31,167,'Conrad, Kent',NULL),(234,31,75,'Baucus, Max',NULL),(235,31,NULL,'Blanche L. Lincoln',NULL),(236,31,533,'Stabenow, Debbie',NULL),(237,31,423,'Nelson, E.  Benjamin',NULL),(238,31,116,'Brown, Sherrod  ',NULL),(239,31,144,'Casey, Robert P.',NULL),(240,31,324,'Klobuchar, Amy ',NULL),(241,31,80,'Michael F. Bennet',NULL),(242,31,239,'Kirsten E. Gillibrand',NULL),(243,31,149,'Chambliss, Saxby',NULL),(244,31,357,'Lugar, Richard G.',NULL),(245,31,160,'Cochran, Thad',NULL),(246,31,381,'McConnell, Mitch',NULL),(247,31,468,'Roberts, Pat',NULL),(248,31,297,'Johanns, Mike ',NULL),(249,31,247,'Grassley, Chuck',NULL),(250,31,549,'Thune, John ',NULL),(251,31,NULL,'Lincoln, Blanche L.',NULL),(252,32,75,'Baucus, Max',NULL),(253,32,167,'Conrad, Kent',NULL),(254,32,533,'Stabenow, Debbie',NULL),(255,32,423,'Nelson, E.  Benjamin',NULL),(256,32,144,'Casey, Robert P.',NULL),(257,32,381,'McConnell, Mitch',NULL),(258,32,468,'Roberts, Pat',NULL),(259,32,549,'Thune, John ',NULL),(260,33,167,'Conrad, Kent',NULL),(261,33,423,'Nelson, E.  Benjamin',NULL),(262,33,116,'Brown, Sherrod  ',NULL),(263,33,144,'Casey, Robert P.',NULL),(264,33,324,'Klobuchar, Amy ',NULL),(265,33,549,'Thune, John ',NULL),(266,33,357,'Lugar, Richard G.',NULL),(267,33,247,'Grassley, Chuck',NULL),(268,34,340,'Leahy, Patrick J.',NULL),(269,34,NULL,'Lincoln, Blanche L.',NULL),(270,34,533,'Stabenow, Debbie',NULL),(271,34,116,'Brown, Sherrod  ',NULL),(272,34,144,'Casey, Robert P.',NULL),(273,34,324,'Klobuchar, Amy ',NULL),(274,34,357,'Lugar, Richard G.',NULL),(275,34,160,'Cochran, Thad',NULL),(276,34,381,'McConnell, Mitch',NULL);
+INSERT INTO `committee_members` VALUES (322,39,262,'Tom Harkin','Chairman'),(323,39,340,'Leahy, Patrick J.',NULL),(324,39,167,'Conrad, Kent',NULL),(325,39,75,'Baucus, Max',NULL),(326,39,348,'Lincoln, Blanche L.',NULL),(327,39,533,'Stabenow, Debbie',NULL),(328,39,423,'Nelson, E.  Benjamin',NULL),(329,39,116,'Brown, Sherrod  ',NULL),(330,39,144,'Casey, Robert P.',NULL),(331,39,324,'Klobuchar, Amy ',NULL),(332,39,80,'Michael F. Bennet',NULL),(333,39,239,'Kirsten E. Gillibrand',NULL),(334,39,149,'Chambliss, Saxby',NULL),(335,39,357,'Lugar, Richard G.',NULL),(336,39,160,'Cochran, Thad',NULL),(337,39,381,'McConnell, Mitch',NULL),(338,39,468,'Roberts, Pat',NULL),(339,39,297,'Johanns, Mike ',NULL),(340,39,247,'Grassley, Chuck',NULL),(341,39,549,'Thune, John ',NULL),(342,40,75,'Baucus, Max',NULL),(343,40,167,'Conrad, Kent',NULL),(344,40,533,'Stabenow, Debbie',NULL),(345,40,423,'Nelson, E.  Benjamin',NULL),(346,40,144,'Casey, Robert P.',NULL),(347,40,381,'McConnell, Mitch',NULL),(348,40,468,'Roberts, Pat',NULL),(349,40,549,'Thune, John ',NULL),(350,41,167,'Conrad, Kent',NULL),(351,41,423,'Nelson, E.  Benjamin',NULL),(352,41,116,'Brown, Sherrod  ',NULL),(353,41,144,'Casey, Robert P.',NULL),(354,41,324,'Klobuchar, Amy ',NULL),(355,41,549,'Thune, John ',NULL),(356,41,357,'Lugar, Richard G.',NULL),(357,41,247,'Grassley, Chuck',NULL),(358,42,340,'Leahy, Patrick J.',NULL),(359,42,348,'Lincoln, Blanche L.',NULL),(360,42,533,'Stabenow, Debbie',NULL),(361,42,116,'Brown, Sherrod  ',NULL),(362,42,144,'Casey, Robert P.',NULL),(363,42,324,'Klobuchar, Amy ',NULL),(364,42,357,'Lugar, Richard G.',NULL),(365,42,160,'Cochran, Thad',NULL),(366,42,381,'McConnell, Mitch',NULL);
 /*!40000 ALTER TABLE `committee_members` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -182,7 +182,7 @@ CREATE TABLE `committees` (
   PRIMARY KEY  (`id`),
   KEY `committee_id` (`id`),
   KEY `committee_parents` (`parent_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=35 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `committees`
@@ -190,7 +190,7 @@ CREATE TABLE `committees` (
 
 LOCK TABLES `committees` WRITE;
 /*!40000 ALTER TABLE `committees` DISABLE KEYS */;
-INSERT INTO `committees` VALUES (31,'Senate Committee on Agriculture, Nutrition, and Forestry','senate','http://agriculture.senate.gov/','SSAF',NULL),(32,'Domestic and Foreign Marketing, Inspection, and Plant and Animal Health ',NULL,NULL,'8',31),(33,'Energy, Science and Technology',NULL,NULL,'9',31),(34,'Nutrition and Food Assistance, Sustainable and Organic Agriculture, and General Legislation',NULL,NULL,'10',31);
+INSERT INTO `committees` VALUES (39,'Senate Committee on Agriculture, Nutrition, and Forestry','senate','http://agriculture.senate.gov/','SSAF',NULL),(40,'Domestic and Foreign Marketing, Inspection, and Plant and Animal Health ',NULL,NULL,'8',39),(41,'Energy, Science and Technology',NULL,NULL,'9',39),(42,'Nutrition and Food Assistance, Sustainable and Organic Agriculture, and General Legislation',NULL,NULL,'10',39);
 /*!40000 ALTER TABLE `committees` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -441,4 +441,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2009-02-03 21:32:55
+-- Dump completed on 2009-02-03 22:09:55
