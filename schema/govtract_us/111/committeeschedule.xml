@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<committee-schedule>
+  <meeting date_string="Feb 3, 2009" time_string="09:30 am" datetime="2009-02-03T09:00:00-05:00" where="s" committee="Senate Veterans' Affairs">
+    <subject>Hearings to examine veterans' disability compensation, focusing on the appeals process.</subject>
+  </meeting>
+  <meeting date_string="Feb 4, 2009" time_string="02:00 pm" datetime="2009-02-04T02:00:00-05:00" where="s" committee="Senate Banking, Housing, and Urban Affairs">
+    <subject>Hearings to examine the United States financial regulatory system.</subject>
+  </meeting>
+  <meeting date_string="Feb 4, 2009" time_string="02:00 pm" datetime="2009-02-04T02:00:00-05:00" where="s" committee="Senate Foreign Relations">
+    <subject>To receive a closed briefing on North Korea.</subject>
+  </meeting>
+  <meeting date_string="Feb 5, 2009" time_string="12:00 am" datetime="2009-02-05T12:00:00-05:00" where="s" committee="Senate Foreign Relations">
+    <subject>Organizational business meeting to consider committee's rules of procedure, and subcommittee membership and jurisdiction for the 111th Congress.</subject>
+  </meeting>
+  <meeting date_string="Feb 5, 2009" time_string="10:00 am" datetime="2009-02-05T10:00:00-05:00" where="s" committee="Senate Banking, Housing, and Urban Affairs">
+    <subject>Hearings to examine the Troubled Asset Relief Program (TARP), focusing on oversight of the financial rescue package.</subject>
+  </meeting>
+  <meeting date_string="Feb 5, 2009" time_string="10:00 am" datetime="2009-02-05T10:00:00-05:00" where="s" committee="Senate Health, Education, Labor, and Pensions">
+    <subject>Hearings to examine implementing best patient care practices.</subject>
+  </meeting>
+  <meeting date_string="Feb 5, 2009" time_string="10:00 am" datetime="2009-02-05T10:00:00-05:00" where="s" committee="Senate Judiciary">
+    <subject>Hearings to examine the nomination of David W. Ogden, of Virginia, to be Deputy Attorney General.</subject>
+  </meeting>
+  <meeting date_string="Feb 5, 2009" time_string="11:00 am" datetime="2009-02-05T11:00:00-05:00" where="s" committee="Senate Indian Affairs">
+    <subject>Organizational business meeting to consider the committee's selection of Chairman and Vice Chairman, rules of procedure for the 111th Congress, and funding resolution; to be followed by an oversight hearing to examine advancing Indian health care.</subject>
+  </meeting>
+  <meeting date_string="Feb 5, 2009" time_string="02:30 pm" datetime="2009-02-05T02:00:00-05:00" where="s" committee="Senate Intelligence (Select)">
+    <subject>Hearings to examine the nomination of Leon Panetta, to be Director of the Central Intelligence Agency.</subject>
+  </meeting>
+  <meeting date_string="Feb 24, 2009" time_string="10:00 am" datetime="2009-02-24T10:00:00-05:00" where="s" committee="Senate Banking, Housing, and Urban Affairs">
+    <subject>Hearings to examine the semiannual monetary policy report to the Congress.</subject>
+  </meeting>
+  <meeting date_string="Feb 4, 2009" time_string="2 p.m." datetime="2009-02-04T14:00:00-05:00" where="h" committee="House Financial Services">
+    <subject>To mark up H.R. 703, To promote bank liquidity and lending through deposit insurance, the HOPE for Homeowners Program, and other enhancements</subject>
+    <bill session="111" type="h" number="703"/>
+  </meeting>
+  <meeting date_string="Feb 4, 2009" time_string="10 a.m." datetime="2009-02-04T10:00:00-05:00" where="h" committee="House Transportation and Infrastructure">
+    <subject>Subcommittee Water Resources and Environment, hearing on Sustainable Wastewater Management</subject>
+  </meeting>
+</committee-schedule>

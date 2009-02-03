@@ -20,5 +20,5 @@ class LegislativeIssue < ActiveRecord::Base
       end  
     end
   end
-    
+
 end
