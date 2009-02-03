@@ -1,7 +1,51 @@
 require File.join( File.dirname(__FILE__), '..', "spec_helper" )
 
+# load politicians etc from the dump
+system "mysql -u root billtrack_test < #{Merb.root}/schema/dump.sql"
+
 describe Committee do
 
-  it "should have specs"
+  describe "import" do
+    before(:all) do
+      Committee.delete_all
+      CommitteeMember.delete_all
+      @file = Hpricot.parse(File.open("#{Merb.root}/spec/xml/committees.xml"))
+      Committee.stub!(:hpricoted).and_return(@file)
+      Committee.batch_import
+    end
+    
+    it "should batch_import all from file" do
+      Committee.count.should == 4
+    end
+    
+    it "should update rather than create existing records" do
+      Committee.count.should == 4
+      Committee.batch_import # reimport
+      Committee.count.should == 4
+    end
+      
+    it "should create the right number of subcommitees" do
+      committee = Committee.first
+      committee.children.size == 3
+    end
+      
+    it "should create the right number of members" do
+      CommitteeMember.count.should == 45
+      Committee.first.committee_members.size.should == 20
+    end  
+    
+    it "should create a new set for each congress" # pending migration increase  
+  end  
+  
+  describe "relationships" do
+    it "should have a parent if it is a subcommittee" do 
+      Committee.first(:conditions => "NOT ISNULL( parent_id )").parent.should_not be_nil
+    end  
+    
+    it "should have children if it is a committee" do
+      # assumes that an arbitrary committee in the xml test file will have subcommittees
+      Committee.first(:conditions => "ISNULL( parent_id )").children.should_not be_blank
+    end  
+  end  
 
 end

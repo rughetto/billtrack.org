@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="22" updated="2009-01-31T12:02:22-05:00">
+	<amends type="h" number="1" sequence="11"/>
+	<status date="1233178260" datetime="2009-01-28T17:31:00-05:00">fail</status>
+	<sponsor id="400058"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment in the nature of a substitute numbered 11 printed in Part B of House Report 111-9 to strike everything after enacting clause and adds income tax rate deductions for bottom two income tax brackets, alternative minimum tax relief, small business deduction, bonus depreciation, small business expensing, expanded carryback of net operating losses, improved home buyer credit, unemployment benefit tax exemption, health insurance premium deduction, repeal of 3 percent withholdings requirement for government contractors, extension of unemployment benefits, and a Sense of Congress against tax increases to offset outlays.</description>
+	<purpose>An amendment in the nature of a substitute numbered 11 printed in Part B of House Report 111-9 to strike everything after enacting clause and adds income tax rate deductions for bottom two income tax brackets, alternative minimum tax relief, small business deduction, bonus depreciation, small business expensing, expanded carryback of net operating losses, improved home buyer credit, unemployment benefit tax exemption, health insurance premium deduction, repeal of 3 percent withholdings requirement for government contractors, extension of unemployment benefits, and a Sense of Congress against tax increases to offset outlays.</purpose>
+	<actions>
+		<action date="1233171120" datetime="2009-01-28T15:32:00-05:00"><text>Amendment (A011) in the nature of a substitute offered by Mr. Camp.</text><reference label="consideration" ref="CR H732-743, H743, H745"/><reference label="text" ref="CR H732-736"/></action>
+		<vote date="1233178260" datetime="2009-01-28T17:31:00-05:00" result="fail" how="roll" roll="44"><text>On agreeing to the Camp amendment (A011) Failed by recorded vote: 170 - 266 (Roll no. 44).</text></vote>
+
+	</actions>
+</amendment>

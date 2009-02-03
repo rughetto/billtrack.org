@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="449" updated="2009-01-14T09:10:16-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Health Care for America's Heroes Act</title>
+		<title type="official" as="introduced">To amend title 38, United States Code, to expand the availability of health care provided by the Secretary of Veterans Affairs by adjusting the income level for certain priority veterans.</title>
+	</titles>
+	<sponsor id="412232"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Veterans' Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

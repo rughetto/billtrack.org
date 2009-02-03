@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="234" updated="2009-01-15T12:00:49-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">A bill to designate the facility of the United States Postal Service located at 2105 East Cook Street in Springfield, Illinois, as the &quot;Colonel John H. Wilson, Jr. Post Office Building&quot;.</title>
+	</titles>
+	<sponsor id="300038"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Sponsor introductory remarks on measure. (CR S389)</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Read twice and referred to the Committee on Homeland Security and Governmental Affairs.</text><reference label="text of measure as introduced" ref="CR S389"/></action>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	1/14/2009--Introduced.<br/>Designates the facility of the United States Postal Service located at 2105 East Cook Street in Springfield, Illinois, as the &quot;Colonel John H. Wilson, Jr. Post Office Building.&quot;<br/>
+	</summary>
+</bill>

@@ -1,0 +1,41 @@
+<bill session="111" type="hr" number="71" updated="2009-01-16T12:10:41-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">Acknowledging the lifelong service of Griffin Boyette Bell to the State of Georgia and the United States as a legal icon.</title>
+	</titles>
+	<sponsor id="400221"/>
+	<cosponsors>
+		<cosponsor id="400627" joined="2009-01-15"/>
+		<cosponsor id="412252" joined="2009-01-15"/>
+		<cosponsor id="400099" joined="2009-01-15"/>
+		<cosponsor id="412199" joined="2009-01-15"/>
+		<cosponsor id="400626" joined="2009-01-15"/>
+		<cosponsor id="400242" joined="2009-01-15"/>
+		<cosponsor id="400151" joined="2009-01-15"/>
+		<cosponsor id="400628" joined="2009-01-15"/>
+		<cosponsor id="400254" joined="2009-01-15"/>
+		<cosponsor id="400240" joined="2009-01-15"/>
+		<cosponsor id="400363" joined="2009-01-15"/>
+		<cosponsor id="400030" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

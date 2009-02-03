@@ -1,0 +1,45 @@
+<bill session="111" type="hr" number="49" updated="2009-01-14T09:16:57-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="official" as="introduced">Honoring Karen Bass for becoming the first African-American woman elected Speaker of the California State Assembly.</title>
+	</titles>
+	<sponsor id="400423"/>
+	<cosponsors>
+		<cosponsor id="400663" joined="2009-01-09"/>
+		<cosponsor id="400133" joined="2009-01-09"/>
+		<cosponsor id="400347" joined="2009-01-09"/>
+		<cosponsor id="400618" joined="2009-01-09"/>
+		<cosponsor id="400436" joined="2009-01-09"/>
+		<cosponsor id="400237" joined="2009-01-09"/>
+		<cosponsor id="400422" joined="2009-01-09"/>
+		<cosponsor id="400129" joined="2009-01-09"/>
+		<cosponsor id="400065" joined="2009-01-09"/>
+		<cosponsor id="412259" joined="2009-01-09"/>
+		<cosponsor id="400361" joined="2009-01-09"/>
+		<cosponsor id="400097" joined="2009-01-09"/>
+		<cosponsor id="400384" joined="2009-01-09"/>
+		<cosponsor id="400062" joined="2009-01-09"/>
+		<cosponsor id="400245" joined="2009-01-09"/>
+		<cosponsor id="400278" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Oversight and Government Reform.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	1/9/2009--Introduced.<br/>Honors Karen Bass for becoming the first African-American woman Speaker of the California State Assembly. 
+	</summary>
+</bill>

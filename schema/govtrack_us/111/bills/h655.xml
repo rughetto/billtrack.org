@@ -1,0 +1,36 @@
+<bill session="111" type="h" number="655" updated="2009-01-23T12:06:48-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">To increase assessment accuracy to better measure student achievement and provide States with greater flexibility on assessment design.</title>
+	</titles>
+	<sponsor id="400318"/>
+	<cosponsors>
+		<cosponsor id="400311" joined="2009-01-22"/>
+		<cosponsor id="400185" joined="2009-01-22"/>
+		<cosponsor id="400119" joined="2009-01-22"/>
+		<cosponsor id="400070" joined="2009-01-22"/>
+		<cosponsor id="400437" joined="2009-01-22"/>
+		<cosponsor id="400011" joined="2009-01-22"/>
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Sponsor introductory remarks on measure. (CR E125)</text></action>
+		<action date="1232600400" datetime="2009-01-22"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

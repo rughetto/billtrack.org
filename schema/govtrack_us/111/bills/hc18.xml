@@ -1,0 +1,30 @@
+<bill session="111" type="hc" number="18" updated="2009-01-14T08:18:41-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="official" as="introduced">Expressing the sense of Congress that the United States should resume normal diplomatic relations with Taiwan, and for other purposes.</title>
+	</titles>
+	<sponsor id="400242"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Foreign Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

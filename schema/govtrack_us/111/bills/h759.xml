@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="759" updated="2009-01-29T12:05:19-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Federal Food, Drug, and Cosmetic Act to improve the safety of food, drugs, devices, and cosmetics in the global market, and for other purposes.</title>
+	</titles>
+	<sponsor id="400110"/>
+	<cosponsors>
+		<cosponsor id="400308" joined="2009-01-28"/>
+		<cosponsor id="400391" joined="2009-01-28"/>
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,89 @@
+<bill session="111" type="h" number="111" updated="2009-01-14T08:32:16-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Community Choice in Real Estate Act</title>
+		<title type="official" as="introduced">To amend the Bank Holding Company Act of 1956 and the Revised Statutes of the United States to prohibit financial holding companies and national banks from engaging, directly or indirectly, in real estate brokerage or real estate management activities, and for other purposes.</title>
+	</titles>
+	<sponsor id="400210"/>
+	<cosponsors>
+		<cosponsor id="400144" joined="2009-01-13"/>
+		<cosponsor id="400041" joined="2009-01-06"/>
+		<cosponsor id="400031" joined="2009-01-06"/>
+		<cosponsor id="400227" joined="2009-01-07"/>
+		<cosponsor id="400311" joined="2009-01-06"/>
+		<cosponsor id="412193" joined="2009-01-07"/>
+		<cosponsor id="400308" joined="2009-01-06"/>
+		<cosponsor id="400057" joined="2009-01-06"/>
+		<cosponsor id="400142" joined="2009-01-13"/>
+		<cosponsor id="400110" joined="2009-01-06"/>
+		<cosponsor id="400407" joined="2009-01-06"/>
+		<cosponsor id="400436" joined="2009-01-06"/>
+		<cosponsor id="400162" joined="2009-01-06"/>
+		<cosponsor id="400346" joined="2009-01-06"/>
+		<cosponsor id="400570" joined="2009-01-13"/>
+		<cosponsor id="400089" joined="2009-01-06"/>
+		<cosponsor id="400183" joined="2009-01-06"/>
+		<cosponsor id="412240" joined="2009-01-06"/>
+		<cosponsor id="400653" joined="2009-01-06"/>
+		<cosponsor id="400320" joined="2009-01-13"/>
+		<cosponsor id="400380" joined="2009-01-07"/>
+		<cosponsor id="400122" joined="2009-01-06"/>
+		<cosponsor id="400111" joined="2009-01-06"/>
+		<cosponsor id="400360" joined="2009-01-06"/>
+		<cosponsor id="400255" joined="2009-01-06"/>
+		<cosponsor id="400271" joined="2009-01-06"/>
+		<cosponsor id="412239" joined="2009-01-13"/>
+		<cosponsor id="400118" joined="2009-01-06"/>
+		<cosponsor id="400638" joined="2009-01-06"/>
+		<cosponsor id="400065" joined="2009-01-13"/>
+		<cosponsor id="400647" joined="2009-01-06"/>
+		<cosponsor id="400276" joined="2009-01-07"/>
+		<cosponsor id="400630" joined="2009-01-06"/>
+		<cosponsor id="400049" joined="2009-01-06"/>
+		<cosponsor id="400260" joined="2009-01-06"/>
+		<cosponsor id="400641" joined="2009-01-06"/>
+		<cosponsor id="412231" joined="2009-01-13"/>
+		<cosponsor id="400274" joined="2009-01-06"/>
+		<cosponsor id="400204" joined="2009-01-06"/>
+		<cosponsor id="400240" joined="2009-01-06"/>
+		<cosponsor id="400264" joined="2009-01-06"/>
+		<cosponsor id="400046" joined="2009-01-07"/>
+		<cosponsor id="400652" joined="2009-01-06"/>
+		<cosponsor id="400184" joined="2009-01-06"/>
+		<cosponsor id="400238" joined="2009-01-06"/>
+		<cosponsor id="400055" joined="2009-01-13"/>
+		<cosponsor id="400025" joined="2009-01-06"/>
+		<cosponsor id="400301" joined="2009-01-06"/>
+		<cosponsor id="412208" joined="2009-01-13"/>
+		<cosponsor id="400216" joined="2009-01-13"/>
+		<cosponsor id="400437" joined="2009-01-06"/>
+		<cosponsor id="400157" joined="2009-01-13"/>
+		<cosponsor id="400179" joined="2009-01-06"/>
+		<cosponsor id="400100" joined="2009-01-06"/>
+		<cosponsor id="412191" joined="2009-01-06"/>
+		<cosponsor id="400639" joined="2009-01-06"/>
+		<cosponsor id="400309" joined="2009-01-06"/>
+		<cosponsor id="412202" joined="2009-01-06"/>
+		<cosponsor id="412233" joined="2009-01-13"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Financial Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Financial Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

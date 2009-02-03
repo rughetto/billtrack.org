@@ -1,0 +1,39 @@
+<bill session="111" type="h" number="672" updated="2009-01-27T12:03:23-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">To amend title 10, United States Code, to require the Department of Defense and all other defense-related agencies of the United States to fully comply with Federal and State environmental laws, including certain laws relating to public health and worker safety, that are designed to protect the environment and the health and safety of the public, particularly those persons most vulnerable to the hazards incident to military operations and installations, such as children, members of the Armed Forces, civilian employees, and persons living in the vicinity of military operations and installations.</title>
+	</titles>
+	<sponsor id="400133"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the Committee on Armed Services, and in addition to the Committees on Energy and Commerce, Transportation and Infrastructure, Natural Resources, and Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to House Armed Services</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to House Energy and Commerce</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to House Transportation and Infrastructure</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to House Natural Resources</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to House Education and Labor</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

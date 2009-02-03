@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="671" updated="2009-01-27T12:03:15-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">To direct the Secretary of Defense to issue a medal to certain veterans who died after their service in the Vietnam War as a direct result of that service.</title>
+	</titles>
+	<sponsor id="400133"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the House Committee on Armed Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

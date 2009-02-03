@@ -1,0 +1,70 @@
+<bill session="111" type="hr" number="5" updated="2009-01-14T09:11:57-05:00">
+	<status><vote date="1231273920" datetime="2009-01-06T16:32:00-05:00" where="h" result="pass" how="roll" roll="4"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="official" as="introduced">Adopting rules for the One Hundred Eleventh Congress.</title>
+	</titles>
+	<sponsor id="400189"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231266720" datetime="2009-01-06T14:32:00-05:00"><text>Considered as privileged matter.</text><reference label="consideration" ref="CR H6-20"/></action>
+		<action date="1231266780" datetime="2009-01-06T14:33:00-05:00"><text>DEBATE - The House proceeded with one hour of debate on H. Res. 5.</text></action>
+		<action date="1231270560" datetime="2009-01-06T15:36:00-05:00"><text>The previous question was ordered without objection.</text><reference label="consideration" ref="CR H19"/></action>
+		<action date="1231270560" datetime="2009-01-06T15:36:00-05:00"><text>Mr. Dreier moved to commit to Rules.</text></action>
+		<action date="1231270680" datetime="2009-01-06T15:38:00-05:00"><text>The previous question on the motion to commit was ordered without objection.</text><reference label="consideration" ref="CR H19-20"/></action>
+		<action date="1231272780" datetime="2009-01-06T16:13:00-05:00"><text>On motion to commit Failed by the Yeas and Nays: 174 - 249 (Roll no. 3).</text></action>
+		<vote date="1231273920" how="roll" roll="4" datetime="2009-01-06T16:32:00-05:00" where="h" type="vote" result="pass" ><text>On agreeing to the resolution Agreed to by the Yeas and Nays: 242 - 181 (Roll no. 4).</text><reference label="text" ref="CR H6-10"/></vote>
+		<action date="1231273920" datetime="2009-01-06T16:32:00-05:00"><text>H. Res.5 provides one hour of debate each for H.R. 11 and H.R. 12. Both bills are to be considered in the House. Both H.R. 11 and H.R. 12 are considered read and are closed to amendments. After passage of both H.R. 11 and H.R. 12, the text of H.R. 12 shall be appended at the end of H.R. 11 as new matter and H.R. 12 shall be laid on the table.</text></action>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+		<bill relation="unknown" session="111" type="h" number="11" />
+		<bill relation="rule" session="111" type="h" number="11" />
+		<bill relation="unknown" session="111" type="h" number="12" />
+		<bill relation="unknown" session="111" type="h" number="12" />
+	</relatedbills>
+	<subjects>
+		<term name="Congress"/>
+		<term name="Air quality"/>
+		<term name="Appropriations"/>
+		<term name="Budget deficits and national debt"/>
+		<term name="Budget process"/>
+		<term name="Climate change"/>
+		<term name="Congressional committees"/>
+		<term name="Congressional operations and organization"/>
+		<term name="Congressional oversight"/>
+		<term name="Employment discrimination and employee rights"/>
+		<term name="Energy storage, supplies, demand"/>
+		<term name="Executive agency funding and structure"/>
+		<term name="General taxation matters"/>
+		<term name="Government employee pay, benefits, personnel management"/>
+		<term name="Government ethics and transparency, public corruption"/>
+		<term name="Government investigations"/>
+		<term name="House Committee on Armed Services"/>
+		<term name="House Committee on Foreign Affairs"/>
+		<term name="House Committee on House Administration"/>
+		<term name="House Committee on Transportation and Infrastructure"/>
+		<term name="House of Representatives"/>
+		<term name="Human rights"/>
+		<term name="Lawyers and legal services"/>
+		<term name="Legislative rules and procedure"/>
+		<term name="Medicare"/>
+		<term name="Members of Congress"/>
+		<term name="Public participation and lobbying"/>
+		<term name="Sex, gender, sexual orientation discrimination"/>
+		<term name="Sports and recreation facilities"/>
+		<term name="Tariffs"/>
+		<term name="Wages and earnings"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

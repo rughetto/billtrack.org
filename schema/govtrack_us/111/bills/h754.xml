@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="754" updated="2009-01-29T12:04:49-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">To provide for the issuance of a commemorative postage stamp in honor of George Henry White.</title>
+	</titles>
+	<sponsor id="400616"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on Oversight and Government Reform.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

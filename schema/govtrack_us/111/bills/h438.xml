@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="438" updated="2009-01-14T09:09:08-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Tuolumne Me-Wuk Land Transfer Act of 2009</title>
+		<title type="official" as="introduced">To transfer administrative jurisdiction of certain Federal lands from the Bureau of Land Management to the Bureau of Indian Affairs, to take such lands into trust for Tuolumne Band of Me-Wuk Indians of the Tuolumne Rancheria, and for other purposes.</title>
+	</titles>
+	<sponsor id="400330"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

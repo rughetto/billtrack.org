@@ -1,0 +1,14 @@
+<amendment session="111" chamber="s" number="29" updated="2009-01-30T12:03:42-05:00">
+	<amends type="s" number="181" sequence=""/>
+	<status date="1232600400" datetime="2009-01-22">fail</status>
+	<sponsor id="300041"/>
+	<offered date="1232082000" datetime="2009-01-16"/>
+	<description>To clarify standing.</description>
+	<purpose>To clarify standing.</purpose>
+	<actions>
+		<action date="1232514000" datetime="2009-01-21"><text>Amendment SA 29 proposed by Senator Enzi.</text><reference label="consideration" ref="CR S710-711"/><reference label="text" ref="CR S711"/></action>
+		<action date="1232600400" datetime="2009-01-22"><text>Considered by Senate.</text><reference label="consideration" ref="CR S739, S748-753, S759"/></action>
+		<vote date="1232600400" datetime="2009-01-22" result="fail" how="Voice Vote"><text>Motion to table amendment SA 29 agreed to in Senate by Voice Vote.</text></vote>
+
+	</actions>
+</amendment>

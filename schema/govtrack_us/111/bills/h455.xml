@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="455" updated="2009-01-14T09:10:56-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Missisquoi and Trout Rivers Wild and Scenic River Study Act of 2009</title>
+		<title type="official" as="introduced">To amend the Wild and Scenic Rivers Act to designate a segment of the Missisquoi and Trout Rivers in the State of Vermont for study for potential addition to the National Wild and Scenic Rivers System.</title>
+	</titles>
+	<sponsor id="412239"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

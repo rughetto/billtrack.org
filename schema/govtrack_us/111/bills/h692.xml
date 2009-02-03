@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="692" updated="2009-01-27T12:05:46-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Internal Revenue Code of 1986 to exclude from gross income compensation received by employees consisting of qualified distributions of employer stock.</title>
+	</titles>
+	<sponsor id="400343"/>
+	<cosponsors>
+		<cosponsor id="400209" joined="2009-01-26"/>
+		<cosponsor id="400311" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

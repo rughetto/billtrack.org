@@ -1,0 +1,37 @@
+<bill session="111" type="h" number="336" updated="2009-01-14T08:57:33-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">Peace Stamp for the Peace Corps Act</title>
+		<title type="official" as="introduced">To provide for the issuance of a semipostal to benefit the Peace Corps.</title>
+	</titles>
+	<sponsor id="400237"/>
+	<cosponsors>
+		<cosponsor id="400227" joined="2009-01-08"/>
+		<cosponsor id="400436" joined="2009-01-08"/>
+		<cosponsor id="400047" joined="2009-01-08"/>
+		<cosponsor id="400204" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the Committee on Oversight and Government Reform, and in addition to the Committee on Foreign Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to House Oversight and Government Reform</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to House Foreign Affairs</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

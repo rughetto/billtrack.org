@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="86" updated="2009-02-02T12:01:16-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233205200" datetime="2009-01-29">fail</status>
+	<sponsor id="400576"/>
+	<offered date="1233205200" datetime="2009-01-29"/>
+	<description>To ensure that American children have high-quality health coverage that fits their individual needs.</description>
+	<purpose>To ensure that American children have high-quality health coverage that fits their individual needs.</purpose>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Amendment SA 86 proposed by Senator Coburn.</text><reference label="consideration" ref="CR S1033-1036, S1043-1044"/></action>
+		<vote date="1233205200" datetime="2009-01-29" result="fail" how="roll" roll="28"><text>Amendment SA 86 not agreed to in Senate by Yea-Nay Vote. 36 - 62. Record Vote Number: 28.</text></vote>
+
+	</actions>
+</amendment>

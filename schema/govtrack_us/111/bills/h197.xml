@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="197" updated="2009-01-14T08:42:01-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">National Right-to-Carry Reciprocity Act of 2009</title>
+		<title type="official" as="introduced">To amend title 18, United States Code, to provide a national standard in accordance with which nonresidents of a State may carry concealed firearms in the State.</title>
+	</titles>
+	<sponsor id="400388"/>
+	<cosponsors>
+		<cosponsor id="400043" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	1/6/2009--Introduced.<br/>National Right-to-Carry Reciprocity Act of 2009 - Amends the federal criminal code to establish a national standard for the carrying of concealed firearms (other than a machinegun or destructive device) by non-residents. Authorizes a person who has a valid permit to carry a concealed firearm in one state and who is not prohibited from carrying a firearm under federal law to carry a concealed firearm in another state in accordance with the restrictions of that state or as specified under this Act. 
+	</summary>
+</bill>

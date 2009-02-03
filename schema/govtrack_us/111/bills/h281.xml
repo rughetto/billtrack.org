@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="281" updated="2009-01-14T08:51:20-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">Transparency in Corporate Filings Act</title>
+		<title type="official" as="introduced">To authorize the Securities and Exchange Commission to permit or require persons filing or furnishing information under the securities laws to make such information available on internet websites, in addition to or instead of including such information in filings with or submissions to the Commission, under such conditions as the Commission may specify by rule.</title>
+	</titles>
+	<sponsor id="412202"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the House Committee on Financial Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Financial Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,40 @@
+SA 38. Mr. ROCKEFELLER (for himself, Mrs. HUTCHISON, Mr. KERRY, Ms. KLOBUCHAR, Mr. PRYOR, Mr. SCHUMER, Mr. HARKIN, Mr. KOHL, Mr. CASEY, and Mr. SANDERS) submitted an amendment intended to be proposed by him to the bill S. 328, to postpone the DTV transition date; as follows:
+
+Strike out all after the enacting clause and insert the following:
+
+SECTION 1. SHORT TITLE.
+ This Act may be cited as the ``DTV Delay Act''.
+SEC. 2. POSTPONEMENT OF DTV TRANSITION DATE.
+ (a) IN GENERAL.--Section 3002(b) of the Digital Television Transition and Public Safety Act of 2005 (47 U.S.C. 309 note) is amended--
+ (1) by striking ``February 18, 2009;'' in paragraph (1) and inserting ``June 13, 2009;''; and
+ (2) by striking ``February 18, 2009,'' in paragraph (2) and inserting ``that date''.
+ (b) EXTENSION OF COUPON PROGRAM.--Section 3005(c)(1)(A) of that Act (47 U.S.C. 309 note) is amended by striking ``March 31, 2009,'' and inserting ``July 31, 2009,''.
+ (c) CONFORMING AMENDMENTS.--
+ (1) Section 3008(a)(1) of that Act (47 U.S.C. 309 note) is amended by striking ``February 17, 2009.'' and inserting ``June 12, 2009.''.
+ (2) Section 309(j)(14)(A) of the Communications Act of 1934 (47 U.S.C. 309(j)(14)(A)) is amended by striking ``February 17, 2009.'' and inserting ``June 12, 2009.''.
+ (3) Section 337(e)(1) of the Communications Act of 1934 (47 U.S.C. 337(e)(1)) is amended by striking ``February 17, 2009,'' and inserting ``June 12, 2009,''.
+ (d) License Terms.--
+ (1) Extension.--The Federal Communications Commission shall extend the terms of the licenses for the recovered spectrum, including the license period and construction requirements associated with those licenses, for a 116-day period.
+ (2) Definition.--In this subsection, the term ``recovered spectrum'' means--
+ (A) the recovered analog spectrum, as such term is defined in section 309(j)(15)(C)(vi) of the Communications Act of 1934; and
+ (B) the spectrum excluded from the definition of recovered analog spectrum by subclauses (I) and (II) of such section.
+SEC. 3. MODIFICATION OF DIGITAL-TO-ANALOG CONVERTER BOX PROGRAM.
+ (a) Treatment of Expired Coupons.--Section 3005(c)(1) of the Digital Television Transition and Public Safety Act of 2005 (47 U.S.C. 309 note) is amended by adding at the end the following:
+ ``(D) Expired coupons.--The Assistant Secretary may issue to a household, upon request by the household, one replacement coupon for each coupon that was issued to such household and that expired without being redeemed.''.
+ (b) Conforming amendment.--Section 3005(c)(1)(A) of the Digital Television Transition and Public Safety Act of 2005 (47 U.S.C. 309 note) is amended by striking ``receives, via the United States Postal Service,'' and inserting ``redeems''.
+SEC. 4. IMPLEMENTATION.
+ (a) Permissive Early Termination Under Existing Requirements.--Nothing in this Act is intended to prevent a licensee of a television broadcast station from terminating the broadcasting of such station's analog television signal (and continuing to broadcast exclusively in the digital television service) prior to the date established by law under section 3002(b) of the Digital Television Transition and Public Safety Act of 2005 for termination of all licenses for full-power television
+stations in the analog television service (as amended by section 2 of this Act) so long as such prior termination is conducted in accordance with the Federal Communications Commission's requirements in effect on the date of enactment of this Act, including the flexible procedures established in the Matter of Third Periodic Review of the Commission's Rules and Policies Affecting the Conversion to Digital Television (FCC 07-228, MB Docket No. 07-91, released December 31, 2007).
+ (b) Public Safety Radio Services.--
+ (1) Use on cleared spectrum.--Notwithstanding the amendments made by section 2, if--
+ (A) a television broadcast station ceases the broadcasting of such station's analog television service under subsection (a) of this section prior to June 12, 2009, and
+ (B) as a consequence of such cessation, spectrum between frequencies 768 and 776 megahertz, inclusive, and 798 and 806 megahertz, inclusive, becomes available for non-television broadcast use prior to June 12, 2009,
+
+the Federal Communications Commission shall permit the use of such spectrum for authorized public safety radio services if the Commission determines that such use is in the public interest and does not cause harmful interference to full-power television stations in the analog or digital television service.
+ (2) Expedited procedures.--The Federal Communications Commission may use expedited procedures, and may waive such rules as may be necessary, to make a determination on an application made under paragraph (1) to begin such use of such spectrum by a public safety agency (as such term is defined in section 3006(d)(1) of the Digital Television Transition and Public Safety Act of 2005) in not less than 2 weeks after the date of submission of such application.
+ (c) Expedited Rulemaking.--Notwithstanding any other provision of law, the Federal Communications Commission and the National Telecommunications Information Administration shall, not later than 30 days after the date of enactment of this Act, each adopt or revise its rules, regulations, or orders or take such other actions as may be necessary or appropriate to implement the provisions, and carry out the purposes, of this Act and the amendments made by this Act.
+SEC. 5. EXTENSION OF COMMISSION AUCTION AUTHORITY.
+ Section 309(j)(11) of the Communications Act of 1934 (47 U.S.C. 309(j)(11)) is amended by striking ``2011.'' and inserting ``2012.''.
+SEC. 6. EMERGENCY DESIGNATION.
+ Each amount made available under section 3005 of the Digital Television Transition and Public Safety Act of 2005 (47 U.S.C. 309 note) as a result of the amendments made by this Act is designated as an emergency requirement and necessary to meet emergency needs pursuant to section 204(a) of S. Con. Res. 21 (110th Congress) and section 301(b)(2) of S. Con. Res. 70 (110th Congress), the concurrent resolutions on the budget for fiscal years 2008 and 2009.  
+(As printed in the Congressional Record for the Senate on Jan 26, 2009.)

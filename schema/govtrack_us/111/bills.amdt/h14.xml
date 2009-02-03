@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="14" updated="2009-01-31T12:02:13-05:00">
+	<amends type="h" number="1" sequence="3"/>
+	<status date="1233166920" datetime="2009-01-28T14:22:00-05:00">pass</status>
+	<sponsor id="409888"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 3 printed in Part B of House Report 111-9 to clarify that federal funds received by States under the bill for highway maintenance shall not be used to replace existing funds in place for transportation projects.</description>
+	<purpose>An amendment numbered 3 printed in Part B of House Report 111-9 to clarify that federal funds received by States under the bill for highway maintenance shall not be used to replace existing funds in place for transportation projects.</purpose>
+	<actions>
+		<action date="1233166440" datetime="2009-01-28T14:14:00-05:00"><text>Amendment (A003) offered by Mr. Shuster.</text><reference label="consideration" ref="CR H713-717"/><reference label="text" ref="CR H713"/></action>
+		<vote date="1233166920" datetime="2009-01-28T14:22:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Shuster amendment (A003) Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

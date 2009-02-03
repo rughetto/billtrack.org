@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="443" updated="2009-01-14T09:09:41-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Government Reform Act of 2009</title>
+		<title type="official" as="introduced">To create a national commission, modeled after the successful Defense Base Closure and Realignment Commission, to establish a timely, independent, and fair process for realigning or closing outdated, ineffective, or inefficient executive agencies.</title>
+	</titles>
+	<sponsor id="400348"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Oversight and Government Reform.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,39 @@
+<bill session="111" type="h" number="484" updated="2009-01-14T12:06:00-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">To require the Secretary of Defense to develop and implement a plan to provide chiropractic health care services and benefits for certain new beneficiaries as part of the TRICARE program.</title>
+	</titles>
+	<sponsor id="400342"/>
+	<cosponsors>
+		<cosponsor id="400017" joined="2009-01-13"/>
+		<cosponsor id="400004" joined="2009-01-13"/>
+		<cosponsor id="400199" joined="2009-01-13"/>
+		<cosponsor id="400311" joined="2009-01-13"/>
+		<cosponsor id="400001" joined="2009-01-13"/>
+		<cosponsor id="400195" joined="2009-01-13"/>
+		<cosponsor id="400244" joined="2009-01-13"/>
+		<cosponsor id="400047" joined="2009-01-13"/>
+		<cosponsor id="400042" joined="2009-01-13"/>
+		<cosponsor id="400010" joined="2009-01-13"/>
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Referred to the House Committee on Armed Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

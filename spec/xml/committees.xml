@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<committees>
+  <committee type="senate" code="SSAF" displayname="Senate Committee on Agriculture, Nutrition, and Forestry" url="http://agriculture.senate.gov/">
+    <thomas-names>
+      <name session="93">Senate Agriculture and Forestry</name>
+      <name session="94">Senate Agriculture and Forestry</name>
+      <name session="95">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="96">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="97">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="98">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="99">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="100">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="101">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="102">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="103">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="104">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="105">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="106">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="107">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="108">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="109">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="110">Senate Agriculture, Nutrition, and Forestry</name>
+      <name session="111">Senate Agriculture, Nutrition, and Forestry</name>
+    </thomas-names>
+    <member name="Tom Harkin" id="300051" role="Chairman"/>
+    <member name="Patrick J. Leahy" id="300065"/>
+    <member name="Kent Conrad" id="300026"/>
+    <member name="Max Baucus" id="300005"/>
+    <member name="Blanche L. Lincoln" id="300068"/>
+    <member name="Debbie Stabenow" id="300093"/>
+    <member name="Ben Nelson" id="300077"/>
+    <member name="Sherrod   Brown" id="400050"/>
+    <member name="Robert P. Casey" id="412246"/>
+    <member name="Amy  Klobuchar" id="412242"/>
+    <member name="Michael F. Bennet" id="412330"/>
+    <member name="Kirsten E. Gillibrand" id="412223"/>
+    <member name="Chambliss, Saxby" id="300021"/>
+    <member name="Lugar, Richard G." id="300070"/>
+    <member name="Cochran, Thad" id="300023"/>
+    <member name="McConnell, Mitch" id="300072"/>
+    <member name="Roberts, Pat" id="300083"/>
+    <member name="Johanns, Mike " id="412320"/>
+    <member name="Grassley, Chuck" id="300048"/>
+    <member name="Thune, John " id="400546"/>
+    <subcommittee code="8" displayname="Domestic and Foreign Marketing, Inspection, and Plant and Animal Health ">
+      <thomas-names>
+        <name session="97">Forestry, Water Resources, and Environment</name>
+      </thomas-names>
+      <member name="Baucus, Max" id="300005"/>
+      <member name="Conrad, Kent" id="300026"/>
+      <member name="Stabenow, Debbie" id="300093"/>
+      <member name="Nelson, E.  Benjamin" id="300077"/>
+      <member name="Casey, Robert P." id="412246"/>
+      <member name="McConnell, Mitch" id="300072"/>
+      <member name="Roberts, Pat" id="300083"/>
+      <member name="Thune, John " id="400546"/>
+    </subcommittee>
+    <subcommittee code="9" displayname="Energy, Science and Technology">
+      <member name="Conrad, Kent" id="300026"/>
+      <member name="Nelson, E.  Benjamin" id="300077"/>
+      <member name="Brown, Sherrod  " id="400050"/>
+      <member name="Casey, Robert P." id="412246"/>
+      <member name="Klobuchar, Amy " id="412242"/>
+      <member name="Thune, John " id="400546"/>
+      <member name="Lugar, Richard G." id="300070"/>
+      <member name="Grassley, Chuck" id="300048"/>
+    </subcommittee>
+    <subcommittee code="10" displayname="Nutrition and Food Assistance, Sustainable and Organic Agriculture, and General Legislation">
+      <member name="Leahy, Patrick J." id="300065"/>
+      <member name="Lincoln, Blanche L." id="300068"/>
+      <member name="Stabenow, Debbie" id="300093"/>
+      <member name="Brown, Sherrod  " id="400050"/>
+      <member name="Casey, Robert P." id="412246"/>
+      <member name="Klobuchar, Amy " id="412242"/>
+      <member name="Lugar, Richard G." id="300070"/>
+      <member name="Cochran, Thad" id="300023"/>
+      <member name="McConnell, Mitch" id="300072"/>
+    </subcommittee>
+  </committee>
+</committees>

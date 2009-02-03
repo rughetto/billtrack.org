@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="241" updated="2009-01-14T08:46:57-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="official" as="introduced">To amend title 10, United States Code, to require the amounts reimbursed to institutional providers of health care services under the TRICARE program to be the same as amounts reimbursed under Medicare, and to require the Secretary of Defense to contract for health care services with at least one teaching hospital in urban areas.</title>
+	</titles>
+	<sponsor id="400160"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the House Committee on Armed Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

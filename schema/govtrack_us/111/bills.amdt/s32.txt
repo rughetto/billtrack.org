@@ -1,0 +1,12 @@
+SA 32. Mr. DeMINT submitted an amendment intended to be proposed by him to the bill S. 181, to amend title VII of the Civil Rights Act of 1964 and the Age Discrimination in Employment Act of 1967, and to modify the operation of the Americans with Disabilities Act of 1990 and the Rehabilitation Act of 1973, to clarify that a discriminatory compensation decision or other practice that is unlawful under such Acts occurs each time compensation is paid pursuant to the discriminatory compensation
+decision or other practice, and for other purposes; which was ordered to lie on the table; as follows:
+
+ At the appropriate place, insert the following:
+SEC. __. PROTECTION OF WORKERS' POLITICAL RIGHTS.
+ Title III of the Labor Management Relations Act, 1947 (29 U.S.C. 185 et seq.) is amended by adding at the end the following:
+``SEC. 304. PROTECTION OF WORKER'S POLITICAL RIGHTS.
+ ``(a) Prohibition.--Except with the separate, prior, written, voluntary authorization of an individual, it shall be unlawful for any labor organization to collect from or assess its members or nonmembers any dues, initiation fee, or other payment if any part of such dues, fee, or payment will be used to lobby members of Congress or Congressional staff for the purpose of influencing legislation.
+ ``(b) Authorization.--An authorization described in subsection (a) shall remain in effect until revoked and may be revoked at any time.''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 21, 2009.)

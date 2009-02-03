@@ -1,0 +1,37 @@
+<bill session="111" type="h" number="374" updated="2009-01-14T09:01:47-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Lawful Interrogation and Detention Act</title>
+		<title type="official" as="introduced">To require the closure of the detention facility at Guatanamo Bay, Cuba, to limit the use of certain interrogation techniques, to prohibit interrogation by contractors, to require notification of the International Committee of the Red Cross of detainees, and for other purposes.</title>
+	</titles>
+	<sponsor id="400166"/>
+	<cosponsors>
+		<cosponsor id="400289" joined="2009-01-09"/>
+		<cosponsor id="400080" joined="2009-01-09"/>
+		<cosponsor id="400124" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Sponsor introductory remarks on measure. (CR E59)</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the Committee on Armed Services, and in addition to the Committee on Intelligence (Permanent Select), for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to House Armed Services</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to House Intelligence (Permanent Select)</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Intelligence (Permanent Select)" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

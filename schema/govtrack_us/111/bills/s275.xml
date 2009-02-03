@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="275" updated="2009-01-17T12:00:13-05:00">
+	<status><calendar date="1232082000" datetime="2009-01-16" /></status>
+
+	<introduced date="1232082000" datetime="2009-01-16"/>
+	<titles>
+		<title type="official" as="introduced">An original bill to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes.</title>
+	</titles>
+	<sponsor id="300005"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232082000" datetime="2009-01-16"><text>Committee on Finance. Original measure reported to Senate by Senator Baucus. Without written report.</text></action>
+		<calendar date="1232082000" datetime="2009-01-16" ><text>Placed on Senate Legislative Calendar under General Orders. Calendar No. 17.</text></calendar>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Origin, Reporting" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

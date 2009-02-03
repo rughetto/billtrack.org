@@ -1,0 +1,38 @@
+<bill session="111" type="s" number="146" updated="2009-01-14T09:33:01-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Railroad Antitrust Enforcement Act of 2009</title>
+		<title type="official" as="introduced">A bill to amend the Federal antitrust laws to provide expanded coverage and to eliminate exemptions from such laws that are contrary to the public interest with respect to railroads.</title>
+	</titles>
+	<sponsor id="300061"/>
+	<cosponsors>
+		<cosponsor id="412242" joined="2009-01-06"/>
+		<cosponsor id="300065" joined="2009-01-06"/>
+		<cosponsor id="400418" joined="2009-01-06"/>
+		<cosponsor id="300042" joined="2009-01-06"/>
+		<cosponsor id="300087" joined="2009-01-06"/>
+		<cosponsor id="300037" joined="2009-01-06"/>
+		<cosponsor id="300084" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Sponsor introductory remarks on measure. (CR S129-130)</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Read twice and referred to the Committee on the Judiciary.</text><reference label="text of measure as introduced" ref="CR S130-131"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

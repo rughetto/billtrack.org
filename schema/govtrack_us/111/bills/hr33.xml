@@ -1,0 +1,30 @@
+<bill session="111" type="hr" number="33" updated="2009-01-14T09:15:05-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">Expressing the sense of the House of Representatives that the Government of Iran's lack of protection for internationally recognized human rights creates poor conditions for religious freedom in the Islamic Republic of Iran.</title>
+	</titles>
+	<sponsor id="400199"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Foreign Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

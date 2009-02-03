@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="89" updated="2009-01-14T08:29:59-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Goleta Water Distribution System Conveyance Act</title>
+		<title type="official" as="introduced">To authorize the Secretary of the Interior to convey a water distribution system to the Goleta Water District, and for other purposes.</title>
+	</titles>
+	<sponsor id="400062"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

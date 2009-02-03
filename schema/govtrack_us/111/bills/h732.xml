@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="732" updated="2009-01-28T12:06:28-05:00">
+	<status><introduced date="1233032400" datetime="2009-01-27"/></status>
+
+	<introduced date="1233032400" datetime="2009-01-27"/>
+	<titles>
+		<title type="official" as="introduced">To authorize the grant program under which the Secretary of Homeland Security makes discretionary grants for use in high-threat, high-density urban areas, and for other purposes.</title>
+	</titles>
+	<sponsor id="400426"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Referred to the House Committee on Homeland Security.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Homeland Security" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

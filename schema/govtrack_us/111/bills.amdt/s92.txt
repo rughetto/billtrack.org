@@ -1,0 +1,10 @@
+SA 92. Mr. COBURN submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ After section 622 insert the following:
+SEC. 623. ENSURING ACCESS TO, AND THE CHOICE OF, HIGH QUALITY HEALTH CARE PROVIDERS.
+ Notwithstanding any other provision of law, no Federal funds shall be made available under this Act (or an amendment made by this Act) to a health care provider that--
+ (1) restricts the right of a physician to refer an individual to any secondary physician who is, in the professional judgment of the physician, of the highest quality and expertise; or
+ (2) discriminates against a physician who makes such a referral.
+
+
+(As printed in the Congressional Record for the Senate on Jan 29, 2009.)

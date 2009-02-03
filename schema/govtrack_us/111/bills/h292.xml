@@ -1,0 +1,45 @@
+<bill session="111" type="h" number="292" updated="2009-01-14T08:52:34-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">Department of Veterans Affairs Energy Sustainability Act of 2009</title>
+		<title type="official" as="introduced">To improve energy and water efficiencies and conservation throughout the Department of Veterans Affairs, and for other purposes.</title>
+	</titles>
+	<sponsor id="400056"/>
+	<cosponsors>
+		<cosponsor id="400279" joined="2009-01-08"/>
+		<cosponsor id="400570" joined="2009-01-13"/>
+		<cosponsor id="412204" joined="2009-01-08"/>
+		<cosponsor id="400443" joined="2009-01-13"/>
+		<cosponsor id="412196" joined="2009-01-08"/>
+		<cosponsor id="400049" joined="2009-01-08"/>
+		<cosponsor id="400040" joined="2009-01-08"/>
+		<cosponsor id="400274" joined="2009-01-08"/>
+		<cosponsor id="412214" joined="2009-01-08"/>
+		<cosponsor id="412250" joined="2009-01-08"/>
+		<cosponsor id="412191" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Sponsor introductory remarks on measure. (CR E44)</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the Committee on Veterans' Affairs, and in addition to the Committee on Science and Technology, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to House Veterans' Affairs</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to House Science and Technology</text></action>
+	</actions>
+	<committees>
+		<committee name="House Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Science and Technology" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

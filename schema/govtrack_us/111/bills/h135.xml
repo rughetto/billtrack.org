@@ -1,0 +1,39 @@
+<bill session="111" type="h" number="135" updated="2009-01-14T08:35:01-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Twenty-First Century Water Commission Act of 2009</title>
+		<title type="official" as="introduced">To establish the Twenty-First Century Water Commission to study and develop recommendations for a comprehensive water strategy to address future water needs.</title>
+	</titles>
+	<sponsor id="400242"/>
+	<cosponsors>
+		<cosponsor id="400290" joined="2009-01-06"/>
+		<cosponsor id="400041" joined="2009-01-06"/>
+		<cosponsor id="400099" joined="2009-01-08"/>
+		<cosponsor id="412199" joined="2009-01-08"/>
+		<cosponsor id="400618" joined="2009-01-06"/>
+		<cosponsor id="400179" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the Committee on Natural Resources, and in addition to the Committee on Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Natural Resources</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Transportation and Infrastructure</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

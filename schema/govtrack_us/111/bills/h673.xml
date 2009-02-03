@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="673" updated="2009-01-27T12:03:29-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">To amend the definition of a law enforcement officer under subchapter III of chapter 83 and chapter 84 of title 5, United States Code, respectively, to ensure the inclusion of certain positions.</title>
+	</titles>
+	<sponsor id="400133"/>
+	<cosponsors>
+		<cosponsor id="400264" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the House Committee on Oversight and Government Reform.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

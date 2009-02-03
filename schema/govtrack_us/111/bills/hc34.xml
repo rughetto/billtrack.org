@@ -1,0 +1,30 @@
+<bill session="111" type="hc" number="34" updated="2009-01-29T12:09:32-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">Calling upon the Capitol Preservation Commission and the Office of the Architect of the Capitol to place the Lincoln-Obama Bible on permanent display upon the Lincoln table at the Capitol Visitor Center for the benefit of all its visitors to fully understand and appreciate America's history and Godly heritage.</title>
+	</titles>
+	<sponsor id="400137"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on House Administration.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Administration" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

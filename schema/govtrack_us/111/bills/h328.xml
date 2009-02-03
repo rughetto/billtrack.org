@@ -1,0 +1,42 @@
+<bill session="111" type="h" number="328" updated="2009-01-14T08:56:40-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">Washington-Rochambeau Revolutionary Route National Historic Trail Designation Act</title>
+		<title type="official" as="introduced">To amend the National Trails System Act to designate the Washington-Rochambeau Revolutionary Route National Historic Trail.</title>
+	</titles>
+	<sponsor id="400178"/>
+	<cosponsors>
+		<cosponsor id="412193" joined="2009-01-08"/>
+		<cosponsor id="400070" joined="2009-01-08"/>
+		<cosponsor id="400122" joined="2009-01-08"/>
+		<cosponsor id="400366" joined="2009-01-08"/>
+		<cosponsor id="400299" joined="2009-01-08"/>
+		<cosponsor id="400647" joined="2009-01-08"/>
+		<cosponsor id="400283" joined="2009-01-08"/>
+		<cosponsor id="400215" joined="2009-01-08"/>
+		<cosponsor id="400184" joined="2009-01-08"/>
+		<cosponsor id="400130" joined="2009-01-08"/>
+		<cosponsor id="412194" joined="2009-01-08"/>
+		<cosponsor id="412233" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

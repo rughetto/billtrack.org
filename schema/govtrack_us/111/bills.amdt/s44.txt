@@ -1,0 +1,13 @@
+SA 44. Mr. DeMINT (for himself and Mr. VITTER) submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+
+ At the appropriate place, insert the following:
+SEC. --. PROHIBITION ON CONSIDERATION OF REVENUE PROVISIONS WITHOUT CERTIFICATION OF TAX BURDEN EFFECTS.
+ (a) In General.--It shall not be in order to consider a bill, resolution, amendment, or conference report that proposes any provision amending the Internal Revenue Code of 1986 or affecting the application of such Code unless the Joint Committee on Taxation provides a written certification that such provision does not increase the net yearly tax burden for any family whose taxable income for any taxable year to which such provision applies is less than $250,000.
+ (b) Supermajority Waiver and Appeal.--
+ (1) WAIVER.--A point of order raised under subsection (a) may be waived or suspended in the Senate only by an affirmative vote of two-thirds of the Members, duly chosen and sworn.
+ (2) APPEAL.--An affirmative vote of two-thirds of the Members of the Senate, duly chosen and sworn, shall be required in the Senate to sustain an appeal of the ruling of the Chair on a point of order raised under subsection (a).
+ (c) Definition.--For purposes of this section, the term ``family'' means a married couple filing jointly or an individual filing as a head of household.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

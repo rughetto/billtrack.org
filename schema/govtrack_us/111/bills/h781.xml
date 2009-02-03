@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="781" updated="2009-01-29T12:08:07-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">To develop a national system of oversight of States for sexual misconduct in the elementary and secondary school system.</title>
+	</titles>
+	<sponsor id="400328"/>
+	<cosponsors>
+		<cosponsor id="412291" joined="2009-01-28"/>
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

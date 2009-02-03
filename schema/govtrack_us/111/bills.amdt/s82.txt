@@ -1,0 +1,9 @@
+SA 82. Mr. COBURN submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ At the appropriate place, insert the following:
+SEC. __. COMPLIANCE WITH STATE AND FEDERAL LAWS.
+ Notwithstanding any other provision of law, no Federal funds shall be made available under this Act (or an amendment made by this Act) to a health care provider to reimburse such provider for providing an unemancipated minor with a prescription contraceptive drug or device, including the surgical insertion of a contraceptive device or an injection of a contraceptive drug, unless such provider complies with State and Federal child abuse, child molestation, sexual abuse, rape, statutory rape,
+and incest reporting laws.
+
+
+(As printed in the Congressional Record for the Senate on Jan 29, 2009.)

@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="419" updated="2009-01-14T09:06:59-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Rocky Mountain National Park Wilderness and Indian Peaks Wilderness Expansion Act</title>
+		<title type="official" as="introduced">To designate as wilderness certain land within the Rocky Mountain National Park and to adjust the boundaries of the Indian Peaks Wilderness and the Arapaho National Recreation Area of the Arapaho National Forest in the State of Colorado.</title>
+	</titles>
+	<sponsor id="412298"/>
+	<cosponsors>
+		<cosponsor id="412308" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

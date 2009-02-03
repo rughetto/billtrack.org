@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="316" updated="2009-01-14T08:55:20-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Omnibus Parks and Public Lands Management Act of 1996 to authorize the Secretary of the Interior to enter into cooperative agreements with any of the management partners of the Boston Harbor Islands National Recreation Area, and for other purposes.</title>
+	</titles>
+	<sponsor id="400102"/>
+	<cosponsors>
+		<cosponsor id="400063" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

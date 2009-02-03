@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="638" updated="2009-01-23T12:04:13-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Internal Revenue Code of 1986 to exempt from the harbor maintenance tax certain commercial cargo loaded or unloaded at United States ports.</title>
+	</titles>
+	<sponsor id="400090"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

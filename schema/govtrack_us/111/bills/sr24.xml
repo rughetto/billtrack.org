@@ -1,0 +1,30 @@
+<bill session="111" type="sr" number="24" updated="2009-01-29T12:01:10-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">A resolution commending China's Charter 08 movement and related efforts for upholding the universality of human rights and advancing democratic reforms in China.</title>
+	</titles>
+	<sponsor id="412246"/>
+	<cosponsors>
+		<cosponsor id="300013" joined="2009-01-28"/>
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the Committee on Foreign Relations.</text><reference label="text of measure as introduced" ref="CR S998"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Foreign Relations" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

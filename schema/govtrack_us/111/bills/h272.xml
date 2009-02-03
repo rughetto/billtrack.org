@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="272" updated="2009-01-14T08:50:19-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">Freight Rail Infrastructure Capacity Expansion Act of 2009</title>
+		<title type="official" as="introduced">To amend the Internal Revenue Code of 1986 to provide incentives to encourage investment in the expansion of freight rail infrastructure capacity and to enhance modal tax equity.</title>
+	</titles>
+	<sponsor id="400270"/>
+	<cosponsors>
+		<cosponsor id="400060" joined="2009-01-07"/>
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

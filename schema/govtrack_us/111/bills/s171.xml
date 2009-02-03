@@ -1,0 +1,39 @@
+<bill session="111" type="s" number="171" updated="2009-01-14T09:35:05-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">A bill to develop and maintain an integrated system of coastal and ocean observations for the Nation's coasts, oceans, and Great Lakes, to improve warnings of tsunami, hurricanes, El Nino events, and other natural hazards, to enhance homeland security, to support maritime operations, to improve management of coastal and marine resources, and for other purposes.</title>
+	</titles>
+	<sponsor id="300091"/>
+	<cosponsors>
+		<cosponsor id="300056" joined="2009-01-08"/>
+		<cosponsor id="300025" joined="2009-01-08"/>
+		<cosponsor id="300018" joined="2009-01-08"/>
+		<cosponsor id="300011" joined="2009-01-08"/>
+		<cosponsor id="300060" joined="2009-01-08"/>
+		<cosponsor id="300078" joined="2009-01-08"/>
+		<cosponsor id="300063" joined="2009-01-08"/>
+		<cosponsor id="300081" joined="2009-01-08"/>
+		<cosponsor id="300084" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Sponsor introductory remarks on measure. (CR S215-216)</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text><reference label="text of measure as introduced" ref="CR S216-219"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Commerce, Science, and Transportation" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

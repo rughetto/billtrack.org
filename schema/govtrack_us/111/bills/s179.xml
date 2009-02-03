@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="179" updated="2009-01-09T12:03:19-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">A bill to improve quality in health care by providing incentives for adoption of modern information technology.</title>
+	</titles>
+	<sponsor id="300093"/>
+	<cosponsors>
+		<cosponsor id="300091" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Sponsor introductory remarks on measure. (CR S226-227)</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Read twice and referred to the Committee on Finance.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

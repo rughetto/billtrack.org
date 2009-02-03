@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="600" updated="2009-01-17T12:01:43-05:00">
+	<status><introduced date="1232082000" datetime="2009-01-16"/></status>
+
+	<introduced date="1232082000" datetime="2009-01-16"/>
+	<titles>
+		<title type="official" as="introduced">To revise the requirements for seller-financed downpayments for mortgages for single-family housing insured by the Secretary of Housing and Urban Development under title II of the National Housing Act.</title>
+	</titles>
+	<sponsor id="400653"/>
+	<cosponsors>
+		<cosponsor id="400277" joined="2009-01-16"/>
+		<cosponsor id="400422" joined="2009-01-16"/>
+	</cosponsors>
+	<actions>
+		<action date="1232082000" datetime="2009-01-16"><text>Referred to the House Committee on Financial Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Financial Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

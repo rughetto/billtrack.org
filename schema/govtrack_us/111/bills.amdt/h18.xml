@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="18" updated="2009-01-31T12:02:17-05:00">
+	<amends type="h" number="1" sequence="7"/>
+	<status date="1233177480" datetime="2009-01-28T17:18:00-05:00">fail</status>
+	<sponsor id="400134"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 7 printed in Part B of House Report 111-9 to strike funding for Amtrak.</description>
+	<purpose>An amendment numbered 7 printed in Part B of House Report 111-9 to strike funding for Amtrak.</purpose>
+	<actions>
+		<action date="1233168660" datetime="2009-01-28T14:51:00-05:00"><text>Amendment (A007) offered by Mr. Flake.</text><reference label="consideration" ref="CR H721-723, H743, H744-745"/><reference label="text" ref="CR H721"/></action>
+		<vote date="1233177480" datetime="2009-01-28T17:18:00-05:00" result="fail" how="roll" roll="43"><text>On agreeing to the Flake amendment (A007) Failed by recorded vote: 116 - 320 (Roll no. 43).</text></vote>
+
+	</actions>
+</amendment>

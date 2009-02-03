@@ -1,0 +1,35 @@
+<bill session="111" type="s" number="84" updated="2009-01-14T09:26:01-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="official" as="introduced">A bill to close the loophole that allowed the 9/11 hijackers to obtain credit cards from United States banks that financed their terrorist activities, to ensure that illegal immigrants cannot obtain credit cards to evade United States immigration laws, and for other purposes.</title>
+	</titles>
+	<sponsor id="400418"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Banking, Housing, and Urban Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Finance and financial sector"/>
+		<term name="Bank accounts, deposits, capital"/>
+		<term name="Citizenship and naturalization"/>
+		<term name="Consumer credit"/>
+		<term name="Social security and elderly assistance"/>
+		<term name="Visas and passports"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

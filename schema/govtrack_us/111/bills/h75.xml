@@ -1,0 +1,40 @@
+<bill session="111" type="h" number="75" updated="2009-01-14T08:28:23-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="official" as="introduced">To authorize the Secretary of the Interior to construct facilities to provide water for irrigation, municipal, domestic, military, and other uses from the Santa Margarita River, California, and for other purposes.</title>
+	</titles>
+	<sponsor id="400196"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the Committee on Natural Resources, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Natural Resources</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Armed Services</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Water resources development"/>
+		<term name="California"/>
+		<term name="Lakes and rivers"/>
+		<term name="Military facilities and property"/>
+		<term name="Water resources funding"/>
+		<term name="Water storage"/>
+		<term name="Water use and supply"/>
+		<term name="Watersheds"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

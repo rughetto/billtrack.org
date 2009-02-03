@@ -1,0 +1,8 @@
+SA 52. Mr. GRASSLEY submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ On page 130, between lines 7 and 8, insert the following:
+ (d) GAO Study and Report.--The Comptroller General or the United States shall study and report to Congress on the extent to which States use the option to provide presumptive eligibility for medical assistance under Medicaid or child health assistance under CHIP to avoid complying with the verification of citizenship or nationality documentation requirements of section 1903(x) of the Social Security Act or any other eligibility requirements for receipt of medical assistance or child
+health assistance.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

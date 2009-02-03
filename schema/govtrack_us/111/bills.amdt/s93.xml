@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="93" updated="2009-02-02T12:01:24-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233205200" datetime="2009-01-29">fail</status>
+	<sponsor id="300054"/>
+	<offered date="1233205200" datetime="2009-01-29"/>
+	<description>To provide assistance for States with percentages of children with no health insurance coverage above the national average.</description>
+	<purpose>To provide assistance for States with percentages of children with no health insurance coverage above the national average.</purpose>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Amendment SA 93 proposed by Senator Hutchison.</text><reference label="consideration" ref="CR S1045-1046"/><reference label="text" ref="CR S1045"/></action>
+		<vote date="1233205200" datetime="2009-01-29" result="fail" how="roll" roll="30"><text>Amendment SA 93 not agreed to in Senate by Yea-Nay Vote. 17 - 81. Record Vote Number: 30.</text></vote>
+
+	</actions>
+</amendment>

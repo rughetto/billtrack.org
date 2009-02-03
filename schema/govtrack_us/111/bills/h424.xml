@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="424" updated="2009-01-14T09:07:33-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Protecting Senior's Nest Egg Act of 2009</title>
+		<title type="official" as="introduced">To amend the Internal Revenue Code of 1986 to extend the temporary waiver of the required minimum distribution rules for certain retirement plans and accounts for an additional year.</title>
+	</titles>
+	<sponsor id="400285"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

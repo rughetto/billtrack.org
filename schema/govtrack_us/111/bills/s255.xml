@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="255" updated="2009-01-16T12:00:56-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Truth in Lending Act to empower the States to set the maximum annual percentage rates applicable to consumer credit transactions, and for other purposes.</title>
+	</titles>
+	<sponsor id="412247"/>
+	<cosponsors>
+		<cosponsor id="300038" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text></action>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

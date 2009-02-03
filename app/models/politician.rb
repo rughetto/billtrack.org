@@ -116,6 +116,14 @@ class Politician < ActiveRecord::Base
   
   def self.all_active_from_sunlight
     Sunlight::Legislator.all_where(:in_office => 1)
-  end     
+  end 
+  
+  def self.update_govtrack_ids
+    all(:conditions => "govtrack_id IS NULL OR govtrack_ID = ''").each do |p|
+      hpr = Govtracker::People.search(:bioguideid => p.bioguide_id)
+      p.govtrack_id =  hpr.first.get_attribute('id')
+      p.save
+    end  
+  end  
   
 end

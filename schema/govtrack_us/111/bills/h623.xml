@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="623" updated="2009-01-22T12:04:00-05:00">
+	<status><introduced date="1232514000" datetime="2009-01-21"/></status>
+
+	<introduced date="1232514000" datetime="2009-01-21"/>
+	<titles>
+		<title type="official" as="introduced">To provide for greater judicial discretion in sentencing for certain firearms offenses committed in exceptional circumstances.</title>
+	</titles>
+	<sponsor id="400337"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232514000" datetime="2009-01-21"><text>Referred to the House Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

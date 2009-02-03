@@ -1,0 +1,56 @@
+<bill session="111" type="h" number="333" updated="2009-01-14T08:57:13-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">Disabled Veterans Tax Termination Act</title>
+		<title type="official" as="introduced">To amend title 10, United States Code, to permit retired members of the Armed Forces who have a service-connected disability rated less than 50 percent to receive concurrent payment of both retired pay and veterans' disability compensation, to eliminate the phase-in period for concurrent receipt, to extend eligibility for concurrent receipt to chapter 61 disability retirees with less than 20 years of service, and for other purposes.</title>
+	</titles>
+	<sponsor id="400254"/>
+	<cosponsors>
+		<cosponsor id="400627" joined="2009-01-08"/>
+		<cosponsor id="400041" joined="2009-01-09"/>
+		<cosponsor id="400017" joined="2009-01-13"/>
+		<cosponsor id="400337" joined="2009-01-09"/>
+		<cosponsor id="412223" joined="2009-01-08"/>
+		<cosponsor id="412193" joined="2009-01-08"/>
+		<cosponsor id="412199" joined="2009-01-08"/>
+		<cosponsor id="400155" joined="2009-01-13"/>
+		<cosponsor id="400399" joined="2009-01-08"/>
+		<cosponsor id="400282" joined="2009-01-08"/>
+		<cosponsor id="412234" joined="2009-01-13"/>
+		<cosponsor id="400118" joined="2009-01-13"/>
+		<cosponsor id="400628" joined="2009-01-08"/>
+		<cosponsor id="400443" joined="2009-01-13"/>
+		<cosponsor id="400266" joined="2009-01-08"/>
+		<cosponsor id="400361" joined="2009-01-08"/>
+		<cosponsor id="400043" joined="2009-01-08"/>
+		<cosponsor id="400047" joined="2009-01-08"/>
+		<cosponsor id="400651" joined="2009-01-08"/>
+		<cosponsor id="412299" joined="2009-01-09"/>
+		<cosponsor id="412219" joined="2009-01-08"/>
+		<cosponsor id="400030" joined="2009-01-08"/>
+		<cosponsor id="400100" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the Committee on Armed Services, and in addition to the Committee on Veterans' Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to House Armed Services</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to House Veterans' Affairs</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

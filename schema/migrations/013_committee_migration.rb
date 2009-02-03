@@ -2,6 +2,7 @@ class CommitteeMigration < ActiveRecord::Migration
   def self.up
     create_table :committees do |t|
       t.string  :name
+      t.string  :chamber
       t.string  :url
       t.string  :code
       t.integer :parent_id

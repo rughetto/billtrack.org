@@ -1,0 +1,49 @@
+<bill session="111" type="hr" number="65" updated="2009-01-15T12:11:57-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">Expressing the support of the House of Representatives for efforts to increase financial literacy in the United States and recognizing the work of John Hope Bryant to raise awareness about the importance of financial and economic literacy.</title>
+	</titles>
+	<sponsor id="400423"/>
+	<cosponsors>
+		<cosponsor id="400661" joined="2009-01-14"/>
+		<cosponsor id="412258" joined="2009-01-14"/>
+		<cosponsor id="400073" joined="2009-01-14"/>
+		<cosponsor id="400048" joined="2009-01-14"/>
+		<cosponsor id="412199" joined="2009-01-14"/>
+		<cosponsor id="412263" joined="2009-01-14"/>
+		<cosponsor id="412221" joined="2009-01-14"/>
+		<cosponsor id="400333" joined="2009-01-14"/>
+		<cosponsor id="400271" joined="2009-01-14"/>
+		<cosponsor id="400021" joined="2009-01-14"/>
+		<cosponsor id="400170" joined="2009-01-14"/>
+		<cosponsor id="400211" joined="2009-01-14"/>
+		<cosponsor id="400424" joined="2009-01-14"/>
+		<cosponsor id="400628" joined="2009-01-14"/>
+		<cosponsor id="412200" joined="2009-01-14"/>
+		<cosponsor id="400093" joined="2009-01-14"/>
+		<cosponsor id="400124" joined="2009-01-14"/>
+		<cosponsor id="400262" joined="2009-01-14"/>
+		<cosponsor id="400312" joined="2009-01-14"/>
+		<cosponsor id="400639" joined="2009-01-14"/>
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the House Committee on Financial Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Financial Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

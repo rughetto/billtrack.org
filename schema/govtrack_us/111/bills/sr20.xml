@@ -1,0 +1,30 @@
+<bill session="111" type="sr" number="20" updated="2009-01-27T12:02:30-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">A resolution celebrating the 60th anniversary of the North Atlantic Treaty Organization.</title>
+	</titles>
+	<sponsor id="300098"/>
+	<cosponsors>
+		<cosponsor id="412246" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the Committee on Foreign Relations.</text><reference label="text of measure as introduced" ref="CR S846"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Foreign Relations" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

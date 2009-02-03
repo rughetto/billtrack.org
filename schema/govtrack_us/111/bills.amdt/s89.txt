@@ -1,0 +1,11 @@
+SA 89. Ms. STABENOW (for herself and Mr. LEVIN) submitted an amendment intended to be proposed by her to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+
+ After section 622 insert the following:
+SEC. 623. PRESERVING CARE FOR VENTILATOR-DEPENDENT PATIENTS.
+ (a) In General.--Section 1886(d)(5)(F)(vi) of the Social Security Act (42 U.S.C. 1395ww(d)(5)(F)(vi)) is amended, in the flush matter following subclause (II), by adding at the end the following: ``In the case of a hospital which provides acute care services to ventilator-dependent patients who are entitled to benefits under part A and are eligible for medical assistance under a State plan approved under title XIX, the Secretary shall not exclude from the numerator in subclause (II)
+for such period any patient days of such ventilator-dependent patients unless such patient days are included in the numerator in subclause (I).''
+ (b) Effective Date.--The amendment made by this section shall take effect as if included in and effective upon the enactment of the Medicare, Medicaid, and SCHIP Benefits Improvement and Protection Act of 2000 (as enacted into law by section 1(a)(6) of Public Law 106-554).
+
+
+(As printed in the Congressional Record for the Senate on Jan 29, 2009.)

@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="597" updated="2009-01-16T12:09:28-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Elementary and Secondary Education Act of 1965 to provide grants for core curriculum development.</title>
+	</titles>
+	<sponsor id="400436"/>
+	<cosponsors>
+		<cosponsor id="412209" joined="2009-01-15"/>
+		<cosponsor id="412212" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

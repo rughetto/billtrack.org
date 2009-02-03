@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="689" updated="2009-01-27T12:05:24-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">To interchange the administrative jurisdiction of certain Federal lands between the Forest Service and the Bureau of Land Management, and for other purposes.</title>
+	</titles>
+	<sponsor id="400176"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

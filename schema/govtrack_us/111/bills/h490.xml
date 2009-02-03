@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="490" updated="2009-01-14T12:06:44-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">To require a quadrennial review of the diplomatic strategy and structure of the Department of State and its related agencies to determine how the Department can best fulfill its mission in the 21st century and meet the challenges of a changing world.</title>
+	</titles>
+	<sponsor id="400404"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Referred to the House Committee on Foreign Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

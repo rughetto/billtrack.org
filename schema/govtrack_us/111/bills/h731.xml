@@ -1,0 +1,35 @@
+<bill session="111" type="h" number="731" updated="2009-01-28T12:06:22-05:00">
+	<status><introduced date="1233032400" datetime="2009-01-27"/></status>
+
+	<introduced date="1233032400" datetime="2009-01-27"/>
+	<titles>
+		<title type="official" as="introduced">To amend title 38, United States Code, to exclude individuals who have been convicted of committing certain sex offenses from receiving certain burial-related benefits and funeral honors which are otherwise available to certain veterans, members of the Armed Forces, and related individuals, and for other purposes.</title>
+	</titles>
+	<sponsor id="400368"/>
+	<cosponsors>
+		<cosponsor id="412218" joined="2009-01-27"/>
+		<cosponsor id="412256" joined="2009-01-27"/>
+		<cosponsor id="400047" joined="2009-01-27"/>
+		<cosponsor id="412262" joined="2009-01-27"/>
+		<cosponsor id="412222" joined="2009-01-27"/>
+		<cosponsor id="400010" joined="2009-01-27"/>
+	</cosponsors>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Referred to the House Committee on Veterans' Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

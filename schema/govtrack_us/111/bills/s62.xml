@@ -1,0 +1,33 @@
+<bill session="111" type="s" number="62" updated="2009-01-14T09:23:19-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="official" as="introduced">A bill to prevent the Federal Communications Commission from repromulgating the fairness doctrine.</title>
+	</titles>
+	<sponsor id="300055"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Commerce, Science, and Transportation" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Science, technology, communications"/>
+		<term name="Administrative law and regulatory procedures"/>
+		<term name="Broadcasting, cable, digital media"/>
+		<term name="Federal Communications Commission (FCC)"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

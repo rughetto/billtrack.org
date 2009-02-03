@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="631" updated="2009-01-23T12:03:28-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">To increase research, development, education, and technology transfer activities related to water use efficiency and conservation technologies and practices at the Environmental Protection Agency.</title>
+	</titles>
+	<sponsor id="400255"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Referred to the House Committee on Science and Technology.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Science and Technology" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

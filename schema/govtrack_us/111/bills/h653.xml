@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="653" updated="2009-01-23T12:06:35-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">To amend title IV of the Public Health Service Act to create a National Childhood Brain Tumor Prevention Network to provide grants and coordinate research with respect to the causes of and risk factors associated with childhood brain tumors, and for other purposes.</title>
+	</titles>
+	<sponsor id="400237"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

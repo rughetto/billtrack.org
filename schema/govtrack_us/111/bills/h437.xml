@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="437" updated="2009-01-14T09:09:01-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Madera Water Supply Enhancement Act</title>
+		<title type="official" as="introduced">To authorize the Secretary of the Interior, acting through the Bureau of Reclamation to enter into a cooperative agreement with the Madera Irrigation District for purposes of supporting the Madera Water Supply Enhancement Project.</title>
+	</titles>
+	<sponsor id="400330"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

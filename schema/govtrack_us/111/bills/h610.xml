@@ -1,0 +1,47 @@
+<bill session="111" type="h" number="610" updated="2009-01-17T12:02:51-05:00">
+	<status><introduced date="1232082000" datetime="2009-01-16"/></status>
+
+	<introduced date="1232082000" datetime="2009-01-16"/>
+	<titles>
+		<title type="official" as="introduced">To amend title 18, United States Code, to strengthen enforcement of spousal court-ordered property distributions, and for other purposes.</title>
+	</titles>
+	<sponsor id="400430"/>
+	<cosponsors>
+		<cosponsor id="400041" joined="2009-01-16"/>
+		<cosponsor id="400133" joined="2009-01-16"/>
+		<cosponsor id="400289" joined="2009-01-16"/>
+		<cosponsor id="400087" joined="2009-01-16"/>
+		<cosponsor id="400436" joined="2009-01-16"/>
+		<cosponsor id="400013" joined="2009-01-16"/>
+		<cosponsor id="400282" joined="2009-01-16"/>
+		<cosponsor id="400426" joined="2009-01-16"/>
+		<cosponsor id="400251" joined="2009-01-16"/>
+		<cosponsor id="400246" joined="2009-01-16"/>
+		<cosponsor id="400170" joined="2009-01-16"/>
+		<cosponsor id="412186" joined="2009-01-16"/>
+		<cosponsor id="400423" joined="2009-01-16"/>
+		<cosponsor id="400240" joined="2009-01-16"/>
+		<cosponsor id="400055" joined="2009-01-16"/>
+		<cosponsor id="400030" joined="2009-01-16"/>
+		<cosponsor id="400312" joined="2009-01-16"/>
+		<cosponsor id="400278" joined="2009-01-16"/>
+	</cosponsors>
+	<actions>
+		<action date="1232082000" datetime="2009-01-16"><text>Referred to the House Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

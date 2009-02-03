@@ -1,0 +1,32 @@
+<bill session="111" type="h" number="24" updated="2009-01-14T08:22:32-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="official" as="introduced">To redesignate the Department of the Navy as the Department of the Navy and Marine Corps.</title>
+	</titles>
+	<sponsor id="400209"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Armed Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Armed forces and national security"/>
+		<term name="Department of Defense"/>
+		<term name="Military command and structure"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,38 @@
+<bill session="111" type="s" number="316" updated="2009-01-27T12:00:29-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Internal Revenue Code of 1986 to make permanent the reduction in the rate of tax on qualified timber gain of corporations, and for other purposes.</title>
+	</titles>
+	<sponsor id="300068"/>
+	<cosponsors>
+		<cosponsor id="300080" joined="2009-01-26"/>
+		<cosponsor id="300076" joined="2009-01-26"/>
+		<cosponsor id="300002" joined="2009-01-26"/>
+		<cosponsor id="300063" joined="2009-01-26"/>
+		<cosponsor id="300027" joined="2009-01-26"/>
+		<cosponsor id="300018" joined="2009-01-26"/>
+		<cosponsor id="300030" joined="2009-01-26"/>
+		<cosponsor id="400418" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Sponsor introductory remarks on measure. (CR S834)</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Read twice and referred to the Committee on Finance.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

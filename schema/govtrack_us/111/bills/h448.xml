@@ -1,0 +1,33 @@
+<bill session="111" type="h" number="448" updated="2009-01-14T09:10:09-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Elder Abuse Victims Act of 2009</title>
+		<title type="official" as="introduced">To protect seniors in the United States from elder abuse by establishing specialized elder abuse prosecution and research programs and activities to aid victims of elder abuse, to provide training to prosecutors and other law enforcement related to elder abuse prevention and protection, to establish programs that provide for emergency crisis response teams to combat elder abuse, and for other purposes.</title>
+	</titles>
+	<sponsor id="412232"/>
+	<cosponsors>
+		<cosponsor id="400219" joined="2009-01-09"/>
+		<cosponsor id="400364" joined="2009-01-09"/>
+		<cosponsor id="400080" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

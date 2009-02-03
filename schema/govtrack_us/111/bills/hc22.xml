@@ -1,0 +1,31 @@
+<bill session="111" type="hc" number="22" updated="2009-01-16T12:09:48-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">Establishing the Joint Select Committee on Reorganization and Reform of Foreign Assistance Agencies and Programs.</title>
+	</titles>
+	<sponsor id="400344"/>
+	<cosponsors>
+		<cosponsor id="400622" joined="2009-01-15"/>
+		<cosponsor id="400055" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Rules.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Rules" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

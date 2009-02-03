@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="75" updated="2009-02-02T12:01:03-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233118800" datetime="2009-01-28">fail</status>
+	<sponsor id="300083"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>To prohibit CHIP coverage for higher income children and to prohibit any payments to a State from its CHIP allotments for any fiscal year quarter in which the State Medicaid income eligibility level for children is greater than the income eligibility level for children under CHIP.</description>
+	<purpose>To prohibit CHIP coverage for higher income children and to prohibit any payments to a State from its CHIP allotments for any fiscal year quarter in which the State Medicaid income eligibility level for children is greater than the income eligibility level for children under CHIP.</purpose>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Amendment SA 75 proposed by Senator Roberts.</text><reference label="consideration" ref="CR S962-967, S969"/><reference label="text" ref="CR S962"/></action>
+		<vote date="1233118800" datetime="2009-01-28" result="fail" how="roll" roll="21"><text>Amendment SA 75 not agreed to in Senate by Yea-Nay Vote. 36 - 60. Record Vote Number: 21.</text></vote>
+
+	</actions>
+</amendment>

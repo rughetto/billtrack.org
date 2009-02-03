@@ -1,0 +1,10 @@
+SA 70. Mr. GRASSLEY submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ Strike section 114 and insert the following:
+SEC. 114. DENIAL OF PAYMENTS FOR COVERAGE OF CHILDREN WITH EFFECTIVE FAMILY INCOME THAT EXCEEDS 300 PERCENT OF THE POVERTY LINE.
+ Section 2105(c) (42 U.S.C. 1397ee(c)) is amended by adding at the end the following new paragraph:
+ ``(8) DENIAL OF PAYMENTS FOR EXPENDITURES FOR CHILD HEALTH ASSISTANCE FOR CHILDREN WHOSE EFFECTIVE FAMILY INCOME EXCEEDS 300 PERCENT OF THE POVERTY LINE.--For child health assistance furnished after the date of the enactment of this paragraph, no payment shall be made under this section for any expenditures for providing child health assistance or health benefits coverage for a targeted low-income child whose effective family income would exceed 300 percent of the poverty line but for
+the application of a general exclusion of a block of income that is not determined by type of expense or type of income.''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

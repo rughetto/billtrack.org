@@ -1,0 +1,40 @@
+<bill session="111" type="h" number="482" updated="2009-01-14T12:05:44-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">To authorize the rededication of the District of Columbia War Memorial as a National and District of Columbia World War I Memorial to honor the sacrifices made by American veterans of World War I.</title>
+	</titles>
+	<sponsor id="400652"/>
+	<cosponsors>
+		<cosponsor id="400144" joined="2009-01-13"/>
+		<cosponsor id="412216" joined="2009-01-13"/>
+		<cosponsor id="400242" joined="2009-01-13"/>
+		<cosponsor id="412232" joined="2009-01-13"/>
+		<cosponsor id="400644" joined="2009-01-13"/>
+		<cosponsor id="412230" joined="2009-01-13"/>
+		<cosponsor id="400276" joined="2009-01-13"/>
+		<cosponsor id="400119" joined="2009-01-13"/>
+		<cosponsor id="400049" joined="2009-01-13"/>
+		<cosponsor id="400260" joined="2009-01-13"/>
+		<cosponsor id="412191" joined="2009-01-13"/>
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

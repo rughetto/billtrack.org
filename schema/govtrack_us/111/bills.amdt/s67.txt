@@ -1,0 +1,20 @@
+SA 67. Mr. CORNYN submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ On page 45, between lines 17 and 18, insert the following:
+ ``(3) LIMITATION.--
+ ``(A) IN GENERAL.--A State shall not be a shortfall State described in paragraph (2) if the State provides coverage under this title to children whose family income (as determined without regard to the application of any general exclusion or disregard of a block of income that is not determined by type of expense or type of income (regardless of whether such an exclusion or disregard is permitted under section 1902(r))) exceeds 200 percent of the poverty line.
+ ``(B) GRANTS TO STATES WITH UNSPENT FUNDS.--Of any funds that are not redistributed under this subsection because of the application of subparagraph (A), the Secretary shall make grants to States as follows:
+ ``(i) 75 percent of such funds shall be directed toward increasing coverage under this title for low-income children.
+ ``(ii) 25 percent of such funds shall be directed toward activities assisting States, especially States with a high percentage of eligible, but not enrolled children, in outreach and enrollment activities under this title, such as--
+ ``(I) improving and simplifying enrollment systems, including--
+ ``(aa) increasing staffing and computer systems to meet Federal and State standards;
+ ``(bb) decreasing turn-around time while maintaining program integrity; and
+ ``(II) improving outreach and application assistance, including--
+ ``(aa) connecting children with a medical home and keeping them healthy;
+ ``(bb) developing systems to identify, inform, and fix enrollment system problems;
+ ``(cc) supporting awareness of, and access to, other critical health programs;
+ ``(dd) pursuing new performance goals to cut `procedural denials' to the lowest possible level; and
+ ``(ee) coordinating community- and school-based outreach programs.''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

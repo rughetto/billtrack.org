@@ -1,0 +1,35 @@
+<bill session="111" type="s" number="24" updated="2009-01-14T09:18:58-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">Strengthen the Earned Income Tax Credit Act of 2009</title>
+		<title type="official" as="introduced">A bill to amend the Internal Revenue Code of 1986 to strengthen the earned income tax credit.</title>
+	</titles>
+	<sponsor id="300060"/>
+	<cosponsors>
+		<cosponsor id="300084" joined="2009-01-07"/>
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Sponsor introductory remarks on measure. (CR S172-173)</text></action>
+		<action date="1231304400" datetime="2009-01-07"><text>Read twice and referred to the Committee on Finance.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Taxation"/>
+		<term name="Income tax credits"/>
+		<term name="Marriage and family status"/>
+		<term name="Wages and earnings"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

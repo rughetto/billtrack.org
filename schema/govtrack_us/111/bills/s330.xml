@@ -1,0 +1,34 @@
+<bill session="111" type="s" number="330" updated="2009-01-28T12:00:31-05:00">
+	<status><introduced date="1233032400" datetime="2009-01-27"/></status>
+
+	<introduced date="1233032400" datetime="2009-01-27"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title XVIII of the Social Security Act to deliver a meaningful benefit and lower prescription drug prices under the Medicare program.</title>
+	</titles>
+	<sponsor id="300038"/>
+	<cosponsors>
+		<cosponsor id="412247" joined="2009-01-27"/>
+		<cosponsor id="300001" joined="2009-01-27"/>
+		<cosponsor id="400357" joined="2009-01-27"/>
+		<cosponsor id="400050" joined="2009-01-27"/>
+	</cosponsors>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Sponsor introductory remarks on measure. (CR S894-895)</text></action>
+		<action date="1233032400" datetime="2009-01-27"><text>Read twice and referred to the Committee on Finance.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

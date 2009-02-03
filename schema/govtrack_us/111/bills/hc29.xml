@@ -1,0 +1,36 @@
+<bill session="111" type="hc" number="29" updated="2009-01-29T12:08:56-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">Expressing the sense of Congress that the United Nations should take immediate steps to improve the transparency and accountability of the United Nations Relief and Works Agency for Palestinian Refugees (UNRWA) in the Near East to ensure that it is not providing funding, employment, or other support to terrorists.</title>
+	</titles>
+	<sponsor id="400346"/>
+	<cosponsors>
+		<cosponsor id="400222" joined="2009-01-28"/>
+		<cosponsor id="400145" joined="2009-01-28"/>
+		<cosponsor id="400396" joined="2009-01-28"/>
+		<cosponsor id="400024" joined="2009-01-28"/>
+		<cosponsor id="400288" joined="2009-01-28"/>
+		<cosponsor id="400055" joined="2009-01-28"/>
+		<cosponsor id="400122" joined="2009-01-28"/>
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on Foreign Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Foreign Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

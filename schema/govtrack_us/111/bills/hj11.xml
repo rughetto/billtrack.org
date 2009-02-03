@@ -1,0 +1,30 @@
+<bill session="111" type="hj" number="11" updated="2009-01-14T08:20:06-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="official" as="introduced">Proposing an amendment to the Constitution of the United States to provide that Representatives shall be apportioned among the several States according to their respective numbers, counting the number of persons in each State who are citizens of the United States.</title>
+	</titles>
+	<sponsor id="400276"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the House Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

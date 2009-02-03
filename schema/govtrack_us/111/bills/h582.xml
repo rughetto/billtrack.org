@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="582" updated="2009-01-16T12:07:43-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To reauthorize the public and assisted housing drug elimination program of the Department of Housing and Urban Development.</title>
+	</titles>
+	<sponsor id="400237"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Financial Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Financial Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

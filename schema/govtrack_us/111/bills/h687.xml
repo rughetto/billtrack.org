@@ -1,0 +1,36 @@
+<bill session="111" type="h" number="687" updated="2009-01-27T12:05:09-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">To amend titles 23 and 49, United States Code, to repeal wage requirements applicable to laborers and mechanics employed on Federal-aid highway and public transportation construction projects.</title>
+	</titles>
+	<sponsor id="400643"/>
+	<cosponsors>
+		<cosponsor id="400644" joined="2009-01-26"/>
+		<cosponsor id="400320" joined="2009-01-26"/>
+		<cosponsor id="400175" joined="2009-01-26"/>
+		<cosponsor id="400367" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the Committee on Transportation and Infrastructure, and in addition to the Committee on Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to House Transportation and Infrastructure</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to House Education and Labor</text></action>
+	</actions>
+	<committees>
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

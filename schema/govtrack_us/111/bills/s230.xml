@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="230" updated="2009-01-14T12:01:50-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">A bill to express United States foreign policy with respect to, and to strengthen United States advocacy on behalf of, individuals persecuted and denied their rights in foreign countries on account of gender, and for other purposes.</title>
+	</titles>
+	<sponsor id="300011"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Read twice and referred to the Committee on Foreign Relations.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Foreign Relations" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

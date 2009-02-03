@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="15" updated="2009-01-31T12:02:14-05:00">
+	<amends type="h" number="1" sequence="4"/>
+	<status date="1233167640" datetime="2009-01-28T14:34:00-05:00">pass</status>
+	<sponsor id="400289"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 4 printed in Part B of House Report 111-9 to increase transit capital funding by $3 billion.</description>
+	<purpose>An amendment numbered 4 printed in Part B of House Report 111-9 to increase transit capital funding by $3 billion.</purpose>
+	<actions>
+		<action date="1233166980" datetime="2009-01-28T14:23:00-05:00"><text>Amendment (A004) offered by Mr. Nadler (NY).</text><reference label="consideration" ref="CR H717-719"/><reference label="text" ref="CR H717"/></action>
+		<vote date="1233167640" datetime="2009-01-28T14:34:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Nadler (NY) amendment (A004) Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

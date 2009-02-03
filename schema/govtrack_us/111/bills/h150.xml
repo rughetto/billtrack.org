@@ -1,0 +1,34 @@
+<bill session="111" type="h" number="150" updated="2009-01-14T08:36:43-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Illegal Alien Crime Reporting Act of 2009</title>
+		<title type="official" as="introduced">To make payments by the Department of Homeland Security to a State contingent on a State providing the Federal Bureau of Investigation with certain statistics, to require Federal agencies, departments, and courts to provide such statistics to the Federal Bureau of Investigation, and to require the Federal Bureau of Investigation to publish such statistics.</title>
+	</titles>
+	<sponsor id="400209"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the Committee on the Judiciary, and in addition to the Committee on Homeland Security, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Judiciary</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Homeland Security</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Homeland Security" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

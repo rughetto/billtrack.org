@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="348" updated="2009-01-30T12:02:05-05:00">
+	<status><introduced date="1233205200" datetime="2009-01-29"/></status>
+
+	<introduced date="1233205200" datetime="2009-01-29"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend section 254 of the Communications Act of 1934 to provide that funds received as universal service contributions and the universal service support programs established pursuant to that section are not subject to certain provisions of title 31, United States Code, commonly known as the Antideficiency Act.</title>
+	</titles>
+	<sponsor id="300084"/>
+	<cosponsors>
+		<cosponsor id="300091" joined="2009-01-29"/>
+	</cosponsors>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Sponsor introductory remarks on measure. (CR S1063-1064)</text></action>
+		<action date="1233205200" datetime="2009-01-29"><text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Commerce, Science, and Transportation" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

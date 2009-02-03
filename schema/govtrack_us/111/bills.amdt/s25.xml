@@ -1,0 +1,15 @@
+<amendment session="111" chamber="s" number="25" updated="2009-01-30T12:03:37-05:00">
+	<amends type="s" number="181" sequence=""/>
+	<status date="1232600400" datetime="2009-01-22">fail</status>
+	<sponsor id="300054"/>
+	<offered date="1231995600" datetime="2009-01-15"/>
+	<description>In the nature of a substitute.</description>
+	<purpose>In the nature of a substitute.</purpose>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Amendment SA 25 proposed by Senator Hutchison.</text><reference label="consideration" ref="CR S588"/><reference label="text" ref="CR S588"/></action>
+		<action date="1232514000" datetime="2009-01-21"><text>Considered by Senate.</text><reference label="consideration" ref="CR S693-696, S697-710, S711-712"/></action>
+		<action date="1232600400" datetime="2009-01-22"><text>Considered by Senate.</text><reference label="consideration" ref="CR S739, S741-745"/></action>
+		<vote date="1232600400" datetime="2009-01-22" result="fail" how="roll" roll="7"><text>Amendment SA 25 not agreed to in Senate by Yea-Nay Vote. 40 - 55. Record Vote Number: 7.</text></vote>
+
+	</actions>
+</amendment>

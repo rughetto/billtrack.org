@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="258" updated="2009-01-14T08:48:46-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">Congressional Lawmaking Authority Protection Act of 2009</title>
+		<title type="official" as="introduced">To prevent the President from encroaching upon the Congressional prerogative to make laws, and for other purposes.</title>
+	</titles>
+	<sponsor id="400199"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the House Committee on Oversight and Government Reform.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

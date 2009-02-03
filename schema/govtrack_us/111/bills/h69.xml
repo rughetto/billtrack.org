@@ -1,0 +1,40 @@
+<bill session="111" type="h" number="69" updated="2009-01-14T08:27:43-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">No One Strike Eviction Act of 2009</title>
+		<title type="official" as="introduced">To reform the provisions requiring &quot;one-strike&quot; eviction from public and federally assisted housing.</title>
+	</titles>
+	<sponsor id="400199"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Financial Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Financial Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Housing and community development"/>
+		<term name="Administrative remedies"/>
+		<term name="Crime victims"/>
+		<term name="Drug trafficking and controlled substances"/>
+		<term name="Drug, alcohol, tobacco use"/>
+		<term name="Family relationships"/>
+		<term name="Housing and community development funding"/>
+		<term name="Low- and moderate-income housing"/>
+		<term name="Public housing"/>
+		<term name="Violent crime"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,13 @@
+SA 33. Mr. DeMINT submitted an amendment intended to be proposed by him to the bill S. 181, to amend title VII of the Civil Rights Act of 1964 and the Age Discrimination in Employment Act of 1967, and to modify the operation of the Americans with Disabilities Act of 1990 and the Rehabilitation Act of 1973, to clarify that a discriminatory compensation decision or other practice that is unlawful under such Acts occurs each time compensation is paid pursuant to the discriminatory compensation
+decision or other practice, and for other purposes; which was ordered to lie on the table; as follows:
+
+ At the end, add the following:
+SEC. 7. STATUTES OF LIMITATIONS FOR SUITS AGAINST LABOR ORGANIZATIONS.
+ (a) Civil Rights Act of 1964.--Section 706(e) of the Civil Rights Act of 1965 (as amended by section 3 of this Act) (42 U.S.C. 2000e-5(e)) is further amended by adding at the end the following:
+ ``(4) Notwithstanding paragraph (1), a charge filed by or on behalf of an individual claiming to be aggrieved against a labor organization shall not be subject to the timing requirements of such paragraph, and the individual may file a charge at any time after the alleged unlawful employment practice has occurred.''.
+ (b) Age Discrimination in Employment Act.--Section 7 of the Age Discrimination in Employment Act of 1967 (as amended by section 4 of this Act) (29 U.S.C. 626) is further amended by adding at the end the following:
+ ``(g) Statutes of Limitations for Suits Against Labor Organizations.--Notwithstanding subsection (d), a charge filed by or on behalf of an individual alleging that a labor organization committed unlawful discrimination against the individual shall not  be subject to the timing requirements of such subsection, and the individual may file a charge at any time after the alleged unlawful employment practice has occurred.''.
+ (c) Application to Other Laws.--Section 5 of this Act shall be applied by substituting ``sections 3 and 7'' for ``section 3'' each place the term occurs.
+
+
+(As printed in the Congressional Record for the Senate on Jan 21, 2009.)

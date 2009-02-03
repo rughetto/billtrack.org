@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="235" updated="2009-01-15T12:00:56-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Truth in Lending Act to establish fair and transparent practices relating to the extension of credit under an open end consumer credit plan, and for other purposes.</title>
+	</titles>
+	<sponsor id="300087"/>
+	<cosponsors>
+		<cosponsor id="400412" joined="2009-01-14"/>
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Sponsor introductory remarks on measure. (CR S389-390)</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Read twice and referred to the Committee on Banking, Housing, and Urban Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Banking, Housing, and Urban Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

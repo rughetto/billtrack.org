@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="189" updated="2009-01-14T09:35:46-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">National Trails System Willing Seller Act</title>
+		<title type="official" as="introduced">A bill to amend the National Trails System Act to clarify Federal authority relating to land acquisition from willing sellers for the majority of the trails in the System, and for other purposes.</title>
+	</titles>
+	<sponsor id="400412"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Read twice and referred to the Committee on Energy and Natural Resources.</text><reference label="text of measure as introduced" ref="CR S232"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Energy and Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

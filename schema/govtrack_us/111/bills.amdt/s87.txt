@@ -1,0 +1,10 @@
+SA 87. Ms. STABENOW submitted an amendment intended to be proposed by her to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ After section 622 insert the following:
+SEC. 623. CRITICAL ACCESS HOSPITAL DESIGNATION.
+ Section 1820(c)(2)(B)(i)(I) of the Social Security Act (42 U.S.C. 1395i-4(c)(2)(B)(i)(I)) is amended--
+ (1) by striking ``or in areas'' and inserting ``, in areas''; and
+ (2) by inserting ``, or a hospital that is located in the county of Berrien County, Michigan'' after ``available''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 29, 2009.)

@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="101" updated="2009-01-14T08:31:08-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Economic Recovery Through Responsible Homeownership Act of 2009</title>
+		<title type="official" as="introduced">To amend the Internal Revenue Code of 1986 to allow all individuals, whether or not first-time homebuyers, a refundable income tax credit for the purchase of a residence during 2009 or 2010.</title>
+	</titles>
+	<sponsor id="400115"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

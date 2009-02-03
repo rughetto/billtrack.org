@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="272" updated="2009-01-16T12:02:55-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Commodity Exchange Act to ensure that all agreements, contracts, and transactions with respect to commodities are carried out on a regulated exchange, and for other purposes.</title>
+	</titles>
+	<sponsor id="300051"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Sponsor introductory remarks on measure. (CR S626-627)</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.</text><reference label="text of measure as introduced" ref="CR S627-628"/></action>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

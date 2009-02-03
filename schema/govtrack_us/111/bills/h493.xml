@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="493" updated="2009-01-15T12:03:42-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">To direct the Secretary of the Interior to promulgate regulations concerning the storage and disposal of matter referred to as &quot;other wastes&quot; in the Surface Mining Control and Reclamation Act of 1977, and for other purposes.</title>
+	</titles>
+	<sponsor id="400331"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Sponsor introductory remarks on measure. (CR E82-83)</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

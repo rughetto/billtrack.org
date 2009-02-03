@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="477" updated="2009-01-14T12:04:56-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">To require the submission by the President of recommendations and proposed legislation to modernize, consolidate, reprioritize, and where necessary, terminate Federal programs, agencies, and activities.</title>
+	</titles>
+	<sponsor id="412226"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Referred to the House Committee on Oversight and Government Reform.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

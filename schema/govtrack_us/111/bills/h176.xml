@@ -1,0 +1,36 @@
+<bill session="111" type="h" number="176" updated="2009-01-14T08:39:39-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Anti-hunger Empowerment Act of 2009</title>
+		<title type="official" as="introduced">To amend the Food and Nutrition Act of 2008 to provide greater access to the supplemental nutrition assistance program by reducing duplicative and burdensome administrative requirements, authorize the Secretary of Agriculture to award grants to certain community-based nonprofit feeding and anti-hunger groups for the purpose of establishing and implementing a Beyond the Soup Kitchen Pilot Program for certain socially and economically disadvantaged populations, and for other purposes.</title>
+	</titles>
+	<sponsor id="400366"/>
+	<cosponsors>
+		<cosponsor id="400087" joined="2009-01-06"/>
+		<cosponsor id="400162" joined="2009-01-06"/>
+		<cosponsor id="400282" joined="2009-01-06"/>
+		<cosponsor id="400426" joined="2009-01-06"/>
+		<cosponsor id="400251" joined="2009-01-08"/>
+		<cosponsor id="400178" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Agriculture.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Agriculture" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

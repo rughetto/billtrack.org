@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="533" updated="2009-01-15T12:08:54-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">To make full estate tax repeal, small business expensing, and SECA tax deduction for health insurance permanent.</title>
+	</titles>
+	<sponsor id="400441"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

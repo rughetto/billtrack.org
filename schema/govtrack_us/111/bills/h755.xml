@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="755" updated="2009-01-29T12:04:56-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Internal Revenue Code of 1986 to exclude from gross income the gain from the sale or exchange of certain residences acquired before 2013.</title>
+	</titles>
+	<sponsor id="400057"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on Ways and Means.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

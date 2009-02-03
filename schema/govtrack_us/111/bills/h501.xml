@@ -1,0 +1,33 @@
+<bill session="111" type="h" number="501" updated="2009-01-15T12:04:40-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">To require that the poverty line determined for the State of Alaska be used for all the States and the District of Columbia, during a 6-month period for the purpose of carrying out the Food and Nutrition Act of 2008 and the Richard B. Russell National School Lunch Act.</title>
+	</titles>
+	<sponsor id="400009"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the Committee on Agriculture, and in addition to the Committee on Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to House Agriculture</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to House Education and Labor</text></action>
+	</actions>
+	<committees>
+		<committee name="House Agriculture" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

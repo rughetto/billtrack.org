@@ -1,0 +1,30 @@
+<bill session="111" type="sr" number="21" updated="2009-01-27T12:02:37-05:00">
+	<status><vote date="1232946000" datetime="2009-01-26" where="s" result="pass" how="by Unanimous Consent" roll=""/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">A resolution to authorize testimony in United States of America v. Vincent J. Fumo, et al.</title>
+	</titles>
+	<sponsor id="300082"/>
+	<cosponsors>
+		<cosponsor id="300072" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<vote date="1232946000" how="by Unanimous Consent" type="vote" datetime="2009-01-26" where="s" result="pass" ><text>Submitted in the Senate, considered, and agreed to without amendment and with a preamble by Unanimous Consent.</text><reference label="consideration" ref="CR S849-850"/><reference label="text as passed Senate" ref="CR S850"/><reference label="text of measure as introduced" ref="CR S846"/></vote>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,31 @@
+<bill session="111" type="hr" number="97" updated="2009-01-29T12:09:53-05:00">
+	<status><vote date="1233181680" datetime="2009-01-28T18:28:00-05:00" where="h" result="pass" how="by voice vote" roll=""/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">Changing the size of the Permanent Select Committee on Intelligence.</title>
+	</titles>
+	<sponsor id="400378"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233181620" datetime="2009-01-28T18:27:00-05:00"><text>Considered as privileged matter.</text></action>
+		<vote date="1233181680" how="by voice vote" datetime="2009-01-28T18:28:00-05:00" where="h" type="vote" result="pass" ><text>On agreeing to the resolution Agreed to by voice vote.</text></vote>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="780" updated="2009-01-29T12:07:59-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Elementary and Secondary Education Act of 1965 to promote the safe use of the Internet by students, and for other purposes.</title>
+	</titles>
+	<sponsor id="400328"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

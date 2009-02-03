@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="194" updated="2009-01-10T12:00:21-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Emergency Food Assistance Act of 1983 to require the Secretary of Agriculture to help offset the costs of intrastate transportation, storage, and distribution of bonus commodities provided to States and food assistance agencies under the emergency food assistance program.</title>
+	</titles>
+	<sponsor id="412246"/>
+	<cosponsors>
+		<cosponsor id="300091" joined="2009-01-09"/>
+		<cosponsor id="300098" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Read twice and referred to the Committee on Agriculture, Nutrition, and Forestry.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Agriculture, Nutrition, and Forestry" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

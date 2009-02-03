@@ -1,0 +1,36 @@
+<bill session="111" type="h" number="295" updated="2009-01-14T08:52:54-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">More Training for Veterans Act of 2009</title>
+		<title type="official" as="introduced">To authorize appropriations for the veterans' workforce investment programs.</title>
+	</titles>
+	<sponsor id="400056"/>
+	<cosponsors>
+		<cosponsor id="400570" joined="2009-01-13"/>
+		<cosponsor id="412196" joined="2009-01-08"/>
+		<cosponsor id="400388" joined="2009-01-08"/>
+		<cosponsor id="400040" joined="2009-01-08"/>
+		<cosponsor id="412250" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Sponsor introductory remarks on measure. (CR E47)</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Education and Labor.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

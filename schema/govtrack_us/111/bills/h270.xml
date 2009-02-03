@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="270" updated="2009-01-14T08:50:06-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">TRICARE Continuity of Coverage for National Guard and Reserve Families Act of 2009</title>
+		<title type="official" as="introduced">To amend title 10, United States Code, to provide for continuity of TRICARE Standard coverage for certain members of the Retired Reserve.</title>
+	</titles>
+	<sponsor id="412256"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the House Committee on Armed Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

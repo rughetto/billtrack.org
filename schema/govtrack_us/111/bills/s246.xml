@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="246" updated="2009-01-15T12:02:28-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title 38, United States Code, to improve the quality of care provided to veterans in Department of Veterans Affairs medical facilities, to encourage highly qualified doctors to serve in hard-to-fill positions in such medical facilities, and for other purposes.</title>
+	</titles>
+	<sponsor id="300038"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Sponsor introductory remarks on measure. (CR S394)</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Read twice and referred to the Committee on Veterans' Affairs.</text></action>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

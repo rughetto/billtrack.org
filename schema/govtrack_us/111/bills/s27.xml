@@ -1,0 +1,35 @@
+<bill session="111" type="s" number="27" updated="2009-01-14T09:19:18-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">Daniel Webster Congressional Clerkship Act of 2009</title>
+		<title type="official" as="introduced">A bill to establish the Daniel Webster Congressional Clerkship Program.</title>
+	</titles>
+	<sponsor id="300087"/>
+	<cosponsors>
+		<cosponsor id="300059" joined="2009-01-07"/>
+		<cosponsor id="300022" joined="2009-01-07"/>
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Read twice and referred to the Committee on Rules and Administration.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Rules and Administration" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+		<bill relation="identical" session="111" type="h" number="151" />
+	</relatedbills>
+	<subjects>
+		<term name="Congress"/>
+		<term name="Congressional officers and employees"/>
+		<term name="Higher education"/>
+		<term name="Lawyers and legal services"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

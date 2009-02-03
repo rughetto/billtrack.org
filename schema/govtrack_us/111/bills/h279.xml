@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="279" updated="2009-01-14T08:51:06-05:00">
+	<status><introduced date="1231304400" datetime="2009-01-07"/></status>
+
+	<introduced date="1231304400" datetime="2009-01-07"/>
+	<titles>
+		<title type="short" as="introduced">Palo Alto Battlefield National Historical Park Boundary Expansion and Redesignation Act of 2009</title>
+		<title type="official" as="introduced">To amend the Palo Alto Battlefield National Historic Site Act of 1991 to designate the historic site as the Palo Alto Battlefield National Historical Park, to expand the boundaries of the park, and for other purposes.</title>
+	</titles>
+	<sponsor id="400302"/>
+	<cosponsors>
+		<cosponsor id="400152" joined="2009-01-07"/>
+	</cosponsors>
+	<actions>
+		<action date="1231304400" datetime="2009-01-07"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

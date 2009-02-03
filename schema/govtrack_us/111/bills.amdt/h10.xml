@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="10" updated="2009-01-22T12:05:43-05:00">
+	<amends type="h" number="384" sequence="9"/>
+	<status date="1232562240" datetime="2009-01-21T14:24:00-05:00">pass</status>
+	<sponsor id="400134"/>
+	<offered date="1232514000" datetime="2009-01-21"/>
+	<description>An amendment numbered 10 printed in House Report 111-3 to clarify that the TARP Special Inspector General has oversight power over any actions taken by Treasury under this legislation that he deems appropriate, with certain exceptions.</description>
+	<purpose>An amendment numbered 10 printed in House Report 111-3 to clarify that the TARP Special Inspector General has oversight power over any actions taken by Treasury under this legislation that he deems appropriate, with certain exceptions.</purpose>
+	<actions>
+		<action date="1232561580" datetime="2009-01-21T14:13:00-05:00"><text>Amendment (A009) offered by Mr. Flake.</text><reference label="consideration" ref="CR H409-411"/><reference label="text" ref="CR H409"/></action>
+		<vote date="1232562240" datetime="2009-01-21T14:24:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Flake amendment (A009) Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

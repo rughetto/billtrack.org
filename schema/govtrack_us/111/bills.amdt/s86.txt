@@ -1,0 +1,73 @@
+SA 86. Mr. COBURN (for himself, Mr. BURR, Mr. GREGG, Mr. MCCONNELL, Mr. ENZI, Mr. CORNYN, Mr. DEMINT, Mr. JOHANNS, Mr. KYL, Mr. ALEXANDER, Mr. GRAHAM, Mr. CHAMBLISS, Mr. THUNE, Mr. BARRASSO, and Mr. VITTER) submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other
+purposes; as follows:
+
+
+ Strike all after the enacting clause and insert the following:
+SECTION 1. PURPOSE.
+ The purpose of this Act is to ensure that American children have high-quality health coverage that fits their individual needs.
+SEC. 2. CONTINUATION OF SCHIP FUNDING DURING TRANSITION PERIOD.
+ (a) Through Fiscal Year 2010.--Section 2104 of the Social Security Act (42 U.S.C. 1397dd(a)) is amended--
+ (1) in subsection (a)--
+ (A) by striking ``and'' at the end of paragraph (10);
+ (B) in paragraph (11)--
+ (i) by striking ``each of fiscal years 2008 and 2009'' and inserting ``fiscal year 2008''; and
+ (ii) by striking the period at the end and inserting a semicolon; and
+ (C) by adding at the end the following new paragraphs:
+ ``(12) for fiscal year 2009, $7,780,000,000; and
+ ``(13) for fiscal year 2010, $8,044,000,000.''; and
+ (2) in subsection (c)(4)(B), by striking ``2009'' and inserting ``2010''.
+ (b) Extension of Treatment of Qualifying States.--
+ (1) IN GENERAL.--Section 2105(g)(1)(A) of the Social Security Act (42 U.S.C. 1397ee(g)(1)(A)) is amended by striking ``or 2009'' and inserting ``2009, or 2010''.
+ (2) REPEAL OF LIMITATION ON AVAILABILITY OF FISCAL YEAR 2009 ALLOTMENTS.--Paragraph (2) of section 201(b) of the Medicare, Medicaid, and SCHIP Extension Act of 2007 (Public Law 110-173) is repealed.
+ (c) Coordination of Funding for Fiscal Year 2009.--Notwithstanding any other provision of law, insofar as funds have been appropriated under section 2104(a)(11) of the Social Security Act, as amended by section 201(a) of Public Law 110-173 and in effect on January 1, 2009, to provide allotments to States under title XXI of the Social Security Act for fiscal year 2009--
+ (1) any amounts that are so appropriated that are not so allotted and obligated before the date of the enactment of this Act are rescinded; and
+ (2) any amount provided for allotments under title XXI of such Act to a State under the amendments made by this Act for such fiscal year shall be reduced by the amount of such appropriations so allotted and obligated before such date.
+SEC. 3. HIGH-QUALITY HEALTH COVERAGE FOR AMERICAN CHILDREN.
+ (a) Establishment.--Not later than 2 years after the date of enactment of this Act, the Secretary of Health and Human Services (in this Act referred to as the ``Secretary'') shall establish a program to ensure that American children have high-quality health coverage that fits their individual needs (in this section referred to as ``the program'').
+ (b) Criteria for Eligibility.--The program shall ensure that--
+ (1) all children eligible for medical assistance under a State Medicaid plan under title XIX of the Social Security Act or child health assistance under a State child health plan under title XXI of such Act (or under a waiver of either such plan) and whose gross family income ((as determined without regard to the application of any general exclusion or disregard of a block of income that is not determined by type of expense or type of income (regardless of whether such an exclusion or disregard
+is permitted under section 1902(r) of such Act)) does not exceed 300 percent of the poverty line (as defined in section 2110(c)(5) of the Social Security Act) are eligible for coverage under the program; and
+ (2) all children who do not have health insurance coverage (as defined in section 2791 of the Public Health Service Act) and whose gross family income (as so determined) does not exceed 300 percent of the poverty line (as so defined) are eligible for coverage under the program.
+ (c) Benefits.--Under the program, health insurance issuers shall offer children (who are not within a category of individuals described in section 1937(a)(2)(B) of the Social Security Act) private health insurance coverage that--
+ (1) is actuarially equivalent to the coverage requirements for State child health plans specified in section 2103(a) of the Social Security Act or any other health benefits coverage that the Secretary determines will provide appropriate coverage; and
+ (2) provides for total annual aggregate cost-sharing that does not exceed 5 percent of a family's income for the year involved.
+ (d) Reimbursements.--The Secretary shall establish an annual process for awarding contracts on a competitive basis to health insurance issuers to provide private health insurance coverage for eligible children under the program. Such process shall ensure that--
+ (1) payments to such issuers shall be determined through a competitive bidding process;
+ (2) payments to such issuers shall be risk-adjusted;
+ (3) at least 2 plan options are available for every eligible child; and
+ (4) with respect to each eligible child, each State maintains the appropriate and equitable share of the cost of providing health insurance coverage to the child under the program that the State would have maintained but for the establishment of the program.
+ (e) Enrollment.--The Secretary shall establish a fair and responsible process for the enrollment, disenrollment, termination, and changes in enrollment of eligible children under the program and shall conduct activities to effectively disseminate information about the program and initial enrollment.
+ (f) Consumer Protections.--Health insurance issuers awarded contracts under the program shall--
+ (1) provide clear information on the coverage provided by such issuers under the program;
+ (2) establish meaningful procedures for hearing and resolving of any grievances between such issuers and enrollees that include an independent review and appeals process for coverage denials;
+ (3) be licensed to provide coverage in the State in which coverage is offered under the program; and
+ (4) provide market-based rates for provider reimbursements for coverage provided under the program.
+ (g) Geographical Access and Quality.--The Secretary shall establish statewide plan regions or other appropriate regions in order to maximize competition and patient access under the program.
+ (h) Option for Assistance With Employer-Sponsored Insurance.--The Secretary shall establish procedures under the program to provide premium assistance for children with access to employer-sponsored health insurance coverage.
+ (i) Financing.--
+ (1) MAINTENANCE OF FEDERAL-STATE PARTNERSHIP.--The Federal government and  States shall maintain their appropriate and equitable share of premiums for providing health insurance coverage to eligible children under the program.
+ (2) ADDITIONAL OUTLAYS.--In the event that additional outlays are required to carry out the program for any fiscal year, Congress shall enact legislation to offset such outlays by cutting non-priority spending, making government spending more accountable and efficient, and ending wasteful government spending.
+SEC. 4. ALLOTMENT LIMITS FOR MEDICAID ADMINISTRATIVE COSTS.
+ Section 1903 of the Social Security Act (42 U.S.C. 1396b) is amended--
+ (1) in subsection (a), in the matter preceding paragraph (1), by inserting ``(subject, except with respect to medical assistance expenditures under paragraph (1), to the allotment limits under subsection (aa))'' after ``under this title''; and
+ (2) by adding at the end the following new subsection:
+ ``(aa) State Administrative Cost Limitation.--
+ ``(1) IN GENERAL.--Payments to a State under paragraphs (2) through (7) of subsection (a) for fiscal years beginning with fiscal year 2009, shall not exceed, in the aggregate, an amount equal to the State's administrative cost allotment, as determined under this subsection.
+ ``(2) ALLOTMENT FORMULA.--The administrative allotment for a State for fiscal years beginning with fiscal year 2009 shall be determined as follows:
+ ``(A)(i) FISCAL YEAR 2009.--For fiscal year 2009, the administrative allotment for a State shall be an amount equal to the Federal share of total allowable costs claimed by the State under paragraphs (2) through (7) of subsection (a) for calendar quarters in fiscal year 2007, determined as of December 31, 2007, adjusted in accordance with clause (ii).
+ ``(ii) ADJUSTMENT.--For purposes of clause (i), the amount specified in clause (i) shall be increased by a percentage equal to the sum of the percentages described in clause (iii).
+ ``(iii) PERCENTAGES DESCRIBED.--The percentages described in this clause are, with respect to each consecutive 12-month period in the 36-month period ending March 30, 2009, the percentage change in the consumer price index (for all urban consumers; U.S. city average).
+ ``(B) SUCCEEDING FISCAL YEARS.--For each fiscal year after fiscal year 2009, the administrative allotment for a State shall be the State's administrative allotment for the preceding fiscal year, increased by the percentage change in the consumer price index (for all urban consumers; U.S. city average) for the 12-month period ending on March 30 of the fiscal year.''.
+SEC. 5. REDUCTION IN PAYMENTS FOR MEDICAID ADMINISTRATIVE COSTS TO PREVENT DUPLICATION OF SUCH PAYMENTS UNDER TANF.
+ Section 1903 of the Social Security Act (42 U.S.C. 1396b) is amended--
+ (1) in subsection (a)(7), by striking ``section 1919(g)(3)(B)'' and inserting ``subsection (h)'';
+ (2) in subsection (a)(2)(D) by inserting ``, subject to subsection (g)(3)(C) of such section'' after ``as are attributable to State activities under section 1919(g)''; and
+ (3) by adding after subsection (g) the following new subsection:
+ ``(h) Reduction in Payments for Administrative Costs To Prevent Duplication of Payments Under Title IV.--Beginning with the calendar quarter commencing April 1, 2009, the Secretary shall reduce the amount paid to each State under subsection (a)(7) for each quarter by an amount equal to  1/4  of the annualized amount determined for the Medicaid program under section 16(k)(2)(B) of the Food Stamp Act of 1977 (7 U.S.C. 2025(k)(2)(B)).''.
+SEC. 6. ELIMINATION OF WAIVER OF CERTAIN MEDICAID PROVIDER TAX PROVISIONS.
+ Effective October 1, 2009, subsection (c) of section 4722 of the Balanced Budget Act of 1997 (Public Law 105-33; 111 Stat. 515) is repealed.
+SEC. 7. ELIMINATION OF SPECIAL PAYMENTS FOR CERTAIN PUBLIC HOSPITALS.
+ Effective October 1, 2009, subsection (d) of section 701 of the Medicare, Medicaid, and SCHIP Benefits Improvement and Protection Act of 2000, as enacted into law by section 1(a)(6) of Public Law 106-554 (42 U.S.C. 1396r-4 note), is repealed.
+
+
+(As printed in the Congressional Record for the Senate on Jan 29, 2009.)

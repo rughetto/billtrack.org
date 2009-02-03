@@ -1,0 +1,57 @@
+<bill session="111" type="h" number="393" updated="2009-01-14T09:03:54-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Federal Sunset Act of 2009</title>
+		<title type="official" as="introduced">To provide for the periodic review of the efficiency and public need for Federal agencies, to establish a Commission for the purpose of reviewing the efficiency and public need of such agencies, and to provide for the abolishment of agencies for which a public need does not exist.</title>
+	</titles>
+	<sponsor id="400046"/>
+	<cosponsors>
+		<cosponsor id="400086" joined="2009-01-09"/>
+		<cosponsor id="400627" joined="2009-01-09"/>
+		<cosponsor id="400206" joined="2009-01-09"/>
+		<cosponsor id="400017" joined="2009-01-09"/>
+		<cosponsor id="400034" joined="2009-01-09"/>
+		<cosponsor id="400367" joined="2009-01-09"/>
+		<cosponsor id="400027" joined="2009-01-09"/>
+		<cosponsor id="400655" joined="2009-01-09"/>
+		<cosponsor id="400400" joined="2009-01-09"/>
+		<cosponsor id="400175" joined="2009-01-09"/>
+		<cosponsor id="400441" joined="2009-01-09"/>
+		<cosponsor id="400643" joined="2009-01-09"/>
+		<cosponsor id="400118" joined="2009-01-09"/>
+		<cosponsor id="400644" joined="2009-01-09"/>
+		<cosponsor id="400221" joined="2009-01-09"/>
+		<cosponsor id="400077" joined="2009-01-09"/>
+		<cosponsor id="400176" joined="2009-01-09"/>
+		<cosponsor id="400145" joined="2009-01-09"/>
+		<cosponsor id="400018" joined="2009-01-09"/>
+		<cosponsor id="400315" joined="2009-01-09"/>
+		<cosponsor id="400651" joined="2009-01-09"/>
+		<cosponsor id="400182" joined="2009-01-09"/>
+		<cosponsor id="400365" joined="2009-01-09"/>
+		<cosponsor id="400288" joined="2009-01-09"/>
+		<cosponsor id="400055" joined="2009-01-09"/>
+		<cosponsor id="400010" joined="2009-01-09"/>
+		<cosponsor id="400656" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Oversight and Government Reform.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

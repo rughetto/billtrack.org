@@ -1,0 +1,30 @@
+SA 77. Ms. MURKOWSKI (for herself, Mr. SPECTER, Mr. JOHANNS, and Ms. COLLINS) submitted an amendment intended to be proposed by her to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; as follows:
+
+ At the appropriate place, insert the following:
+SEC. __. DEVELOPMENT OF BEST PRACTICE RECOMMENDATIONS AND COVERAGE OF LOW INCOME CHILDREN.
+ (a) Development of Best Practice Recommendations.--Section 2107 (42 U.S.C. 1397gg) is amended by adding at the end the following:
+ ``(g) Development of Best Practice Recommendations.--Not later than 12 months after the date of enactment of this Act, the Secretary, in consultation with States, including Medicaid and CHIP directors in States, shall publish in the Federal Register, and post on the public website for the Department of Health and Human Services--
+ ``(1) recommendations regarding best practices for States to use to address CHIP crowd-out; and
+ ``(2) uniform standards for data collection by States to measure and report--
+ ``(A) health benefits coverage for children with family income below 200 percent of the poverty line; and
+ ``(B) on CHIP crowd-out, including for children with family income that exceeds 200 percent of the poverty line.
+
+The Secretary, in consultation with States, including Medicaid and CHIP directors in States, may from time to time update the best practice recommendations and uniform standards set published under paragraphs (1) and (2) and shall provide for publication and posting of such updated recommendations and standards.''.
+ (b) Limitation on Payments for States Covering Higher Income Children.--
+ (1) IN GENERAL.--Section 2105(c) (42 U.S.C. 1397ee(c)), as amended by section 601(a), is further amended by adding at the end the following new paragraph:
+ ``(12) LIMITATION ON PAYMENTS FOR STATES COVERING HIGHER INCOME CHILDREN.--
+ ``(A) DETERMINATIONS.--
+ ``(i) IN GENERAL.--The Secretary shall determine, for each State that is a higher income eligibility State as of October 1 of 2010 and each subsequent year, whether the State meets the target rate of coverage of low-income children required under subparagraph (C) and shall notify the State in that month of such determination.
+ ``(ii) DETERMINATION OF FAILURE.--If the Secretary determines in such month that a higher income eligibility State does not meet such target rate of coverage, no payment shall be made as of April 30 of the following year, under this section for child health assistance provided for higher-income children (as defined in subparagraph (D)) under the State child health plan unless and until the Secretary establishes that the  State is in compliance
+with such requirement, but in no case more than 12 months.
+ ``(B) HIGHER INCOME ELIGIBILITY STATE.--A higher income eligibility State described in this clause is a State that--
+ ``(i) applies under its State child health plan an eligibility income standard for targeted low-income children that exceeds 300 percent of the poverty line; or
+ ``(ii) because of the application of a general exclusion of a block of income that is not determined by type of expense or type of income, applies an effective income standard under the State child health plan for such children that exceeds 300 percent of the poverty line. 
+ ``(C) REQUIREMENT FOR TARGET RATE OF COVERAGE OF LOW-INCOME CHILDREN.--The requirement of this subparagraph for a State is that the rate of health benefits coverage (both private and public) for low-income children in the State is not statistically significantly (at a p=0.05 level) less than 80 percent of the low-income children who reside in the State and are eligible for child health assistance under the State child health plan.
+ ``(D) HIGHER-INCOME CHILD.--For purposes of this paragraph, the term `higher income child' means, with respect to a State child health plan, a targeted low-income child whose family income--
+ ``(i) exceeds 300 percent of the poverty line; or
+ ``(ii) would exceed 300 percent of the poverty line if there were not taken into account any general exclusion described in subparagraph (B)(ii).''.
+ (2) CONSTRUCTION.--Nothing in the amendment made by paragraph (1) or this section this shall be construed as authorizing the Secretary of Health and Human Services to limit payments under title XXI of the Social Security Act in the case of a State that is not a higher income eligibility State (as defined in section 2105(c)(12)(B) of such Act, as added by paragraph (1)).
+
+
+(As printed in the Congressional Record for the Senate on Jan 28, 2009.)

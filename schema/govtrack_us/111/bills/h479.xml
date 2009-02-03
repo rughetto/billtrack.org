@@ -1,0 +1,34 @@
+<bill session="111" type="h" number="479" updated="2009-01-14T12:05:16-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Public Health Service Act to provide a means for continued improvement in emergency medical services for children.</title>
+	</titles>
+	<sponsor id="400255"/>
+	<cosponsors>
+		<cosponsor id="400219" joined="2009-01-13"/>
+		<cosponsor id="400660" joined="2009-01-13"/>
+		<cosponsor id="412195" joined="2009-01-13"/>
+		<cosponsor id="400062" joined="2009-01-13"/>
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Sponsor introductory remarks on measure. (CR E73)</text></action>
+		<action date="1231822800" datetime="2009-01-13"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

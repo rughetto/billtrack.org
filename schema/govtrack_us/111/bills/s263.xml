@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="263" updated="2009-01-16T12:01:53-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title 38, United States Code, to improve the enforcement of the Uniformed Services Employment and Reemployment Rights Act of 1994, and for other purposes.</title>
+	</titles>
+	<sponsor id="412246"/>
+	<cosponsors>
+		<cosponsor id="300059" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Read twice and referred to the Committee on Veterans' Affairs.</text></action>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

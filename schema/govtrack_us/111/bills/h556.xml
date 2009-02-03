@@ -1,0 +1,35 @@
+<bill session="111" type="h" number="556" updated="2009-01-16T12:04:43-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To establish a program of research, recovery, and other activities to provide for the recovery of the southern sea otter.</title>
+	</titles>
+	<sponsor id="400129"/>
+	<cosponsors>
+		<cosponsor id="400237" joined="2009-01-15"/>
+		<cosponsor id="400178" joined="2009-01-15"/>
+		<cosponsor id="400124" joined="2009-01-15"/>
+		<cosponsor id="400185" joined="2009-01-15"/>
+		<cosponsor id="400215" joined="2009-01-15"/>
+		<cosponsor id="400062" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

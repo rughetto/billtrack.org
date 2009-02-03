@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="360" updated="2009-01-14T09:00:13-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">To authorize the Secretary of the department in which the Coast Guard is operating to issue a certificate of documentation for operation in the coastwise trade for the vessel ZIPPER.</title>
+	</titles>
+	<sponsor id="400264"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Transportation and Infrastructure.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

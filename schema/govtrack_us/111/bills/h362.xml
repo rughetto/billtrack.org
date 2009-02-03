@@ -1,0 +1,37 @@
+<bill session="111" type="h" number="362" updated="2009-01-14T09:00:26-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Rural Hospital Assistance Act of 2009</title>
+		<title type="official" as="introduced">To amend title XVIII of the Social Security Act to provide for temporary improvements to the Medicare inpatient hospital payment adjustment for low-volume hospitals and to provide for the use of the non-wage adjusted PPS rate under the Medicare-dependent hospital (MDH) program, and for other purposes.</title>
+	</titles>
+	<sponsor id="400042"/>
+	<cosponsors>
+		<cosponsor id="400121" joined="2009-01-09"/>
+		<cosponsor id="412209" joined="2009-01-09"/>
+		<cosponsor id="400026" joined="2009-01-09"/>
+		<cosponsor id="412208" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the Committee on Ways and Means, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to House Ways and Means</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to House Energy and Commerce</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

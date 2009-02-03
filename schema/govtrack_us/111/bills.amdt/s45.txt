@@ -1,0 +1,16 @@
+SA 45. Mr. HATCH (for himself, Mr. GRASSLEY, and Mr. WICKER) proposed an amendment to amendment SA 39 proposed by Mr. REID (for Mr. BAUCUS) to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; as follows:
+
+
+ On page 136, between lines 15 and 16, insert the following:
+ (c) Condition for Federal Matching Payments.--
+ (1) IN GENERAL.--Section 1903(i) (42 U.S.C. 1396b(i)) is amended--
+ (A) in paragraph (23), by striking ``or'' after the semicolon;
+ (B) in paragraph (24)(C), by striking the period and inserting ``; or''; and
+ (C) by inserting after paragraph (24)(C), the following:
+ ``(25) with respect to amounts expended for medical assistance for an immigrant child or pregnant woman under an election made pursuant to paragraph (4) of subsection (v) for any fiscal year quarter occurring before the first fiscal year quarter for which the State demonstrates to the Secretary (on the basis of the best data reasonably available to the Secretary and in accordance with such techniques for sampling and estimating as the Secretary determines appropriate) that the State has enrolled
+in the State plan under this title, the State child health plan under title XXI, or under a waiver of either such plan, at least 95 percent of the children who reside in the State, whose family income (as determined without regard to the application of any general exclusion or disregard of a block of income that is not determined by type of expense or type of income (regardless of whether
+such an exclusion or disregard is  permitted under section 1902(r))) does not exceed 200 percent of the poverty line (as defined in section 2110(c)(5)), and who are eligible for medical assistance under the State plan under this title or child health assistance or health benefits coverage under the State child health plan under title XXI.''.
+ (2) APPLICATION TO CHIP.--Section 2107(e)(1)(E) (42 U.S.C. 1397gg(e)(1)(E)) (as amended by section 503(a)(1)) is amended by striking ``and (17)'' and inserting ``(17), and (25)''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

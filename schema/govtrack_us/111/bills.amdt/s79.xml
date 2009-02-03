@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="79" updated="2009-02-02T12:01:08-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233118800" datetime="2009-01-28">withdrawn</status>
+	<sponsor id="400050"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>To strengthen and protect health care access, and to benefit children in need of cancer care or other acute care services.</description>
+	<purpose>To strengthen and protect health care access, and to benefit children in need of cancer care or other acute care services.</purpose>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Amendment SA 79 proposed by Senator Brown.</text><reference label="consideration" ref="CR S980-982"/><reference label="text" ref="CR S980-981"/></action>
+		<withdrawn date="1233118800" datetime="2009-01-28"><text>Proposed amendment SA 79 withdrawn in Senate.</text></withdrawn>
+
+	</actions>
+</amendment>

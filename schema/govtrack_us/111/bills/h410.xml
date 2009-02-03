@@ -1,0 +1,32 @@
+<bill session="111" type="h" number="410" updated="2009-01-14T09:05:53-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Kalaupapa Memorial Act of 2009</title>
+		<title type="official" as="introduced">To provide for the establishment of a memorial within Kalaupapa National Historical Park located on the island of Molokai, in the State of Hawaii, to honor and perpetuate the memory of those individuals who were forcibly relocated to the Kalaupapa Peninsula from 1866 to 1969, and for other purposes.</title>
+	</titles>
+	<sponsor id="412200"/>
+	<cosponsors>
+		<cosponsor id="400001" joined="2009-01-09"/>
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Sponsor introductory remarks on measure. (CR E58-59)</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

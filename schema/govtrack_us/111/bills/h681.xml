@@ -1,0 +1,50 @@
+<bill session="111" type="h" number="681" updated="2009-01-27T12:04:22-05:00">
+	<status><introduced date="1232946000" datetime="2009-01-26"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Digital Television Transition and Public Safety Act of 2005 and the Communications Act of 1934 to establish a new digital television transition date, to improve the digital-to-analog converter box program, and for other purposes.</title>
+	</titles>
+	<sponsor id="400425"/>
+	<cosponsors>
+		<cosponsor id="400253" joined="2009-01-26"/>
+		<cosponsor id="400013" joined="2009-01-26"/>
+		<cosponsor id="400152" joined="2009-01-26"/>
+		<cosponsor id="400073" joined="2009-01-26"/>
+		<cosponsor id="412306" joined="2009-01-26"/>
+		<cosponsor id="400114" joined="2009-01-26"/>
+		<cosponsor id="400124" joined="2009-01-26"/>
+		<cosponsor id="400062" joined="2009-01-26"/>
+		<cosponsor id="412212" joined="2009-01-26"/>
+		<cosponsor id="400350" joined="2009-01-26"/>
+		<cosponsor id="400177" joined="2009-01-26"/>
+		<cosponsor id="400360" joined="2009-01-26"/>
+		<cosponsor id="400333" joined="2009-01-26"/>
+		<cosponsor id="412276" joined="2009-01-26"/>
+		<cosponsor id="400255" joined="2009-01-26"/>
+		<cosponsor id="400308" joined="2009-01-26"/>
+		<cosponsor id="400616" joined="2009-01-26"/>
+		<cosponsor id="400160" joined="2009-01-26"/>
+		<cosponsor id="400155" joined="2009-01-26"/>
+		<cosponsor id="412195" joined="2009-01-26"/>
+		<cosponsor id="412189" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

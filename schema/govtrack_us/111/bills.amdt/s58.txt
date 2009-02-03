@@ -1,0 +1,155 @@
+SA 58. Mr. WEBB (for himself, Mrs. HAGAN, and Mr. SANDERS) submitted an amendment intended to be proposed by him to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ Beginning on page 271, line 9, strike all through page 273, line 8, and insert the following:
+SEC. 700. INCOME OF PARTNERS FOR PERFORMING INVESTMENT MANAGEMENT SERVICES TREATED AS ORDINARY INCOME RECEIVED FOR PERFORMANCE OF SERVICES.
+ (a) In General.--Part I of subchapter K of chapter 1 of the Internal Revenue Code of 1986 is amended by adding at the end the following new section:
+``SEC. 710. SPECIAL RULES FOR PARTNERS PROVIDING INVESTMENT MANAGEMENT SERVICES TO PARTNERSHIP.
+ ``(a) Treatment of Distributive Share of Partnership Items.--For purposes of this title, in the case of an investment services partnership interest--
+ ``(1) IN GENERAL.--Notwithstanding section 702(b)--
+ ``(A) any net income with respect to such interest for any partnership taxable year shall be treated as ordinary income for the performance of services, and
+ ``(B) any net loss with respect to such interest for such year, to the extent not disallowed under paragraph (2) for such year, shall be treated as an ordinary loss.
+
+All items of income, gain, deduction, and loss which are taken into account in computing net income or net loss shall be treated as ordinary income or ordinary loss (as the case may be).
+ ``(2) TREATMENT OF LOSSES.--
+ ``(A) LIMITATION.--Any net loss with respect to such interest shall be allowed for any partnership taxable year only to the extent that such loss does not exceed the excess (if any) of--
+ ``(i) the aggregate net income with respect to such interest for all prior partnership taxable years, over
+ ``(ii) the aggregate net loss with respect to such interest not disallowed under this subparagraph for all prior partnership taxable years.
+ ``(B) CARRYFORWARD.--Any net loss for any partnership taxable year which is not allowed by reason of subparagraph (A) shall be treated as an item of loss with respect to such partnership interest for the succeeding partnership taxable year.
+ ``(C) BASIS ADJUSTMENT.--No adjustment to the basis of a partnership interest shall be made on account of any net loss which is not allowed by reason of subparagraph (A).
+ ``(D) EXCEPTION FOR BASIS ATTRIBUTABLE TO PURCHASE OF A PARTNERSHIP INTEREST.--In the case of an investment services partnership interest acquired by purchase, paragraph (1)(B) shall not apply to so much of any net loss with respect to such interest for any taxable year as does not exceed the excess of--
+ ``(i) the basis of such interest immediately after such purchase, over
+ ``(ii) the aggregate net loss with respect to such interest to which paragraph (1)(B) did not apply by reason of this subparagraph for all prior taxable years.
+
+Any net loss to which paragraph (1)(B) does not apply by reason of this subparagraph shall not be taken into account under subparagraph (A).
+ ``(E) PRIOR PARTNERSHIP YEARS.--Any reference in this paragraph to prior partnership taxable years shall only include prior partnership taxable years to which this section applies.
+ ``(3) NET INCOME AND LOSS.--For purposes of this section--
+ ``(A) NET INCOME.--The term `net income' means, with respect to any investment services partnership interest, for any partnership taxable year, the excess (if any) of--
+ ``(i) all items of income and gain taken into account by the holder of such interest under section 702 with respect to such interest for such year, over
+ ``(ii) all items of deduction and loss so taken into account.
+ ``(B) NET LOSS.--The term `net loss' means with respect to such interest for such year, the excess (if any) of the amount described in subparagraph (A)(ii) over the amount described in subparagraph (A)(i).
+ ``(b) Dispositions of Partnership Interests.--
+ ``(1) GAIN.--Any gain on the disposition of an investment services partnership interest shall be treated as ordinary income for the performance of services.
+ ``(2) LOSS.--Any loss on the disposition of an investment services partnership interest shall be treated as an ordinary loss to the extent of the excess (if any) of--
+ ``(A) the aggregate net income with respect to such interest for all partnership taxable years, over
+ ``(B) the aggregate net loss with respect to such interest allowed under subsection (a)(2) for all partnership taxable years.
+ ``(3) DISPOSITION OF PORTION OF INTEREST.--In the case of any disposition of an investment services partnership interest, the amount of net loss which otherwise would have (but for subsection (a)(2)(C)) applied to reduce the basis of such interest shall be disregarded for purposes of this section for all succeeding partnership taxable years.
+ ``(4) DISTRIBUTIONS OF PARTNERSHIP PROPERTY.--In the case of any distribution of property by a partnership with respect to any investment services partnership interest held by a partner--
+ ``(A) the excess (if any) of--
+ ``(i) the fair market value of such property at the time of such distribution, over
+ ``(ii) the adjusted basis of such property in the hands of the partnership,
+shall be taken into account as an increase in such partner's distributive share of the taxable income of the partnership (except to the extent such excess is otherwise taken into account in determining the taxable income of the partnership),
+ ``(B) such property shall be treated for purposes of subpart B of part II as money distributed to such partner in an amount equal to such fair market value, and
+ ``(C) the basis of such property in the hands of such partner shall be such fair market value.
+
+Subsection (b) of section 734 shall be applied without regard to the preceding sentence.
+ ``(5) APPLICATION OF SECTION 751.--In applying section 751(a), an investment services partnership interest shall be treated as an inventory item.
+ ``(c) Investment Services Partnership Interest.--For purposes of this section--
+ ``(1) IN GENERAL.--The term `investment services partnership interest' means any interest in a partnership which is held by any person if such person provides (directly or indirectly) a substantial quantity of any of the following services with respect to the assets of the partnership in the conduct of the trade or business of providing such services:
+ ``(A) Advising as to the advisability of investing in, purchasing, or selling any specified asset.
+ ``(B) Managing, acquiring, or disposing of any specified asset.
+ ``(C) Arranging financing with respect to acquiring specified assets.
+ ``(D) Any activity in support of any service described in subparagraphs (A) through (C).
+For purposes of this paragraph, the term `specified asset' means securities (as defined in section 475(c)(2) without regard to the last sentence thereof), real estate, commodities (as defined in section 475(e)(2))), or options or derivative contracts with respect to securities (as so defined), real estate, or commodities (as so defined).
+ ``(2) EXCEPTION FOR CERTAIN CAPITAL INTERESTS.--
+ ``(A) IN GENERAL.--If--
+ ``(i) a portion of an investment services partnership interest is acquired on account of a contribution of invested capital, and
+ ``(ii) the partnership makes a reasonable allocation of partnership items between the portion of the distributive share that is with respect to invested capital and the portion of such distributive share that is not with respect to invested capital,
+
+then subsection (a) shall not apply to the portion of the distributive share that is with respect to invested capital. An allocation will not be treated as reasonable for purposes of this subparagraph if such allocation would result in the partnership allocating a greater portion of income to invested capital than any other partner not providing services would have been allocated with respect to the same amount of invested capital.
+ ``(B) SPECIAL RULE FOR DISPOSITIONS.--In any case to which subparagraph (A) applies, subsection (b) shall not apply to any gain or loss allocable to invested capital. The portion of any gain or loss attributable to invested capital is the proportion of such gain or loss which is based on the distributive share of gain or loss that would have been allocable to invested capital under subparagraph (A) if the partnership sold all of its assets immediately before the disposition.
+ ``(C) INVESTED CAPITAL.--For purposes of this paragraph, the term `invested capital' means, the fair market value at the time of contribution of any money or other property contributed to the partnership.
+ ``(D) TREATMENT OF CERTAIN LOANS.--
+ ``(i) PROCEEDS OF PARTNERSHIP LOANS NOT TREATED AS INVESTED CAPITAL OF SERVICE PROVIDING PARTNERS.--For purposes of this paragraph, an investment services partnership interest shall not be treated as acquired  on account of a contribution of invested capital to the extent that such capital is attributable to the proceeds of any loan or other advance made or guaranteed, directly or indirectly, by any partner or the partnership.
+ ``(ii) LOANS FROM NONSERVICE PROVIDING PARTNERS TO THE PARTNERSHIP TREATED AS INVESTED CAPITAL.--For purposes of this paragraph, any loan or other advance to the partnership made or guaranteed, directly or indirectly, by a partner not providing services to the partnership shall be treated as invested capital of such partner and amounts of income and loss treated as allocable to invested capital shall be adjusted accordingly.
+ ``(d) Other Income and Gain in Connection With Investment Management Services.--
+ ``(1) IN GENERAL.--If--
+ ``(A) a person performs (directly or indirectly) investment management services for any entity,
+ ``(B) such person holds a disqualified interest with respect to such entity, and
+ ``(C) the value of such interest (or payments thereunder) is substantially related to the amount of income or gain (whether or not realized) from the assets with respect to which the investment management services are performed,
+
+any income or gain with respect to such interest shall be treated as ordinary income for the performance of services. Rules similar to the rules of subsection (c)(2) shall apply where such interest was acquired on account of invested capital in such entity.
+ ``(2) DEFINITIONS.--For purposes of this subsection--
+ ``(A) DISQUALIFIED INTEREST.--The term `disqualified interest' means, with respect to any entity--
+ ``(i) any interest in such entity other than indebtedness,
+ ``(ii) convertible or contingent debt of such entity,
+ ``(iii) any option or other right to acquire property described in clause (i) or (ii), and
+ ``(iv) any derivative instrument entered into (directly or indirectly) with such entity or any investor in such entity.
+
+Such term shall not include a partnership interest and shall not include stock in a taxable corporation.
+ ``(B) TAXABLE CORPORATION.--The term `taxable corporation' means--
+ ``(i) a domestic C corporation, or
+ ``(ii) a foreign corporation subject to a comprehensive foreign income tax.
+ ``(C) INVESTMENT MANAGEMENT SERVICES.--The term `investment management services' means a substantial quantity of any of the services described in subsection (c)(1) which are provided in the conduct of the trade or business of providing such services.
+ ``(D) COMPREHENSIVE FOREIGN INCOME TAX.--The term `comprehensive foreign income tax' means, with respect to any foreign corporation, the income tax of a foreign country if--
+ ``(i) such corporation is eligible for the benefits of a comprehensive income tax treaty between such foreign country and the United States, or
+ ``(ii) such corporation demonstrates to the satisfaction of the Secretary that such foreign country has a comprehensive income tax.
+ ``(e) Regulations.--The Secretary shall prescribe such regulations as are necessary or appropriate to carry out the purposes of this section, including regulations to--
+ ``(1) prevent the avoidance of the purposes of this section, and
+ ``(2) coordinate this section with the other provisions of this subchapter.
+ ``(f) Cross Reference.--For 40 percent no fault penalty on certain underpayments due to the avoidance of this section, see section 6662.''.
+ (b) Application to Real Estate Investment Trusts.--
+ (1) IN GENERAL.--Subsection (c) of section 856 of the Internal Revenue Code of 1986 is amended by adding at the end the following new paragraph:
+ ``(9) EXCEPTION FROM RECHARACTERIZATION OF INCOME FROM INVESTMENT SERVICES PARTNERSHIP INTERESTS.--
+ ``(A) IN GENERAL.--Paragraphs (2), (3), and (4) shall be applied without regard to section 710 (relating to special rules for partners providing investment management services to partnership).
+ ``(B) SPECIAL RULE FOR PARTNERSHIPS OWNED BY REITS.--Section 7704 shall be applied without regard to section 710 in the case of a partnership which meets each of the following requirements:
+ ``(i) Such partnership is treated as publicly traded under section 7704 solely by reason of interests in such partnership being convertible into interests in a real estate investment trust which is publicly traded.
+ ``(ii) 50 percent or more of the capital and profits interests of such partnership are owned, directly or indirectly, at all times during the taxable year by such real estate investment trust (determined with the application of section 267(c)).
+ ``(iii) Such partnership meets the requirements of paragraphs (2), (3), and (4) (applied without regard to section 710).''.
+ (2) CONFORMING AMENDMENT.--Paragraph (4) of section 7704(d) of such Code is amended by inserting ``(determined without regard to section 856(c)(8))'' after ``856(c)(2)''.
+ (c) Imposition of Penalty on Underpayments.--
+ (1) IN GENERAL.--Subsection (b) of section 6662 of the Internal Revenue Code of 1986 is amended by inserting after paragraph (5) the following new paragraph:
+ ``(6) The application of subsection (d) of section 710 or the regulations prescribed under section 710(e) to prevent the avoidance of the purposes of section 710.''.
+ (2) AMOUNT OF PENALTY.--
+ (A) IN GENERAL.--Section 6662 of such Code is amended by adding at the end the following new subsection:
+ ``(i) Increase in Penalty in Case of Property Transferred for Investment Management Services.--In the case of any portion of an underpayment to which this section applies by reason of subsection (b)(6), subsection (a) shall be applied with respect to such portion by substituting `40 percent' for `20 percent'.''.
+ (B) CONFORMING AMENDMENTS.--Subparagraph (B) of section 6662A(e)(2) of such Code is amended--
+ (i) by striking ``section 6662(h)'' and inserting ``subsection (h) or (i) of section 6662'', and
+ (ii) by striking ``GROSS VALUATION MISSTATEMENT PENALTY'' in the heading and inserting ``CERTAIN INCREASED UNDERPAYMENT PENALTIES''.
+ (3) REASONABLE CAUSE EXCEPTION NOT APPLICABLE.--Subsection (c) of section 6664 of such Code is amended--
+ (A) by redesignating paragraphs (2) and (3) as paragraphs (3) and (4), respectively,
+ (B) by striking ``paragraph (2)'' in paragraph (4), as so redesignated, and inserting ``paragraph (3)'', and
+ (C) by inserting after paragraph (1) the following new paragraph:
+ ``(2) EXCEPTION.--Paragraph (1) shall not apply to any portion of an underpayment to which this section applies by reason of subsection (b)(6).''.
+ (d) Conforming Amendments.--
+ (1) Subsection (d) of section 731 of the Internal Revenue Code of 1986 is amended by inserting ``section 710(b)(4) (relating to distributions of partnership property),'' before ``section 736''.
+ (2) Section 741 of such Code is amended by inserting ``or section 710 (relating to special rules for partners providing investment management services to partnership)'' before the period at the end.
+ (3) Paragraph (13) of section 1402(a) of such Code is amended--
+ (A) by striking ``other than guaranteed'' and inserting ``other than--
+ ``(A) guaranteed'',
+ (B) by striking the semicolon at the end and inserting ``, and'', and
+ (C) by adding at the end the following new subparagraph:
+ ``(B) any income treated as ordinary income under section 710 received by an individual who provides investment management services (as defined in section 710(d)(2));''.
+ (4) Paragraph (12) of section 211(a) of the Social Security Act is amended--
+ (A) by striking ``other than guaranteed'' and inserting ``other than--
+ ``(A) guaranteed'',
+ (B) by striking the semicolon at the end and inserting ``, and'', and
+ (C) by adding at the end the following new subparagraph:
+ ``(B) any income treated as ordinary income under section 710 of the Internal Revenue Code of 1986 received by an individual who provides investment management services (as defined in section 710(d)(2) of such Code);''.
+ (5) The table of sections for part I of subchapter K of chapter 1 of such Code is amended by adding at the end the following new item:
+
+``Sec..710..Special rules for partners providing investment management services to partnership.''.
+ (e) Effective Date.--
+ (1) IN GENERAL.--Except as otherwise provided in this subsection, the amendments made by this section shall apply to taxable years ending after January 27, 2009.
+ (2) PARTNERSHIP TAXABLE YEARS WHICH INCLUDE EFFECTIVE DATE.--In applying section 710(a) of the Internal Revenue Code of 1986 (as added by this section) in the case of any partnership taxable year which includes January 27, 2009, the amount of the net income referred to in such section shall be treated as being the lesser of the net income for the entire partnership taxable year or the net income determined by only taking into account items attributable to the portion of the partnership
+taxable year which is after such date.
+ (3) DISPOSITIONS OF PARTNERSHIP INTERESTS.--Section 710(b) of the Internal Revenue Code of 1986 (as added by this section) shall apply to dispositions and distributions after January 27, 2009.
+ (4) OTHER INCOME AND GAIN IN CONNECTION WITH INVESTMENT MANAGEMENT SERVICES.--Section 710(d) of such Code (as added by this section) shall take effect on January 27, 2009.
+ (5) PUBLICLY TRADED PARTNERSHIPS.--For purposes of applying section 7704, the amendments made by this section shall apply to taxable years beginning after December 31, 2010.
+SEC. 701. INCREASE IN EXCISE TAX RATE ON TOBACCO PRODUCTS.
+ (a) Cigars.--Section 5701(a) of the Internal Revenue Code of 1986 is amended--
+ (1) by striking ``$1.828 cents per thousand ($1.594 cents per thousand on cigars removed during 2000 or 2001)'' in paragraph (1) and inserting ``$38.05 per thousand'',
+ (2) by striking ``20.719 percent (18.063 percent on cigars removed during 2000 or 2001)'' in paragraph (2) and inserting ``39.9 percent'', and
+ (3) by striking ``$48.75 per thousand ($42.50 per thousand on cigars removed during 2000  or 2001)'' in paragraph (2) and inserting ``30.44 cents per cigar''.
+ (b) Cigarettes.--Section 5701(b) of such Code is amended--
+ (1) by striking ``$19.50 per thousand ($17 per thousand on cigarettes removed during 2000 or 2001)'' in paragraph (1) and inserting ``$38.05 per thousand'', and
+ (2) by striking ``$40.95 per thousand ($35.70 per thousand on cigarettes removed during 2000 or 2001)'' in paragraph (2) and inserting ``$79.91 per thousand''.
+ (c) Cigarette Papers.--Section 5701(c) of such Code is amended by striking ``1.22 cents (1.06 cents on cigarette papers removed during 2000 or 2001)'' and inserting ``2.38 cents''.
+ (d) Cigarette Tubes.--Section 5701(d) of such Code is amended by striking ``2.44 cents (2.13 cents on cigarette tubes removed during 2000 or 2001)'' and inserting ``4.76 cents''.
+ (e) Smokeless Tobacco.--Section 5701(e) of such Code is amended--
+ (1) by striking ``58.5 cents (51 cents on snuff removed during 2000 or 2001)'' in paragraph (1) and inserting ``$1.142 cents'', and
+ (2) by striking ``19.5 cents (17 cents on chewing tobacco removed during 2000 or 2001)'' in paragraph (2) and inserting ``38.05 cents''.
+ (f) Pipe Tobacco.--Section 5701(f) of such Code is amended by striking ``$1.0969 cents (95.67 cents on pipe tobacco removed during 2000 or 2001)'' and inserting ``$2.1404 cents''.
+ (g) Roll-Your-Own Tobacco.--Section 5701(g) of such Code is amended by striking ``$1.0969 cents (95.67 cents on roll-your-own tobacco removed during 2000 or 2001)'' and inserting ``$18.73''.
+
+
+(As printed in the Congressional Record for the Senate on Jan 27, 2009.)

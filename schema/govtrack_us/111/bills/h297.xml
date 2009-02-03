@@ -1,0 +1,35 @@
+<bill session="111" type="h" number="297" updated="2009-01-14T08:53:08-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">Veteran Vocational Rehabilitation and Employment Subsistence Allowance Improvement Act of 2009</title>
+		<title type="official" as="introduced">To amend title 38, United States Code, to provide for an increase in the amount of subsistence allowance payable by the Secretary of Veterans Affairs to veterans participating in vocational rehabilitation programs, and for other purposes.</title>
+	</titles>
+	<sponsor id="400056"/>
+	<cosponsors>
+		<cosponsor id="400570" joined="2009-01-13"/>
+		<cosponsor id="412196" joined="2009-01-08"/>
+		<cosponsor id="400040" joined="2009-01-08"/>
+		<cosponsor id="412250" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Sponsor introductory remarks on measure. (CR E50)</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Veterans' Affairs.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

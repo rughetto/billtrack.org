@@ -1,0 +1,14 @@
+<amendment session="111" chamber="s" number="26" updated="2009-01-30T12:03:38-05:00">
+	<amends type="s" number="181" sequence=""/>
+	<status date="1232600400" datetime="2009-01-22">fail</status>
+	<sponsor id="300092"/>
+	<offered date="1231995600" datetime="2009-01-15"/>
+	<description>To provide a rule of construction.</description>
+	<purpose>To provide a rule of construction.</purpose>
+	<actions>
+		<action date="1232514000" datetime="2009-01-21"><text>Amendment SA 26 proposed by Senator Specter.</text><reference label="consideration" ref="CR S696-697"/><reference label="text" ref="CR S696"/></action>
+		<action date="1232600400" datetime="2009-01-22"><text>Considered by Senate.</text><reference label="consideration" ref="CR S739, S753-758"/></action>
+		<vote date="1232600400" datetime="2009-01-22" result="fail" how="roll" roll="8"><text>Motion to table amendment SA 26 agreed to in Senate by Yea-Nay Vote. 53 - 43. Record Vote Number: 8.</text></vote>
+
+	</actions>
+</amendment>

@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="714" updated="2009-01-28T12:04:18-05:00">
+	<status><introduced date="1233032400" datetime="2009-01-27"/></status>
+
+	<introduced date="1233032400" datetime="2009-01-27"/>
+	<titles>
+		<title type="official" as="introduced">To authorize the Secretary of the Interior to lease certain lands in Virgin Islands National Park, and for other purposes.</title>
+	</titles>
+	<sponsor id="400073"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

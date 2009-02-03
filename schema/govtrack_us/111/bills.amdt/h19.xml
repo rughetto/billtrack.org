@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="19" updated="2009-01-31T12:02:19-05:00">
+	<amends type="h" number="1" sequence="8"/>
+	<status date="1233169860" datetime="2009-01-28T15:11:00-05:00">pass</status>
+	<sponsor id="412287"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 8 printed in Part B of House Report 111-9 to expand the Berry Amendment Extension Act to include DHS to require the government to purchase uniforms for more more than one hundred thousand uniformed employees from U.S. textile and apparel manufacturers.</description>
+	<purpose>An amendment numbered 8 printed in Part B of House Report 111-9 to expand the Berry Amendment Extension Act to include DHS to require the government to purchase uniforms for more more than one hundred thousand uniformed employees from U.S. textile and apparel manufacturers.</purpose>
+	<actions>
+		<action date="1233169320" datetime="2009-01-28T15:02:00-05:00"><text>Amendment (A008) offered by Mr. Kissell.</text><reference label="consideration" ref="CR H723-724"/><reference label="text" ref="CR H723"/></action>
+		<vote date="1233169860" datetime="2009-01-28T15:11:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Kissell amendment (A008) Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

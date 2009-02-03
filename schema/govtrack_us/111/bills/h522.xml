@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="522" updated="2009-01-15T12:07:35-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Telemarketing and Consumer Fraud and Abuse Prevention Act to authorize the Federal Trade Commission to issue new rules to prohibit any telemarketing calls during the hours of 5:00 p.m. to 7:00 p.m.</title>
+	</titles>
+	<sponsor id="400219"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

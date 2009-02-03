@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="38" updated="2009-01-29T12:10:50-05:00">
+	<amends type="s" number="328" sequence=""/>
+	<status date="1232946000" datetime="2009-01-26">pass</status>
+	<sponsor id="300084"/>
+	<offered date="1232946000" datetime="2009-01-26"/>
+	<description>In the nature of a substitute.</description>
+	<purpose>In the nature of a substitute.</purpose>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Amendment SA 38 proposed by Senator Rockefeller.</text><reference label="consideration" ref="CR S848-849"/><reference label="text" ref="CR S848-849"/></action>
+		<vote date="1232946000" datetime="2009-01-26" result="pass" how="Unanimous Consent"><text>Amendment SA 38 agreed to in Senate by Unanimous Consent.</text></vote>
+
+	</actions>
+</amendment>

@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="311" updated="2009-01-23T12:02:23-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">A bill to prohibit the application of certain restrictive eligibility requirements to foreign nongovernmental organizations with respect to the provision of assistance under part I of the Foreign Assistance Act of 1961.</title>
+	</titles>
+	<sponsor id="300011"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Read twice and referred to the Committee on Foreign Relations.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Foreign Relations" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

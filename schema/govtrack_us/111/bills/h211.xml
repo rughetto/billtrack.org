@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="211" updated="2009-01-22T11:51:06-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Calling for 2-1-1 Act of 2009</title>
+		<title type="official" as="introduced">To facilitate nationwide availability of 2-1-1 telephone service for information and referral on health and human services, including volunteer services, and for other purposes.</title>
+	</titles>
+	<sponsor id="400124"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	1/6/2009--Introduced.<br/>Calling for 2-1-1 Act of 2009 - Directs the Secretary of Health and Human Services to award a grant to each state to carry out a program for making available throughout that state the 2-1-1 telephone service for information and referral on human services. Requires a participating state to ensure that at least 50% of the resources of the program funded by the grant will be derived from other sources. Requires a state seeking a grant to carry out its activities through a lead entity to be known as a 2-1-1 Collaborative. Requires grant amounts to be used solely to make available to a state 2-1-1 telephone service for community information and referral on human services to all citizens of that state with phone access, including telephone connections between families and individuals seeking services and the service providers. Requires grant recipients to: (1) abide by the Key Standards for 2-1-1 Centers; and (2) collaborate with human service organizations to provide an exhaustive database of services with which to provide information or referral to individuals utilizing the 2-1-1 service.<br/>
+	</summary>
+</bill>

@@ -1,0 +1,42 @@
+<bill session="111" type="h" number="98" updated="2009-01-14T08:30:55-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Illegal Immigration Enforcement and Social Security Protection Act of 2009</title>
+		<title type="official" as="introduced">To amend the Immigration and Nationality Act to enforce restrictions on employment in the United States of unauthorized aliens through the use of improved Social Security cards and an Employment Eligibility Database, and for other purposes.</title>
+	</titles>
+	<sponsor id="400115"/>
+	<cosponsors>
+		<cosponsor id="400337" joined="2009-01-06"/>
+		<cosponsor id="400057" joined="2009-01-06"/>
+		<cosponsor id="400570" joined="2009-01-06"/>
+		<cosponsor id="400196" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Sponsor introductory remarks on measure. (CR E20-21)</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the Committee on Ways and Means, and in addition to the Committees on the Judiciary, Homeland Security, and Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Ways and Means</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Judiciary</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Homeland Security</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Education and Labor</text></action>
+	</actions>
+	<committees>
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Homeland Security" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

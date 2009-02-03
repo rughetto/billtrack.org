@@ -1,0 +1,13 @@
+<amendment session="111" chamber="h" number="12" updated="2009-01-31T12:02:11-05:00">
+	<amends type="h" number="1" sequence="1"/>
+	<status date="1233166260" datetime="2009-01-28T14:11:00-05:00">pass</status>
+	<sponsor id="400299"/>
+	<offered date="1233118800" datetime="2009-01-28"/>
+	<description>An amendment numbered 1 printed in Part B of House Report 111-9 to amend the aviation, highway, rail, and transit priority consideration and &quot;use-it-or-lose-it&quot; provisions to require that 50 percent of the funds be obligated within 90 days.</description>
+	<purpose>An amendment numbered 1 printed in Part B of House Report 111-9 to amend the aviation, highway, rail, and transit priority consideration and &quot;use-it-or-lose-it&quot; provisions to require that 50 percent of the funds be obligated within 90 days.</purpose>
+	<actions>
+		<action date="1233165660" datetime="2009-01-28T14:01:00-05:00"><text>Amendment (A001) offered by Mr. Oberstar.</text><reference label="consideration" ref="CR H711-712"/><reference label="text" ref="CR H711"/></action>
+		<vote date="1233166260" datetime="2009-01-28T14:11:00-05:00" result="pass" how="by voice vote"><text>On agreeing to the Oberstar amendment (A001) Agreed to by voice vote.</text></vote>
+
+	</actions>
+</amendment>

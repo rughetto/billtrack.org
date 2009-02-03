@@ -1,0 +1,39 @@
+<bill session="111" type="h" number="74" updated="2009-01-14T08:28:16-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="short" as="introduced">Financial Oversight Commission Act of 2009</title>
+		<title type="official" as="introduced">To establish the Financial Oversight Commission, and for other purposes.</title>
+	</titles>
+	<sponsor id="400196"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the House Committee on Financial Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Financial Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Finance and financial sector"/>
+		<term name="Advisory bodies"/>
+		<term name="Banking and financial institutions regulation"/>
+		<term name="Congressional oversight"/>
+		<term name="Financial crises and failures"/>
+		<term name="Financial services and investments"/>
+		<term name="Government investigations"/>
+		<term name="Housing finance and home ownership"/>
+		<term name="Securities"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

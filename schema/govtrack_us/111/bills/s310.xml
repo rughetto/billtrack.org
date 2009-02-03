@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="310" updated="2009-01-23T12:02:16-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Public Health Service Act to ensure that safety net family planning centers are eligible for assistance under the drug discount program.</title>
+	</titles>
+	<sponsor id="300011"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Read twice and referred to the Committee on Health, Education, Labor, and Pensions.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Health, Education, Labor, and Pensions" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

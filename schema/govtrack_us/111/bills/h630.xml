@@ -1,0 +1,39 @@
+<bill session="111" type="h" number="630" updated="2009-01-23T12:03:21-05:00">
+	<status><introduced date="1232600400" datetime="2009-01-22"/></status>
+
+	<introduced date="1232600400" datetime="2009-01-22"/>
+	<titles>
+		<title type="official" as="introduced">To provide for habeas corpus review for terror suspects held at Guantanamo Bay, Cuba, and for other purposes.</title>
+	</titles>
+	<sponsor id="400381"/>
+	<cosponsors>
+		<cosponsor id="412311" joined="2009-01-22"/>
+		<cosponsor id="400365" joined="2009-01-22"/>
+		<cosponsor id="400144" joined="2009-01-22"/>
+		<cosponsor id="400652" joined="2009-01-22"/>
+		<cosponsor id="400076" joined="2009-01-22"/>
+		<cosponsor id="400617" joined="2009-01-22"/>
+		<cosponsor id="400141" joined="2009-01-22"/>
+		<cosponsor id="412226" joined="2009-01-22"/>
+		<cosponsor id="412280" joined="2009-01-22"/>
+		<cosponsor id="400036" joined="2009-01-22"/>
+	</cosponsors>
+	<actions>
+		<action date="1232600400" datetime="2009-01-22"><text>Referred to the House Committee on the Judiciary.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

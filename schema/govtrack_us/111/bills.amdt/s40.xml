@@ -1,0 +1,16 @@
+<amendment session="111" chamber="s" number="40" updated="2009-02-02T12:00:22-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233118800" datetime="2009-01-28">fail</status>
+	<sponsor id="300072"/>
+	<offered date="1233032400" datetime="2009-01-27"/>
+	<description>In the nature of a substitute.</description>
+	<purpose>In the nature of a substitute.</purpose>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Amendment SA 40 proposed by Senator McConnell to Amendment SA 39.</text><reference label="consideration" ref="CR S852-854, S885"/></action>
+		<action date="1233032400" datetime="2009-01-27"><text>Amendment SA 40 modified to reflect a first degree status by Unanimous Consent.</text></action>
+		<action date="1233032400" datetime="2009-01-27"><text>Amendment SA 40 proposed by Senator McConnell.</text></action>
+		<action date="1233118800" datetime="2009-01-28"><text>Considered by Senate.</text><reference label="consideration" ref="CR S950-954, S954-955"/></action>
+		<vote date="1233118800" datetime="2009-01-28" result="fail" how="roll" roll="18"><text>Amendment SA 40 not agreed to in Senate by Yea-Nay Vote. 32 - 65. Record Vote Number: 18.</text></vote>
+
+	</actions>
+</amendment>

@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="351" updated="2009-01-30T12:02:32-05:00">
+	<status><introduced date="1233205200" datetime="2009-01-29"/></status>
+
+	<introduced date="1233205200" datetime="2009-01-29"/>
+	<titles>
+		<title type="official" as="introduced">A bill to require United States Government representatives to present to the Government of Iraq a plan to establish an oil trust.</title>
+	</titles>
+	<sponsor id="300040"/>
+	<cosponsors>
+		<cosponsor id="300006" joined="2009-01-29"/>
+	</cosponsors>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Read twice and referred to the Committee on Foreign Relations.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Foreign Relations" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

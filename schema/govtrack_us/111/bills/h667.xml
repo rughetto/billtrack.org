@@ -1,0 +1,46 @@
+<bill session="111" type="h" number="667" updated="2009-01-24T12:00:49-05:00">
+	<status><introduced date="1232686800" datetime="2009-01-23"/></status>
+
+	<introduced date="1232686800" datetime="2009-01-23"/>
+	<titles>
+		<title type="official" as="introduced">To improve the diagnosis and treatment of traumatic brain injury in members and former members of the Armed Forces, to review and expand telehealth and telemental health programs of the Department of Defense and the Department of Veterans Affairs, and for other purposes.</title>
+	</titles>
+	<sponsor id="400620"/>
+	<cosponsors>
+		<cosponsor id="412232" joined="2009-01-23"/>
+		<cosponsor id="412228" joined="2009-01-23"/>
+		<cosponsor id="400321" joined="2009-01-23"/>
+		<cosponsor id="400140" joined="2009-01-23"/>
+		<cosponsor id="400184" joined="2009-01-23"/>
+		<cosponsor id="412222" joined="2009-01-23"/>
+		<cosponsor id="400063" joined="2009-01-23"/>
+		<cosponsor id="400309" joined="2009-01-23"/>
+		<cosponsor id="412204" joined="2009-01-23"/>
+		<cosponsor id="400283" joined="2009-01-23"/>
+		<cosponsor id="400178" joined="2009-01-23"/>
+		<cosponsor id="412192" joined="2009-01-23"/>
+		<cosponsor id="400262" joined="2009-01-23"/>
+		<cosponsor id="412298" joined="2009-01-23"/>
+	</cosponsors>
+	<actions>
+		<action date="1232686800" datetime="2009-01-23"><text>Referred to the Committee on Veterans' Affairs, and in addition to the Committee on Armed Services, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1232686800" datetime="2009-01-23"><text>Referred to House Veterans' Affairs</text></action>
+		<action date="1232686800" datetime="2009-01-23"><text>Referred to House Armed Services</text></action>
+	</actions>
+	<committees>
+		<committee name="House Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

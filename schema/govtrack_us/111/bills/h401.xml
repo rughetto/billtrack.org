@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="401" updated="2009-01-14T09:04:52-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">River Raisin National Battlefield Act</title>
+		<title type="official" as="introduced">To provide for the designation of certain sites in Monroe County and Wayne County, Michigan, relating to the Battles of the River Raisin during the War of 1812 as a unit of the National Park System.</title>
+	</titles>
+	<sponsor id="400110"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the House Committee on Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

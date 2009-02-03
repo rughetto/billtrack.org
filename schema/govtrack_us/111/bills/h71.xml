@@ -1,0 +1,42 @@
+<bill session="111" type="h" number="71" updated="2009-01-14T08:27:56-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Federal Power Act to provide for enforcement, including criminal penalties, by the Federal Energy Regulatory Commission of electric reliability standards, and for other purposes.</title>
+	</titles>
+	<sponsor id="400199"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to the Committee on Energy and Commerce, and in addition to the Committee on Transportation and Infrastructure, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Energy and Commerce</text></action>
+		<action date="1231218000" datetime="2009-01-06"><text>Referred to House Transportation and Infrastructure</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Transportation and Infrastructure" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+		<term name="Energy"/>
+		<term name="Administrative law and regulatory procedures"/>
+		<term name="Criminal procedure and sentencing"/>
+		<term name="Department of Energy"/>
+		<term name="Electric power generation and transmission"/>
+		<term name="Emergency planning and evacuation"/>
+		<term name="Executive agency funding and structure"/>
+		<term name="Federal Energy Regulatory Commission (FERC)"/>
+		<term name="Government investigations"/>
+		<term name="Public utilities and utility rates"/>
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

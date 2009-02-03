@@ -1,0 +1,34 @@
+<bill session="111" type="s" number="154" updated="2009-01-14T09:33:56-05:00">
+	<status><introduced date="1231218000" datetime="2009-01-06"/></status>
+
+	<introduced date="1231218000" datetime="2009-01-06"/>
+	<titles>
+		<title type="official" as="introduced">A bill to require the Congressional Budget Office and the Joint Committee on Taxation to use dynamic economic modeling in addition to static economic modeling in the preparation of budgetary estimates of proposed changes in Federal revenue law.</title>
+	</titles>
+	<sponsor id="300040"/>
+	<cosponsors>
+		<cosponsor id="300055" joined="2009-01-06"/>
+		<cosponsor id="400105" joined="2009-01-08"/>
+		<cosponsor id="300030" joined="2009-01-06"/>
+		<cosponsor id="400621" joined="2009-01-06"/>
+		<cosponsor id="400194" joined="2009-01-06"/>
+	</cosponsors>
+	<actions>
+		<action date="1231218000" datetime="2009-01-06"><text>Read twice and referred to the Committee on the Budget.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Budget" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

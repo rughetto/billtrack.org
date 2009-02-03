@@ -1,0 +1,50 @@
+<bill session="111" type="h" number="554" updated="2009-01-16T12:04:28-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To authorize activities for support of nanotechnology research and development, and for other purposes.</title>
+	</titles>
+	<sponsor id="400155"/>
+	<cosponsors>
+		<cosponsor id="400017" joined="2009-01-15"/>
+		<cosponsor id="400280" joined="2009-01-15"/>
+		<cosponsor id="412227" joined="2009-01-15"/>
+		<cosponsor id="400381" joined="2009-01-15"/>
+		<cosponsor id="400027" joined="2009-01-15"/>
+		<cosponsor id="400346" joined="2009-01-15"/>
+		<cosponsor id="400638" joined="2009-01-15"/>
+		<cosponsor id="400247" joined="2009-01-15"/>
+		<cosponsor id="400005" joined="2009-01-15"/>
+		<cosponsor id="400165" joined="2009-01-15"/>
+		<cosponsor id="400649" joined="2009-01-15"/>
+		<cosponsor id="400630" joined="2009-01-15"/>
+		<cosponsor id="400185" joined="2009-01-15"/>
+		<cosponsor id="400119" joined="2009-01-15"/>
+		<cosponsor id="400204" joined="2009-01-15"/>
+		<cosponsor id="400365" joined="2009-01-15"/>
+		<cosponsor id="400654" joined="2009-01-15"/>
+		<cosponsor id="400437" joined="2009-01-15"/>
+		<cosponsor id="400011" joined="2009-01-15"/>
+		<cosponsor id="400108" joined="2009-01-15"/>
+		<cosponsor id="412188" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Science and Technology.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Science and Technology" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

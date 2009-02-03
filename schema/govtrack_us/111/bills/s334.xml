@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="334" updated="2009-01-28T12:01:01-05:00">
+	<status><introduced date="1233032400" datetime="2009-01-27"/></status>
+
+	<introduced date="1233032400" datetime="2009-01-27"/>
+	<titles>
+		<title type="official" as="introduced">A bill to authorize the extension of nondiscriminatory treatment (normal trade relations treatment) to the products of Moldova.</title>
+	</titles>
+	<sponsor id="300070"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233032400" datetime="2009-01-27"><text>Sponsor introductory remarks on measure. (CR S898-899)</text></action>
+		<action date="1233032400" datetime="2009-01-27"><text>Read twice and referred to the Committee on Finance.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Finance" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

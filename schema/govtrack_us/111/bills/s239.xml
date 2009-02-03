@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="239" updated="2009-01-15T12:01:25-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend title 38, United States Code, to ensure that veterans in each of the 48 contiguous States are able to receive services in at least one full-service hospital of the Veterans Health Administration in the State or receive comparable services provided by contract in the State.</title>
+	</titles>
+	<sponsor id="412323"/>
+	<cosponsors>
+		<cosponsor id="300049" joined="2009-01-14"/>
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Sponsor introductory remarks on measure. (CR S390-391)</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Read twice and referred to the Committee on Veterans' Affairs.</text><reference label="text of measure as introduced" ref="CR S391"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,39 @@
+<bill session="111" type="h" number="584" updated="2009-01-16T12:07:56-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To provide for coverage of hormone replacement therapy for treatment of menopausal symptoms, and for coverage of an alternative therapy for hormone replacement therapy for such symptoms, under the Medicare and Medicaid Programs, group health plans and individual health insurance coverage, and other Federal health insurance programs.</title>
+	</titles>
+	<sponsor id="400237"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the Committee on Energy and Commerce, and in addition to the Committees on Ways and Means, Education and Labor, Oversight and Government Reform, and Veterans' Affairs, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Energy and Commerce</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Ways and Means</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Education and Labor</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Oversight and Government Reform</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Veterans' Affairs</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Ways and Means" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

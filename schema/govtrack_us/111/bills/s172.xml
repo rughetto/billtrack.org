@@ -1,0 +1,31 @@
+<bill session="111" type="s" number="172" updated="2009-01-14T09:35:12-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">A bill to establish a coordinated national ocean exploration program within the National Oceanic and Atmospheric Administration, and for other purposes.</title>
+	</titles>
+	<sponsor id="300091"/>
+	<cosponsors>
+		<cosponsor id="300056" joined="2009-01-08"/>
+		<cosponsor id="300084" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Read twice and referred to the Committee on Commerce, Science, and Transportation.</text><reference label="text of measure as introduced" ref="CR S219-220"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Commerce, Science, and Transportation" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

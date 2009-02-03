@@ -1,0 +1,41 @@
+<bill session="111" type="s" number="167" updated="2009-01-09T12:01:44-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the Omnibus Crime Control and Safe Streets Act of 1968 to enhance the COPS ON TEH BEAT grant program, and for other purposes.</title>
+	</titles>
+	<sponsor id="300061"/>
+	<cosponsors>
+		<cosponsor id="300065" joined="2009-01-08"/>
+		<cosponsor id="300082" joined="2009-01-08"/>
+		<cosponsor id="300011" joined="2009-01-08"/>
+		<cosponsor id="300093" joined="2009-01-08"/>
+		<cosponsor id="300060" joined="2009-01-08"/>
+		<cosponsor id="300038" joined="2009-01-08"/>
+		<cosponsor id="300087" joined="2009-01-08"/>
+		<cosponsor id="300034" joined="2009-01-08"/>
+		<cosponsor id="300043" joined="2009-01-08"/>
+		<cosponsor id="412247" joined="2009-01-08"/>
+		<cosponsor id="300064" joined="2009-01-08"/>
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Sponsor introductory remarks on measure. (CR S212-213)</text></action>
+		<action date="1231390800" datetime="2009-01-08"><text>Read twice and referred to the Committee on the Judiciary.</text><reference label="text of measure as introduced" ref="CR S213-214"/></action>
+	</actions>
+	<committees>
+		<committee name="Senate Judiciary" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

@@ -1,0 +1,35 @@
+<bill session="111" type="h" number="568" updated="2009-01-16T12:06:07-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To amend title 38, United States Code, to improve the quality of care provided to veterans in Department of Veterans Affairs medical facilities, to encourage highly qualified doctors to serve in hard-to-fill positions in such medical facilities, and for other purposes.</title>
+	</titles>
+	<sponsor id="400082"/>
+	<cosponsors>
+		<cosponsor id="412187" joined="2009-01-15"/>
+		<cosponsor id="400431" joined="2009-01-15"/>
+		<cosponsor id="400373" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the Committee on Veterans' Affairs, and in addition to the Committee on Oversight and Government Reform, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Veterans' Affairs</text></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to House Oversight and Government Reform</text></action>
+	</actions>
+	<committees>
+		<committee name="House Veterans' Affairs" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Oversight and Government Reform" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

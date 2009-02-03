@@ -1,0 +1,31 @@
+<bill session="111" type="h" number="298" updated="2009-01-14T08:53:14-05:00">
+	<status><introduced date="1231390800" datetime="2009-01-08"/></status>
+
+	<introduced date="1231390800" datetime="2009-01-08"/>
+	<titles>
+		<title type="short" as="introduced">Improving Children's Doctor Access Act of 2009</title>
+		<title type="official" as="introduced">To amend title XXI of the Social Security Act to require SCHIP annual reports to include information on the HEDIS measure relating to access to primary care practitioners by individuals eligible for child health assistance under such plans and on State efforts to avoid certain displacement of private health coverage, and to express the sense of Congress that such States should utilize Consumer Assessment of Healthcare Providers and Systems consumer satisfaction surveys to measure access by such idividuals to physicians.</title>
+	</titles>
+	<sponsor id="400636"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231390800" datetime="2009-01-08"><text>Referred to the House Committee on Energy and Commerce.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

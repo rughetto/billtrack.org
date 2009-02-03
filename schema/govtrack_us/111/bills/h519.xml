@@ -1,0 +1,37 @@
+<bill session="111" type="h" number="519" updated="2009-01-15T12:07:15-05:00">
+	<status><introduced date="1231909200" datetime="2009-01-14"/></status>
+
+	<introduced date="1231909200" datetime="2009-01-14"/>
+	<titles>
+		<title type="official" as="introduced">To authorize additional appropriations for the family caregiver support program under the Older Americans Act of 1965, and for the National Clearinghouse for Long-Term Care Information, for fiscal years 2010, 2011, and 2012.</title>
+	</titles>
+	<sponsor id="400195"/>
+	<cosponsors>
+		<cosponsor id="400352" joined="2009-01-14"/>
+		<cosponsor id="400339" joined="2009-01-14"/>
+		<cosponsor id="400631" joined="2009-01-14"/>
+		<cosponsor id="400426" joined="2009-01-14"/>
+		<cosponsor id="412219" joined="2009-01-14"/>
+	</cosponsors>
+	<actions>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to the Committee on Education and Labor, and in addition to the Committee on Energy and Commerce, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to House Education and Labor</text></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Referred to House Energy and Commerce</text></action>
+	</actions>
+	<committees>
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Energy and Commerce" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

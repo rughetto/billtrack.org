@@ -1,0 +1,19 @@
+SA 90. Ms. STABENOW (for herself and Mr. LEVIN) submitted an amendment intended to be proposed by her to the bill H.R. 2, to amend title XXI of the Social Security Act to extend and improve the Children's Health Insurance Program, and for other purposes; which was ordered to lie on the table; as follows:
+
+ After section 622 insert the following:
+SEC. 623. MEDICARE HOSPITAL GEOGRAPHIC RECLASSIFICATION.
+ (a) Reclassification.--
+ (1) IN GENERAL.--Notwithstanding any other provision of law, effective for discharges occurring during fiscal years 2010, 2011, and 2012, for purposes of making payments under section 1886(d) of the Social Security Act (42 U.S.C. 1395ww(d)) to a hospital described in paragraph (2), such hospital shall be deemed to be located in a Metropolitan Statistical Area in the State in which the hospital is located with an area wage index value that is not less than 90 percent of the area wage index
+value of teaching hospitals in that Metropolitan Statistical Area.
+ (2) HOSPITAL DESCRIBED.--A hospital described in this paragraph is a hospital that--
+ (A) is a teaching hospital;
+ (B) is located in a Metropolitan Statistical Area in which there are only 2 subsection (d) hospitals (as defined in section 1886(d)(1)(B) of the Social Security Act (42 U.S.C. 1395ww(d)(1)(B));
+ (C) has an average hourly wage that is at least 88 percent of the average hourly wage of other teaching hospitals in the Metropolitan Statistical Area to which the hospital would be reclassified under paragraph (1);
+ (D) is located within 200 yards of the boundary of the Metropolitan Statistical Area to which the hospital would be reclassified under paragraph (1); and
+ (E) was not reclassified under the process established under section 508 of the Medicare Prescription Drug, Improvement, and Modernization Act of 2003 (Public Law 108-173; 117 Stat. 2297).
+ (b) Rules.--
+ (1) IN GENERAL.--Except as provided in paragraph (2), any reclassification made under subsection (a) shall be treated as a decision of the Medicare Geographic Classification Review Board under section 1886(d)(10) of the Social Security Act (42 U.S.C. 1395ww(d)(10)).
+ (2) NON-APPLICATION OF 3-YEAR APPLICATION PROVISION.--Section 1886(d)(10)(D)(v) of the Social Security Act (42 U.S.C. 1395ww(d)(10)(D)(v)), as it relates to reclassification being effective for 3 fiscal years, shall not apply with respect to a reclassification made under subsection (a).
+
+
+(As printed in the Congressional Record for the Senate on Jan 29, 2009.)

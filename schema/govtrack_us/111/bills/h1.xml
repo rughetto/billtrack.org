@@ -1,0 +1,257 @@
+<bill session="111" type="h" number="1" updated="2009-01-31T12:02:03-05:00">
+	<status><vote date="1233180660" datetime="2009-01-28T18:11:00-05:00" where="h" result="pass" how="roll" roll="46"/></status>
+
+	<introduced date="1232946000" datetime="2009-01-26"/>
+	<titles>
+		<title type="short" as="introduced">American Recovery and Reinvestment Act of 2009</title>
+		<title type="short" as="introduced">American Recovery and Reinvestment Tax Act of 2009</title>
+		<title type="short" as="introduced">Assistance for Unemployed Workers and Struggling Families Act</title>
+		<title type="short" as="introduced">Health Information Technology for Economic and Clinical Health Act</title>
+		<title type="short" as="introduced">Health Insurance Assistance for the Unemployed Act of 2009</title>
+		<title type="short" as="introduced">HITECH Act</title>
+		<title type="short" as="passed house">American Recovery and Reinvestment Act of 2009</title>
+		<title type="short" as="passed house">American Recovery and Reinvestment Tax Act of 2009</title>
+		<title type="short" as="passed house">Assistance for Unemployed Workers and Struggling Families Act</title>
+		<title type="short" as="passed house">Health Information Technology for Economic and Clinical Health Act</title>
+		<title type="short" as="passed house">Health Insurance Assistance for the Unemployed Act of 2009</title>
+		<title type="short" as="passed house">HITECH Act</title>
+		<title type="short" as="passed house">Whistleblower Protection Enhancement Act of 2009</title>
+		<title type="official" as="introduced">Making supplemental appropriations for job preservation and creation, infrastructure investment, energy efficiency and science, assistance to the unemployed, and State and local fiscal stabilization, for fiscal year ending September 30, 2009, and for other purposes.</title>
+	</titles>
+	<sponsor id="400300"/>
+	<cosponsors>
+		<cosponsor id="400409" joined="2009-01-26"/>
+		<cosponsor id="400140" joined="2009-01-26"/>
+		<cosponsor id="400386" joined="2009-01-26"/>
+		<cosponsor id="400416" joined="2009-01-26"/>
+		<cosponsor id="400425" joined="2009-01-26"/>
+		<cosponsor id="400333" joined="2009-01-26"/>
+		<cosponsor id="400155" joined="2009-01-26"/>
+		<cosponsor id="400299" joined="2009-01-26"/>
+		<cosponsor id="400278" joined="2009-01-26"/>
+	</cosponsors>
+	<actions>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to the Committee on Appropriations, and in addition to the Committee on the Budget, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to House Appropriations</text></action>
+		<action date="1232946000" datetime="2009-01-26"><text>Referred to House Budget</text></action>
+		<action date="1233017820" datetime="2009-01-26T20:57:00-05:00"><text>Rules Committee Resolution H. Res. 88 Reported to House. Rule provides for consideration of H.R. 1 with 3 hours and 30 minutes of general debate. All points of order against consideration of the bill except those arising under clause 9 or 10 of rule XXI, are waived. After general debate, the Committee shall rise without motion and no further consideration of the bill shall occur except pursuant to a subsequent order of the House.</text></action>
+		<action date="1233082680" datetime="2009-01-27T14:58:00-05:00"><text>Rule H. Res. 88 passed House.</text></action>
+		<action date="1233087960" datetime="2009-01-27T16:26:00-05:00"><text>QUESTION OF CONSIDERATION - Pending any declaration of the House into the Committee of the Whole pursuant to H. Res. 88 for consideration of H.R. 1--which contains an emergency designation for purposes of pay-as-you-go principles--the Chair announced that it must put the question of consideration of H.R. 1 under clause 10(c)(3)of rule 21.</text></action>
+		<action date="1233088920" datetime="2009-01-27T16:42:00-05:00"><text>On question of consideration of bill Agreed to by recorded vote: 224 - 199 (Roll no. 38).</text><reference label="consideration" ref="CR H556-557"/></action>
+		<action date="1233088920" datetime="2009-01-27T16:42:00-05:00"><text>Considered under the provisions of rule H. Res. 88.</text><reference label="consideration" ref="CR H557-583"/></action>
+		<action date="1233088920" datetime="2009-01-27T16:42:00-05:00"><text>Rule provides for consideration of H.R. 1 with 3 hours and 30 minutes of general debate. All points of order against consideration of the bill except those arising under clause 9 or 10 of rule XXI, are waived. After general debate, the Committee shall rise without motion and no further consideration of the bill shall occur except pursuant to a subsequent order of the House.</text></action>
+		<action date="1233088980" datetime="2009-01-27T16:43:00-05:00"><text>House resolved itself into the Committee of the Whole House on the state of the Union pursuant to H. Res. 88 and Rule XVIII.</text></action>
+		<action date="1233088980" datetime="2009-01-27T16:43:00-05:00"><text>The Speaker designated the Honorable John F. Tierney to act as Chairman of the Committee.</text></action>
+		<action date="1233088980" datetime="2009-01-27T16:43:00-05:00"><text>GENERAL DEBATE - The Committee of the Whole proceeded with 3 hours and 30 minutes of general debate on H.R. 1.</text></action>
+		<action date="1233101940" datetime="2009-01-27T20:19:00-05:00"><text>Committee of the Whole House on the state of the Union rises leaving H.R. 1 as unfinished business.</text></action>
+		<action date="1233106200" datetime="2009-01-27T21:30:00-05:00"><text>Rules Committee Resolution H. Res. 92 Reported to House. Rule provides for consideration of H.R. 1 with 1 hour of general debate. Previous question shall be considered as ordered without intervening motions except motion to recommit with or without instructions. Measure will be considered read. Specified amendments are in order. Resolution provides for further consideration of H.R. 1. Further general debate shall continue for not to exceed one hour, equally divided and controlled and shall be limited to the bill and amendments made in order by this resolution. Upon the adoption of this resolution, the amendment printed in Part A of the report of the Committee on Rules accompanying this resolution shall be considered as adopted.</text></action>
+		<action date="1233204180" datetime="2009-01-28T12:43:00-05:00"><text>Rule H. Res. 92 passed House.</text></action>
+		<action date="1233205140" datetime="2009-01-28T12:59:00-05:00"><text>Considered as unfinished business.</text><reference label="consideration" ref="CR H620-749"/></action>
+		<action date="1233205140" datetime="2009-01-28T12:59:00-05:00"><text>The House resolved into Committee of the Whole House on the state of the Union for further consideration.</text></action>
+		<action date="1233205140" datetime="2009-01-28T12:59:00-05:00"><text>GENERAL DEBATE - The Committee of the Whole proceeded with one hour of general debate on H.R. 1.</text></action>
+		<action date="1233165540" datetime="2009-01-28T13:59:00-05:00"><text>Pursuant to the provisions of H. Res. 92, an amendment printed in part A of House Report 111-9, is considered as adopted. The bill, as amended, shall be considered as the original bill for purpose of further amendment.</text></action>
+		<action date="1233165720" datetime="2009-01-28T14:02:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Oberstar amendment.</text></action>
+		<action date="1233166260" datetime="2009-01-28T14:11:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Markey (MA) amendment.</text></action>
+		<action date="1233166440" datetime="2009-01-28T14:14:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Shuster amendment.</text></action>
+		<action date="1233166980" datetime="2009-01-28T14:23:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Nadler amendment.</text></action>
+		<action date="1233167700" datetime="2009-01-28T14:35:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Neugebauer amendment.</text></action>
+		<action date="1233168300" datetime="2009-01-28T14:45:00-05:00"><text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Neugebauer amendment, the Chair put the question on adoption of the amendment and by voice vote announced the noes had prevailed. Mr. Neugebauer demanded a recorded vote and the Chair postponed further proceedings on the question of adoption of the amendment until a time to be announced.</text></action>
+		<action date="1233168360" datetime="2009-01-28T14:46:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Waters amendment.</text></action>
+		<action date="1233168660" datetime="2009-01-28T14:51:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Flake amendment.</text></action>
+		<action date="1233169260" datetime="2009-01-28T15:01:00-05:00"><text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Flake amendment, the Chair put the question on adoption of the amendment and by voice vote announced the noes had prevailed. Mr. Flake demanded a recorded vote and the Chair postponed further proceedings on the question of adoption of the amendment until a time to be announced.</text></action>
+		<action date="1233169320" datetime="2009-01-28T15:02:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Kissel amendment.</text></action>
+		<action date="1233169920" datetime="2009-01-28T15:12:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Platts amendment.</text></action>
+		<action date="1233170640" datetime="2009-01-28T15:24:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 10 minutes of debate on the Teague amendment.</text></action>
+		<action date="1233171180" datetime="2009-01-28T15:33:00-05:00"><text>DEBATE - Pursuant to the provisions of H.Res. 92, the Committee of the Whole proceeded with 60 minutes of debate on the Camp amendment in the nature of a substitute.</text></action>
+		<action date="1233171180" datetime="2009-01-28T15:33:00-05:00"><text>POSTPONED PROCEEDINGS - At the conclusion of debate on the Camp amendment in the nature of a substitute, the Chair put the question on adoption of the amendment and by voice vote announced the noes had prevailed. Mr. Camp demanded a recorded vote and the Chair postponed further proceedings on the question of adoption of the amendment in the nature of a substitute until later in the legislative day.</text></action>
+		<action date="1233175320" datetime="2009-01-28T16:42:00-05:00"><text>The Committee of the Whole rose informally.</text></action>
+		<action date="1233175380" datetime="2009-01-28T16:43:00-05:00"><text>Subsequently, the Committee resumed its sitting.</text></action>
+		<action date="1233175440" datetime="2009-01-28T16:44:00-05:00"><text>UNFINISHED BUSINESS - The Chair announced that the unfinished business was the question of adoption of amendments which had been debated earlier and on which further proceedings had been postponed.</text></action>
+		<action date="1233178260" datetime="2009-01-28T17:31:00-05:00"><text>The House rose from the Committee of the Whole House on the state of the Union to report H.R. 1.</text></action>
+		<action date="1233178260" datetime="2009-01-28T17:31:00-05:00"><text>The previous question was ordered pursuant to the rule.</text><reference label="consideration" ref="CR H746"/></action>
+		<action date="1233178320" datetime="2009-01-28T17:32:00-05:00"><text>The House adopted the amendments en gross as agreed to by the Committee of the Whole House on the state of the Union.</text></action>
+		<action date="1233178380" datetime="2009-01-28T17:33:00-05:00"><text>Mr. Lewis (CA) moved to recommit with instructions to Appropriations. (consideration: CR H746-748; text CR H746)</text></action>
+		<action date="1233178440" datetime="2009-01-28T17:34:00-05:00"><text>DEBATE - The House proceeded with ten minutes of debate on the Lewis (CA) motion to recommit with instructions. The instructions contained in the motion seek to require the bill to be reported back to the House with sundry amendments.</text></action>
+		<action date="1233179160" datetime="2009-01-28T17:46:00-05:00"><text>The previous question on the motion to recommit with instructions was ordered without objection.</text><reference label="consideration" ref="CR H748"/></action>
+		<action date="1233180240" datetime="2009-01-28T18:04:00-05:00"><text>On motion to recommit with instructions Failed by recorded vote: 159 - 270 (Roll no. 45).</text><reference label="consideration" ref="CR H748"/></action>
+		<vote date="1233180660" how="roll" roll="46" datetime="2009-01-28T18:11:00-05:00" where="h" type="vote" result="pass" ><text>On passage Passed by the Yeas and Nays: 244 - 188 (Roll no. 46).</text><reference label="text" ref="CR H642-711"/></vote>
+		<action date="1233180720" datetime="2009-01-28T18:12:00-05:00"><text>The Clerk was authorized to correct section numbers, punctuation, and cross references, and to make other necessary technical and conforming corrections in the engrossment of H.R. 1.</text></action>
+		<action date="1233205200" datetime="2009-01-29"><text>Received in the Senate.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Appropriations" subcommittee="" activity="Referral" />
+		<committee name="House Budget" subcommittee="" activity="Referral" />
+	</committees>
+	<relatedbills>
+		<bill relation="rule" session="111" type="hr" number="88" />
+		<bill relation="rule" session="111" type="hr" number="92" />
+		<bill relation="unknown" session="111" type="h" number="598" />
+		<bill relation="unknown" session="111" type="h" number="629" />
+		<bill relation="unknown" session="111" type="h" number="679" />
+		<bill relation="unknown" session="111" type="h" number="679" />
+		<bill relation="unknown" session="111" type="s" number="336" />
+		<bill relation="unknown" session="111" type="s" number="336" />
+	</relatedbills>
+	<subjects>
+		<term name="Economics and public finance"/>
+		<term name="Administrative law and regulatory procedures"/>
+		<term name="Advisory bodies"/>
+		<term name="Aging"/>
+		<term name="Agricultural conservation and pollution"/>
+		<term name="Agricultural research"/>
+		<term name="Air quality"/>
+		<term name="Alternative and renewable resources"/>
+		<term name="Appropriations"/>
+		<term name="Aviation and airports"/>
+		<term name="Border security and unlawful immigration"/>
+		<term name="Broadcasting, cable, digital media"/>
+		<term name="Budget process"/>
+		<term name="Buy American requirements"/>
+		<term name="Centers for Disease Control and Prevention (CDC)"/>
+		<term name="Child health"/>
+		<term name="Climate change"/>
+		<term name="Congressional agencies"/>
+		<term name="Congressional oversight"/>
+		<term name="Corporate finance and management"/>
+		<term name="Corporation for National and Community Service"/>
+		<term name="Defense spending"/>
+		<term name="Department of Agriculture"/>
+		<term name="Department of Commerce"/>
+		<term name="Department of Defense"/>
+		<term name="Department of Education"/>
+		<term name="Department of Energy"/>
+		<term name="Department of Health and Human Services"/>
+		<term name="Department of Homeland Security"/>
+		<term name="Department of Housing and Urban Development"/>
+		<term name="Department of Justice"/>
+		<term name="Department of Labor"/>
+		<term name="Department of State"/>
+		<term name="Department of Transportation"/>
+		<term name="Department of Veterans Affairs"/>
+		<term name="Department of the Interior"/>
+		<term name="Disability and paralysis"/>
+		<term name="District of Columbia"/>
+		<term name="Economic development"/>
+		<term name="Economic performance and conditions"/>
+		<term name="Education of the disadvantaged"/>
+		<term name="Education programs funding"/>
+		<term name="Educational facilities and institutions"/>
+		<term name="Electric power generation and transmission"/>
+		<term name="Elementary and secondary education"/>
+		<term name="Employment and training programs"/>
+		<term name="Energy assistance for the poor and aged"/>
+		<term name="Energy efficiency and conservation"/>
+		<term name="Energy research"/>
+		<term name="Environmental Protection Agency (EPA)"/>
+		<term name="Executive agency funding and structure"/>
+		<term name="Financial crises and failures"/>
+		<term name="Financial services and investments"/>
+		<term name="Fires"/>
+		<term name="Floods and storm protection"/>
+		<term name="Food assistance and relief"/>
+		<term name="Foreign labor"/>
+		<term name="Forests"/>
+		<term name="General Services Administration"/>
+		<term name="Government Accountability Office (GAO)"/>
+		<term name="Government buildings, facilities, and property"/>
+		<term name="Government corporations and government-sponsored enterprises"/>
+		<term name="Government information and archives"/>
+		<term name="Government investigations"/>
+		<term name="Government lending"/>
+		<term name="Government trust funds"/>
+		<term name="Hazardous wastes and toxic substances"/>
+		<term name="Health care costs and insurance"/>
+		<term name="Health care coverage and access"/>
+		<term name="Health care quality"/>
+		<term name="Health facilities and institutions"/>
+		<term name="Health information and medical records"/>
+		<term name="Health personnel"/>
+		<term name="Health programs administration and funding"/>
+		<term name="Health promotion and preventive care"/>
+		<term name="Health technology, devices, supplies"/>
+		<term name="Higher education"/>
+		<term name="Homelessness and emergency shelter"/>
+		<term name="Housing and community development funding"/>
+		<term name="Housing finance and home ownership"/>
+		<term name="Housing for the elderly and disabled"/>
+		<term name="Humanities programs funding"/>
+		<term name="Income tax credits"/>
+		<term name="Income tax deductions"/>
+		<term name="Income tax rates"/>
+		<term name="Indian social and development programs"/>
+		<term name="Infrastructure development"/>
+		<term name="Interest and interest rates"/>
+		<term name="International organizations and cooperation"/>
+		<term name="Internet and video services"/>
+		<term name="Labor standards"/>
+		<term name="Latin America"/>
+		<term name="Law enforcement administration and funding"/>
+		<term name="Low- and moderate-income housing"/>
+		<term name="Medicaid"/>
+		<term name="Medicare"/>
+		<term name="Mexico"/>
+		<term name="Military facilities and property"/>
+		<term name="Minority health"/>
+		<term name="Mississippi River"/>
+		<term name="Motor vehicles"/>
+		<term name="National Aeronautics and Space Administration"/>
+		<term name="National Foundation on the Arts and the Humanities"/>
+		<term name="National Guard and reserves"/>
+		<term name="National Institutes of Health (NIH)"/>
+		<term name="National Science Foundation"/>
+		<term name="Oil and gas"/>
+		<term name="Parks, recreation areas, trails"/>
+		<term name="Poverty and welfare assistance"/>
+		<term name="Public contracts and procurement"/>
+		<term name="Public housing"/>
+		<term name="Public transit"/>
+		<term name="Railroads"/>
+		<term name="Research administration and funding"/>
+		<term name="Residential rehabilitation and home repair"/>
+		<term name="Roads and highways"/>
+		<term name="Rural conditions and development"/>
+		<term name="Securities"/>
+		<term name="Separation, divorce, custody, support"/>
+		<term name="Small Business Administration"/>
+		<term name="Small business"/>
+		<term name="Smithsonian Institution"/>
+		<term name="Social Security Administration"/>
+		<term name="Social security and elderly assistance"/>
+		<term name="Social work, volunteer service, charitable organizations"/>
+		<term name="Solid waste and recycling"/>
+		<term name="Space flight and exploration"/>
+		<term name="Special education"/>
+		<term name="State and local finance"/>
+		<term name="Student aid and college costs"/>
+		<term name="Telecommunication rates and fees"/>
+		<term name="Telephone and wireless communication"/>
+		<term name="Transportation programs funding"/>
+		<term name="Transportation safety and security"/>
+		<term name="Unemployment"/>
+		<term name="Veterans' education, employment, rehabilitation"/>
+		<term name="Veterans' medical care"/>
+		<term name="Wages and earnings"/>
+		<term name="Water quality"/>
+		<term name="Water resources funding"/>
+		<term name="Watersheds"/>
+		<term name="Wilderness and natural areas, wildlife refuges, wild rivers, habitats"/>
+		<term name="Youth employment and child labor"/>
+	</subjects>
+	<amendments>
+		<amendment number="h12"/>
+		<amendment number="h13"/>
+		<amendment number="h14"/>
+		<amendment number="h15"/>
+		<amendment number="h16"/>
+		<amendment number="h17"/>
+		<amendment number="h18"/>
+		<amendment number="h19"/>
+		<amendment number="h20"/>
+		<amendment number="h21"/>
+		<amendment number="h22"/>
+		<amendment number="s98"/>
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

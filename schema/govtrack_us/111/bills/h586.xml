@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="586" updated="2009-01-16T12:08:10-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To direct the Librarian of Congress and the Secretary of the Smithsonian Institution to carry out a joint project at the Library of Congress and the National Museum of African American History and Culture to collect video and audio recordings of personal histories and testimonials of individuals who participated in the Civil Rights movement, and for other purposes.</title>
+	</titles>
+	<sponsor id="400257"/>
+	<cosponsors>
+		<cosponsor id="400240" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on House Administration.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Administration" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

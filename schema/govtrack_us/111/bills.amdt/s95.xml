@@ -1,0 +1,13 @@
+<amendment session="111" chamber="s" number="95" updated="2009-02-02T12:01:26-05:00">
+	<amends type="h" number="2" sequence=""/>
+	<status date="1233205200" datetime="2009-01-29">pass</status>
+	<sponsor id="300005"/>
+	<offered date="1233205200" datetime="2009-01-29"/>
+	<description>To make technical corrections to the State option to provide dental-only supplemental coverage.</description>
+	<purpose>To make technical corrections to the State option to provide dental-only supplemental coverage.</purpose>
+	<actions>
+		<action date="1233205200" datetime="2009-01-29"><text>Amendment SA 95 proposed by Senator Baucus.</text><reference label="consideration" ref="CR S1042-1043"/><reference label="text" ref="CR S1042"/></action>
+		<vote date="1233205200" datetime="2009-01-29" result="pass" how="Unanimous Consent"><text>Amendment SA 95 agreed to in Senate by Unanimous Consent.</text></vote>
+
+	</actions>
+</amendment>

@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="744" updated="2009-01-29T12:03:39-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">To provide for the treatment of service as a member of the Alaska Territorial Guard during World War II as active service for purposes of retired pay for members of the Armed Forces.</title>
+	</titles>
+	<sponsor id="400440"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on Armed Services.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Armed Services" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

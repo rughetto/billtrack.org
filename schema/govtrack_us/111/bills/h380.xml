@@ -1,0 +1,34 @@
+<bill session="111" type="h" number="380" updated="2009-01-14T09:02:27-05:00">
+	<status><introduced date="1231477200" datetime="2009-01-09"/></status>
+
+	<introduced date="1231477200" datetime="2009-01-09"/>
+	<titles>
+		<title type="short" as="introduced">Infant Abandonment Prevention Act of 2009</title>
+		<title type="official" as="introduced">To provide for the establishment of a task force within the Bureau of Justice Statistics to gather information about, study, and report to the Congress regarding, incidents of abandonment of infant children.</title>
+	</titles>
+	<sponsor id="400199"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to the Committee on the Judiciary, and in addition to the Committee on Education and Labor, for a period to be subsequently determined by the Speaker, in each case for consideration of such provisions as fall within the jurisdiction of the committee concerned.</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to House Judiciary</text></action>
+		<action date="1231477200" datetime="2009-01-09"><text>Referred to House Education and Labor</text></action>
+	</actions>
+	<committees>
+		<committee name="House Judiciary" subcommittee="" activity="Referral, In Committee" />
+		<committee name="House Education and Labor" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

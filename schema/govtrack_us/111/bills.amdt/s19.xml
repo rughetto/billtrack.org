@@ -1,0 +1,16 @@
+<amendment session="111" chamber="s" number="19" updated="2009-01-22T12:05:04-05:00">
+	<amends type="s" number="22" sequence=""/>
+	<status date="1231736400" datetime="2009-01-12">offered</status>
+	<sponsor id="300082"/>
+	<offered date="1231736400" datetime="2009-01-12"/>
+	<description>Of a perfecting nature.</description>
+	<purpose>Of a perfecting nature.</purpose>
+	<actions>
+		<action date="1231736400" datetime="2009-01-12"><text>Amendment SA 19 proposed by Senator Reid to Amendment SA 18.</text><reference label="consideration" ref="CR S299"/><reference label="text" ref="CR S299"/></action>
+		<action date="1231822800" datetime="2009-01-13"><text>Considered by Senate.</text><reference label="consideration" ref="CR S324"/></action>
+		<action date="1231909200" datetime="2009-01-14"><text>Considered by Senate.</text><reference label="consideration" ref="CR S354"/></action>
+		<action date="1231995600" datetime="2009-01-15"><text>Considered by Senate.</text><reference label="consideration" ref="CR S419"/></action>
+		<action date="1231995600" datetime="2009-01-15"><text>SA 19 fell when SA 17 withdrawn.</text></action>
+
+	</actions>
+</amendment>

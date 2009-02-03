@@ -1,0 +1,30 @@
+<bill session="111" type="h" number="749" updated="2009-01-29T12:04:14-05:00">
+	<status><introduced date="1233118800" datetime="2009-01-28"/></status>
+
+	<introduced date="1233118800" datetime="2009-01-28"/>
+	<titles>
+		<title type="official" as="introduced">To amend the Federal Election Campaign Act of 1971 to permit candidates for election for Federal office to designate an individual who will be authorized to disburse funds of the authorized campaign committees of the candidate in the event of the death of the candidate.</title>
+	</titles>
+	<sponsor id="400209"/>
+	<cosponsors>
+		<cosponsor id="400119" joined="2009-01-28"/>
+	</cosponsors>
+	<actions>
+		<action date="1233118800" datetime="2009-01-28"><text>Referred to the House Committee on House Administration.</text></action>
+	</actions>
+	<committees>
+		<committee name="House Administration" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

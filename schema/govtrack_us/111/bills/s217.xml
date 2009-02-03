@@ -1,0 +1,30 @@
+<bill session="111" type="s" number="217" updated="2009-01-14T12:00:19-05:00">
+	<status><introduced date="1231822800" datetime="2009-01-13"/></status>
+
+	<introduced date="1231822800" datetime="2009-01-13"/>
+	<titles>
+		<title type="official" as="introduced">A bill to amend the National Trails System Act to require the Secretary of the Interior to update the feasibility and suitability studies of four national historic trails, and for other purposes.</title>
+	</titles>
+	<sponsor id="300052"/>
+	<cosponsors>
+
+	</cosponsors>
+	<actions>
+		<action date="1231822800" datetime="2009-01-13"><text>Read twice and referred to the Committee on Energy and Natural Resources.</text></action>
+	</actions>
+	<committees>
+		<committee name="Senate Energy and Natural Resources" subcommittee="" activity="Referral, In Committee" />
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>

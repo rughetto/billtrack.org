@@ -1,0 +1,14 @@
+<amendment session="111" chamber="s" number="28" updated="2009-01-30T12:03:41-05:00">
+	<amends type="s" number="181" sequence=""/>
+	<status date="1232600400" datetime="2009-01-22">fail</status>
+	<sponsor id="300041"/>
+	<offered date="1232082000" datetime="2009-01-16"/>
+	<description>To clarify standing.</description>
+	<purpose>To clarify standing.</purpose>
+	<actions>
+		<action date="1232514000" datetime="2009-01-21"><text>Amendment SA 28 proposed by Senator Enzi.</text><reference label="consideration" ref="CR S710-711"/><reference label="text" ref="CR S710"/></action>
+		<action date="1232600400" datetime="2009-01-22"><text>Considered by Senate.</text><reference label="consideration" ref="CR S739, S748-753, S758-759"/></action>
+		<vote date="1232600400" datetime="2009-01-22" result="fail" how="roll" roll="10"><text>Motion to table amendment SA 28 agreed to in Senate by Yea-Nay Vote. 55 - 41. Record Vote Number: 10.</text></vote>
+
+	</actions>
+</amendment>

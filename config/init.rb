@@ -18,6 +18,7 @@ end
 Merb::BootLoader.before_app_loads do
   require File.join( File.dirname(__FILE__), '..', 'lib', 'poor_mans_memecache')
   require File.join( File.dirname(__FILE__), '..', 'lib', 'zipcoder')
+  require File.join( File.dirname(__FILE__), '..', 'lib', 'govtracker')
   ActiveRecord::Base.class_eval do
     include CollectiveIdea::Acts::NestedSet
   end

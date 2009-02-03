@@ -1,0 +1,59 @@
+<bill session="111" type="h" number="557" updated="2009-01-16T12:04:50-05:00">
+	<status><introduced date="1231995600" datetime="2009-01-15"/></status>
+
+	<introduced date="1231995600" datetime="2009-01-15"/>
+	<titles>
+		<title type="official" as="introduced">To promote transparency, accountability, and reform within the United Nations system, and for other purposes.</title>
+	</titles>
+	<sponsor id="400344"/>
+	<cosponsors>
+		<cosponsor id="400144" joined="2009-01-15"/>
+		<cosponsor id="400652" joined="2009-01-15"/>
+		<cosponsor id="400206" joined="2009-01-15"/>
+		<cosponsor id="412250" joined="2009-01-15"/>
+		<cosponsor id="400654" joined="2009-01-15"/>
+		<cosponsor id="400034" joined="2009-01-15"/>
+		<cosponsor id="400055" joined="2009-01-15"/>
+		<cosponsor id="412236" joined="2009-01-15"/>
+		<cosponsor id="400165" joined="2009-01-15"/>
+		<cosponsor id="400380" joined="2009-01-15"/>
+		<cosponsor id="400060" joined="2009-01-15"/>
+		<cosponsor id="400145" joined="2009-01-15"/>
+		<cosponsor id="400108" joined="2009-01-15"/>
+		<cosponsor id="412252" joined="2009-01-15"/>
+		<cosponsor id="400435" joined="2009-01-15"/>
+		<cosponsor id="412191" joined="2009-01-15"/>
+		<cosponsor id="400260" joined="2009-01-15"/>
+		<cosponsor id="400343" joined="2009-01-15"/>
+		<cosponsor id="400622" joined="2009-01-15"/>
+		<cosponsor id="400036" joined="2009-01-15"/>
+		<cosponsor id="400040" joined="2009-01-15"/>
+		<cosponsor id="400032" joined="2009-01-15"/>
+		<cosponsor id="400107" joined="2009-01-15"/>
+		<cosponsor id="409888" joined="2009-01-15"/>
+		<cosponsor id="400252" joined="2009-01-15"/>
+		<cosponsor id="400056" joined="2009-01-15"/>
+		<cosponsor id="400348" joined="2009-01-15"/>
+		<cosponsor id="400158" joined="2009-01-15"/>
+		<cosponsor id="400315" joined="2009-01-15"/>
+		<cosponsor id="412216" joined="2009-01-15"/>
+	</cosponsors>
+	<actions>
+		<action date="1231995600" datetime="2009-01-15"><text>Referred to the House Committee on Foreign Affairs.</text></action>
+	</actions>
+	<committees>
+
+	</committees>
+	<relatedbills>
+
+	</relatedbills>
+	<subjects>
+
+	</subjects>
+	<amendments>
+
+	</amendments>
+	<summary>
+	
+	</summary>
+</bill>
