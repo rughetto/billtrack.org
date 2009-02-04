@@ -65,7 +65,7 @@ module Govtracker
   
   class LegislativeIssue < GovtrackerObject
     def self.file
-      @file ||= File.read("#{Merb.root}/schema/govtrack_us/people.xml")
+      @file ||= File.read("#{Merb.root}/schema/govtrack_us/liv.xml")
     end  
   
     def self.tag

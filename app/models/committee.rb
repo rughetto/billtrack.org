@@ -36,7 +36,7 @@ class Committee < ActiveRecord::Base
     all
   end 
   
-  def import_members( hpricot_part  )
+  def import_members( hpricot_part )
     (hpricot_part/:member).each do |member|
       govtrack_id = member.get_attribute('id')
       pol = Politician.find_by_govtrack_id( govtrack_id )

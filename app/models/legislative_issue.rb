@@ -1,21 +1,39 @@
 class LegislativeIssue < ActiveRecord::Base
-  acts_as_nested_set
-  belongs_to :parent, :class_name => "LegeslativeIssue", :foreign_key => "parent_id"
-  
+  # VALIDATIONS ---------------
   validates_uniqueness_of :name
   
+  # RELATIONSHIPS -------------
+  has_many :parent_relationships, :foreign_key => :child_id, :class_name => "LivRelationship"
+  has_many :child_relationships, :foreign_key => :parent_id, :class_name => "LivRelationship"
+  has_many :parents, :through => :parent_relationships
+  has_many :children, :through => :child_relationships
+  
+  def parent
+    parents.first
+  end  
+  
+  def has_children?
+    children.count > 0 ? true : false
+  end 
+  
+  def self.roots
+    find_by_sql(" 
+    SELECT legislative_issues.*
+    FROM legislative_issues, liv_relationships
+    WHERE 
+      liv_relationships.child_id = legislative_issues.id AND
+      ISNULL(liv_relationships.parent_id)
+    ")  
+  end  
+  
+  
+  # IMPORTS -------------------
   def self.hpricoted
     Hpricot.parse(File.open("#{Merb.root}/schema/govtrack_us/liv.xml"))
   end  
   
   def self.batch_import
-    (hpricoted/"top-term".to_sym).each do |top_term|
-      parent = find_or_create_by_name( top_term.get_attribute('value') )
-      (top_term/:term).each do |tag|
-        child = find_or_create_by_name( tag.get_attribute('value'))
-        child.move_to_child_of(parent) unless parent == child
-      end  
-    end
+    LivRelationship.batch_import
   end
 
 end
