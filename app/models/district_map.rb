@@ -69,7 +69,7 @@ class DistrictMap < ActiveRecord::Base
     end  
     bad_districts.flatten!
     Merb.logger.error("DistrictMap import from districts failed to import from districts with the following ids:
-    #{bad_districts.collect(&:id).inspect}")
+    #{bad_districts.collect(&:id).inspect}") unless bad_districts.blank?
     set_complex_mapping
     bad_districts
   end  
@@ -85,7 +85,7 @@ class DistrictMap < ActiveRecord::Base
       WHERE district_count > 1
     ").collect(&:id)
     id_str = ids.map{|i| "'#{i}'"}.join(', ')
-    ActiveRecord::Base.connection.execute "UPDATE district_maps SET complex = 1 WHERE id IN (#{id_str})"
+    ActiveRecord::Base.connection.execute "UPDATE district_maps SET complex = 1 WHERE id IN (#{id_str})" unless id_str.blank?
   end 
   
   def self.clear_and_reimport
