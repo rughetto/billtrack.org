@@ -2,8 +2,7 @@ require File.join( File.dirname(__FILE__), '..', "spec_helper" )
 
 describe LegislativeIssue do
   before(:each) do
-    @hpricoted = Hpricot.parse(File.open("#{Merb.root}/spec/xml/liv.xml"))
-    Govtracker::LegislativeIssue.stub!(:hpricoted).and_return(@hpricoted)
+    GovtrackerFile.root_directory = "#{Merb.root}/spec/xml/"
     LivRelationship.delete_all
     LegislativeIssue.delete_all
     LegislativeIssue.batch_import

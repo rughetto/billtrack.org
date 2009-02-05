@@ -3,8 +3,12 @@ class LivRelationship < ActiveRecord::Base
   belongs_to :parent, :class_name => "LegislativeIssue", :foreign_key => "parent_id"
   belongs_to :child, :class_name => "LegislativeIssue", :foreign_key => "child_id"
   
+  def self.govtracker
+    @govtracker ||= GovtrackerFile.new(:file => 'liv.xml' )
+  end
+  
   def self.batch_import
-    (Govtracker::LegislativeIssue.hpricoted/"top-term").each do |top_term|
+    (govtracker.hpricoted/"top-term").each do |top_term|
       parent = LegislativeIssue.find_or_create_by_name( top_term.get_attribute('value') )
       LivRelationship.create( :parent_id => nil, :child_id => parent.id )
       (top_term/:term).each do |tag|

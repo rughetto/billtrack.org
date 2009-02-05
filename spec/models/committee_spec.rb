@@ -7,7 +7,7 @@ describe Committee do
       Politician.load_from_file
       Committee.delete_all
       CommitteeMember.delete_all
-      Govtracker::Committee.file = "#{Merb.root}/spec/xml/committees.xml"
+      GovtrackerFile.root_directory = "#{Merb.root}/spec/xml/"
       Committee.batch_import
     end
     

@@ -4,8 +4,12 @@ class Committee < ActiveRecord::Base
   belongs_to :parent, :class_name => "Committee", :foreign_key => "parent_id"
   has_many :children, :class_name => "Committee", :foreign_key => "parent_id"
   
+  def self.govtracker
+    @govtracker ||= GovtrackerFile.new(:file => "#{GovtrackerFile.current_session}/committees.xml" )
+  end  
+  
   def self.batch_import
-    (Govtracker::Committee.hpricoted/:committee).each do |com|
+    (govtracker.hpricoted/:committee).each do |com|
       session = (com/"thomas-names/name").collect {|name_tag| name_tag.get_attribute('session').to_i }.max
       committee = find_or_create_by( :name => com.get_attribute('displayname'), :congressional_session => session )
       committee.chamber = com.get_attribute('type')

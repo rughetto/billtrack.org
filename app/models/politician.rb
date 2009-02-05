@@ -120,10 +120,14 @@ class Politician < ActiveRecord::Base
   
   def self.update_govtrack_ids
     all(:conditions => "govtrack_id IS NULL OR govtrack_ID = ''").each do |p|
-      hpr = Govtracker::People.search(:bioguideid => p.bioguide_id)
+      hpr = govtracker.search(:bioguideid => p.bioguide_id)
       p.govtrack_id =  hpr.first.get_attribute('id')
       p.save
     end  
+  end  
+  
+  def self.govtracker
+    @govtracker ||= GovtrackerFile.new(:file => "committees.xml" )
   end  
   
 end
