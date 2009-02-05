@@ -5,15 +5,11 @@ class Committee < ActiveRecord::Base
   has_many :children, :class_name => "Committee", :foreign_key => "parent_id"
   has_many :committee_members
   
-  def self.hpricoted
-    Hpricot.parse( File.open("#{Merb.root}/schema/govtrack_us/111/committees.xml") )
-  end  
-  
   def self.batch_import
     Committee.delete_all
     CommitteeMember.delete_all
     
-    (hpricoted/:committee).each do |com|
+    (Govtracker::Committee.hpricoted/:committee).each do |com|
       committee = find_or_create_by_name( com.get_attribute('displayname') )
       committee.chamber = com.get_attribute('type')
       committee.code = com.get_attribute('code')

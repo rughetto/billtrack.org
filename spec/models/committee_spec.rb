@@ -7,8 +7,7 @@ describe Committee do
       Politician.load_from_file
       Committee.delete_all
       CommitteeMember.delete_all
-      @file = Hpricot.parse(File.open("#{Merb.root}/spec/xml/committees.xml"))
-      Committee.stub!(:hpricoted).and_return(@file)
+      Govtracker::Committee.file = "#{Merb.root}/spec/xml/committees.xml"
       Committee.batch_import
     end
     
