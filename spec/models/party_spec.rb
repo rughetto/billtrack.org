@@ -13,10 +13,7 @@ describe Party do
     it "should have a unique abbreviation" do
       Party.new(:abbreviation => 'D', :name => 'new').should_not be_valid
     end  
-    it "should have a unique name" do
-      Party.new(:name => 'Democrat', :abbreviation => 'N').should_not be_valid
-    end  
-    it "should be valid with a unique name and abbreviation" do
+    it "should be valid with a unique abbreviation" do
       Party.new(:name => "Peace and Freedom", :abbreviation =>  "P").should be_valid
     end  
   end  
