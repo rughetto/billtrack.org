@@ -4,15 +4,15 @@ class CommitteeMember < ActiveRecord::Base
   
   def self.find_fuzzy(hash)
     com_id =  hash[:committee_id]
-    if pol = hash[:politician]
+    if hash[:politician]
       first( :conditions => {
         :committee_id => com_id,
-        :politician_id => pol.id
+        :politician_id => hash[:politician].id
       })
     else
       first( :conditions => {
         :committee_id => com_id,
-        :politician_name => hash[:name]
+        :politician_name => hash[:politician_name]
       })  
     end  
   end

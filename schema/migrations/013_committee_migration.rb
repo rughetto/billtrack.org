@@ -6,6 +6,7 @@ class CommitteeMigration < ActiveRecord::Migration
       t.string  :url
       t.string  :code
       t.integer :parent_id
+      t.string  :congressional_session
     end
     add_index :committees, [:id], :name => "committee_id"
     add_index :committees, [:parent_id], :name => "committee_parents"

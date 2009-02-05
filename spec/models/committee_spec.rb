@@ -31,7 +31,9 @@ describe Committee do
       Committee.first.committee_members.size.should == 20
     end  
     
-    it "should create a new set for each congress" # pending migration increase  
+    it "should create a new set for each congress" do
+      pending
+    end   
   end  
   
   describe "relationships" do
