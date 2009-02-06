@@ -21,13 +21,14 @@ class Amendment < Bill
     parent_data = (file_data/"amends").attributes
     amdt.parent_name = parent_data.inspect
     amdt.parent = find_bill( parent_data )
+    amdt.save
     
     # relationships
     statuses << status_set =  BillStatus.import_data(file_data/"status", self)
     actions << action_set =   BillAction.import_data(file_data/"actions", self)
     
     amdt.save
-    
+    amdt
   end 
   
 

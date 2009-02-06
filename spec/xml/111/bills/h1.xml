@@ -1,5 +1,7 @@
 <bill session="111" type="h" number="1" updated="2009-01-31T12:02:03-05:00">
-	<status><vote date="1233180660" datetime="2009-01-28T18:11:00-05:00" where="h" result="pass" how="roll" roll="46"/></status>
+	<status>
+	  <vote date="1233180660" datetime="2009-01-28T18:11:00-05:00" where="h" result="pass" how="roll" roll="46"/>
+	</status>
 
 	<introduced date="1232946000" datetime="2009-01-26"/>
 	<titles>
