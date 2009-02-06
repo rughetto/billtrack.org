@@ -9,7 +9,7 @@ class Committee < ActiveRecord::Base
   end  
   
   def self.batch_import
-    (govtracker.hpricoted/:committee).each do |com|
+    (govtracker.parsed_file/:committee).each do |com|
       session = (com/"thomas-names/name").collect {|name_tag| name_tag.get_attribute('session').to_i }.max
       committee = find_or_create_by( :name => com.get_attribute('displayname'), :congressional_session => session )
       committee.chamber = com.get_attribute('type')
@@ -36,8 +36,8 @@ class Committee < ActiveRecord::Base
     all
   end 
   
-  def import_members( hpricot_part )
-    (hpricot_part/:member).each do |member|
+  def import_members( parsed_part )
+    (parsed_part/:member).each do |member|
       govtrack_id = member.get_attribute('id')
       pol = Politician.find_by_govtrack_id( govtrack_id )
       name = member.get_attribute('name')

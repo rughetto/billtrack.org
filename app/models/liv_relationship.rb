@@ -8,7 +8,7 @@ class LivRelationship < ActiveRecord::Base
   end
   
   def self.batch_import
-    (govtracker.hpricoted/"top-term").each do |top_term|
+    (govtracker.parsed_file/"top-term").each do |top_term|
       parent = LegislativeIssue.find_or_create_by_name( top_term.get_attribute('value') )
       LivRelationship.create( :parent_id => nil, :child_id => parent.id )
       (top_term/:term).each do |tag|

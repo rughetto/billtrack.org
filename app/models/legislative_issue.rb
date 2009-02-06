@@ -28,10 +28,6 @@ class LegislativeIssue < ActiveRecord::Base
   
   
   # IMPORTS -------------------
-  def self.hpricoted
-    Hpricot.parse(File.open("#{Merb.root}/schema/govtrack_us/liv.xml"))
-  end  
-  
   def self.batch_import
     LivRelationship.batch_import
   end

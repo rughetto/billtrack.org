@@ -27,21 +27,21 @@ describe GovtrackerFileSet do
   it "should instantiate the first GovtrackerFile object in the files array" do
     set = GovtrackerFileSet.new({:tag => 'bill', :dir => '111/bills'})
     set.current.class.should == GovtrackerFile
-    set.current.file.should == File.read(set.files[0])
+    set.current.file.should include set.files[0]
   end
   
   it "should be able to jump to an object by index number using the [integer] method" do
     set = GovtrackerFileSet.new({:tag => 'bill', :dir => '111/bills'})
     last = set[1]
     last.class.should == GovtrackerFile
-    last.file.should == File.read(set.files[1])
+    last.file.should include set.files[1]
   end  
   
   it "should be able to jump to an object by file name using the [String] method" do
     set = GovtrackerFileSet.new({:tag => 'bill', :dir => '111/bills'})
     last = set['h100.xml']
     last.class.should == GovtrackerFile
-    last.file.should == File.read(set.files[1])
+    last.file.should include set.files[1]
   end  
   
   it "should not move the marker when jumping to a particular object using []" do

@@ -18,23 +18,27 @@ class GovtrackerFile
   end  
   
   def file=( loc )
-    loc = loc.match(/^\//) ? loc : self.class.root_directory + loc
-    @file = File.read( loc )
+    @file = loc.match(/^\//) ? loc : self.class.root_directory + loc
   end
   
-  def hpricoted
-    Hpricot.parse( file )
+  def parsed_file
+    Nokogiri::XML.parse( File.read(file) )
   end
   
   def search(hash)
     hash = parse_hash( hash )
-    hash[:hpricoted].search("//#{hash[:tag]}[@#{hash[:attribute]}='#{hash[:value]}']")
+    hash[:parsed_file].search("//#{hash[:tag]}[@#{hash[:attribute]}='#{hash[:value]}']")
   end
+  
+  def attributes( opts={} )
+    opts = parse_hash( opts )
+    (opts[:parsed_file]/opts[:tag]).first.attributes
+  end  
   
   private
     def parse_hash( hash )
-      hpr = hash.delete(:hpricoted)
-      raise ArgumentError, "Hash size must be less than two" unless hash.size == 1
+      parsed_thing = hash.delete(:parsed_file)
+      raise ArgumentError, "Hash size must be less than two" unless hash.size <= 1
       key = hash.keys.first
       val = hash.values.first
       if val.class == Hash
@@ -49,7 +53,7 @@ class GovtrackerFile
         :tag => local_tag,
         :attribute => key,
         :value => val,
-        :hpricoted => hpr || self.hpricoted
+        :parsed_file => parsed_thing || self.parsed_file
       }  
     end
   public    

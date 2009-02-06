@@ -39,5 +39,10 @@ describe GovtrackerFile do
     a1.should_not == a2
   end
     
-  it "should list all tag attributes"
+  it "should list all tag attributes" do
+    GovtrackerFile.root_directory = "#{Merb.root}/spec/xml/"
+    liv = GovtrackerFile.new(:file => 'liv.xml', :tag => 'top-term')
+    liv.attributes.size.should == 1
+  end
+    
 end  
