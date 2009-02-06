@@ -61,12 +61,4 @@ class Committee < ActiveRecord::Base
     end
   end  
   
-  def self.find_by( hash )
-    first(:conditions => hash )
-  end  
-  
-  def self.find_or_create_by( hash )
-    find_by( hash ) || create( hash )
-  end  
-  
 end

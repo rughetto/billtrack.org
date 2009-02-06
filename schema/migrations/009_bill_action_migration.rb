@@ -3,10 +3,12 @@ class BillActionMigration < ActiveRecord::Migration
     create_table :bill_actions do |t|
       t.string    :type # vote or action
       t.integer   :bill_id
-      t.datetime  :timestamp
+      t.datetime  :action_time
       t.string    :reference
       t.string    :reference_label
-      t.string    :bill_type # bill or ammendment
+      t.string    :description
+      t.string    :vote_result # for votes only
+      t.string    :vote_method # for votes only
     end
     
     add_index :bill_actions, [:bill_id], :name => "bill_action_bill_id"

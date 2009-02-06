@@ -7,7 +7,8 @@ class BillMigration < ActiveRecord::Migration
       t.string :number
       t.string :sequence # if ammendment
       t.integer :parent_id # null if bill, self-referencing relationship if ammendment
-      t.datetime :introduced_at
+      t.string :parent_name # in case unable to find parent
+      t.datetime  :introduced_at
       t.string    :short_title
       t.text      :title
       t.datetime  :xml_updated_at
