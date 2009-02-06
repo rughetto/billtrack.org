@@ -4,11 +4,9 @@
 # cache whenever a record is saved of created
 module PoorMansMemecache
   def self.included( ar_class )
-    # these sends need to be changed for Ruby 1.9
-    ar_class.send(:extend, ClassMethods.clone) # this clone means one set of class instance variable per class
-    ar_class.send(:include, InstanceMethods)
-    # ###
     ar_class.class_eval do
+      extend ClassMethods
+      include InstanceMethods
       after_save :clear_cache
       after_destroy :clear_cache
     end

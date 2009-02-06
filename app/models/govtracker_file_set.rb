@@ -59,15 +59,11 @@ class GovtrackerFileSet
   end  
   
   def next
-    orig_marker = marker
-    increment_marker
-    marker == orig_marker ? nil : get_current
+    marker == increment_marker ? nil : get_current
   end  
   
   def previous
-    orig_marker = marker
-    decrement_marker
-    marker == orig_marker ? nil : get_current
+    marker == decrement_marker ? nil : get_current
   end  
   
   def rewind
