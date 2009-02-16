@@ -1,0 +1,7 @@
+House: http://www.house.gov/house/floor/thisweek.htm
+
+Senate: information on today at http://senate.gov/pagelayout/legislative/d_three_sections_with_teasers/calendars.htm
+A couple days out: http://democrats.senate.gov/calendar/2009-02.html
+For the week (kind of) http://www.senate.gov/pagelayout/legislative/b_three_sections_with_teasers/active_leg_page.htm
+
+Notes on bulk imports http://blog.programmableweb.com/2009/01/09/us-congress-gets-an-api/

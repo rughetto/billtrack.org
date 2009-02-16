@@ -33,7 +33,8 @@ class BillAction < ActiveRecord::Base
       hash = attrs( action_xml )
       identity_hash = {
         :action_time => hash[:action_time],
-        :reference => hash[:reference]
+        :reference => hash[:reference],
+        :description => hash[:description]
       }
       if b
         identity_hash.merge!(:bill_id => b.id)
@@ -44,7 +45,6 @@ class BillAction < ActiveRecord::Base
     def self.update_hash( action_xml )
       hash = attrs( action_xml )
       update_hash = {
-        :description => hash[:description],
         :reference_label => hash[:reference_label]
       }
     end  

@@ -11,14 +11,6 @@ class Amendment < Bill
     @govtracker ||= GovtrackerFileSet.new(:dir => '111/bills.amdt', :tag => "amendment")
   end
   
-  def self.import_set
-    set = [import_data( govtracker.current.parsed_file )]
-    while govtracker_file = govtracker.next
-      set << import_data( govtracker_file.parsed_file )
-    end 
-    set 
-  end  
-  
   def self.import_data( file_data )
     file_data = (file_data/:amendment).first
     attrs = file_data.attributes
@@ -46,14 +38,7 @@ class Amendment < Bill
     # relationships
     amdt.statuses << status_set =  BillStatus.import_set(file_data, amdt)
     amdt.actions << action_set =   BillAction.import_set(file_data/"actions", amdt)
-    (file_data/:sponsor).each do |xml|
-      politician = Politician.find_by(:govtrack_id => xml['id'])
-      if politician
-        amdt.sponsors << politician
-      else
-        amdt.bill_sponsors << BillSponsor.create(:govtrack_id => xml['id'])  
-      end  
-    end  
+    amdt.bill_sponsors << sponsor_set = BillSponsor.import_set( file_data, amdt )
     
     amdt.save
     amdt

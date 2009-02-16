@@ -1,0 +1,2 @@
+class BillCoSponsor < BillSponsor
+end  

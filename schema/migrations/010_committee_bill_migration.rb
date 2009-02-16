@@ -4,6 +4,7 @@ class CommitteeBillMigration < ActiveRecord::Migration
       t.integer :committee_id
       t.integer :bill_id
       t.string  :activity
+      t.string  :committee_name
     end
     
     add_index :committee_bills, [:bill_id, :committee_id], :name => "committee_bills_ids"

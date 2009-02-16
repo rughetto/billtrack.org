@@ -20,6 +20,7 @@ describe Amendment do
     
     it "should import data for a single record" do
       Amendment.import_data(@xml).class.should == Amendment
+      Amendment.count.should == 1
     end
     
     it "imported data should have all the correct information" do
