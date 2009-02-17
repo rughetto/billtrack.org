@@ -4,7 +4,7 @@ describe BillAction do
   before(:each) do
     Bill.delete_all
     BillAction.delete_all
-    @xml = GovtrackerFile.new(:file => "#{Merb.root}/spec/xml/111/bill.amdt/h1.xml", :tag => :actions ).parsed_file
+    @xml = GovtrackerFile.new(:file => "#{Merb.root}/spec/xml/111/bills.amdt/h1.xml", :tag => :actions ).parsed_file
     @bill = Bill.new(:congressional_session => '111', :chamber => 'h', :number => '1')
   end
   

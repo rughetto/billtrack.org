@@ -1,8 +1,9 @@
 class Committee < ActiveRecord::Base
   # RELATIONSHIPS ==================
-  has_many :committee_members
-  belongs_to :parent, :class_name => "Committee", :foreign_key => "parent_id"
-  has_many :children, :class_name => "Committee", :foreign_key => "parent_id"
+  has_many    :committee_members
+  belongs_to  :parent, :class_name => "Committee", :foreign_key => "parent_id"
+  has_many    :children, :class_name => "Committee", :foreign_key => "parent_id"
+  has_many    :name_lookups, :as => :parent
   
   def self.govtracker
     @govtracker ||= GovtrackerFile.new(:file => "#{GovtrackerFile.current_session}/committees.xml" )
@@ -20,6 +21,9 @@ class Committee < ActiveRecord::Base
       
       # add committee members
       committee.import_members( com )
+      
+      # add name lookups
+      committee.add_lookups( com/"thomas-names" )
       
       # add subcommittees
       (com/:subcommittee).each do |sub|
@@ -39,7 +43,7 @@ class Committee < ActiveRecord::Base
   def import_members( parsed_part )
     (parsed_part/:member).each do |member|
       govtrack_id = member.get_attribute('id')
-      pol = Politician.find_by_govtrack_id( govtrack_id )
+      pol = Politician.lookup(:govtrack_id => govtrack_id )
       name = member.get_attribute('name')
       role = member.get_attribute('role')
       if cm = CommitteeMember.find_fuzzy(
@@ -59,6 +63,12 @@ class Committee < ActiveRecord::Base
         ) unless pol.nil? && name.blank?
       end  
     end
+  end
+  
+  def add_lookups( thomas_xml )
+    (thomas_xml/:name).each do |xml|
+      NameLookup.find_or_create_by(:parent_id => self.id, :parent_type => self.class.to_s, :name => xml.inner_html )
+    end  
   end  
   
 end

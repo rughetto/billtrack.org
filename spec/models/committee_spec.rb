@@ -7,6 +7,7 @@ describe Committee do
       Politician.load_from_file
       Committee.delete_all
       CommitteeMember.delete_all
+      NameLookup.delete_all
       GovtrackerFile.root_directory = "#{Merb.root}/spec/xml/"
       Committee.batch_import
     end
@@ -29,6 +30,10 @@ describe Committee do
     it "should create the right number of members" do
       CommitteeMember.count.should == 45
       Committee.first.committee_members.size.should == 20
+    end  
+    
+    it "should import name lookups" do
+      NameLookup.count.should == 3
     end  
     
     it "should create a new set for each congress" do

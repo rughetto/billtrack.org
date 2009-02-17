@@ -20,21 +20,6 @@ describe Politician do
     before(:each) do
       @pol = Politician.new_from_sunlight( @rep )
     end  
-    
-    it "should not be valid without a bioguide_id" do 
-      @pol.bioguide_id = nil
-      @pol.should_not be_valid
-    end
-      
-    it "should not be valid without a unique bioguide_id" do
-      @pol.save
-      Politician.new_from_sunlight(@rep).should_not be_valid
-    end  
-    
-    it "should valid with a unique, non-empty bioguide_id" do
-      @pol.should be_valid
-    end
-      
   end  
 
   describe "relationships" do
@@ -111,4 +96,20 @@ describe Politician do
       sunlights.size.should == records.size
     end  
   end
+  
+  describe 'id lookups' do
+    it 'should extract ids from database if id fields are defined in the table' do
+      IdLookup.delete_all
+      Politician.load_from_file
+      lambda { Politician.extract_ids }.should_not raise_error
+      if Politician.columns.collect(&:name).include?( 'bioguide_id' )
+        pol = Politician.find(56)
+        pol.id_lookups.size.should == 5
+        [:votesmart_id, :fec_id, :govtrack_id, :crp_id].each do |id_type|
+          this_id = pol.id_lookups.select{|rec| rec.id_type == id_type.to_s }.first
+          pol.send( id_type.to_sym ).should == this_id.additional_id
+        end
+      end  
+    end  
+  end  
 end

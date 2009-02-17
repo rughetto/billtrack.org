@@ -36,23 +36,59 @@ class Politician < ActiveRecord::Base
   # crp_id  ID provided by Center for Responsive Politics
   
   # RELATIONSHIPS ---------------------------------------
+  # district and districts relationships are in Representative and Senator models (STI)
   belongs_to :party
   def party_through_abbreviation(abbrev)
     Merb::Cache[:default].fetch("party_#{abbrev}") do
       Party.find_by_abbreviation(abbrev)
     end
   end  
-  # district and districts relationships are in Representative and Senator models (STI)
+  has_many :id_lookups,   :as => :parent
+  has_many :name_lookups, :as => :parent
   
   # VALIDATIONS 
-  validates_presence_of :bioguide_id
-  validates_uniqueness_of :bioguide_id
   
   # INSTANCE METHODS 
   def name
     str = self[:type]
     str << " " + self.first_name
     str << " " + self.last_name
+  end  
+  
+  def forward_names
+    name_set = ["#{first_name} #{last_name}"]
+    if middle_name.blank?
+      name_set << "#{nickname} #{last_name}" unless nickname.blank?
+    else  
+      name_set << "#{first_name} #{middle_name} #{last_name}"
+      name_set << "#{nickname} #{middle_name} #{last_name}" unless nickname.blank?
+    end
+    unless name_suffix.blank?
+      name_set.dup.each do |name|
+        name_set << "#{name} #{name_suffix}"
+      end  
+    end 
+    name_set | name_set
+  end  
+  
+  def backwards_names
+    name_set = ["#{last_name}, #{first_name}"]
+    if middle_name.blank?
+      name_set << "#{last_name}, #{nickname}" unless nickname.blank?
+    else  
+      name_set << "#{last_name}, #{first_name} #{middle_name}"
+      name_set << "#{last_name}, #{nickname} #{middle_name}" unless nickname.blank?
+    end
+    unless name_suffix.blank?
+      name_set.dup.each do |name|
+        name_set << "#{name} #{name_suffix}"
+      end  
+    end 
+    name_set | name_set
+  end
+  
+  def names
+    forward_names + backwards_names
   end  
   
   
@@ -70,8 +106,7 @@ class Politician < ActiveRecord::Base
     def self.direct_sunlight_map
       hash = {}
       [ :name_suffix, :nickname, :state, :gender, :phone, :website, :webform, :email, 
-        :eventful_id, :congresspedia_url, :twitter_id, :youtube_url,  
-        :bioguide_id, :votesmart_id, :fec_id, :govtrack_id, :govtrack_id, :crp_id ].each do |key|
+        :eventful_id, :congresspedia_url, :twitter_id, :youtube_url ].each do |key|
         hash[key] = key
       end
       hash    
@@ -93,7 +128,8 @@ class Politician < ActiveRecord::Base
   end   
   
   def self.from_sunlight( sunlight )
-    politician = first(:conditions => {:bioguide_id => sunlight.bioguide_id})
+    lookup = IdLookup.first(:conditions => {:parent_type => 'Politician', :id_type => 'bioguide_id', :additional_id => sunlight.bioguide_id})
+    politician = lookup.parent if lookup
     politician = initialize_from_sunlight( sunlight ) unless politician
     politician.populate_from_sunlight( sunlight )
   end
@@ -102,10 +138,18 @@ class Politician < ActiveRecord::Base
     self.class.sunlight_map.each do |sunlight_key, local_key|
       self.send( "#{local_key}=", sunlight.send( sunlight_key ) )
     end
+    self.add_lookups( sunlight )  
     self.district = District.find_or_create(sunlight.state, sunlight.district) if self[:type] == "Representative"
     self.party = Party.find_or_create_by_abbreviation(sunlight.party)
     self
   end 
+  
+  def add_lookups( sunlight )
+    [:bioguide_id, :votesmart_id, :fec_id, :govtrack_id, :govtrack_id, :crp_id].each do |key|
+      pol_id = sunlight.send( key )
+      IdLookup.find_or_create_by(:parent_id => self.id, :parent_type => 'Politician', :additional_id => pol_id, :id_type => key.to_s ) unless pol_id.blank?
+    end
+  end  
   
   def self.import_from_sunlight
     all_active_from_sunlight.each do |sunlight|
@@ -119,15 +163,70 @@ class Politician < ActiveRecord::Base
   end 
   
   def self.update_govtrack_ids
-    all(:conditions => "govtrack_id IS NULL OR govtrack_ID = ''").each do |p|
-      hpr = govtracker.search(:bioguideid => p.bioguide_id)
-      p.govtrack_id =  hpr.first.get_attribute('id')
-      p.save
+    set = find_by_sql( "
+      select * FROM
+      	politicians
+      	WHERE id NOT IN (
+      		SELECT politicians.id as id_set  
+      			FROM id_lookups , politicians
+      			where id_lookups.parent_id = politicians.id
+      			and parent_type = 'Politician'
+      			and id_type = 'govtrack_id'
+      			group by politicians.id
+      	)
+      ")
+    set.each do |p|
+      xml = govtracker.search(:bioguideid => p.bioguide_id)
+      p.create_lookup(:govtrack_id => xml.first['id'])
     end  
   end  
   
   def self.govtracker
-    @govtracker ||= GovtrackerFile.new(:file => "committees.xml" )
+    @govtracker ||= GovtrackerFile.new(:file => "people.xml", :tag => :person )
+  end  
+  
+  def self.extract_ids
+    if columns.collect(&:name).include?( 'bioguide_id' )
+      all.each do |pol|
+        [:bioguide_id, :votesmart_id, :fec_id, :govtrack_id, :crp_id].each do |id_method|
+          pol_id = pol.send(id_method)
+          IdLookup.find_or_create_by(:parent_id => pol.id, :parent_type => 'Politician', :additional_id => pol_id, :id_type => id_method.to_s ) unless pol_id.blank?
+        end  
+      end
+    end  
+  end 
+  
+  def self.extract_names
+    all.each do |pol|
+      pol.names.each do |n|
+        NameLookup.find_or_create_by(
+          :parent_id => pol.id,
+          :parent_type => 'Politician',
+          :name => n
+        )
+      end  
+    end  
+  end  
+  
+  def self.lookup( hash )
+    id_type = hash.keys.first
+    value = hash.values.first
+    looker = IdLookup.first(:conditions => { 
+      :parent_type => 'Politician', 
+      :additional_id => value.to_s, 
+      :id_type => id_type.to_s
+    })
+    looker ? looker.parent : nil
+  end 
+  
+  def create_lookup( hash ) 
+    id_type = hash.keys.first
+    value = hash.values.first
+    looker = IdLookup.find_or_create_by({ 
+      :parent_type => 'Politician', 
+      :additional_id => value.to_s, 
+      :id_type => id_type.to_s
+    }) 
   end  
   
 end

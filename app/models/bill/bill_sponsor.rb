@@ -6,7 +6,7 @@ class BillSponsor < ActiveRecord::Base
   def self.import_set( xml, b )
     set = []
     (xml/tag).each do |sponsor_xml|
-      politician = Politician.find_by(:govtrack_id => sponsor_xml['id'].to_s)
+      politician = Politician.lookup(:govtrack_id => sponsor_xml['id'].to_s )
       joined_on = sponsor_xml['joined']
       
       attr_hash = { :govtrack_id => sponsor_xml['id'].to_s }

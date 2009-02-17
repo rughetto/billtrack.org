@@ -7,7 +7,7 @@ describe BillStatus do
       Bill.delete_all
       GovtrackerFile.root_directory = "#{Merb.root}/spec/xml/"
       @bill_xml = GovtrackerFile.new(:file => '111/bills/h1.xml', :tag => :status).parsed_file
-      @amend_xml = GovtrackerFile.new(:file => '111/bill.amdt/h1.xml', :tag => :status).parsed_file
+      @amend_xml = GovtrackerFile.new(:file => '111/bills.amdt/h1.xml', :tag => :status).parsed_file
       @bill = Bill.create(:congressional_session => '111', :chamber => 'h', :number => '1')
       @amend = Amendment.create(:congressional_session => '111', :chamber => 'h', :number => '1')
       @bill.should_not be_new_record
