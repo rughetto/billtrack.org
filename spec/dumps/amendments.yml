@@ -1,0 +1,1921 @@
+--- 
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "1"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:02:18
+    title: Amendment to elect officers of the House of Representatives.
+    number: "1"
+    short_title: Amendment to elect officers of the House of Representatives.
+    parent_name: "{:number=>\"1\", :chamber=>\"hr\"}"
+    type: Amendment
+    id: "50"
+    introduced_at: 2009-01-05 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "9"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:43
+    title: An amendment numbered 10 printed in House Report 111-3 to clarify that the TARP Special Inspector General has oversight power over any actions taken by Treasury under this legislation that he deems appropriate, with certain exceptions.
+    number: "10"
+    short_title: An amendment numbered 10 printed in House Report 111-3 to clarify that the TARP Special Inspector General has oversight power over any actions taken by Treasury under this legislation that he deems appropriate, with certain exceptions.
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "51"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "10"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:44
+    title: An amendment numbered 11 printed in House Report 111-3 to require Treasury to immediately obtain information from recipients of TARP funds and their precise use of funds allocated prior to January 1, 2009, and require the Treasury to conduct an analysis of the use of those funds within 30 days of enactment.
+    number: "11"
+    short_title: An amendment numbered 11 printed in House Report 111-3 to require Treasury to immediately obtain information from recipients of TARP funds and their precise use of funds allocated prior to January 1, 2009, and require the Treasury to conduct an analysis o
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "52"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "1"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:11
+    title: An amendment numbered 1 printed in Part B of House Report 111-9 to amend the aviation, highway, rail, and transit priority consideration and "use-it-or-lose-it" provisions to require that 50 percent of the funds be obligated within 90 days.
+    number: "12"
+    short_title: An amendment numbered 1 printed in Part B of House Report 111-9 to amend the aviation, highway, rail, and transit priority consideration and "use-it-or-lose-it" provisions to require that 50 percent of the funds be obligated within 90 days.
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "53"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "2"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:12
+    title: An amendment numbered 2 printed in Part B of House Report 111-9 to require that the Secretary require, as a condition of receiving funding under Title XIII of the Energy Independence and Security Act of 2007, that the demonstration projects utilize Internet-based or other open protocols and standards if available and appropriate.
+    number: "13"
+    short_title: An amendment numbered 2 printed in Part B of House Report 111-9 to require that the Secretary require, as a condition of receiving funding under Title XIII of the Energy Independence and Security Act of 2007, that the demonstration projects utilize Intern
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "54"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "3"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:13
+    title: An amendment numbered 3 printed in Part B of House Report 111-9 to clarify that federal funds received by States under the bill for highway maintenance shall not be used to replace existing funds in place for transportation projects.
+    number: "14"
+    short_title: An amendment numbered 3 printed in Part B of House Report 111-9 to clarify that federal funds received by States under the bill for highway maintenance shall not be used to replace existing funds in place for transportation projects.
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "55"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "4"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:14
+    title: An amendment numbered 4 printed in Part B of House Report 111-9 to increase transit capital funding by $3 billion.
+    number: "15"
+    short_title: An amendment numbered 4 printed in Part B of House Report 111-9 to increase transit capital funding by $3 billion.
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "56"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "5"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:15
+    title: An amendment numbered 5 printed in Part B of House Report 111-9 to strike the appropriations provisions from the bill.
+    number: "16"
+    short_title: An amendment numbered 5 printed in Part B of House Report 111-9 to strike the appropriations provisions from the bill.
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "57"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "6"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:16
+    title: An amendment numbered 6 printed in Part B of House Report 111-9 to provide that job training funds may be used for broadband deployment and related activities provided in the bill.
+    number: "17"
+    short_title: An amendment numbered 6 printed in Part B of House Report 111-9 to provide that job training funds may be used for broadband deployment and related activities provided in the bill.
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "58"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "7"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:17
+    title: An amendment numbered 7 printed in Part B of House Report 111-9 to strike funding for Amtrak.
+    number: "18"
+    short_title: An amendment numbered 7 printed in Part B of House Report 111-9 to strike funding for Amtrak.
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "59"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "8"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:19
+    title: An amendment numbered 8 printed in Part B of House Report 111-9 to expand the Berry Amendment Extension Act to include DHS to require the government to purchase uniforms for more more than one hundred thousand uniformed employees from U.S. textile and apparel manufacturers.
+    number: "19"
+    short_title: An amendment numbered 8 printed in Part B of House Report 111-9 to expand the Berry Amendment Extension Act to include DHS to require the government to purchase uniforms for more more than one hundred thousand uniformed employees from U.S. textile and app
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "60"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "1"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:34
+    title: An amendment numbered 1 printed in House Report 111-3 to make sundry clarifications with respect to the use of TARP funds.
+    number: "2"
+    short_title: An amendment numbered 1 printed in House Report 111-3 to make sundry clarifications with respect to the use of TARP funds.
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "61"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "9"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:20
+    title: An amendment numbered 9 printed in Part B of House Report 111-9 to insert the text of the Whistleblower Protection Enhancement Act (H.R. 985 in the 110th Congress) regarding protections for federal employees who report waste, fraud, and abuse.
+    number: "20"
+    short_title: An amendment numbered 9 printed in Part B of House Report 111-9 to insert the text of the Whistleblower Protection Enhancement Act (H.R. 985 in the 110th Congress) regarding protections for federal employees who report waste, fraud, and abuse.
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "62"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "10"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:21
+    title: An amendment numbered 10 printed in Part B in House Report 111-9 to require that the Recovery.gov website contain links and other information on how to access job information created at or by entities receiving funding under the bill; including links to local employment agencies, state, local, and other public agencies receiving recovery funds, and private firms contracted to perform work funded by the bill.
+    number: "21"
+    short_title: An amendment numbered 10 printed in Part B in House Report 111-9 to require that the Recovery.gov website contain links and other information on how to access job information created at or by entities receiving funding under the bill; including links to l
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "63"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "11"
+    chamber: h
+    xml_updated_at: 2009-01-31 09:02:22
+    title: An amendment in the nature of a substitute numbered 11 printed in Part B of House Report 111-9 to strike everything after enacting clause and adds income tax rate deductions for bottom two income tax brackets, alternative minimum tax relief, small business deduction, bonus depreciation, small business expensing, expanded carryback of net operating losses, improved home buyer credit, unemployment benefit tax exemption, health insurance premium deduction, repeal of 3 percent withholdings requirement for government contractors, extension of unemployment benefits, and a Sense of Congress against tax increases to offset outlays.
+    number: "22"
+    short_title: An amendment in the nature of a substitute numbered 11 printed in Part B of House Report 111-9 to strike everything after enacting clause and adds income tax rate deductions for bottom two income tax brackets, alternative minimum tax relief, small busines
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "64"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "2"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:35
+    title: An amendment numbered 2 printed in House Report 111-3 to provide a sense of Congress stating that TARP participants, who receive from future TARP funds, should not initiate a foreclosure proceeding or foreclosure sale on any principal homeowner until the new systematic loan modification plan is implemented and deemed fully operational by the Secretary and Chair of FDIC.
+    number: "3"
+    short_title: "An amendment numbered 2 printed in House Report 111-3 to provide a sense of Congress stating that TARP participants, who receive from future TARP funds, should not initiate a foreclosure proceeding or foreclosure sale on any principal homeowner until the "
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "65"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "3"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:37
+    title: An amendment numbered 3 in House Report 111-3 to remove the Secretary's authority to delegate an observer to attend meetings of the board of directors of any assisted institution.
+    number: "4"
+    short_title: An amendment numbered 3 in House Report 111-3 to remove the Secretary's authority to delegate an observer to attend meetings of the board of directors of any assisted institution.
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "66"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "4"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:38
+    title: An amendment numbered 4 printed in House Report 111-3 to amend the EESA to require that, provided TARP funds are not used for their purchase, the Secretary shall facilitate an auction of troubled assets by third party purchases and, if such auction does not take place within 3 months from enactment, the Secretary must report to Congress on the mechanism the Secretary deems best to use to value and liquidate such assets.
+    number: "5"
+    short_title: An amendment numbered 4 printed in House Report 111-3 to amend the EESA to require that, provided TARP funds are not used for their purchase, the Secretary shall facilitate an auction of troubled assets by third party purchases and, if such auction does n
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "67"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "5"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:39
+    title: An amendment numbered 5 printed in House Report 111-3 to eliminate changes and additional funding for the HOPE for Homeowners program.
+    number: "6"
+    short_title: An amendment numbered 5 printed in House Report 111-3 to eliminate changes and additional funding for the HOPE for Homeowners program.
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "68"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "6"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:40
+    title: An amendment printed 7 printed in House Report 111-3 to require the Federal Reserve to disclose detailed information regarding the Federal Reserves Mortgage-Backed Securities purchase program.
+    number: "7"
+    short_title: An amendment printed 7 printed in House Report 111-3 to require the Federal Reserve to disclose detailed information regarding the Federal Reserves Mortgage-Backed Securities purchase program.
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "69"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "7"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:41
+    title: An amendment numbered 8 printed in House Report 111-3 to prohibit TARP fund recipients from outsourcing new customer service or call center jobs to foreign companies.
+    number: "8"
+    short_title: An amendment numbered 8 printed in House Report 111-3 to prohibit TARP fund recipients from outsourcing new customer service or call center jobs to foreign companies.
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "70"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: "8"
+    chamber: h
+    xml_updated_at: 2009-01-22 09:05:42
+    title: An amendment numbered 9 printed in House Report 111-3 to require that any assisted institution publicly report, not less than quarterly, on the institution's use of the assistance, and would require the Treasury to make those reports readily available online.
+    number: "9"
+    short_title: An amendment numbered 9 printed in House Report 111-3 to require that any assisted institution publicly report, not less than quarterly, on the institution's use of the assistance, and would require the Treasury to make those reports readily available onl
+    parent_name: "{:number=>\"384\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "71"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:44
+    title: Amendment information not available.
+    number: "1"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "72"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:54
+    title: Amendment information not available.
+    number: "10"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "73"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:55
+    title: Amendment information not available.
+    number: "11"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "74"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:56
+    title: Amendment information not available.
+    number: "12"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "75"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:58
+    title: Amendment information not available.
+    number: "13"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "76"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:59
+    title: Amendment information not available.
+    number: "14"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "77"
+    introduced_at: 2009-01-10 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:05:00
+    title: To change the enactment date.
+    number: "15"
+    short_title: To change the enactment date.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "78"
+    introduced_at: 2009-01-11 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:05:01
+    title: Of a perfecting nature.
+    number: "16"
+    short_title: Of a perfecting nature.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "79"
+    introduced_at: 2009-01-11 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:05:02
+    title: To change the enactment date.
+    number: "17"
+    short_title: To change the enactment date.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "80"
+    introduced_at: 2009-01-11 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:05:03
+    title: Of a perfecting nature.
+    number: "18"
+    short_title: Of a perfecting nature.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "81"
+    introduced_at: 2009-01-11 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:05:04
+    title: Of a perfecting nature.
+    number: "19"
+    short_title: Of a perfecting nature.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "82"
+    introduced_at: 2009-01-11 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:45
+    title: Amendment information not available.
+    number: "2"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "83"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:05:05
+    title: Amendment information not available.
+    number: "20"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "84"
+    introduced_at: 2009-01-11 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:05:07
+    title: Amendment information not available.
+    number: "21"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "85"
+    introduced_at: 2009-01-11 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:11:26
+    title: Of a perfecting nature.
+    number: "22"
+    short_title: Of a perfecting nature.
+    parent_name: "{:number=>\"13\", :chamber=>\"sr\"}"
+    type: Amendment
+    id: "86"
+    introduced_at: 2009-01-13 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:05:08
+    title: To improve the bill.
+    number: "23"
+    short_title: To improve the bill.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "87"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: "86"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:05:09
+    title: To improve the bill
+    number: "24"
+    short_title: To improve the bill
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "88"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: "86"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:37
+    title: In the nature of a substitute.
+    number: "25"
+    short_title: In the nature of a substitute.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "89"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:38
+    title: To provide a rule of construction.
+    number: "26"
+    short_title: To provide a rule of construction.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "90"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:39
+    title: To limit the application of the bill to discriminatory compensation decisions.
+    number: "27"
+    short_title: To limit the application of the bill to discriminatory compensation decisions.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "91"
+    introduced_at: 2009-01-14 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:41
+    title: To clarify standing.
+    number: "28"
+    short_title: To clarify standing.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "92"
+    introduced_at: 2009-01-15 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:42
+    title: To clarify standing.
+    number: "29"
+    short_title: To clarify standing.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "93"
+    introduced_at: 2009-01-15 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:46
+    title: Amendment information not available.
+    number: "3"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "94"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: "86"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:43
+    title: Amendment information not available.
+    number: "30"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "95"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:44
+    title: To preserve and protect the free choice of individual employees to form, join, or assist labor organizations, or to refrain from such activities.
+    number: "31"
+    short_title: To preserve and protect the free choice of individual employees to form, join, or assist labor organizations, or to refrain from such activities.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "96"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:45
+    title: Amendment information not available.
+    number: "32"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "97"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:46
+    title: Amendment information not available.
+    number: "33"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "98"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:47
+    title: To preserve open competition and Federal Government neutrality towards the labor relations of Federal Government contractors on Federal and federally funded construction projects.
+    number: "34"
+    short_title: To preserve open competition and Federal Government neutrality towards the labor relations of Federal Government contractors on Federal and federally funded construction projects.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "99"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:48
+    title: Amendment information not available.
+    number: "35"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "100"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:50
+    title: Amendment information not available.
+    number: "36"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "101"
+    introduced_at: 2009-01-20 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-30 09:03:51
+    title: To limit the application of the Act to claims resulting from discriminatory compensation decisions that are adopted on or after the date of enactment of the Act.
+    number: "37"
+    short_title: To limit the application of the Act to claims resulting from discriminatory compensation decisions that are adopted on or after the date of enactment of the Act.
+    parent_name: "{:number=>\"181\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "102"
+    introduced_at: 2009-01-21 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-29 09:10:50
+    title: In the nature of a substitute.
+    number: "38"
+    short_title: In the nature of a substitute.
+    parent_name: "{:number=>\"328\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "103"
+    introduced_at: 2009-01-25 21:00:00
+    congressional_session: "111"
+    parent_id: 
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:21
+    title: In the nature of a substitute.
+    number: "39"
+    short_title: In the nature of a substitute.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "104"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:47
+    title: Amendment information not available.
+    number: "4"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "105"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: "86"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:22
+    title: In the nature of a substitute.
+    number: "40"
+    short_title: In the nature of a substitute.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "106"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:23
+    title: To strike the option to provide coverage to legal immigrants and increase the enrollment of uninsured low income American children.
+    number: "41"
+    short_title: To strike the option to provide coverage to legal immigrants and increase the enrollment of uninsured low income American children.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "107"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:24
+    title: Amendment information not available.
+    number: "42"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "108"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:25
+    title: To require States to impose cost-sharing for any individual enrolled in a State child health plan whose income exceeds 200 percent of the poverty line.
+    number: "43"
+    short_title: To require States to impose cost-sharing for any individual enrolled in a State child health plan whose income exceeds 200 percent of the poverty line.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "109"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:27
+    title: Amendment information not available.
+    number: "44"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "110"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:28
+    title: To prohibit any Federal matching payment for Medicaid or CHIP coverage of noncitizen children or pregnant women until a State demonstrates that it has enrolled 95 percent of the children eligible for Medicaid or CHIP who reside in the State and whose family income does not exceed 200 percent of the poverty line.
+    number: "45"
+    short_title: To prohibit any Federal matching payment for Medicaid or CHIP coverage of noncitizen children or pregnant women until a State demonstrates that it has enrolled 95 percent of the children eligible for Medicaid or CHIP who reside in the State and whose fami
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "111"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:29
+    title: To reinstate the crowd out policy agreed to in section 116 of H.R. 3963 (CHIPRA II), as agreed to and passed by the House and Senate.
+    number: "46"
+    short_title: To reinstate the crowd out policy agreed to in section 116 of H.R. 3963 (CHIPRA II), as agreed to and passed by the House and Senate.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "112"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:30
+    title: To ensure that children do not lose their private insurance and that uninsured children can get access to private insurance.
+    number: "47"
+    short_title: To ensure that children do not lose their private insurance and that uninsured children can get access to private insurance.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "113"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:31
+    title: Amendment information not available.
+    number: "48"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "114"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:32
+    title: To prevent fraud and restore fiscal accountability to the Medicaid and SCHIP programs.
+    number: "49"
+    short_title: To prevent fraud and restore fiscal accountability to the Medicaid and SCHIP programs.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "115"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:48
+    title: Amendment information not available.
+    number: "5"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "116"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: "86"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:34
+    title: To restore fiscal discipline by making the Medicaid and SCHIP programs more accountable and efficient.
+    number: "50"
+    short_title: To restore fiscal discipline by making the Medicaid and SCHIP programs more accountable and efficient.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "117"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:35
+    title: Amendment information not available.
+    number: "51"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "118"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:36
+    title: Amendment information not available.
+    number: "52"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "119"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:38
+    title: Amendment information not available.
+    number: "53"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "120"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:39
+    title: Amendment information not available.
+    number: "54"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "121"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:40
+    title: Amendment information not available.
+    number: "55"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "122"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:41
+    title: Amendment information not available.
+    number: "56"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "123"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:42
+    title: Amendment information not available.
+    number: "57"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "124"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:44
+    title: To amend the Internal Revenue Code of 1986 to provide a revenue source through the treatment of income of partners for performing investment management services as ordinary income received for performance of services and reduce accordingly the tobacco tax increase as a revenue source.
+    number: "58"
+    short_title: To amend the Internal Revenue Code of 1986 to provide a revenue source through the treatment of income of partners for performing investment management services as ordinary income received for performance of services and reduce accordingly the tobacco tax
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "125"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:45
+    title: Amendment information not available.
+    number: "59"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "126"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:50
+    title: Amendment information not available.
+    number: "6"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "127"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: "86"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:46
+    title: Amendment information not available.
+    number: "60"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "128"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:47
+    title: Amendment information not available.
+    number: "61"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "129"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:48
+    title: Amendment information not available.
+    number: "62"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "130"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:49
+    title: To clarify that new paperwork and enrollment barriers are not created in the Express Lane Enrollment option and that income may be determined by Express Lane agencies based on State income tax records or returns.
+    number: "63"
+    short_title: To clarify that new paperwork and enrollment barriers are not created in the Express Lane Enrollment option and that income may be determined by Express Lane agencies based on State income tax records or returns.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "131"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:50
+    title: Amendment information not available.
+    number: "64"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "132"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:52
+    title: To restore the prohibition on funding of nongovernmental organizations that promote abortion as a method of birth control (the "Mexico City Policy").
+    number: "65"
+    short_title: To restore the prohibition on funding of nongovernmental organizations that promote abortion as a method of birth control (the "Mexico City Policy").
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "133"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:53
+    title: Amendment information not available.
+    number: "66"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "134"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:54
+    title: To ensure redistributed funds go towards coverage of low-income children or outreach and enrollment of low-income children, rather than to States that will use the funds to cover children from higher income families.
+    number: "67"
+    short_title: To ensure redistributed funds go towards coverage of low-income children or outreach and enrollment of low-income children, rather than to States that will use the funds to cover children from higher income families.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "135"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:55
+    title: Amendment information not available.
+    number: "68"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "136"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:56
+    title: Amendment information not available.
+    number: "69"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "137"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:51
+    title: Amendment information not available.
+    number: "7"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "138"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: "86"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:57
+    title: Amendment information not available.
+    number: "70"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "139"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:00:58
+    title: To extend the State Children's Health Insurance Program for 6 quarters in order to enact bipartisan, comprehensive health care reform.
+    number: "71"
+    short_title: To extend the State Children's Health Insurance Program for 6 quarters in order to enact bipartisan, comprehensive health care reform.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "140"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:00
+    title: Amendment information not available.
+    number: "72"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "141"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:01
+    title: Amendment information not available.
+    number: "73"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "142"
+    introduced_at: 2009-01-26 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:02
+    title: To eliminate any exceptions to the prohibition on States receiving an enhanced Federal matching rate for providing coverage to children whose family income exceeds 300 percent of the poverty line.
+    number: "74"
+    short_title: To eliminate any exceptions to the prohibition on States receiving an enhanced Federal matching rate for providing coverage to children whose family income exceeds 300 percent of the poverty line.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "143"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:03
+    title: To prohibit CHIP coverage for higher income children and to prohibit any payments to a State from its CHIP allotments for any fiscal year quarter in which the State Medicaid income eligibility level for children is greater than the income eligibility level for children under CHIP.
+    number: "75"
+    short_title: To prohibit CHIP coverage for higher income children and to prohibit any payments to a State from its CHIP allotments for any fiscal year quarter in which the State Medicaid income eligibility level for children is greater than the income eligibility leve
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "144"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:04
+    title: Amendment information not available.
+    number: "76"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "145"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:05
+    title: To provide for the development of best practice recommendations and to ensure coverage of low income children.
+    number: "77"
+    short_title: To provide for the development of best practice recommendations and to ensure coverage of low income children.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "146"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:07
+    title: Amendment information not available.
+    number: "78"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "147"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:08
+    title: To strengthen and protect health care access, and to benefit children in need of cancer care or other acute care services.
+    number: "79"
+    short_title: To strengthen and protect health care access, and to benefit children in need of cancer care or other acute care services.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "148"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:52
+    title: Amendment information not available.
+    number: "8"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "149"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: "86"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:09
+    title: To codify regulations specifying that an unborn child is eligible for child health assistance.
+    number: "80"
+    short_title: To codify regulations specifying that an unborn child is eligible for child health assistance.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "150"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:10
+    title: Amendment information not available.
+    number: "81"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "151"
+    introduced_at: 2009-01-27 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:11
+    title: Amendment information not available.
+    number: "82"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "152"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:12
+    title: In the nature of a substitute.
+    number: "83"
+    short_title: In the nature of a substitute.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "153"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:13
+    title: Amendment information not available.
+    number: "84"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "154"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:15
+    title: To provide an above-the-line Federal income tax deduction for health care costs of certain children in an amount comparable to the average federal share of the benefit provided to any non-citizen child for medical assistance or child health assistance.
+    number: "85"
+    short_title: To provide an above-the-line Federal income tax deduction for health care costs of certain children in an amount comparable to the average federal share of the benefit provided to any non-citizen child for medical assistance or child health assistance.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "155"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:16
+    title: To ensure that American children have high-quality health coverage that fits their individual needs.
+    number: "86"
+    short_title: To ensure that American children have high-quality health coverage that fits their individual needs.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "156"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:17
+    title: Amendment information not available.
+    number: "87"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "157"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:19
+    title: Amendment information not available.
+    number: "88"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "158"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:20
+    title: Amendment information not available.
+    number: "89"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "159"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-22 09:04:53
+    title: Amendment information not available.
+    number: "9"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"22\", :chamber=>\"s\"}"
+    type: Amendment
+    id: "160"
+    introduced_at: 2009-01-07 21:00:00
+    congressional_session: "111"
+    parent_id: "86"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:21
+    title: Amendment information not available.
+    number: "90"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "161"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:22
+    title: Amendment information not available.
+    number: "91"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "162"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:23
+    title: Amendment information not available.
+    number: "92"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "163"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:24
+    title: To provide assistance for States with percentages of children with no health insurance coverage above the national average.
+    number: "93"
+    short_title: To provide assistance for States with percentages of children with no health insurance coverage above the national average.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "164"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:25
+    title: To make a technical correction to the option to cover legal immigrant children and pregnant women.
+    number: "94"
+    short_title: To make a technical correction to the option to cover legal immigrant children and pregnant women.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "165"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:26
+    title: To make technical corrections to the State option to provide dental-only supplemental coverage.
+    number: "95"
+    short_title: To make technical corrections to the State option to provide dental-only supplemental coverage.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "166"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:28
+    title: To clarify that no eligible entity that receives an outreach and enrollment grant is required to provide matching funds.
+    number: "96"
+    short_title: To clarify that no eligible entity that receives an outreach and enrollment grant is required to provide matching funds.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "167"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-02-02 09:01:29
+    title: Of a technical nature.
+    number: "97"
+    short_title: Of a technical nature.
+    parent_name: "{:number=>\"2\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "168"
+    introduced_at: 2009-01-28 21:00:00
+    congressional_session: "111"
+    parent_id: "61"
+  attributes_cache: {}
+
+- !ruby/object:Amendment 
+  attributes: 
+    sequence: ""
+    chamber: s
+    xml_updated_at: 2009-01-31 09:02:23
+    title: Amendment information not available.
+    number: "98"
+    short_title: Amendment information not available.
+    parent_name: "{:number=>\"1\", :chamber=>\"h\"}"
+    type: Amendment
+    id: "169"
+    introduced_at: 2009-01-29 21:00:00
+    congressional_session: "111"
+    parent_id: "50"
+  attributes_cache: {}
+

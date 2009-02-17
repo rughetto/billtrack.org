@@ -106,7 +106,7 @@ module Fixturizer
     # operates on subclasses too so ActiveRecord::Base.dump_all_to_file should dump all classes in app
     def load_all_from_file(base_path=nil)
       subclasses.each do |klass|
-        unless klass.base_class == self
+        if klass.base_class == klass
           klass.load_from_file(base_path)
           klass.rebuild! if klass.respond_to?(:rebuild!)
         end
@@ -115,7 +115,7 @@ module Fixturizer
     
     def dump_all_to_file(base_path=nil)
       subclasses.each do |klass|
-        unless klass.base_class == self
+        if klass.base_class == klass
           klass.dump_to_file(base_path)
         end
       end
