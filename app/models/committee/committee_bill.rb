@@ -25,4 +25,15 @@ class CommitteeBill < ActiveRecord::Base
       self == BillSponsor ? :sponsor : :cosponsor
     end  
   public
+  
+  def self.find_missing_committees
+    all(:conditions => {:committee_id => nil}).each do |record|
+      com = Committee.lookup( record.committee_name )
+      if com
+        record.committee_id = com.id
+        record.save
+        com.create_lookup( record.committee_name )
+      end  
+    end  
+  end  
 end

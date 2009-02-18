@@ -42,24 +42,24 @@ class Committee < ActiveRecord::Base
   
   def import_members( parsed_part )
     (parsed_part/:member).each do |member|
-      govtrack_id = member.get_attribute('id')
+      govtrack_id = member['id'].to_s
       pol = Politician.lookup(:govtrack_id => govtrack_id )
       name = member.get_attribute('name')
       role = member.get_attribute('role')
       if cm = CommitteeMember.find_fuzzy(
           :committee_id => self.id,
           :politician => pol,
-          :politician_name => name
+          :govtrack_id => govtrack_id
         )
         cm.role = role
-        cm.politician_name = name
+        cm.govtrack_id = govtrack_id
         cm.save
       else 
         cm = CommitteeMember.create(
           :committee => self,
           :politician => pol,
           :role => role,
-          :politician_name => name
+          :govtrack_id => govtrack_id
         ) unless pol.nil? && name.blank?
       end  
     end
@@ -69,6 +69,15 @@ class Committee < ActiveRecord::Base
     (thomas_xml/:name).each do |xml|
       NameLookup.find_or_create_by(:parent_id => self.id, :parent_type => self.class.to_s, :name => xml.inner_html )
     end  
+  end 
+  
+  def create_lookup( n )
+    NameLookup.find_or_create_by(:parent_id => self.id, :parent_type => 'Committee', :name => n )
   end  
+  
+  def self.lookup( n )
+    looker = NameLookup.first( :conditions => ["parent_type = 'Committee' AND name like ?", n ], :include => :parent )
+    looker ? looker.parent : nil
+  end   
   
 end

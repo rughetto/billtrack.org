@@ -219,10 +219,16 @@ class Politician < ActiveRecord::Base
     looker ? looker.parent : nil
   end 
   
+  def self.name_lookup( n )
+    looker = NameLookup.first(:conditions => {:name => n, :parent_type => 'Politician' })
+    looker ? looker.parent : nil
+  end  
+  
   def create_lookup( hash ) 
     id_type = hash.keys.first
     value = hash.values.first
     looker = IdLookup.find_or_create_by({ 
+      :parent_id => self.id,
       :parent_type => 'Politician', 
       :additional_id => value.to_s, 
       :id_type => id_type.to_s

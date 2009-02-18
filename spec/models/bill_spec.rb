@@ -12,6 +12,7 @@ describe Bill do
       CommitteeBill.delete_all
       Politician.delete_all
       Politician.load_from_file
+      RelatedBill.delete_all
       GovtrackerFileSet.root_directory = "#{Merb.root}/spec/xml/"
       GovtrackerFile.root_directory = GovtrackerFileSet.root_directory
       @xml = GovtrackerFile.new(:file => "111/bills/h1.xml", :tag => :bill ).parsed_file
@@ -74,6 +75,11 @@ describe Bill do
       it "should update related ammendments" do
         bill = Bill.import_data(@xml)
         bill.amendments.size.should == 12
+      end  
+      
+      it "should import related bills" do
+        bill = Bill.import_data(@xml)
+        RelatedBill.count.should == 6
       end    
     end
   end  

@@ -26,6 +26,8 @@ class Bill < ActiveRecord::Base
   has_many :bill_sponsors
   has_many :sponsors,             :through => :bill_sponsors, :conditions => 'ISNULL( sponsors.type )'
   has_many :cosponsors,           :through => :bill_sponsors, :conditions => 'sponsors.type = "BillCoSponsor"'  
+  has_many :relateds,             :class_name => "RelatedBill"
+  has_many :related_bills,        :through => :relateds
   
   # IMPORTS =============================================
   def self.govtracker
@@ -62,6 +64,7 @@ class Bill < ActiveRecord::Base
     bill.committee_bills << CommitteeBill.import_set( xml, bill )
     bill.bill_subjects <<   BillSubject.import_set( xml/"subjects", bill )
     bill.amendments <<      extract_amendments( xml/"amendments")
+    bill.relateds <<        RelatedBill.import_set( xml/'relatedbills', bill )
     
     bill.save
     bill

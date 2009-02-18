@@ -4,6 +4,9 @@ class RelatedBill < ActiveRecord::Base
     # t.integer :related_bill_id
     # t.string  :relationship
     # t.string  :related_bill_data
+    
+  belongs_to :bill
+  belongs_to :related_bill, :class_name => 'Bill'  
   
   def self.import_set( xml, b )
     set = []
@@ -12,7 +15,7 @@ class RelatedBill < ActiveRecord::Base
       relationship = sub_xml['relation'].to_s
       related_bill_data = {
         :congressional_session => sub_xml['session'].to_s,
-        :chamber => sub_xml['hr'].to_s,
+        :chamber => sub_xml['type'].to_s,
         :number => sub_xml['number'].to_s
       }
       related_bill = find_related( related_bill_data )
