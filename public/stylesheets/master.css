@@ -15,8 +15,12 @@ img.spacer { margin: 3px 30px -3px 30px;}
 #main { float:left; margin-right: 20px; width: 60%; }
 #secondary { float:left; width: 29.5%; }
 .white_border {padding: 15px; width: 100%; margin-bottom: 15px; }
-.social_media { padding-top: 75px; padding-left: 15px;}
 h1 .pagination { display: inline;}
+.js_free {float:left; position:relative; top: -270px; padding-left: 25px;}
+
+.politicians #main {width: 55%;}
+.politicians #secondary { width: 366px;}
+.politicians .district_map { width: 366px; height: 400px; min-width: 366px; min-height: 400px;}
 
 /* utility stuff */
 .clearfix { zoom: 1; } 
@@ -50,6 +54,8 @@ blockquote {font-family: Georgia, serif; font-size: 18px; line-height: 1.8; padd
 #bottom_menu { font-size: 11px; letter-spacing: 1px; }
 #fat_footer .quote_block h6 { font-style: italic;}
 
+.js_free { font-size: 20px; line-height: 1.7; color: white;}
+
 /* COLOR ------------------------- */
 body { background: #284c6f url("../images/background_body.png") repeat-y top center;}
 a {color: black;}
@@ -74,7 +80,11 @@ h2, h3 { color: #222; }
 #fat_footer { border-top: 3px solid #500606; }
 #fat_footer ul.menu { border-left: 2px solid #500606; }
 .white_border { border: 2px solid white;}
+.district_map { border: 4px solid white; }
+.headshot { border: 4px solid white;}
 
 #content a { border-bottom: 1px solid #999; }
 #content a:hover, #content a:active { border-bottom: 1px solid #666; }
+
+.politicians .district_map { background-color: #9daecd;}
 

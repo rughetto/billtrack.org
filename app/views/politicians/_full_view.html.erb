@@ -1,6 +1,6 @@
+<h1><%= @politician.name %></h1>
 <div id="main">
-  <h1><%= @politician.name %></h1>
-  <%= image_tag @politician.small_photo_path, :class => 'left' %>
+  <%= image_tag @politician.small_photo_path, :class => 'left headshot' %>
   <h2>
     <%= @politician.constituency %>
   </h2>
@@ -22,9 +22,6 @@
     <%= @politician.email %>
   </p>
   <% end -%>
-</div>
-
-<div id="secondary" class="social_media">
   <h3>Social Media:</h3>
   <p>
     <%= link_to 'Congresspedia', @politician.congresspedia_url %>
@@ -34,4 +31,27 @@
     <%= link_to 'You Tube', @politician.youtube_url %>
   </p>
   <% end -%>
+</div>
+
+<div id="secondary" class='district_map' >
+  <% throw_content :head do -%>
+    <%= js_include_tag :jquery, :district_map, 'jquery.jmap.js' %>
+  <% end -%>
+  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=<%= GoogleMapper.api_key %>"
+  type="text/javascript"></script>
+  <script type="text/javascript">
+    //<![CDATA[
+      function load() {
+           if (GBrowserIsCompatible()) {
+             var map = new GMap2(document.getElementById("district_map"));
+             map.setCenter(new GLatLng(37.4419, -122.1419), 13);
+           }
+         }
+    //]]>
+  </script>
+  <noscript>
+    <div class="js_free">
+      This map requires javascript. Please turn on javascript to get full use of the site.
+    </div>  
+  </noscript>
 </div>  
