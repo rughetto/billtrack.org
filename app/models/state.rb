@@ -52,23 +52,31 @@ class State < ActiveRecord::Base
       'WASHINGTON' => 'WA',
       'WEST VIRGINIA' => 'WV',
       'WISCONSIN' => 'WI',
-      'WYOMING' =>  'WY'
+      'WYOMING' =>  'WY',
+      'GUAM' => 'GU',
+      'AMERICAN SAMOA' => 'AS',
+      'NORTHER MARINA ISLANDS' => 'MP',
+      'VIRGIN ISLANDS' => 'VI'
     }.each do |state_name, state_code|
       state = State.find_or_create_by(:code => state_code)
       state.name = state_name.titlecase
       state.get_location
-      state.zoom_level = '1'
+      state.zoom_level = '6' if state.zoom_level.blank?
       state.save
     end  
   end  
   
   def get_location
-    struct = Geocoding::get(self.name).first
-    if struct
-      self.latitude = struct.latitude
-      self.longitude = struct.longitude
-    end  
+    if latitude.blank? or longitude.blank?
+      struct = Geocoding::get(self.name).first
+      if struct
+        self.latitude = struct.latitude
+        self.longitude = struct.longitude
+      end
+    end
+    [latitude, longitude]    
   end  
+  
 
   
 end

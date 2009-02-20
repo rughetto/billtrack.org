@@ -46,6 +46,10 @@ class Politician < ActiveRecord::Base
   has_many :id_lookups,   :as => :parent
   has_many :name_lookups, :as => :parent
   
+  def state
+    @state ||= State.find_by(:code => self[:state] )
+  end  
+  
   # VALIDATIONS 
   
   # INSTANCE METHODS 
@@ -56,9 +60,9 @@ class Politician < ActiveRecord::Base
   end  
   
   def constituency
-    str = party.name + ' - ' + state + ', '
-    str << " #{seat} " if self.class == Senator  
-    str << " District #{district.number}" if self.class != Senator
+    str = party.name + ' - ' + self[:state] 
+    str << ", #{seat} " if self.class == Senator  && seat != '0' 
+    str << ", District #{district.number}" if self.class != Senator
     str
   end  
   

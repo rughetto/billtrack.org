@@ -49,6 +49,17 @@
          }
     //]]>
   </script>
+  <% if @politician.state %>
+  <script>
+    $(document).ready(function() { 
+      get_state_map(
+        <%= @politician.state.latitude %>, 
+        <%= @politician.state.longitude %>, 
+        <%= @politician.state.zoom_level %>
+      );  
+    });
+  </script>  
+  <% end -%>
   <noscript>
     <div class="js_free">
       This map requires javascript. Please turn on javascript to get full use of the site.
