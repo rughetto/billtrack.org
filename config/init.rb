@@ -35,4 +35,6 @@ Merb::BootLoader.after_app_loads do
       register(:default, Merb::Cache::FileStore, :dir => Merb.root / :tmp / :cache) 
     end   
   end
+  
+  dependency 'merb_paginate'
 end

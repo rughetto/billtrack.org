@@ -1,0 +1,59 @@
+  <div id="main" class="white_border">
+    <h1 class="first">Bill <%= @bill.id_number %></h1>
+    <h2><%= @bill.title_short %></h2>
+    <% unless @bill.short_title.blank? %>
+      <h3><%= @bill.title %></h3>
+    <% end -%>
+    <h3></h3>
+    <p>
+      <b>Introduced:</b> <%= @bill.introduced_at.to_s(:us_date) %>
+      by <% for @sponsor in @bill.sponsors -%>
+        <%= link_to( @sponsor.name, url(:politician, @sponsor ) ) %>
+      <% end -%>
+    </p>
+    <p>
+      <b>Bill Cosponsors:</b>
+      <ul>
+        <% for @sponsor in @bill.cosponsors -%>
+          <li><%= link_to( @sponsor.name, url(:politician, @sponsor ) ) %></li>
+        <% end -%>  
+      </ul>
+    </p>
+    <p>
+      <b>Status:</b>
+      <% for @status in @bill.statuses -%>
+        <% if @status.status_type.downcase == 'vote' -%> 
+          Voted and  
+          <% if @status.result.match(/pass/i) %>
+            passed
+          <% else -%>
+            failed
+          <% end -%>  
+          in 
+          <% if @status.chamber == 'h' -%>House<% else -%>Senate<% end -%>
+        <% else %>
+          <%= @status.status_type.titlecase %>
+        <% end -%>
+      <% end -%>
+    </p>
+    <p>
+      <b>Actions:</b>
+      <ul>
+      <% for @action in @bill.actions -%>
+        <li><%= @action.action_time.to_s(:us_date) %> - <%= @action.description %></li>
+      <% end -%>
+      </ul>
+    </p>
+  </div>  
+  
+
+  <div id="secondary">
+    <div class="white_border">
+      <% if @bill.legislative_issues.size > 0 %>
+        <h2>Legislative Issues</h2>
+        <% for @issue in @bill.legislative_issues %>
+          <%= @issue.name %><% unless @issue == @bill.legislative_issues.last %>,<% end -%>
+        <% end -%>
+      <% end -%>
+    </div>
+  </div>

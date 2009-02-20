@@ -24,10 +24,11 @@ class Bill < ActiveRecord::Base
   has_many :committees,           :through => :committee_bills
   has_many :amendments,           :class_name => "Bill",      :foreign_key => :parent_id 
   has_many :bill_sponsors
-  has_many :sponsors,             :through => :bill_sponsors, :conditions => 'ISNULL( sponsors.type )'
-  has_many :cosponsors,           :through => :bill_sponsors, :conditions => 'sponsors.type = "BillCoSponsor"'  
+  has_many :sponsors,             :through => :bill_sponsors, :conditions => 'ISNULL( bill_sponsors.type )'
+  has_many :cosponsors,           :through => :bill_sponsors, :conditions => 'bill_sponsors.type = "BillCoSponsor"', :source => :sponsor  
   has_many :relateds,             :class_name => "RelatedBill"
   has_many :related_bills,        :through => :relateds
+   
   
   # IMPORTS =============================================
   def self.govtracker
@@ -108,6 +109,18 @@ class Bill < ActiveRecord::Base
       
   public 
      
-      
+  def title_short
+    short_title || title
+  end     
+  
+  def id_number
+    "#{split_chamber} #{number}"
+  end
+  
+  def split_chamber
+    str = ''
+    chamber.each_char{|char| str << char.upcase + '.'}
+    str
+  end     
    
 end

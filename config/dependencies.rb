@@ -27,6 +27,12 @@ dependency "collectiveidea-awesome_nested_set",   :require_as => "awesome_nested
   # ActiveRecord include also added to init.rb to get nested sets working
 dependency "nokogiri"
 
+#dependency 'mattetti-merb_paginate',              :require_as => 'merb_paginate'
+# merb_paginate loads before ActiveRecord is defined and therefore this has to be loaded after_app_loads in the 
+# config/init.rb. This line should be uncommented though whenever new gems have to be installed. That will keep
+# the gem in the cache, to be reloaded on the server. This should really be rewritten to understand the dependency
+# ordering ....
+
 # testing factories!
 dependency "notahat-machinist",         :require_as => "machinist"
 dependency "faker"

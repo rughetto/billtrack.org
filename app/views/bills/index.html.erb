@@ -1,0 +1,9 @@
+<h1>Bills <%= merb_paginate @bills %></h1>
+<ul>
+<% for @bill in @bills -%>
+  <li>
+    <h4><%= link_to @bill.id_number, url(:bill, @bill) %></h4>
+    <%= @bill.title_short %>
+  </li>
+<% end -%>
+</ul>

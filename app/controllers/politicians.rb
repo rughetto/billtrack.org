@@ -3,7 +3,7 @@ class Politicians < Application
 
   # GET /politicians
   def index
-    @politicians = Politician.find(:all)
+    @politicians = Politician.paginate(:page => params[:page]||1, :per_page => params[:per_page]||20,  :order => "last_name", :include => :id_lookups)
     display @politicians
   end
 
@@ -12,53 +12,6 @@ class Politicians < Application
     @politician = Politician.find_by_id(params[:id])
     raise NotFound unless @politician
     display @politician
-  end
-
-  # GET /politicians/new
-  def new
-    only_provides :html
-    @politician = Politician.new(params[:politician])
-    render
-  end
-
-  # POST /politicians
-  def create
-    @politician = Politician.new(params[:politician])
-    if @politician.save
-      redirect url(:politician, @politician)
-    else
-      render :new
-    end
-  end
-
-  # GET /politicians/:id/edit
-  def edit
-    only_provides :html
-    @politician = Politician.find_by_id(params[:id])
-    raise NotFound unless @politician
-    render
-  end
-
-  # PUT /politicians/:id
-  def update
-    @politician = Politician.find_by_id(params[:id])
-    raise NotFound unless @politician
-    if @politician.update_attributes(params[:politician])
-      redirect url(:politician, @politician)
-    else
-      raise BadRequest
-    end
-  end
-
-  # DELETE /politicians/:id
-  def destroy
-    @politician = Politician.find_by_id(params[:id])
-    raise NotFound unless @politician
-    if @politician.destroy
-      redirect url(:politicians)
-    else
-      raise BadRequest
-    end
   end
 
 end

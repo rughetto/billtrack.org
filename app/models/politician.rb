@@ -55,6 +55,30 @@ class Politician < ActiveRecord::Base
     str << " " + self.last_name
   end  
   
+  def constituency
+    str = party.name + ' - ' + state + ', '
+    str << " #{seat} " if self.class == Senator  
+    str << " District #{district.number}" if self.class != Senator
+    str
+  end  
+  
+  def thumbnail_path
+    "govtrack_us/photos/#{govtrack_id}-100px.jpeg"
+  end  
+  
+  def small_photo_path
+    "govtrack_us/photos/#{govtrack_id}-200px.jpeg"
+  end  
+  
+  def photo_path
+    file_location = "govtrack_us/photos/#{govtrack_id}.jpeg"
+  end  
+  
+  def govtrack_id
+    @looker ||= id_lookups.select{|lookup| lookup.id_type == 'govtrack_id'}.first
+    @looker.additional_id if @looker
+  end  
+  
   def forward_names
     name_set = ["#{first_name} #{last_name}"]
     if middle_name.blank?

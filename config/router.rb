@@ -3,9 +3,10 @@ Merb::Router.prepare do
   slice(:merb_auth_slice_password, :name_prefix => nil, :path_prefix => "")
 
   resources :members
-  resources :districts
+  #resources :districts
   resources :politicians
-  resources :parties
+  #resources :parties
+  resources :bills
 
   # authenticate do
   #   resources :members
