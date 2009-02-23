@@ -12,6 +12,3 @@ test:
  
 production:
   <<:       *defaults
- 
-rake:
-  <<: *defaults

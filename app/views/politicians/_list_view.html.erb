@@ -1,11 +1,5 @@
-<div class="clearfix">
   <h4>
     <%= link_to( @politician.name, url(:politician, @politician) ) %>: 
     <%= @politician.constituency %>
   </h4>
-  <%= image_tag @politician.thumbnail_path, :class => 'left' %>
-  <ul>
-    <li>Bill list</li>
-    <li>Issue list</li>
-  </ul>
-</div>  
+  <%= image_tag @politician.thumbnail_path, :class => 'left white_border' %>

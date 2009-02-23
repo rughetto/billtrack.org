@@ -1,2 +1,4 @@
-<h4><%= link_to @bill.id_number, url(:bill, @bill) %></h4>
-<%= @bill.title_short %>
+<div class="bill">
+  <h4><%= link_to @bill.id_number, url(:bill, @bill) %></h4>
+  <p><%= @bill.title_short %></p>
+</div>

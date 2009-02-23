@@ -1,1 +1,20 @@
-<%= partial :full_view %>
+<h1><%= @politician.name %></h1>
+<div id="main">
+  <div id="information" class="clearfix">
+    <%= partial :full_view %>
+  </div>
+  <div id="bills">
+    <%= partial :bill_list %>
+  </div>
+</div>   
+<div id="secondary" class='district_map' >
+  <% throw_content :head do -%>
+    <%= js_include_tag :jquery, :district_map, 'jquery.jmap.js' %>
+  <% end -%>
+  <%= politician_map( @politician ) %> 
+  <noscript>
+    <div class="js_free">
+      This map requires javascript. Please turn on javascript to get full use of the site.
+    </div>  
+  </noscript>
+</div> 

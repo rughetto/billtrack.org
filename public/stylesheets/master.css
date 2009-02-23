@@ -11,16 +11,32 @@ ul.menu li { display:inline; padding: 0px 20px;}
 #fat_footer .quote_block h6 {padding-top: 10px; padding-left: 15px;}
 #fat_footer ul.menu {float:left; padding: 0px 15px; height: 120px;}
 #fat_footer ul.menu li {display: block; padding-top: 7px; margin-left: 0px; padding-left: 6px;}
+#bottom_menu { margin: 0px; padding: 0px; }
 img.spacer { margin: 3px 30px -3px 30px;}
 #main { float:left; margin-right: 20px; width: 60%; }
 #secondary { float:left; width: 29.5%; }
-.white_border {padding: 15px; width: 100%; margin-bottom: 15px; }
-h1 .pagination { display: inline;}
+div.white_border {padding: 15px; width: 100%; margin-bottom: 15px; }
+h1 .pagination { display: inline; margin-left: 25px;}
 .js_free {float:left; position:relative; top: -270px; padding-left: 25px;}
 
 .politicians #main {width: 55%;}
 .politicians #secondary { width: 366px;}
 .politicians .district_map { width: 366px; height: 400px; min-width: 366px; min-height: 400px;}
+.politicians.index ul {list-style-type: none; padding: 0px;}
+.politicians.index li { margin: 10px 0px 14px 0px;}
+.politicians.index h4 {margin-bottom: 7px;}
+.politicians.index h1 {margin-bottom: 7px;}
+.politicians.show #information h2 {padding-top: 7px;}
+.politicians.show #information h3 {padding-bottom: 0px; padding-top: 13px;}
+.politicians.show #information h3.first {padding-top: 5px;}
+.politicians.show #information p {padding-left: 240px; line-height: 1.5;}
+.politicians.show #bills { margin-top: 5px; margin-bottom: 15px;}
+.politicians.show #bills .bill { margin-left: 15px; margin-bottom: 5px;}
+.politicians.show #bills h3 { padding-bottom: 0px; padding-top: 13px;}
+.politicians.show #bills h4 { display: inline; margin-right: 5px;}
+.politicians.show #bills p { display: inline; line-height: 1.5;}
+.politicians.show #bills p.cosponsored { display:block; padding-left: 15px;}
+
 
 /* utility stuff */
 .clearfix { zoom: 1; } 
@@ -55,6 +71,10 @@ blockquote {font-family: Georgia, serif; font-size: 18px; line-height: 1.8; padd
 #fat_footer .quote_block h6 { font-style: italic;}
 
 .js_free { font-size: 20px; line-height: 1.7; color: white;}
+
+.politicians.show #bills h3 { font-size: 16px; font-family: Georgia, serif;}
+.politicians.show #bills h4 { font-family: 'Trebuchet MS', Truebuchet, Veranda, sans-serif; font-size: 14px;}
+
 
 /* COLOR ------------------------- */
 body { background: #284c6f url("../images/background_body.png") repeat-y top center;}

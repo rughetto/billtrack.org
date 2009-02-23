@@ -1,74 +1,33 @@
-<h1><%= @politician.name %></h1>
-<div id="main">
-  <div id="information">
-    <%= image_tag @politician.small_photo_path, :class => 'left headshot' %>
-    <h2>
-      <%= @politician.constituency %>
-    </h2>
+<%= image_tag @politician.small_photo_path, :class => 'left headshot' %>
+<h2>
+  <%= @politician.constituency %>
+</h2>
 
-    <h3>Contact Information:</h3>
-    <p>
-      <%= link_to 'website', @politician.website %>
-    </p>
-    <p>
-      <%= link_to 'contact web form', @politician.webform %>
-    </p>
-    <p>
-      <b>phone</b>: 
-      <%= @politician.phone %>
-    </p>
-    <% unless @politician.email.blank? -%>
-    <p>
-      <b>email</b>: 
-      <%= @politician.email %>
-    </p>
-    <% end -%>
-    <h3>Social Media:</h3>
-    <p>
-      <%= link_to 'Congresspedia', @politician.congresspedia_url %>
-    </p>
-    <% unless @politician.youtube_url.blank? -%>
-    <p>
-      <%= link_to 'You Tube', @politician.youtube_url %>
-    </p>
-    <% end -%>
-  </div>
-  <div id="bills">
-    <% for @bill in @politician.sponsored_bills %>
-    <% end %>
-  </div>
-</div>
-
-<div id="secondary" class='district_map' >
-  <% throw_content :head do -%>
-    <%= js_include_tag :jquery, :district_map, 'jquery.jmap.js' %>
-  <% end -%>
-  <script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=<%= GoogleMapper.api_key %>"
-  type="text/javascript"></script>
-  <script type="text/javascript">
-    //<![CDATA[
-      function load() {
-           if (GBrowserIsCompatible()) {
-             var map = new GMap2(document.getElementById("district_map"));
-             map.setCenter(new GLatLng(37.4419, -122.1419), 13);
-           }
-         }
-    //]]>
-  </script>
-  <% if @politician.state %>
-  <script>
-    $(document).ready(function() { 
-      get_state_map(
-        <%= @politician.state.latitude %>, 
-        <%= @politician.state.longitude %>, 
-        <%= @politician.state.zoom_level %>
-      );  
-    });
-  </script>  
-  <% end -%>
-  <noscript>
-    <div class="js_free">
-      This map requires javascript. Please turn on javascript to get full use of the site.
-    </div>  
-  </noscript>
-</div>  
+<h3 class="first">Contact Information:</h3>
+<% unless @politician.website.blank? %>
+<p>
+  <%= link_to 'website', @politician.website %>
+</p>
+<% end -%>
+<p>
+  <%= link_to 'contact web form', @politician.webform %>
+</p>
+<p>
+  <b>phone</b>: 
+  <%= @politician.phone %>
+</p>
+<% unless @politician.email.blank? -%>
+<p>
+  <b>email</b>: 
+  <%= @politician.email %>
+</p>
+<% end -%>
+<h3>Social Media:</h3>
+<p>
+  <%= link_to 'Congresspedia', @politician.congresspedia_url %>
+</p>
+<% unless @politician.youtube_url.blank? -%>
+<p>
+  <%= link_to 'You Tube', @politician.youtube_url %>
+</p>
+<% end -%>

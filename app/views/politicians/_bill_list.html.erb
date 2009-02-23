@@ -1,0 +1,18 @@
+<h3>Bills Introduced</h3>
+<% if @politician.sponsored_bills.empty? -%>
+  <p>No bills sponsored</p>
+<% else -%>  
+  <% for @bill in @politician.sponsored_bills -%>
+    <%= partial 'bills/list_view' %>
+  <% end -%>
+<% end -%>  
+<h3>Bills Cosponsored</h3>
+<% if @politician.cosponsored_bills.empty? -%>
+  <p>No bills sponsored</p>
+<% else -%>  
+  <p class="cosponsored">
+  <% for @bill in @politician.cosponsored_bills -%>
+    <%= link_to @bill.id_number, url(:bill, @bill) %><% unless @bill == @politician.cosponsored_bills.last %>, <% end -%>
+  <% end -%>
+  </p>
+<% end -%>
