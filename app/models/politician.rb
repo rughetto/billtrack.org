@@ -37,18 +37,25 @@ class Politician < ActiveRecord::Base
   
   # RELATIONSHIPS ---------------------------------------
   # district and districts relationships are in Representative and Senator models (STI)
-  belongs_to :party
-  def party_through_abbreviation(abbrev)
-    Merb::Cache[:default].fetch("party_#{abbrev}") do
-      Party.find_by_abbreviation(abbrev)
-    end
+  belongs_to :party_uncached, :class_name => "Party"
+  def party
+    @party ||= Party.find_by_id(party_id)
   end  
+  def party=( p )
+    raise ArgumentError, "expected Party object" if p.class != Party
+    self.party_id = p.id
+  end  
+  
   has_many :id_lookups,   :as => :parent
   has_many :name_lookups, :as => :parent
   
   def state
     @state ||= State.find_by(:code => self[:state] )
   end  
+  
+  has_many :bill_sponsors
+  has_many :sponsored_bills, :through => :bill_sponsors,  :source => :bill, :conditions => "ISNULL(bill_sponsors.type)"
+  has_many :cosponsored_bills, :through => :bill_sponsors,  :source => :bill, :conditions => "NOT ISNULL(bill_sponsors.type)"
   
   # VALIDATIONS 
   
@@ -59,13 +66,52 @@ class Politician < ActiveRecord::Base
     str << " " + self.last_name
   end  
   
+  private
+    def forward_names
+      name_set = ["#{first_name} #{last_name}"]
+      if middle_name.blank?
+        name_set << "#{nickname} #{last_name}" unless nickname.blank?
+      else  
+        name_set << "#{first_name} #{middle_name} #{last_name}"
+        name_set << "#{nickname} #{middle_name} #{last_name}" unless nickname.blank?
+      end
+      unless name_suffix.blank?
+        name_set.dup.each do |name|
+          name_set << "#{name} #{name_suffix}"
+        end  
+      end 
+      name_set | name_set
+    end  
+  
+    def backwards_names
+      name_set = ["#{last_name}, #{first_name}"]
+      if middle_name.blank?
+        name_set << "#{last_name}, #{nickname}" unless nickname.blank?
+      else  
+        name_set << "#{last_name}, #{first_name} #{middle_name}"
+        name_set << "#{last_name}, #{nickname} #{middle_name}" unless nickname.blank?
+      end
+      unless name_suffix.blank?
+        name_set.dup.each do |name|
+          name_set << "#{name} #{name_suffix}"
+        end  
+      end 
+      name_set | name_set
+    end
+  public  
+  
+  def names
+    forward_names + backwards_names
+  end
+  
   def constituency
-    str = party.name + ' - ' + self[:state] 
+    str = "#{party.name} - #{self[:state]}"
     str << ", #{seat} " if self.class == Senator  && seat != '0' 
     str << ", District #{district.number}" if self.class != Senator
     str
   end  
   
+  # I want to move the photos into the class using paperclip --------
   def thumbnail_path
     "govtrack_us/photos/#{govtrack_id}-100px.jpeg"
   end  
@@ -81,43 +127,8 @@ class Politician < ActiveRecord::Base
   def govtrack_id
     @looker ||= id_lookups.select{|lookup| lookup.id_type == 'govtrack_id'}.first
     @looker.additional_id if @looker
-  end  
-  
-  def forward_names
-    name_set = ["#{first_name} #{last_name}"]
-    if middle_name.blank?
-      name_set << "#{nickname} #{last_name}" unless nickname.blank?
-    else  
-      name_set << "#{first_name} #{middle_name} #{last_name}"
-      name_set << "#{nickname} #{middle_name} #{last_name}" unless nickname.blank?
-    end
-    unless name_suffix.blank?
-      name_set.dup.each do |name|
-        name_set << "#{name} #{name_suffix}"
-      end  
-    end 
-    name_set | name_set
-  end  
-  
-  def backwards_names
-    name_set = ["#{last_name}, #{first_name}"]
-    if middle_name.blank?
-      name_set << "#{last_name}, #{nickname}" unless nickname.blank?
-    else  
-      name_set << "#{last_name}, #{first_name} #{middle_name}"
-      name_set << "#{last_name}, #{nickname} #{middle_name}" unless nickname.blank?
-    end
-    unless name_suffix.blank?
-      name_set.dup.each do |name|
-        name_set << "#{name} #{name_suffix}"
-      end  
-    end 
-    name_set | name_set
-  end
-  
-  def names
-    forward_names + backwards_names
-  end  
+  end 
+  # ----------- 
   
   
   # IMPORTING DATA FROM SUNLIGHT
@@ -175,7 +186,7 @@ class Politician < ActiveRecord::Base
   def add_lookups( sunlight )
     [:bioguide_id, :votesmart_id, :fec_id, :govtrack_id, :govtrack_id, :crp_id].each do |key|
       pol_id = sunlight.send( key )
-      IdLookup.find_or_create_by(:parent_id => self.id, :parent_type => 'Politician', :additional_id => pol_id, :id_type => key.to_s ) unless pol_id.blank?
+      id_lookups << IdLookup.find_or_initialize_by(:parent_id => self.id, :parent_type => 'Politician', :additional_id => pol_id, :id_type => key.to_s ) unless pol_id.blank?
     end
   end  
   

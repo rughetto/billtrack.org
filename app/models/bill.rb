@@ -110,7 +110,7 @@ class Bill < ActiveRecord::Base
   public 
      
   def title_short
-    short_title || title
+    short_title.blank? ? title : short_title
   end     
   
   def id_number

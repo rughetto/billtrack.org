@@ -8,22 +8,16 @@ describe Politician do
     @junior = @sunlight[:junior_senator]
   end
     
-  before(:each ) do
-    Politician.delete_all
-    Party.delete_all
-    District.delete_all
-    Party.clear_cache
-    District.clear_cache
-  end
-  
   describe "validations" do
-    before(:each) do
-      @pol = Politician.new_from_sunlight( @rep )
-    end  
+      
   end  
 
   describe "relationships" do
-    before(:each) do
+    before(:all) do
+      State.load_from_file
+      District.delete_all
+      Politician.delete_all
+      IdLookup.delete_all
       @pol = Politician.new_from_sunlight( @rep )
     end  
     
@@ -44,9 +38,69 @@ describe Politician do
       @pol.district.should_not be_nil
       @pol.district.class.should == District
     end  
+    
+    it "should have id_lookups" do
+      (@pol.id_lookups.size > 0).should == true
+    end
+      
+    it "should have name_lookups" do 
+      @pol.save
+      Politician.extract_names
+      (@pol.name_lookups.size > 0).should == true
+    end
+      
+    it "should have bill_sponsors" do
+      BillSponsor.delete_all
+      bill = Bill.create( :congressional_session => '111', :chamber => 's', :number => '1' )
+      BillSponsor.create( :bill_id => bill.id, :politician_id => @pol.id )
+      @pol.bill_sponsors.size.should == 1 
+    end
+      
+    it "should have sponsored_bills" do
+      BillSponsor.delete_all
+      bill = Bill.create( :congressional_session => '111', :chamber => 's', :number => '1' )
+      BillSponsor.create( :bill_id => bill.id, :politician_id => @pol.id )
+      @pol.sponsored_bills.size.should == 1
+    end
+      
+    it "sponsored_bills should not include cosponsored_bills" do
+      BillSponsor.delete_all
+      bill = Bill.create( :congressional_session => '111', :chamber => 's', :number => '1' )
+      bill2 = Bill.create(:congressional_session => '111', :chamber => 'h', :number => '2')
+      BillSponsor.create( :bill_id => bill.id, :politician_id => @pol.id )
+      BillCoSponsor.create( :bill_id => bill2.id, :politician_id => @pol.id)
+      @pol.sponsored_bills.size.should == 1
+      @pol.sponsored_bills.first.should == bill
+    end
+      
+    it "should have cosponsored_bills" do
+      BillSponsor.delete_all
+      bill = Bill.create( :congressional_session => '111', :chamber => 's', :number => '1' )
+      BillCoSponsor.create( :bill_id => bill.id, :politician_id => @pol.id)
+      @pol.cosponsored_bills.size.should == 1
+    end
+      
+    it "cosponsored_bills should not include sponsored bills" do
+      BillSponsor.delete_all
+      bill = Bill.create( :congressional_session => '111', :chamber => 's', :number => '1' )
+      bill2 = Bill.create(:congressional_session => '111', :chamber => 'h', :number => '2')
+      BillSponsor.create( :bill_id => bill.id, :politician_id => @pol.id )
+      BillCoSponsor.create( :bill_id => bill2.id, :politician_id => @pol.id)
+      @pol.cosponsored_bills.size.should == 1
+      @pol.cosponsored_bills.first.should == bill2
+    end  
+    
   end  
 
   describe "data imports from sunlight" do
+    before(:each ) do
+      Politician.delete_all
+      Party.delete_all
+      District.delete_all
+      Party.clear_cache
+      District.clear_cache
+    end
+    
     it "build a record from a Sunlight::Legislator without raising an exception" do
       lambda do 
         Politician.new_from_sunlight( @rep )
@@ -110,6 +164,45 @@ describe Politician do
           pol.send( id_type.to_sym ).should == this_id.additional_id
         end
       end  
+    end  
+  end  
+
+  describe 'naming methods' do
+    before(:each) do
+      District.delete_all
+      Party.delete_all
+      District.load_from_file
+      Party.load_from_file
+      @pol = Politician.new_from_sunlight( @rep )
+    end
+      
+    it '#name should output a string with title, first name and last name' do
+      @pol.name.should match(/Representative Nancy Pelosi/i)
+    end
+     
+    it '#names should be an array with a number of permutations of first, middle, last, nick and suffix names' do
+      forward_match = false
+      backwards_match = false
+      @pol.names.each do |name|
+        forward_match = true if name.match(/Nancy Pelosi/i)
+        backwards_match = true if name.match(/Pelosi, Nancy/i) # failing
+      end  
+      forward_match.should == true
+      backwards_match.should == true 
+    end  
+      
+    it 'Politician.extract_names should add lookups for all strings in #names' do
+      NameLookup.delete_all
+      Politician.delete_all
+      @pol.save
+      Politician.extract_names
+      NameLookup.count.should == @pol.names.size
+    end  
+    
+    it '#constituency should output a string with party name, state and district or seat' do
+      @pol.constituency.should match(/Democrat/i)
+      @pol.constituency.should match(/CA/i)
+      @pol.constituency.should match(/8/) 
     end  
   end  
 end
