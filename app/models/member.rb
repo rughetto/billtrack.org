@@ -1,29 +1,30 @@
 class Member < ActiveRecord::Base
-  # ATTRIBUTES ------------------
-  # username
-  # salt
-  # crypted_password
-  # timestamps
+  #include Merb::Authentication::Mixins::ActivatedUser
   
-  # auth_token # used for verification, then for remember token
-  # remember_until
+  # ATTRIBUTES ===================
   
-  # status
-  # roles
-
-  # first_name
-  # last_name
-  # visibility
-  # address
-  # zipcode
-  # party_affilation
   
-  # NOTES ------------------------
-  # status  = psuedo state machine, maybe a status model
-  # create remember_me functionality
-  # create activation functionality, check out related slices
-  # role verification system, maybe a role model
-  # visibility model/fuctionality that reads the field and determines visibility
-  #   also should cache result somehow
+  # RELATIONSHIPS ================
+  def state
+    @state ||= State.find_by_id(state_id)
+  end   
+  def state=( s )
+    if s.class == String || s.class == Fixnum
+      self.state_id = s.to_s
+    elsif s.class = State
+      self.state_id = s.id
+    else
+      raise ArgumentError, "should be State object or a Fixnum identifying the State id"
+    end    
+    state 
+  end  
+  
+  def party
+    @party ||= Party.find_by_id(party_id)
+  end  
+  def party=( p )
+    raise ArgumentError, "expected Party object" if p.class != Party
+    self.party_id = p.id
+  end  
   
 end

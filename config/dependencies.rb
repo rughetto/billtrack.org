@@ -6,12 +6,16 @@ dependency "merb-assets",                 merb_gems_version
 dependency "merb-cache",                  merb_gems_version   
 dependency "merb-helpers",                merb_gems_version 
 dependency "merb-mailer",                 merb_gems_version  
+
 dependency "merb-slices",                 merb_gems_version  
 dependency "merb-auth",                   merb_gems_version
 dependency "merb-auth-core",              merb_gems_version
 dependency "merb-auth-more",              merb_gems_version
 dependency "merb-auth-slice-password",    merb_gems_version
-dependency "ck-merb-auth-slice-activation", :require_as => "merb-auth-slice-activation"
+dependency "ck-merb-auth-slice-activation",                 :require_as => "merb-auth-slice-activation"
+dependency "rughetto-merb-auth-slice-password-reset",       :require_as => "merb-auth-slice-password-reset"
+dependency "rughetto-merb-auth-remember-me",                :require_as => "merb-auth-remember-me"
+
 dependency "merb-param-protection",       merb_gems_version
 dependency "merb-exceptions",             merb_gems_version
 dependency "merb-gen",                    merb_gems_version

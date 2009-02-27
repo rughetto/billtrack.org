@@ -1,4 +1,4 @@
-class Amendment < ApiData
+class Amendment < Bill
   # RELATIONSHIPS ==============================
   belongs_to :bill, :foreign_key => :parent_id
   has_many :statuses, :class_name => "BillStatus"

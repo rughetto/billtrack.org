@@ -1,6 +1,6 @@
 development: &defaults
   adapter:  mysql
-  database: billtrack
+  database: billtrack_member
   username: root
   password: 
   host: localhost
@@ -8,7 +8,7 @@ development: &defaults
  
 test:
   <<:   *defaults
-  database: billtrack_test
+  database: billtrack_member_test
  
 production:
   <<:   *defaults
@@ -18,10 +18,12 @@ production:
 # API data  
 data_development:
   <<:   *defaults
+  database: billtrack_data
   
 data_test:
   <<:   *defaults
-  database: billtrack_test
+  database: billtrack_data_test
   
 data_production:
   <<:   *defaults
+  database: billtrack_data
