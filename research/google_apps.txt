@@ -1,2 +1,0 @@
-admin user = kane@billtrack.org
-pass = programming engineyard
