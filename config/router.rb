@@ -7,6 +7,7 @@ Merb::Router.prepare do
   resources :politicians
   #resources :parties
   resources :bills
+  resources :issues
 
   # authenticate do
   #   resources :members
