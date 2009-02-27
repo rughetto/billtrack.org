@@ -28,34 +28,6 @@ describe DistrictMap do
     end  
   end  
   
-  describe "importing data" do
-    before(:each) do
-      @district = District.create(:state => 'CA', :number => 8)
-      @zips = DistrictMap.all_from_sunlight_for_district( @district )
-    end
-      
-    it "should import all the records from sunshine for a given district" do
-      DistrictMap.should_receive(:all_from_sunlight_for_district).and_return( @zips )
-      DistrictMap.import_district_set_from_sunlight( @district )
-      DistrictMap.count.should == @zips.size
-    end 
-    
-    it "should not duplicate imported records" do
-      DistrictMap.should_receive(:all_from_sunlight_for_district).any_number_of_times.and_return( @zips )
-      DistrictMap.import_district_set_from_sunlight( @district )
-      original_size = DistrictMap.count
-      DistrictMap.import_district_set_from_sunlight( @district )
-      DistrictMap.count.should == original_size
-    end  
-    
-    it "should import from all districts in the database" do
-      District.create(:state => 'CA', :number => 7)
-      District.count.should == 2
-      DistrictMap.all_from_sunlight
-      (DistrictMap.count > @zips.size).should == true
-    end   
-  end  
-  
   describe "zipcoder" do
     it "should zipcode= should set zip_main and zip_plus_four with a valid zipcode" do
       @district.zip_main.should == '94102'

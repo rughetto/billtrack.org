@@ -17,15 +17,13 @@ dependency "merb-gen",                  merb_gems_version
 
 dependency "activesupport",             ar_gems_version
 dependency "activerecord",              ar_gems_version
-dependency "merb_activerecord"
+dependency "merb_activerecord",         '< 1.0'
 
 dependency "RedCloth"
 dependency "rughetto-merb_paperclip",             :require_as => "merb_paperclip"
 dependency "rughetto-rear_views",                 :require_as => "rear_views"
-dependency "rughetto-sunlight",                   :require_as => "sunlight"
 dependency "collectiveidea-awesome_nested_set",   :require_as => "awesome_nested_set"
   # ActiveRecord include also added to init.rb to get nested sets working
-dependency "nokogiri"
 dependency 'rughetto-merb_paginate',              :require_as => 'merb_paginate'
 
 # testing factories!

@@ -1,14 +1,27 @@
 development: &defaults
-  :adapter:  mysql
-  :database: billtrack
-  :username: root
-  :password: 
-  :host: localhost
-  :socket: "/tmp/mysql.sock"
+  adapter:  mysql
+  database: billtrack
+  username: root
+  password: 
+  host: localhost
+  socket: "/tmp/mysql.sock"
  
 test:
-  <<:       *defaults
+  <<:   *defaults
   database: billtrack_test
  
 production:
-  <<:       *defaults
+  <<:   *defaults
+  
+  
+  
+# API data  
+data_development:
+  <<:   *defaults
+  
+data_test:
+  <<:   *defaults
+  database: billtrack_test
+  
+data_production:
+  <<:   *defaults

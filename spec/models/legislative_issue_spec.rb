@@ -1,26 +1,6 @@
 require File.join( File.dirname(__FILE__), '..', "spec_helper" )
 
 describe LegislativeIssue do
-  before(:each) do
-    GovtrackerFile.root_directory = "#{Merb.root}/spec/xml/"
-    LivRelationship.delete_all
-    LegislativeIssue.delete_all
-    LegislativeIssue.batch_import
-  end  
-  describe "imports" do 
-    it "should import all from xml" do
-      LegislativeIssue.batch_import
-      LegislativeIssue.count.should == 56
-    end
-  
-    it "should not add records that already exist" do
-      LegislativeIssue.count.should == 56
-      LegislativeIssue.batch_import
-      LegislativeIssue.count.should == 56
-    end 
-      
-  end  
-  
   describe "relationships" do
     it "the class should find the root records" do
       LegislativeIssue.roots.size.should == 2

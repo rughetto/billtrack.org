@@ -1,0 +1,3 @@
+class BillVote < BillAction
+  
+end  
