@@ -20,5 +20,7 @@ gems/gems/*
 gems/specifications/*
 merb_profile_results
 research/sunlight_api_key.txt
+research/google_apps.txt
 *.api
 schema/fixture_dump
+config/deploy.rb
