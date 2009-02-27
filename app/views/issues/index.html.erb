@@ -1,3 +1,7 @@
-<h1>Issues controller, index action</h1>
+<h1>Issues</h1>
 
-<p>Edit this file in <tt>app/views/issues/index.html.erb</tt></p>
+<ul>
+  <% for @issue in @issues -%>
+    <li><%= partial :list_view %></li>
+  <% end -%>  
+</ul>

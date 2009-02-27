@@ -1,19 +1,20 @@
 merb_gems_version = "1.0.8.1"
 ar_gems_version   = "2.2.2"
 
-dependency "merb-action-args",          merb_gems_version
-dependency "merb-assets",               merb_gems_version  
-dependency "merb-cache",                merb_gems_version   
-dependency "merb-helpers",              merb_gems_version 
-dependency "merb-mailer",               merb_gems_version  
-dependency "merb-slices",               merb_gems_version  
-dependency "merb-auth",                 merb_gems_version
-dependency "merb-auth-core",            merb_gems_version
-dependency "merb-auth-more",            merb_gems_version
-dependency "merb-auth-slice-password",  merb_gems_version
-dependency "merb-param-protection",     merb_gems_version
-dependency "merb-exceptions",           merb_gems_version
-dependency "merb-gen",                  merb_gems_version
+dependency "merb-action-args",            merb_gems_version
+dependency "merb-assets",                 merb_gems_version  
+dependency "merb-cache",                  merb_gems_version   
+dependency "merb-helpers",                merb_gems_version 
+dependency "merb-mailer",                 merb_gems_version  
+dependency "merb-slices",                 merb_gems_version  
+dependency "merb-auth",                   merb_gems_version
+dependency "merb-auth-core",              merb_gems_version
+dependency "merb-auth-more",              merb_gems_version
+dependency "merb-auth-slice-password",    merb_gems_version
+dependency "ck-merb-auth-slice-activation", :require_as => "merb-auth-slice-activation"
+dependency "merb-param-protection",       merb_gems_version
+dependency "merb-exceptions",             merb_gems_version
+dependency "merb-gen",                    merb_gems_version
 
 dependency "activesupport",             ar_gems_version
 dependency "activerecord",              ar_gems_version
@@ -23,7 +24,7 @@ dependency "RedCloth"
 dependency "rughetto-merb_paperclip",             :require_as => "merb_paperclip"
 dependency "rughetto-rear_views",                 :require_as => "rear_views"
 dependency "collectiveidea-awesome_nested_set",   :require_as => "awesome_nested_set"
-  # ActiveRecord include also added to init.rb to get nested sets working
+  # ActiveRecord include also added to init.rb to get nested sets working with Merb
 dependency 'rughetto-merb_paginate',              :require_as => 'merb_paginate'
 
 # testing factories!

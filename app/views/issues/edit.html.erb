@@ -1,3 +1,6 @@
-<h1>Issues controller, edit action</h1>
+<h1>Edit Issue</h1>
 
-<p>Edit this file in <tt>app/views/issues/edit.html.erb</tt></p>
+<%= form_tag @issue, resource(:issue, @issue) do %>
+  <%= partial :form %>
+  <%= submit 'Save' %>
+<% end =%>

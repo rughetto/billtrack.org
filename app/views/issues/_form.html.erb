@@ -1,0 +1,16 @@
+       
+      <%= text_field :name, :label => 'Name' %> 
+      <br/>   
+      <%= text_field :stance_positive, :label => 'Positive Stance Phrase' %> 
+      <br/>   
+      <%= text_field :stance_negative, :label => 'Negative Stance Phrase' %> 
+      <br/>   
+      <%= text_field :status, :label => 'Status' %> 
+      <br/>   
+      <%= select :parent_id, 
+                  :collection => @issue_parents,
+                  :text_method => :id, # change this to something appropriate for the model
+                  :value_method => :name,
+                  :selected => @issue.parent_id.to_s,
+                  :label => 'Parent'   %><br/>
+  

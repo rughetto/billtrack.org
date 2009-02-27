@@ -2,6 +2,10 @@ module VersatileFinders
   def find_by( hash )
     first(:conditions => hash )
   end  
+  
+  def find_all_by( hash )
+    first(:conditions => hash )
+  end  
 
   def find_or_create_by( hash )
     find_by( hash ) || create( hash )
