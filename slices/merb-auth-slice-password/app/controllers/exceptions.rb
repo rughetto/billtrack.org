@@ -2,7 +2,6 @@
 module MerbAuthSlicePassword::ExceptionsMixin
   def unauthenticated
     provides :xml, :js, :json, :yaml
-
     case content_type
     when :html
       render
@@ -14,7 +13,6 @@ module MerbAuthSlicePassword::ExceptionsMixin
 end
 
 Merb::Authentication.customize_default do
-  
   Exceptions.class_eval do
     include Merb::Slices::Support # Required to provide slice_url
   
@@ -27,7 +25,5 @@ Merb::Authentication.customize_default do
     include MerbAuthSlicePassword::ExceptionsMixin
     
     show_action :unauthenticated
-
   end# Exceptions.class_eval
-  
 end # Customize default

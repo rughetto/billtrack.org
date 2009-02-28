@@ -1,6 +1,8 @@
 class Member < ActiveRecord::Base
   # INCLUSIONS & EXTENSIONS ======
-  #include Merb::Authentication::Mixins::ActivatedUser
+  include Merb::Authentication::Mixins::ActivatedUser
+  include Merb::Authentication::Mixins::AuthenticatedUser
+  include Merb::Authentication::Mixins::SenileUser
   has_zipcode_accessor # from /lib/zipcoder
   
   # ATTRIBUTES ===================
@@ -35,13 +37,24 @@ class Member < ActiveRecord::Base
   
   # VALIDATIONS ==================
   validates_presence_of     :username, :email
-  validates_uniqueness_of   :username, :email
+  validates_uniqueness_of   :username, :if => :validate_username?
+  validates_uniqueness_of   :email, :if => :validate_email?
   validates_format_of :username, :with => /^\w+$/i,
-    :message => "must be a combination of English letters and numbers with no spaces"
+    :message => "must be a combination of English letters and numbers with no spaces",
+    :if => :validate_username?
   validates_format_of :email, :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i, 
-    :message => "is not a valid format"
-  validates_length_of :username, :minimum => 3, :message => 'must be 3 or more characters'  
+    :message => "is not a valid format",
+    :if => :validate_email?
+  validates_length_of :username, :minimum => 3, :message => 'must be 3 or more characters', :if => :validate_username? 
   validates_length_of :password, :minimum => 6, :message => 'password should be at least 6 characters', :if => :password_required?
+  
+  def validate_username?
+    username_changed?
+  end  
+  
+  def validate_email?
+    email_changed?
+  end  
   
   def password_required?
     new_record? || !password.nil?

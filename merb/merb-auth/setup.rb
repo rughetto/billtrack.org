@@ -1,17 +1,6 @@
-# This file is specifically setup for use with the merb-auth plugin.
-# This file should be used to setup and configure your authentication stack.
-# It is not required and may safely be deleted.
-#
-# To change the parameter names for the password or login field you may set either of these two options
-#
-Merb::Plugins.config[:"merb-auth"][:login_param]    = :username 
-# Merb::Plugins.config[:"merb-auth"][:password_param] = :my_password_field_name
-
+Merb::Plugins.config[:"merb-auth"][:login_param] = :username 
 begin
-  # Sets the default class ofr authentication.  This is primarily used for 
-  # Plugins and the default strategies
   Merb::Authentication.user_class = Member 
-  
   
   # Mixin the salted user mixin
   require 'merb-auth-more/mixins/salted_user'
@@ -25,10 +14,10 @@ begin
     end
 
     def store_user(user)
+      Merb.logger.debug("user = #{user.inspect}")
       user.nil? ? user : user.id
     end
   end
-  
 rescue
   Merb.logger.error <<-TEXT
   

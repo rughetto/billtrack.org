@@ -12,7 +12,7 @@ Merb::Config.use do |c|
   
   # cookie session store configuration
   c[:session_secret_key]  = '799104a7f56904b0c7163665024e4f72cb89e6be'  # required for cookie session store
-  c[:session_id_key] = '_./_session_id' # cookie session id key, defaults to "_session_id"
+  c[:session_id_key] = '_session_id' # cookie session id key, defaults to "_session_id"
 end
  
 Merb::BootLoader.before_app_loads do
@@ -28,10 +28,10 @@ Merb::BootLoader.before_app_loads do
   end
   
   # Auth-Activation Configuration
-  Merb::Slices::config[:'merb-auth-slice-activation'][:from_email] = 'info@billtrack.org'
-  Merb::Slices::config[:'merb-auth-slice-activation'][:activation_host] = 'billtrack.org'
-  Merb::Slices::config[:'merb-auth-slice-activation'][:welcome_subject] = 'Wellcome to BillTrack.org'
-  Merb::Slices::config[:'merb-auth-slice-activation'][:activation_subject] = 'Your BillTrack.org account is now active!'
+  Merb::Slices::config[:merb_auth_slice_activation][:from_email] = 'info@billtrack.org'
+  Merb::Slices::config[:merb_auth_slice_activation][:activation_host] = 'billtrack.org'
+  Merb::Slices::config[:merb_auth_slice_activation][:welcome_subject] = 'Wellcome to BillTrack.org'
+  Merb::Slices::config[:merb_auth_slice_activation][:activation_subject] = 'Your BillTrack.org account is now active!'
 end
  
 Merb::BootLoader.after_app_loads do

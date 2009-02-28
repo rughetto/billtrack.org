@@ -13,3 +13,5 @@ Merb::Config.use { |c|
   # Or redirect logging into a file:
   # c[:log_file]  = Merb.root / "log" / "development.log"
 }
+require "merb-mailer"
+Merb::Mailer.delivery_method = :test_send

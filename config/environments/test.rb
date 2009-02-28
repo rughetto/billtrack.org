@@ -10,3 +10,5 @@ Merb::Config.use { |c|
   # or redirect logger using IO handle
   c[:log_stream] = STDOUT
 }
+require "merb-mailer"
+Merb::Mailer.delivery_method = :test_send

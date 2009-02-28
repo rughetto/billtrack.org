@@ -18,8 +18,10 @@
             <!--
             <li><%= link_to 'Members', '/members' %></li>
             <li><%= link_to 'Blog', '/blog' %></li>
+            -->
             <%= image_tag "sm_star.png", :class => "spacer" %>
-            <% if session.user -%>
+            
+            <% if session.authenticated? -%>
               <li class="first"><%= link_to 'My Bill Track', '/home' %></li>
             <% else -%>  
               <li class="first">
@@ -27,6 +29,7 @@
                 - or - <%= link_to 'Login', '/login' %>
               </li>
             <% end -%>   
+            <!--
             <li>
               Search form
             </li>
@@ -35,7 +38,11 @@
         </div>
       </div>
       <div id="content" class="<%= controller_name %> <%= action_name %> clearfix">
-        <%= message[:notice] %>
+        <% if message[:notice] -%>
+          <div id="message">
+            <%= message[:notice] %>
+          </div>
+        <% end -%>  
         <%= catch_content :for_layout %>
       </div>  
       <div id="footer">
