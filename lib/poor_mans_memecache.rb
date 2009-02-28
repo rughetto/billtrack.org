@@ -16,16 +16,16 @@ module PoorMansMemecache
           all_by_#{col.name}( val ).first   
         end
         
-        def self.all_by_#{col.name}( val )
-          all.select{|rec| rec.#{col.name} == val }
+        def self.all_by_#{col.name}( val, opts={} )
+          all(opts).select{|rec| rec.#{col.name} == val }
         end  
       }
     end   
   end  
   
   module ClassMethods
-    def all
-      @all ||= find(:all)
+    def all(opts={})
+      @all ||= find(:all, opts)
     end 
   
     def clear_cache

@@ -4,11 +4,14 @@
   <h3 class="first">Mandatory Fields</h3>
   <%= text_field :username, :label => 'Username', :size => 25 %> 
   <br/>   
-  <%= password_field :password, :label => 'Password', :size => 25 %> 
+  <%= text_field :email, :label => 'Email Address', :size => 25 %>  
+  <br/>
+  <%= text_field :zipcode, :label => 'Zipcode', :size => 25 %>
+  <br/>
+  <%= password_field :password, :label => 'Password', :size => 10 %> 
   <br/>   
-  <%= password_field :password_confirmation, :label => 'Confirm Password', :size => 25 %> 
+  <%= password_field :password_confirmation, :label => 'Confirm Password', :size => 10 %> 
   <br/> 
-  <%# text_field :email, :label => 'Email Address', :size => 25 %>  
   
   <h3>Optional fields *</h3>
   <%= text_field :first_name, :label => 'First Name', :size => 25 %> 
@@ -26,8 +29,6 @@
     :text_method => :name,
     :value_method => :id,
     :selected => @member[:state] %> 
-  <br/>
-  <%= text_field :zipcode, :label => 'Zipcode', :size => 25 %>
   <br/>
   <%= select :party_id, 
     :collection => Party.all, # not a database call since the table is loaded into memory

@@ -16,6 +16,7 @@ Merb::Config.use do |c|
 end
  
 Merb::BootLoader.before_app_loads do
+  # adding libraries
   require File.join( File.dirname(__FILE__), '..', 'lib', 'poor_mans_memecache')
   require File.join( File.dirname(__FILE__), '..', 'lib', 'zipcoder')
   require File.join( File.dirname(__FILE__), '..', 'lib', 'fixturizer')
@@ -25,6 +26,12 @@ Merb::BootLoader.before_app_loads do
     include CollectiveIdea::Acts::NestedSet
     extend Fixturizer::ActiveRecord
   end
+  
+  # Auth-Activation Configuration
+  Merb::Slices::config[:'merb-auth-slice-activation'][:from_email] = 'info@billtrack.org'
+  Merb::Slices::config[:'merb-auth-slice-activation'][:activation_host] = 'billtrack.org'
+  Merb::Slices::config[:'merb-auth-slice-activation'][:welcome_subject] = 'Wellcome to BillTrack.org'
+  Merb::Slices::config[:'merb-auth-slice-activation'][:activation_subject] = 'Your BillTrack.org account is now active!'
 end
  
 Merb::BootLoader.after_app_loads do

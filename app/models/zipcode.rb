@@ -18,7 +18,7 @@ class Zipcode
   end  
   
   def valid?
-    if self.zip.match(/(^\d{5}$)|(^\d{5}-\d{4}$)/)
+    if self.zip && self.zip.match(/(^\d{5}$)|(^\d{5}-\d{4}$)/)
       self.errors = nil
       return true
     else

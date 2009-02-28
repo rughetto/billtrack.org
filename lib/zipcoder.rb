@@ -2,7 +2,12 @@ module Zipcoder
   module ActiveRecordMethods
     def has_zipcode_accessor
       include Zipcoder::InstanceMethods
+      class_eval do
+        before_validation :validate_zip
+      end  
     end  
+    
+    
   end
   
   module InstanceMethods

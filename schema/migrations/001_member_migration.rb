@@ -21,7 +21,8 @@ class MemberMigration < ActiveRecord::Migration
       
       t.text    :address
       t.string  :city
-      t.string  :zipcode
+      t.string  :zip_main
+      t.string  :zip_plus_four
       t.string  :state_id
       
       t.integer :district_id
