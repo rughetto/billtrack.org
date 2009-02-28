@@ -2,6 +2,7 @@ Merb.logger.info("Compiling routes...")
 Merb::Router.prepare do
   slice(:merb_auth_slice_password, :name_prefix => nil, :path_prefix => "")
   slice(:merb_auth_slice_activation, :name_prefix => nil, :path_prefix => "")
+  slice(:merb_auth_slice_password_reset, :name_prefix => nil, :path_prefix => '')
   
   resources :members
   resources :politicians

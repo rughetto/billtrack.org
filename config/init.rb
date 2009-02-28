@@ -28,10 +28,10 @@ Merb::BootLoader.before_app_loads do
   end
   
   # Auth-Activation Configuration
-  Merb::Slices::config[:'merb-auth-slice-activation'][:from_email] = 'info@billtrack.org'
-  Merb::Slices::config[:'merb-auth-slice-activation'][:activation_host] = 'billtrack.org'
-  Merb::Slices::config[:'merb-auth-slice-activation'][:welcome_subject] = 'Wellcome to BillTrack.org'
-  Merb::Slices::config[:'merb-auth-slice-activation'][:activation_subject] = 'Your BillTrack.org account is now active!'
+  Merb::Slices::config[:merb_auth_slice_activation][:from_email] = 'info@billtrack.org'
+  Merb::Slices::config[:merb_auth_slice_activation][:activation_host] = 'billtrack.org'
+  Merb::Slices::config[:merb_auth_slice_activation][:welcome_subject] = 'Wellcome to BillTrack.org'
+  Merb::Slices::config[:merb_auth_slice_activation][:activation_subject] = 'Your BillTrack.org account is now active!'
 end
  
 Merb::BootLoader.after_app_loads do

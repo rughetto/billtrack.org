@@ -1,6 +1,8 @@
 class Member < ActiveRecord::Base
   # INCLUSIONS & EXTENSIONS ======
-  #include Merb::Authentication::Mixins::ActivatedUser
+  include Merb::Authentication::Mixins::ActivatedUser
+  include Merb::Authentication::Mixins::AuthenticatedUser
+  include Merb::Authentication::Mixins::SenileUser
   has_zipcode_accessor # from /lib/zipcoder
   
   # ATTRIBUTES ===================

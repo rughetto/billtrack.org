@@ -16,7 +16,7 @@ class Issues < Application
 
   # GET /issues/new
   def new
-    raise Merb::Controller::Unauthenticated, 'You must be logged in to suggest issues' if session.user.nil?
+    ensure_authenticated
     only_provides :html
     @issue = Issue.new(params[:issue])
     @issue_parents = Issue.find_all_by(:parent_id => nil)
@@ -25,7 +25,7 @@ class Issues < Application
 
   # POST /issues
   def create
-    raise Merb::Controller::Unauthenticated, 'You must be logged in to suggest issues' if session.user.nil?
+    ensure_authenticated
     @issue = Issue.new(params[:issue])
     if @issue.save
       redirect url(:issue, @issue)
@@ -36,7 +36,7 @@ class Issues < Application
 
   # GET /issues/:id/edit
   def edit
-    raise Merb::Controller::Unauthenticated, 'You must be logged in to edit an issues' if session.user.nil?
+    ensure_authenticated
     only_provides :html
     @issue = Issue.find_by_id(params[:id])
     @issue_parents = Issue.find_all_by(:parent_id => nil)
@@ -46,7 +46,7 @@ class Issues < Application
 
   # PUT /issues/:id
   def update
-    raise Merb::Controller::Unauthenticated, 'You must be logged in to edit an issues' if session.user.nil?
+    ensure_authenticated
     @issue = Issue.find_by_id(params[:id])
     raise NotFound unless @issue
     if @issue.update_attributes(params[:issue])
@@ -58,7 +58,7 @@ class Issues < Application
 
   # DELETE /issues/:id
   def destroy
-    raise Merb::Controller::Unauthenticated, 'You must be logged in to destroy an issues' if session.user.nil?
+    ensure_authenticated
     @issue = Issue.find_by_id(params[:id])
     raise NotFound unless @issue
     if @issue.destroy

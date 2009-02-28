@@ -1,7 +1,7 @@
 <h2>Or register as a member</h2>
 <% @member ||= Member.new %>
 <%= form_for @member, :action => url(:members, :new ) do %>
-  <h3 class="first">Mandatory Fields</h3>
+  <h3 class="first">Required Fields</h3>
   <%= text_field :username, :label => 'Username', :size => 25 %> 
   <br/>   
   <%= text_field :email, :label => 'Email Address', :size => 25 %>  
