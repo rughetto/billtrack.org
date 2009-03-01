@@ -29,7 +29,7 @@ dependency "rughetto-merb_paperclip",             :require_as => "merb_paperclip
 dependency "rughetto-rear_views",                 :require_as => "rear_views"
 dependency "collectiveidea-awesome_nested_set",   :require_as => "awesome_nested_set"
   # ActiveRecord include also added to init.rb to get nested sets working with Merb
-dependency 'rughetto-merb_paginate',              :require_as => 'merb_paginate'
+dependency 'rughetto-merb_paginate',  '0.0.6',    :require_as => 'merb_paginate'
 
 # testing factories!
 dependency "notahat-machinist",         :require_as => "machinist"
