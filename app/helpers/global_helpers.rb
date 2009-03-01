@@ -1,5 +1,7 @@
 module Merb
   module GlobalHelpers
-    # helpers defined here available to all views.  
+    def login_partial
+      '../../slices/merb-auth-slice-password/app/views/exceptions/login'
+    end    
   end
 end

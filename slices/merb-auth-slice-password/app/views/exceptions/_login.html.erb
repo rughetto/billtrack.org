@@ -3,7 +3,7 @@
 <% @login_param = Merb::Authentication::Strategies::Basic::Base.login_param %>
 <% @password_param = Merb::Authentication::Strategies::Basic::Base.password_param %>
 
-<form action="<%= slice_url(:merb_auth_slice_password, :perform_login) %>" method="POST" accept-charset="utf-8">
+<form action="/login" method="POST" accept-charset="utf-8">
   <input type="hidden" name="_method" value="PUT" />
 
   <label><%= @login_param.to_s.capitalize %></label>
@@ -11,6 +11,8 @@
 
   <label><%= @password_param.to_s.capitalize %></label>
   <input type="password" name="<%= @password_param.to_s %>" value="" id="<%= @password_param.to_s %>"><br/>
-  <label>Remember me? </label><input type="checkbox" id="remember_me" name="remember_me" value="1">
+  <label>Remember me? </label>
+  <input type="checkbox" id="remember_me" name="remember_me" value="1">
   <input type="submit" name="Submit" value="Log In" id="Submit">
+  <h5><%= link_to "forgot your password?", '/forgot_password'%></h5>
 </form>

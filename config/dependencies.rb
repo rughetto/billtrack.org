@@ -15,6 +15,7 @@ dependency "merb-auth-slice-password",    merb_gems_version
 dependency "ck-merb-auth-slice-activation", '1.0.7.2',          :require_as => "merb-auth-slice-activation"
 dependency "rughetto-merb-auth-slice-password-reset", '0.9.13', :require_as => "merb-auth-slice-password-reset"
 dependency "rughetto-merb-auth-remember-me", '0.0.2',           :require_as => "merb-auth-remember-me"
+  # need to upgrade this to 0.0.3 after the gem is built
 
 dependency "merb-param-protection",       merb_gems_version
 dependency "merb-exceptions",             merb_gems_version

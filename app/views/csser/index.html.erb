@@ -3,14 +3,13 @@
 </div>  
 
 <div id="secondary">
-  <div id="member" class="white_border">
-    <h2>Member/Login Block</h2>
-  </div>
+  <% unless @authenticated %>
+    <div id="member" class="login white_border">
+      <%= partial login_partial %>
+    </div>
+  <% end -%>
   <div id="news" class="white_border">
     <h2>News ...</h2>
   </div>
-</div>  
-
-<%# clunk %>
-  
+</div>    
   

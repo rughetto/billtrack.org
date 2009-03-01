@@ -23,6 +23,7 @@
             
             <% if session.authenticated? -%>
               <li class="first"><%= link_to 'My Bill Track', '/home' %></li>
+              <li><%= link_to 'Logout', 'logout' %></li>
             <% else -%>  
               <li class="first">
                 <%= link_to 'Sign up', '/signup' %> 
