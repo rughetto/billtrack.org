@@ -12,9 +12,9 @@ dependency "merb-auth",                   merb_gems_version
 dependency "merb-auth-core",              merb_gems_version
 dependency "merb-auth-more",              merb_gems_version
 dependency "merb-auth-slice-password",    merb_gems_version
-dependency "ck-merb-auth-slice-activation",                 :require_as => "merb-auth-slice-activation"
-dependency "rughetto-merb-auth-slice-password-reset",       :require_as => "merb-auth-slice-password-reset"
-dependency "rughetto-merb-auth-remember-me",                :require_as => "merb-auth-remember-me"
+dependency "ck-merb-auth-slice-activation", '1.0.7.2',          :require_as => "merb-auth-slice-activation"
+dependency "rughetto-merb-auth-slice-password-reset", '0.9.13', :require_as => "merb-auth-slice-password-reset"
+dependency "rughetto-merb-auth-remember-me", '0.0.2',           :require_as => "merb-auth-remember-me"
 
 dependency "merb-param-protection",       merb_gems_version
 dependency "merb-exceptions",             merb_gems_version
