@@ -121,4 +121,57 @@ describe Member do
     end  
   end  
 
+  describe "roles and permissions: " do
+    before(:each) do
+      @member = Member.new
+    end  
+    
+    it "roles should return an array" do
+      @member[:roles] = 'admin, issues'
+      @member.roles.class.should == Array
+    end
+      
+    it 'roles array should contain a set of symbols' do
+      @member[:roles] = 'admin, issues'
+      @member.roles.each do |role|
+        role.class.should == Symbol
+      end  
+      # testing return of array values when passed an array of strings
+      @member[:roles] = nil
+      @member.roles = ['admin', 'issues']
+      @member.roles.each do |role|
+        role.class.should == Symbol
+      end  
+    end
+      
+    it 'roles= should take either a string or an array' do
+      lambda {@member.roles = 'admin, issues'}.should_not raise_error
+      lambda {@member.roles = [:this, :that] }.should_not raise_error
+      lambda {@member.roles = {}}.should raise_error
+    end
+      
+    it 'roles should only output values in Member.acceptable_roles' do
+      pending
+      @member.roles = 'admin, issues, garbage'
+      @member.roles.should == [:admin, :issues]
+    end  
+    
+    it 'has_permissions? should always be true if roles include :admin' do
+      @member.roles = 'admin'
+      @member.has_permissions?( 'Anything' ).should == true
+    end
+      
+    it 'has_permissions? should be true if roles include symbol related to controller' do
+      controller = mock('Issues')
+      controller.stub!(:to_s).and_return( 'Issues' )
+      @member.roles = 'issues'
+      @member.has_permissions?( controller ).should == true
+    end  
+    
+    it 'has_permissions? should be false if not an admin and does not have permissions for the controller' do
+      controller = mock('Issues')
+      controller.stub!(:to_s).and_return( 'Issues' )
+      @member.has_permissions?( controller ).should == false
+    end  
+  end  
 end

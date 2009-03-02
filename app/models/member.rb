@@ -82,4 +82,56 @@ class Member < ActiveRecord::Base
     self.party_id = p.id
   end  
   
+  # PERMISSIONS ====================
+  def roles
+    if @roles.blank?
+      if self[:roles] == nil
+        @roles = []
+      else  
+        @roles ||= self[:roles].split(self.class.role_seperator).collect(&:to_sym)
+        @roles = check_roles( @roles )
+      end  
+    end
+    @roles  
+  end
+  
+  def roles=(r)
+    if r.class == String
+      self[:roles] = r
+      clear_roles_ivar
+    elsif r.class == Array
+      self[:roles] = r.join(self.class.role_seperator)
+      clear_roles_ivar
+    elsif r.nil?
+      self[:roles] = nil
+      clear_roles_ivar
+    else  
+      raise ArgumentError, 'argument must be either a String (of comma seperated values), or an Array of strings'
+    end  
+    roles
+  end 
+  
+  private
+    def clear_roles_ivar
+      @roles = nil
+    end  
+  public  
+  
+  def self.role_seperator
+    ', '
+  end   
+  
+  def self.acceptable_roles
+    [:admin, :issues]
+  end   
+  
+  def check_roles( r )
+    # intersection of r and self.class.acceptable_roles
+    r
+  end  
+  
+  def has_permissions?( controller )
+    roles.include?(:admin) || roles.include?(controller.to_s.downcase.to_sym)
+  end   
+  
 end
