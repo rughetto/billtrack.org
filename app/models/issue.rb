@@ -16,6 +16,10 @@ class Issue < ActiveRecord::Base
     (self[:status] ||= self.class.statuses.first).to_sym
   end  
   
+  def status=( s )
+    self[:status] = s.to_s
+  end  
+  
   def self.statuses
     @statuses ||= [:suggested, :approved]
   end  
@@ -28,6 +32,12 @@ class Issue < ActiveRecord::Base
     next_index = status_index + 1
     self.status = self.class.statuses[next_index] unless next_index >= self.class.statuses.size
   end
+  
+  def advance_status!
+    advance_status
+    save
+    status
+  end  
   
     
   

@@ -6,6 +6,7 @@ describe Issue do
 
   describe 'status machine' do
     before(:each) do
+      Issue.delete_all
       @issue = Issue.new
     end  
     
@@ -16,6 +17,11 @@ describe Issue do
     it 'status should always be delivered as a symbol' do
       @issue.status.class.should == Symbol
       @issue.status = 'suggested'
+      @issue.status.class.should == Symbol
+      # check to make sure it is saving properly as a string and not as a packed symbol
+      @issue.save
+      @issue.reload
+      @issue.status.should == :suggested
       @issue.status.class.should == Symbol
     end  
     
@@ -38,6 +44,12 @@ describe Issue do
       @issue.advance_status
       @issue.status.should == :approved
     end
+    
+    it 'after status is advanced it should be a symbol' do
+      @issue.advance_status!
+      @issue.reload
+      @issue.status.should == :approved
+    end  
   end  
 
 end

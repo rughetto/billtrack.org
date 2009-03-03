@@ -1,3 +1,5 @@
+# NEED TO LOCK DOWN attr_accessibility for roles
+
 class Member < ActiveRecord::Base
   # INCLUSIONS & EXTENSIONS ======
   include Merb::Authentication::Mixins::ActivatedUser

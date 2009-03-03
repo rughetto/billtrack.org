@@ -47,13 +47,19 @@
   </div>  
   
 
-  <div id="secondary">
-    <div class="white_border">
-      <% if @bill.legislative_issues.size > 0 %>
+  <div id="secondary" >
+    <% if @authenticated -%>
+      <%= form_for Issue.new, :action => url(:issue, :new), :class => 'white_border' do %>
+        <h2>Suggest an issue for this bill</h2>
+        
+      <% end =%>
+    <% end -%>
+    <% if @bill.legislative_issues.size > 0 %>
+      <div class="white_border">
         <h2>Legislative Issues</h2>
         <% for @issue in @bill.legislative_issues %>
           <%= @issue.name %><% unless @issue == @bill.legislative_issues.last %>,<% end -%>
         <% end -%>
-      <% end -%>
-    </div>
+      </div>
+    <% end -%>
   </div>
