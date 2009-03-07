@@ -51,5 +51,16 @@ describe BillIssue do
     bill_issue.issue.status.should == :suggested
   end  
   
-  it 'should create related politician_issue records'
+  it 'should find or create related politician_issue records if status is approved' do
+    PoliticianIssue.delete_all
+    Bill.delete_all
+    bill = Bill.create(:congressional_session => '111', :chamber => 's', :number => '14' )
+    bill.should_not be_new_record
+    puts bill.inspect
+    BillCoSponsor.create( :politician_id => 1, :bill_id => bill.id )
+    BillSponsor.create( :politician_id => 2, :bill_id => bill.id )
+    BillSponsor.create( :politician_id => 3, :bill_id => bill.id )
+    bill_issue = BillIssue.create(:issue_name => 'first', :bill_id => bill.id, :user_permissions =>[:admin] )
+    PoliticianIssue.count.should == 3
+  end  
 end

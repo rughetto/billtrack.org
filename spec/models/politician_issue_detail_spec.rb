@@ -1,9 +1,13 @@
 require File.join( File.dirname(__FILE__), '..', "spec_helper" )
 
-describe PoliticianIssue do
+describe PoliticianIssueDetail do
+  before(:each) do
+    
+  end  
+  
   describe 'validation' do
     before(:each) do
-      @pi = PoliticianIssue.new
+      @pi = PoliticianIssueDetail.new
     end  
     it 'should require a congerssional session' do
       @pi.issue_id = 1
@@ -20,29 +24,40 @@ describe PoliticianIssue do
   end  
   
   describe 'adding a record' do
-    it 'should find or intialize'
-    it 'should increment the issue cache'
-    it 'should save the calculation'
+    before(:each) do
+      CongressionalSession.stub!(:first).and_return( 111 )
+      CongressionalSession.stub!(:number_of_sessions).and_return( 5 )
+      PoliticianIssueDetail.delete_all
+      @detail = PoliticianIssueDetail.make
+    end  
+    
+    it 'should find or intialize' do
+      @found = PoliticianIssueDetail.add( @detail.attributes )
+      @found.should_not be_new_record
+    end  
+
+    it 'should increment the issue cache' do
+      @found = PoliticianIssueDetail.add( @detail.attributes )
+      @found.issue_count.should == ( @detail.issue_count + 1 )
+    end
   end 
   
   describe 'calculating score' do
     before(:all) do
-      PoliticianIssue.delete_all
-      CongressionalSession.first
+      PoliticianIssueDetail.delete_all
       CongressionalSession.stub!(:first).and_return( 111 )
       CongressionalSession.stub!(:number_of_sessions).and_return( 5 )
       (1..10).each do |num|
-        p = PoliticianIssue.make
-        puts p.inspect
+        PoliticianIssueDetail.make
       end 
-      @highest = PoliticianIssue.create(
+      @highest = PoliticianIssueDetail.create(
         :politician_role => 'Sponsor',
         :politician_id => 15,
         :session => 115, 
         :issue_id => 1, 
         :issue_count => 12
       )
-      @lowest = PoliticianIssue.create(
+      @lowest = PoliticianIssueDetail.create(
         :politician_role => 'CoSponsor',
         :politician_id => 15,
         :session => 111, 
@@ -83,18 +98,12 @@ describe PoliticianIssue do
     end  
     
     it 'for identical session and issue count, a bill sponsor should get a higher score than a bill cosponsor' do
-      @coed = @highest.clone
+      @coed = PoliticianIssueDetail.new( @highest.attributes )
       @coed.politician_id = 30
       @coed.politician_role = 'CoSponsor'
+      @coed.save
       (@coed.score < @highest.score).should == true
     end
   end   
   
-  describe 'relationships' do
-    it 'should have a politician'
-    it 'should have a issue'
-  end  
-  
-  
-
 end

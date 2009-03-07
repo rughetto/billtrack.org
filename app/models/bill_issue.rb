@@ -10,8 +10,8 @@ class BillIssue < ActiveRecord::Base
     @bill ||= Bill.find_by_sql(
       "SELECT bills.* FROM 
       billtrack_data.bills
-      WHERE bill_id = #{self.bill_id.to_i}"
-    )
+      WHERE id = #{self.bill_id.to_i}"
+    ).first
   end 
   def bill=( b )
     if b.class == String || b.class == Fixnum
@@ -35,9 +35,22 @@ class BillIssue < ActiveRecord::Base
         issue.advance_status! if has_permissions?
       end
       self.issue_id = issue.id
-      issue
     end  
+    issue
   end
+  
+  before_save :generate_politician_issues, :if => :has_permissions?
+  def generate_politician_issues
+    sponsors = bill.sponsors << bill.cosponsors
+    sponsors.each do |s|
+      PoliticianIssue.add(
+        :issue_id => issue_id, 
+        :politician_id => s.politician_id, 
+        :session => bill.congressional_session,
+        :politician_role => s.class.to_s
+      ).save
+    end 
+  end  
     
   # INSTANCE METHODS ===================
   

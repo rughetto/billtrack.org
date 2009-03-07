@@ -1,6 +1,6 @@
 class CongressionalSession
   def self.current
-    @current ||= PoliticianIssue.maximum(:session)
+    @current ||= PoliticianIssue.maximum(:session) || 111
   end
   
   def self.first

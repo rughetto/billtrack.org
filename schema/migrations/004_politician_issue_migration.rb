@@ -3,6 +3,7 @@ class PoliticianIssueMigration < ActiveRecord::Migration
     create_table :politician_issues do |t|
       t.integer :politician_id
       t.integer :issue_id
+      t.string  :type
       t.integer :issue_count, :default => 0
       t.decimal :score,       :precision => 5,  :scale => 2
       t.string  :politician_role

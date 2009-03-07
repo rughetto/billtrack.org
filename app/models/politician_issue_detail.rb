@@ -1,7 +1,10 @@
 # this whole model is a database shortcut to statistics about the bill_issues
 # it should be able to be deleted and recalculated at will. It should also be
-# dynamic and tied into BillIssue creation and deletion.
-class PoliticianIssue < ActiveRecord::Base
+# dynamic and tied into BillIssue creation and deletion. Each record has is 
+# dependent on a politician, session and an issue. Its parent class is the 
+# furter distilled calculation that is not dependent only on Politicians and
+# Issues.
+class PoliticianIssueDetail < PoliticianIssue
   # ATTIRBUTES ===========================
     # t.integer :politician_id
     # t.integer :issue_id
@@ -11,41 +14,26 @@ class PoliticianIssue < ActiveRecord::Base
     # t.string  :politician_role
     # t.integer :session
   
-  # RELATIONSHIPS ========================
-  def politician
-    @politician ||= Politician.find_by_sql(
-      "SELECT politicians.* FROM 
-      billtrack_data.politicians
-      WHERE politician_id = #{self.politician_id.to_i}"
-    )
-  end 
-  def politician=( p )
-    if p.class == String || p.class == Fixnum
-      self.politician_id = p
-    elsif p.class = Bill
-      self.politician_id = p.id
-    else
-      raise ArgumentError, 'must be a bill of bill id'  
-    end    
-  end  
-   
-  belongs_to :issue
-  
   # VALIDATIONS ==========================
-  validates_presence_of :politician_id, :issue_id
+  validates_presence_of :session
   
   # HOOKS ================================
   before_save :calculate_score
   
   # ISSUE SCORING/RATING ========================
+  # If an issue link is not related to a current session then it should be worth less than current issues
+  def issue_count
+    self[:issue_count] ||= 0
+  end  
+  
+  def increment_count
+    self.issue_count += 1
+  end  
   
   def calculate_score
     combined_score = issue_score * session_score * sponsor_score
     self.score = combined_score < 1 ? 1.0 : combined_score
   end
-  
-  def scale_score( opts={} )
-  end  
   
   def max_issue_count_for_politician
     [ self.class.maximum( :issue_count, :conditions => {:politician_id => self.politician_id} ) || 1, issue_count || 0].max
@@ -71,13 +59,13 @@ class PoliticianIssue < ActiveRecord::Base
     politician_role == "Sponsor" ? 1.0 : 0.5
   end 
   
-  def self.rebuild_scores
-    
-  end     
+  
+  # CLASS METHODS ================================
   
   # class method to add from BillIssue on creation
   def self.add(hash)
     added = find_or_initialize_by( hash )
-    added.increment_counter
+    added.increment_count
+    added
   end  
 end
