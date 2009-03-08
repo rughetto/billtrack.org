@@ -1,10 +1,16 @@
 require File.join( File.dirname(__FILE__), '..', "spec_helper" )
 
 describe Issue do
-  describe 'validations' do
+  describe 'validations:' do
+    it 'should have a unique name' do
+      Issue.create(:name => 'unique')
+      issue = Issue.new(:name => 'unique')
+      issue.should_not be_valid
+      issue.errors.on(:name).should_not be_nil
+    end  
   end  
 
-  describe 'status machine' do
+  describe 'status machine:' do
     before(:each) do
       Issue.delete_all
       @issue = Issue.new
@@ -52,4 +58,9 @@ describe Issue do
     end  
   end  
 
+  describe 'counter cache and tag sizing:' do
+    it 'usage count should increase when a new bill_issue refers to the tag'
+    it 'after the issue is saved the '
+  end  
+  
 end

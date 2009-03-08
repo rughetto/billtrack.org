@@ -9,6 +9,7 @@ class IssueMigration < ActiveRecord::Migration
       t.integer :lft
       t.integer :rgt
       t.integer :suggested_by # Member
+      t.integer :usage_count, :default => 0
     end
     
     add_index :issues, [:lft], :name => "issues_lft"

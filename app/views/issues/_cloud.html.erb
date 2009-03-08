@@ -2,7 +2,7 @@
   <h2 class="first">Issues</h2>
   <% for issue in @issues -%>
     <% last = @issues.last %>
-    <%= link_to issue.name, resource(issue), :class => 'tag', :style => tag_styling(issue) %>
-    <% unless issue == last %>, <% end %>
+    <%= link_to issue.name, resource(issue), :class => 'tag', :style => tag_styling(issue) %><% 
+      unless issue == last %>, <% end %>
   <% end -%>
 </div>

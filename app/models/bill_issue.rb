@@ -25,7 +25,7 @@ class BillIssue < ActiveRecord::Base
     end    
   end  
    
-  belongs_to :issue
+  belongs_to :issue, :counter_cache => :usage_count
   
   # HOOKS =============================
   def before_create 
