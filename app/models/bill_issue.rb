@@ -4,6 +4,7 @@ class BillIssue < ActiveRecord::Base
   # t.integer :issue_id
   attr_accessor :issue_name
   attr_accessor :user_permissions
+  attr_accessible :bill_id, :issue_id, :issue_name
   
   # RELATIONSHIPS ===================
   def bill

@@ -42,17 +42,23 @@ describe BillIssue do
   end  
   
   it 'should create an approved issue when user is an administrator' do
-    bill_issue = BillIssue.create(:issue_name => 'first', :user_permissions => [:admin], :bill_id => @bill.id )
+    bill_issue = BillIssue.new(:issue_name => 'first', :bill_id => @bill.id )
+    bill_issue.user_permissions = [:admin]
+    bill_issue.save
     bill_issue.issue.status.should == :approved
   end
     
   it 'should create an approved issue when user has permissions to administer issue' do
-    bill_issue = BillIssue.create(:issue_name => 'first', :user_permissions => [:issues], :bill_id => @bill.id )
+    bill_issue = BillIssue.new(:issue_name => 'first', :bill_id => @bill.id )
+    bill_issue.user_permissions = [:issues]
+    bill_issue.save
     bill_issue.issue.status.should == :approved
   end
     
   it 'should create a suggested issue when user does not have admin permissions for issues' do
-    bill_issue = BillIssue.create(:issue_name => 'first', :user_permissions => [], :bill_id => @bill.id)
+    bill_issue = BillIssue.new(:issue_name => 'first', :bill_id => @bill.id)
+    bill_issue.user_permissions = []
+    bill_issue.save
     bill_issue.issue.status.should == :suggested
   end  
   
@@ -60,7 +66,9 @@ describe BillIssue do
     BillCoSponsor.create( :politician_id => 1, :bill_id => @bill.id )
     BillSponsor.create( :politician_id => 2, :bill_id => @bill.id )
     BillSponsor.create( :politician_id => 3, :bill_id => @bill.id )
-    bill_issue = BillIssue.create(:issue_name => 'first', :bill_id => @bill.id, :user_permissions =>[:admin] )
+    bill_issue = BillIssue.new(:issue_name => 'first', :bill_id => @bill.id )
+    bill_issue.user_permissions = [:admin]
+    bill_issue.save
     PoliticianIssueDetail.count.should == 3
     PoliticianIssue.count( :conditions => {:type => nil} ).should == 3
   end  
