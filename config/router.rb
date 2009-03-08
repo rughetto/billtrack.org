@@ -10,9 +10,11 @@ Merb::Router.prepare do
   resources :bills
   resources :issues
 
-  # authenticate do
-    # ...
-  # end
+  authenticate do
+    namespace :admin do 
+      resources :issues
+    end  
+  end
 
   # this should change to a dashboard controller 
   #   with index being the unlogged in home page
