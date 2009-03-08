@@ -28,7 +28,8 @@ class Bill < ApiData
   has_many :cosponsors,           :through => :bill_sponsors, :conditions => 'bill_sponsors.type = "BillCoSponsor"', :source => :sponsor  
   has_many :relateds,             :class_name => "RelatedBill"
   has_many :related_bills,        :through => :relateds
-   
+
+ 
   # INSTANCE_METHODS ======================================= 
   # text_helpers -----------
   def title_short

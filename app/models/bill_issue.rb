@@ -26,31 +26,43 @@ class BillIssue < ActiveRecord::Base
   belongs_to :issue
   
   # HOOKS =============================
-  before_create :find_or_create_issue
+  def before_create 
+    find_or_create_issue
+    generate_politician_issues if :permissioned_and_approved?
+  end
+    
   def find_or_create_issue
     if issue_name
-      issue = Issue.find_by( :name => issue_name )
-      unless issue 
-        issue = Issue.create( :name => issue_name )
-        issue.advance_status! if has_permissions?
-      end
+      self.issue = Issue.find_or_create_by( :name => issue_name )
+      self.issue.advance_status! if has_permissions?
       self.issue_id = issue.id
     end  
     issue
   end
   
-  before_save :generate_politician_issues, :if => :has_permissions?
+  # only do this on save if not already being done inside before_create (which applies order contraints)
+  before_save :generate_politician_issues, :if => :permissioned_approved_and_existing?
+  
   def generate_politician_issues
-    sponsors = bill.sponsors << bill.cosponsors
+    # bill.sponsors + bill.cosponsors not working even after bill is reloaded
+    sponsors = BillSponsor.all(:conditions => {:bill_id => bill.id } )
     sponsors.each do |s|
-      PoliticianIssue.add(
+      PoliticianIssueDetail.add(
         :issue_id => issue_id, 
         :politician_id => s.politician_id, 
         :session => bill.congressional_session,
         :politician_role => s.class.to_s
       ).save
     end 
-  end  
+  end 
+  
+  def permissioned_and_approved?
+    has_permissions? && issue && issue.status == :approved
+  end 
+  
+  def permissioned_approved_and_existing?
+    has_permissions? && !new_record? && issue && issue.status == :approved
+  end    
     
   # INSTANCE METHODS ===================
   

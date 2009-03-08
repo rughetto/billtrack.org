@@ -11,9 +11,13 @@ class Issue < ActiveRecord::Base
   
   # RELATIONSHIPS ==============
 
+  # HOOKS ======================
+  before_create :status
+  
+  # INSTANCE METHODS ===========
   # status, state machine
   def status
-    (self[:status] ||= self.class.statuses.first).to_sym
+    (self[:status] ||= self.class.statuses.first.to_s).to_sym
   end  
   
   def status=( s )
