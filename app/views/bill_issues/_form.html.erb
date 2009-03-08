@@ -1,0 +1,5 @@
+<%= form_for @bill_issue, :action => resource(:bill_issues) do %>
+  <%= text_field :issue_name %> <%# want this to have a drop down list of existing issues %>
+  <%= hidden_field :bill_id, :value => @bill.id %>
+  <%= submit issues_text, :class => 'ajax_form' %> <%# want to ajax the form in! %>
+<% end =%>    

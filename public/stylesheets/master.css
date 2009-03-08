@@ -43,6 +43,10 @@ h1 .pagination { display: inline; margin-left: 25px;}
 .politicians.show #bills p { display: inline; line-height: 1.5;}
 .politicians.show #bills p.cosponsored { display:block; padding-left: 15px;}
 
+.bills.show form { padding: 0px; margin: 3px; }
+.bills.show form input[type='submit'] { padding: 1px 10px; margin-left: 12px;}
+
+
 /* Login and authentication forms */
 .unauthenticated #main { width: 25%; }
 .login label { display:inline; margin: 0px; padding: 0px;}
@@ -66,7 +70,7 @@ h1 .pagination { display: inline; margin-left: 25px;}
 
 /* TEXT -------------------------- */
 * { text-decoration: none; }
-body { font-family: 'Trebuchet MS', Truebuchet, Veranda, sans-serif; font-size: 14px; text-align: left; }
+body { font-family: 'Trebuchet MS', Truebuchet, Veranda, sans-serif; font-size: 15px; text-align: left; }
 h1, h2, h4 { font-family: Georgia, serif;  }
 h1 { font-size: 32px; line-height: 1.4; font-weight: normal; letter-spacing: 0.05em;}
 h2 { font-size: 18px; margin-bottom: 6px; }
@@ -88,9 +92,14 @@ input[type="submit"] { font-family: Georgia, serif; font-size: 16px; }
 
 .politicians.show #bills h3 { font-size: 16px; font-family: Georgia, serif;}
 .politicians.show #bills h4 { font-family: 'Trebuchet MS', Truebuchet, Veranda, sans-serif; font-size: 14px;}
+
 .unauthenticated #main label { text-align: left;}
 .unauthenticated #secondary h3 { font-size: 17px; }
 .unauthenticated #secondary h2 { font-size: 24px; font-weight: normal; }
+
+.bills.show #main h2 { line-height: 1.6; font-size: 16px;}
+.bills.show #main li { margin-bottom: 3px;}
+.bills.show form input[type='submit'] { font-size: 12px;}
 
 /* COLOR ------------------------- */
 body { background: #284c6f url("../images/background_body.png") repeat-y top center;}
@@ -122,6 +131,15 @@ input[type="submit"]:active { border: 2px solid #a63a3a; border-left: 2px solid 
 .district_map { border: 4px solid white; }
 .headshot { border: 4px solid white;}
 .error * { color: #790909;}
+/* party  */
+.democrat { color: #092743;}
+.republican { color: #4d0505;}
+a.democrat          { color: #092743;}
+a.democrat:visited  { color: #253f58;}
+a.democrat:hover    { color: #0758a7;}
+a.republican          { color: #4d0505; }
+a.republican:visited  { color: #5d3030;}
+a.republican:hover    { color: #790909;}
 
 #content a { border-bottom: 1px solid #999; }
 #content a:hover, #content a:active { border-bottom: 1px solid #666; }

@@ -9,6 +9,7 @@ Merb::Router.prepare do
   resources :politicians
   resources :bills
   resources :issues
+  resources :bill_issues
 
   authenticate do
     namespace :admin do 

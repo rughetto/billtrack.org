@@ -9,8 +9,12 @@ class Bills < Application
 
   # GET /bills/:id
   def show
-    @bill = Bill.find_by_id(params[:id])
+    @bill = Bill.find_by_id( 
+      params[:id],
+      :include => [:legislative_issues, :issues, :actions, :statuses ]
+    )
     raise NotFound unless @bill
+    @bill_issue = BillIssue.new if @authenticated
     display @bill
   end
   

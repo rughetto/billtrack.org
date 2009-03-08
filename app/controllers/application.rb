@@ -14,10 +14,13 @@ class Application < Merb::Controller
   
   # permissions system
     def ensure_permissioned
-      unless (  session.user.roles.include?( controller_permission_symbol ) ||
-                session.user.roles.include?( :admin ) ) 
-        raise Forbidden
-      end  
+      raise Forbidden unless has_permissions?
+    end  
+    
+    def has_permissions?
+      session.user && 
+      ( session.user.roles.include?( controller_permission_symbol ) ||
+        session.user.roles.include?( :admin ) )
     end  
   
     private

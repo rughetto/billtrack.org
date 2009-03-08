@@ -43,6 +43,10 @@ class Issue < ActiveRecord::Base
     status
   end  
   
+  # tag sizing in clouds
+  def tag_size
+    1 # need to build this in
+  end  
     
   
 end

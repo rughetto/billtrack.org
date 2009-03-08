@@ -4,6 +4,7 @@ class BillIssue < ActiveRecord::Base
   # t.integer :issue_id
   attr_accessor :issue_name
   attr_accessor :user_permissions
+  attr_accessor :suggested_by
   attr_accessible :bill_id, :issue_id, :issue_name
   
   # RELATIONSHIPS ===================
@@ -34,7 +35,7 @@ class BillIssue < ActiveRecord::Base
     
   def find_or_create_issue
     if issue_name
-      self.issue = Issue.find_or_create_by( :name => issue_name )
+      self.issue = Issue.find_or_create_by( :name => issue_name, :suggested_by => suggested_by )
       self.issue.advance_status! if has_permissions?
       self.issue_id = issue.id
     end  
@@ -72,4 +73,9 @@ class BillIssue < ActiveRecord::Base
   def has_permissions? 
     user_permissions && ( user_permissions.include?( :issues ) || user_permissions.include?( :admin ) )
   end   
+  
+  def permissions_data=( user )
+    self.user_permissions = user.roles
+    self.suggested_by = user.id
+  end  
 end

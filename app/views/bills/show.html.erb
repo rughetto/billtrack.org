@@ -8,14 +8,14 @@
     <p>
       <b>Introduced:</b> <%= @bill.introduced_at.to_s(:us_date) %>
       by <% for @sponsor in @bill.sponsors -%>
-        <%= link_to( @sponsor.name, url(:politician, @sponsor ) ) %>
+        <%= link_to( @sponsor.name, url(:politician, @sponsor ), :class => @sponsor.party.name.downcase ) %>
       <% end -%>
     </p>
     <p>
       <b>Bill Cosponsors:</b>
       <ul>
         <% for @sponsor in @bill.cosponsors -%>
-          <li><%= link_to( @sponsor.name, url(:politician, @sponsor ) ) %></li>
+          <li><%= link_to( @sponsor.name, url(:politician, @sponsor ), :class => @sponsor.party.name.downcase ) %></li>
         <% end -%>  
       </ul>
     </p>
@@ -48,13 +48,23 @@
   
 
   <div id="secondary" >
-    <% if @authenticated -%>
-      <%= form_for Issue.new, :action => url(:issue, :new), :class => 'white_border' do %>
-        <h2>Suggest an issue for this bill</h2>
-        
-      <% end =%>
+    <% if @bill.issues.size > 0 -%>
+      <% @issues = @bill.issues -%>  
+      <%= partial 'issues/cloud' %>
     <% end -%>
-    <% if @bill.legislative_issues.size > 0 %>
+    
+    <% if @authenticated -%>
+      <div class="white_border">
+        <h2><%= issues_text %> an issue for this bill</h2>
+        <%= partial 'bill_issues/form' %>
+      </div>  
+    <% end -%>
+    
+    <%# 
+      Legislative Issues are an administrative tool for determining user friendly issues.
+      Therefore, they will show up only if some exist and the user is an administrator.
+    %>
+    <% if has_permissions? && @bill.legislative_issues.size > 0 %>
       <div class="white_border">
         <h2>Legislative Issues</h2>
         <% for @issue in @bill.legislative_issues %>
@@ -62,4 +72,5 @@
         <% end -%>
       </div>
     <% end -%>
+    
   </div>

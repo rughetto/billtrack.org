@@ -62,6 +62,24 @@ describe BillIssue do
     bill_issue.issue.status.should == :suggested
   end  
   
+  it 'should create an issue with information about who suggested it if that is provided' do
+    bill_issue = BillIssue.new(:issue_name => 'first', :bill_id => @bill.id)
+    bill_issue.user_permissions = []
+    bill_issue.suggested_by = 144
+    bill_issue.save
+    bill_issue.issue.suggested_by.should == 144
+  end  
+  
+  it 'should populate user data using permissions_data=' do
+    bill_issue = BillIssue.new(:issue_name => 'first', :bill_id => @bill.id)
+    Member.delete_all
+    member = Member.new(:roles => 'admin', :username => 'someone')
+    member.save(false)
+    bill_issue.permissions_data = member
+    bill_issue.user_permissions.should == [:admin]
+    bill_issue.suggested_by.should_not be_nil
+  end  
+  
   it 'should find or create related politician_issue records if status is approved' do
     BillCoSponsor.create( :politician_id => 1, :bill_id => @bill.id )
     BillSponsor.create( :politician_id => 2, :bill_id => @bill.id )
