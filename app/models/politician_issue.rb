@@ -1,6 +1,7 @@
 # this whole model is a database shortcut to statistics about the bill_issues
 # it should be able to be deleted and recalculated at will. It should also be
 # dynamic and tied into BillIssue creation and deletion.
+
 class PoliticianIssue < ActiveRecord::Base
   # ATTIRBUTES ===========================
     # t.integer :politician_id
@@ -10,14 +11,17 @@ class PoliticianIssue < ActiveRecord::Base
     # t.integer :score,       :default => 0
     # t.string  :politician_role
     # t.integer :session
+  attr_accessor :child_score  
+  attr_accessor :debug_it
+    
   
   # RELATIONSHIPS ========================
   def politician
     @politician ||= Politician.find_by_sql(
       "SELECT politicians.* FROM 
       billtrack_data.politicians
-      WHERE politician_id = #{self.politician_id.to_i}"
-    )
+      WHERE id = #{self.politician_id.to_i}"
+    ).first
   end 
   def politician=( p )
     if p.class == String || p.class == Fixnum
@@ -31,53 +35,77 @@ class PoliticianIssue < ActiveRecord::Base
    
   belongs_to :issue
   
+  def details
+    @details ||= PoliticianIssueDetail.all(
+      :conditions => {:politician_id => politician_id, :issue_id => issue_id }
+    )
+  end
+  attr_writer :details
+  
+  def siblings
+    @siblings ||= PoliticianIssue.all(
+      :conditions => ["politician_id = ? and issue_id != ? AND ISNULL(type)", politician_id, issue_id ]
+    )
+  end  
+  attr_writer :siblings
+  
   # VALIDATIONS ==========================
-  validates_presence_of :politician_id, :issue_id
+  validates_presence_of :politician_id, :issue_id, :score, :issue_count
+  validate :validate_numbers_greater_than_zero
+  
+  def validate_numbers_greater_than_zero
+    errors.add(:issue_count, 'must be greater than 0')  unless issue_count > 0
+    errors.add(:score, 'must be greater than 0')        unless score > 0
+  end  
+  
   
   # HOOKS ================================
-  before_save :calculate_score
+  before_validation :calculate_score
   
-  # ISSUE SCORING/RATING ========================
+  # called by PoliticianIssueSpec in add method
+  def recalc_siblings
+    siblings.each do |s|
+      s.score_will_change!
+      s.save # recalculates score
+    end
+    siblings = nil # clears existing set
+    siblings # returns recalculated set
+  end  
   
+  # ISSUE SCORING/RATING =================
   def calculate_score
-    combined_score = issue_score * session_score * sponsor_score
-    self.score = combined_score < 1 ? 1.0 : combined_score
+    calculate_issue_count
+    score = ( ( issue_count.to_f - min_issue_count_for_politician.to_f ) / score_denomenator ) * 10
+    self.score = score < 1 ? 1.0 : score
   end
   
-  def scale_score( opts={} )
+  def score_denomenator
+    denomenator = ( max_issue_count_for_politician.to_f - min_issue_count_for_politician.to_f )
+    denomenator == 0 ? 1 : denomenator
+  end  
+  
+  def calculate_issue_count
+    self.issue_count = PoliticianIssueDetail.sum( 
+      :score, 
+      :conditions => {
+        :politician_id => politician_id, 
+        :issue_id => issue_id 
+      }
+    ).round + ( child_score || 0 ).round
+  end  
+  
+  def issue_count
+    self[:issue_count] ||= 0
   end  
   
   def max_issue_count_for_politician
-    [ self.class.maximum( :issue_count, :conditions => {:politician_id => self.politician_id} ) || 1, issue_count || 0].max
-  end  
-  
-  # should be from 1 to 10 
-  def issue_score
-    ic = ( issue_count.to_f / max_issue_count_for_politician.to_f ) * 10
-    ic < 1 ? 1.0 : ic
-  end  
-  
-  # a fraction of 1 or 1, not zero
-  # if two total sessions then values are 1/2 and 1
-  # if three total sessions then values are 1/3, 2/3, 1
-  # etc ... 
-  def session_score
-    (session.to_f - CongressionalSession.first + 1) /
-    ( CongressionalSession.number_of_sessions.to_f ) 
-  end  
-  
-  # should be either 1/2 or 1
-  def sponsor_score
-    politician_role == "Sponsor" ? 1.0 : 0.5
+    [ self.class.maximum( :issue_count, :conditions => {:politician_id => self.politician_id, :type => nil} ) || 1, 
+      issue_count ].max
   end 
   
-  def self.rebuild_scores
-    
-  end     
+  def min_issue_count_for_politician
+    [ self.class.minimum( :issue_count, :conditions => {:politician_id => self.politician_id, :type => nil} ) || 1, 
+      issue_count ].min
+  end 
   
-  # class method to add from BillIssue on creation
-  def self.add(hash)
-    added = find_or_initialize_by( hash )
-    added.increment_counter
-  end  
 end

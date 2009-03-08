@@ -4,6 +4,7 @@
 # dependent on a politician, session and an issue. Its parent class is the 
 # furter distilled calculation that is not dependent only on Politicians and
 # Issues.
+
 class PoliticianIssueDetail < PoliticianIssue
   # ATTIRBUTES ===========================
     # t.integer :politician_id
@@ -17,27 +18,52 @@ class PoliticianIssueDetail < PoliticianIssue
   # VALIDATIONS ==========================
   validates_presence_of :session
   
+  # RELATIONSHIPS ========================
+  def parent
+    @parent ||= PoliticianIssue.first(
+      :conditions => {:politician_id => politician_id, :issue_id => issue_id }
+    )
+  end  
+  attr_writer :parent
+  
+  
   # HOOKS ================================
-  before_save :calculate_score
+  # before_validate :calculate_score # established in PoliticianIssue with this method being overridden below
+  def before_save 
+    regenerate_parent_and_related
+  end  
+  
+  def regenerate_parent_and_related
+    if parent.nil? 
+      self.parent = PoliticianIssue.create( 
+        :politician_id => politician_id, 
+        :issue_id => issue_id,
+        :child_score => score,
+        :debug_it => debug_it 
+      ) 
+    else  
+      parent.child_score = new_record? ? score : 0
+      parent.score_will_change!
+      parent.save
+    end  
+    parent.recalc_siblings
+  end  
+  
   
   # ISSUE SCORING/RATING ========================
   # If an issue link is not related to a current session then it should be worth less than current issues
-  def issue_count
-    self[:issue_count] ||= 0
-  end  
-  
-  def increment_count
-    self.issue_count += 1
-  end  
-  
   def calculate_score
     combined_score = issue_score * session_score * sponsor_score
     self.score = combined_score < 1 ? 1.0 : combined_score
   end
   
-  def max_issue_count_for_politician
-    [ self.class.maximum( :issue_count, :conditions => {:politician_id => self.politician_id} ) || 1, issue_count || 0].max
+  def increment_count
+    self.issue_count += 1
   end  
+  
+  def max_issue_count_for_politician
+    [ self.class.maximum( :issue_count, :conditions => {:politician_id => self.politician_id} ) || 1, issue_count ].max
+  end 
   
   # should be from 1 to 10 
   def issue_score

@@ -1,6 +1,9 @@
 class CongressionalSession
-  def self.current
-    @current ||= PoliticianIssue.maximum(:session) || 111
+  def self.current(opts={})
+    if @current.blank? || opts[:reload]
+      @current ||= PoliticianIssue.maximum(:session) || 111
+    end
+    @current  
   end
   
   def self.first
