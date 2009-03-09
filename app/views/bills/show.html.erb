@@ -49,8 +49,11 @@
 
   <div id="secondary" >
     <% if @bill.issues.size > 0 -%>
-      <% @issues = @bill.issues -%>  
-      <%= partial 'issues/cloud' %>
+      <% @issues = @bill.issues -%> 
+      <div class="white_border"> 
+        <h2>Issues</h2>
+        <%= partial 'issues/cloud' %>
+      </div>
     <% end -%>
     
     <% if @authenticated -%>

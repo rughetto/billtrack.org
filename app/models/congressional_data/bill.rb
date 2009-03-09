@@ -32,7 +32,7 @@ class Bill < ApiData
     'SELECT bill_issues.* 
      FROM billtrack_member.bill_issues, billtrack_data.bills
      WHERE bill_issues.bill_id = #{id}' 
-  has_many :issues, :through => :bill_issues 
+  has_many :issues, :through => :bill_issues, :conditions => 'issues.status = "approved"'
  
   # INSTANCE_METHODS ======================================= 
   # text_helpers -----------

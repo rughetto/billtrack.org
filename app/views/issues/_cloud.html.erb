@@ -1,8 +1,7 @@
-<div class="tag_cloud white_border">
-  <h2 class="first">Issues</h2>
+<div class="tag_cloud">
   <% for issue in @issues -%>
     <% last = @issues.last %>
-    <%= link_to issue.name, resource(issue), :class => 'tag', :style => tag_styling(issue) %><% 
+    <%= link_to issue.name, resource(issue), :class => 'tag', :style => tag_styling(issue, 0.85, 1.2) %><% 
       unless issue == last %>, <% end %>
   <% end -%>
 </div>

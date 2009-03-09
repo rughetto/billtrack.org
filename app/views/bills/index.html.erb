@@ -1,8 +1,11 @@
-<h1>Bills <%= merb_paginate @bills %></h1>
-<ul>
-<% for @bill in @bills -%>
-  <li>
-    <%= partial :list_view%>
-  </li>
-<% end -%>
-</ul>
+<div id="main"> 
+  <h1>Bills <%= merb_paginate @bills %></h1>
+  <ul>
+  <% for @bill in @bills -%>
+    <li class="bill clearfix white_border">
+      <%= partial :list_view %>
+    </li>
+  <% end -%>
+  </ul>
+  <h1><%= merb_paginate @bills %></h1>
+</div>  

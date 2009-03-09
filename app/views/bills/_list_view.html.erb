@@ -1,4 +1,9 @@
-<div class="bill">
-  <h4><%= link_to @bill.id_number, url(:bill, @bill) %></h4>
-  <p><%= @bill.title_short %></p>
-</div>
+  <div class="description">
+    <h4>
+      <%= link_to @bill.id_number, url(:bill, @bill) %>
+      <%= icon_parade %>
+    </h4>
+    <p><%= @bill.title_short %></p>
+  </div>
+  <% @issues = @bill.issues %>
+  <%= partial 'issues/cloud' %>
