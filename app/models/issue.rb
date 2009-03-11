@@ -11,8 +11,17 @@ class Issue < ActiveRecord::Base
   
   # RELATIONSHIPS ==============
 
+  # VALIDATIONS ================
+  validates_presence_of   :name
+  validates_uniqueness_of :name
+  
   # HOOKS ======================
-  before_create :status
+  before_create :status # creates default value
+  
+  before_validation :fix_name
+  def fix_name
+    self.name = name.downcase.strip unless name.blank?
+  end  
   
   after_save :reset_usage_stats
   def reset_usage_stats
@@ -20,6 +29,7 @@ class Issue < ActiveRecord::Base
     self.class.highest_usage_count( {:reload => true} )
     self.class.lowest_usage_count( {:reload => true} )
   end  
+  
   
   # OTHER METHODS ===========
   # status, state machine
@@ -63,23 +73,33 @@ class Issue < ActiveRecord::Base
   
   def self.count_span
     span = ( highest_usage_count.to_f - lowest_usage_count.to_f )
-    ( span < 0 ? span : 1 ).to_f
+    span > 0 ? span.to_f : 1.0
   end  
   
   
   def self.highest_usage_count(opts={})
-    if opts[:reload] || @total_records.nil?
-      @higest_usage_count ||= maximum(:usage_count, :conditions => {:status => 'approved'}) || 0
+    if opts[:reload] == true || @highest_usage_count.nil?
+      @highest_usage_count = maximum(:usage_count, :conditions => {:status => 'approved'}) || 0
+      @highest_usage_count = 0 ? @highest_usage_count : 1
     end
-    @higest_usage_count > 0 ? @higest_usage_count : 1
+    @highest_usage_count
   end
   
   def self.lowest_usage_count(opts={})
-    if opts[:reload] || @total_records.nil?
-      @lowest_usage_count ||= minimum(:usage_count, :conditions => {:status => 'approved'}) || 0
+    if opts[:reload] == true || @lowest_usage_count.nil?
+      @lowest_usage_count = minimum(:usage_count, :conditions => {:status => 'approved'}) || 0
+      @lowest_usage_count > 0 ? @lowest_usage_count : 1
     end
-    @lowest_usage_count > 0 ? @lowest_usage_count : 1
+    @lowest_usage_count
   end  
   
+  # creating from delimited string
+  def self.from_string( str )
+    set = []
+    str.split(',').each do |i|
+      set << find_or_create_by(:name => i.strip)
+    end
+    set  
+  end  
   
 end
