@@ -1,4 +1,4 @@
-<div class="tag_cloud">
+<div class="cloud">
   <% for issue in @issues -%>
     <% last = @issues.last %>
     <%= link_to issue.name, resource(issue), :class => 'tag', :style => tag_styling(issue, 0.85, 1.2) %><% 

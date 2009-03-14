@@ -1,0 +1,19 @@
+<h1>Issue: <%= @issue.name %></h1>
+<div id="main" class="white_border">
+  <h2>Bill for This Issue</h2>
+  <div class="bills">
+    <% for @bill in @issue.bills -%>
+      <%= partial 'bills/list_view' %>
+    <% end -%>
+  </div>  
+</div>
+<div id="secondary" class="white_border">
+  <h2>Politicians Acting on This Issue</h2>
+  <div class="politicians cloud">
+    <% @issue.politician_issues.each do |pi| -%>
+      <%= link_to pi.politician.name, url(:politician, pi.politician), 
+            :style => "font-size:#{pi.tag_size}em;", 
+            :class => pi.politician.party.name.downcase %><%= pi != @issue.politician_issues.last ? ',' : '' %>
+    <% end -%>
+  </div>
+</div>

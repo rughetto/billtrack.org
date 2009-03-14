@@ -38,8 +38,7 @@ class PoliticianIssueDetail < PoliticianIssue
       self.parent = PoliticianIssue.create( 
         :politician_id => politician_id, 
         :issue_id => issue_id,
-        :child_score => score,
-        :debug_it => debug_it 
+        :child_score => score
       ) 
     else  
       parent.child_score = new_record? ? score : 0

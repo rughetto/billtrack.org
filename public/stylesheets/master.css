@@ -24,7 +24,6 @@ input { margin: 5px 0px; padding-top: 2px; }
 div.white_border {padding: 15px; width: 100%; margin-bottom: 15px; }
 h1 .pagination { display: inline; margin-left: 25px;}
 .js_free {float:left; position:relative; top: -270px; padding-left: 25px;}
-.tag_cloud { line-height: 1.5;}
 
 .index #main ul { margin: 15px 0px; padding: 0px;}
 .index #main li { list-style-type: none; margin-bottom: 15px; padding: 10px 15px;} /* index action shows list of resources, no marker! */
@@ -53,10 +52,9 @@ h1 .pagination { display: inline; margin-left: 25px;}
 .bills.index .description h4 { margin-bottom: 6px; /* margin-top: -10px; */  }
 .bills.index .description h4 a { vertical-align: 30%; padding-top: 15px;}
 .icon_parade { display: inline; margin: 0px 0px 0px 10px; padding: 0px;}
-.icon_parade img { padding-right: 5px;}
+.icon_parade img { padding-right: 2px;}
 
-/* home page not yet set up with final controller and action ... so */
-#main .tag_cloud { margin: 5px 15px;}
+.cloud { margin: 5px 15px;}
 
 
 /* Login and authentication forms */
@@ -114,7 +112,7 @@ input[type="submit"] { font-family: Georgia, serif; font-size: 16px; }
 .bills.show form input[type='submit'] { font-size: 12px;}
 .bills.index .description p { line-height: 1.4; font-size: 14px;}
 
-#main .tag_cloud { text-align: center; line-height: 30px;}
+.cloud { text-align: center; line-height: 30px;}
 
 
 /* COLOR ------------------------- */

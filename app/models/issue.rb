@@ -10,7 +10,24 @@ class Issue < ActiveRecord::Base
   # t.integer :suggested_by
   
   # RELATIONSHIPS ==============
-
+  has_many :bill_issues
+  has_many :bills, :finder_sql => '
+    SELECT bills.* 
+    FROM billtrack_data#{ self.class.table_environment }.bills, 
+      billtrack_member#{ self.class.table_environment }.bill_issues
+    WHERE bills.id = bill_issues.bill_id
+      AND bill_issues.issue_id = #{id} '
+      
+  has_many :politician_issues, :conditions => 'ISNULL(type)'
+  has_many :politicians, :finder_sql => '
+    SELECT politicians.* 
+    FROM billtrack_data#{ self.class.table_environment }.politicians, 
+      billtrack_member#{ self.class.table_environment }.politician_issues
+    WHERE politicians.id = politician_issues.politician_id
+      AND politician_issues.issue_id = #{id}
+      AND ISNULL( politician_issues.type )
+  '    
+  
   # VALIDATIONS ================
   validates_presence_of   :name
   validates_uniqueness_of :name

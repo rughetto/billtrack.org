@@ -147,4 +147,50 @@ describe Issue do
     end  
   end  
   
+  describe 'relationships' do
+    before(:each) do
+      Bill.delete_all
+      BillIssue.delete_all
+      PoliticianIssue.delete_all
+      @issue = Issue.create(:name => 'new')
+      @bills = []
+      (1..5).each do |num|
+        @bills << bill = Bill.make
+        BillIssue.create( :bill_id => bill.id, :issue_id => @issue.id)
+      end  
+    end  
+    
+    it 'should have bill_issues' do
+      @issue.bill_issues.size.should == 5
+    end
+      
+    it 'should have bills' do
+      @issue.bills.size.should == 5
+    end
+      
+    it 'should have politician_issues' do
+      @issue.politician_issues.size
+    end
+    
+    it 'should have politicians'
+    it 'should have politician_issue_details'
+  end  
+  
+  describe 'merging issues' do
+    before(:each) do
+      # @mergee = Issue.create(:name => 'parks')
+      # @extra = Issue.create(:name => 'parks district')
+      # both issues need 
+      #   several bills
+      #   several politicians
+      #   bills need sponsors and co-sponsors
+      #   bills need bill issues
+    end  
+    it 'should deleted the merged issue'
+    it 'should add the usage_count from the merged issue into the mergee issue'
+    it 'should assign bill_issues from the merged issue to the mergee issue'
+    it 'should assign politician_issues_details from the merged issue to the mergee issue'
+    it 'should increase issue_count for politician_issues_detail that exists'
+  end  
+  
 end

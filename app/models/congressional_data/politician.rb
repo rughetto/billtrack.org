@@ -50,6 +50,9 @@ class Politician < ApiData
   has_many :sponsored_bills, :through => :bill_sponsors,  :source => :bill, :conditions => "ISNULL(bill_sponsors.type)"
   has_many :cosponsored_bills, :through => :bill_sponsors,  :source => :bill, :conditions => "NOT ISNULL(bill_sponsors.type)"
   
+  has_many :politician_issues
+  #has_many :issues  
+  
   # VALIDATIONS 
   
   # INSTANCE METHODS 

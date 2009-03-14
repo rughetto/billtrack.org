@@ -12,42 +12,15 @@ class PoliticianIssue < ActiveRecord::Base
     # t.string  :politician_role
     # t.integer :session
   attr_accessor :child_score  
-  attr_accessor :debug_it
-    
   
   # RELATIONSHIPS ========================
-  def politician
-    @politician ||= Politician.find_by_sql(
-      "SELECT politicians.* FROM 
-      billtrack_data.politicians
-      WHERE id = #{self.politician_id.to_i}"
-    ).first
-  end 
-  def politician=( p )
-    if p.class == String || p.class == Fixnum
-      self.politician_id = p
-    elsif p.class = Bill
-      self.politician_id = p.id
-    else
-      raise ArgumentError, 'must be a bill of bill id'  
-    end    
-  end  
-   
+  belongs_to :politician 
   belongs_to :issue
-  
-  def details
-    @details ||= PoliticianIssueDetail.all(
-      :conditions => {:politician_id => politician_id, :issue_id => issue_id }
-    )
-  end
-  attr_writer :details
-  
-  def siblings
-    @siblings ||= PoliticianIssue.all(
-      :conditions => ["politician_id = ? and issue_id != ? AND ISNULL(type)", politician_id, issue_id ]
-    )
-  end  
-  attr_writer :siblings
+  has_many   :details, :class_name => 'PoliticianIssueDetail', 
+    :primary_key => :politician_id, :foreign_key => :politician_id
+  has_many   :siblings, :class_name => 'PoliticianIssue',
+    :primary_key => :politician_id, :foreign_key => :politician_id,
+    :conditions => 'ISNULL(type) AND issue_id != #{issue_id}'
   
   # VALIDATIONS ==========================
   validates_presence_of :politician_id, :issue_id, :score, :issue_count
@@ -73,10 +46,20 @@ class PoliticianIssue < ActiveRecord::Base
   end  
   
   # ISSUE SCORING/RATING =================
-  def calculate_score
+  def calculate_score # on a 1 to 10 basis
     calculate_issue_count
     score = ( ( issue_count.to_f - min_issue_count_for_politician.to_f ) / score_denomenator ) * 10
     self.score = score < 1 ? 1.0 : score
+  end
+  
+  # tag sizing in clouds
+  def tag_size(min=0.85, max=1.5)
+    tag_span = max - min
+    scaled_count * tag_span + min
+  end
+  
+  def scaled_count 
+    ( score - 1 ).to_f / 9
   end
   
   def score_denomenator

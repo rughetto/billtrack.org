@@ -8,23 +8,7 @@ class BillIssue < ActiveRecord::Base
   attr_accessible :bill_id, :issue_id, :issue_name
   
   # RELATIONSHIPS ===================
-  def bill
-    @bill ||= Bill.find_by_sql(
-      "SELECT bills.* FROM 
-      billtrack_data.bills
-      WHERE id = #{self.bill_id.to_i}"
-    ).first
-  end 
-  def bill=( b )
-    if b.class == String || b.class == Fixnum
-      self.bill_id = b
-    elsif b.class = Bill
-      self.bill_id = b.id
-    else
-      raise ArgumentError, 'must be a bill of bill id'  
-    end    
-  end  
-   
+  belongs_to :bill # in database billtrack_data
   belongs_to :issue, :counter_cache => :usage_count
   
   # HOOKS =============================
@@ -35,8 +19,10 @@ class BillIssue < ActiveRecord::Base
     
   def find_or_create_issue
     if issue_name
-      self.issue = Issue.find_or_create_by( :name => issue_name, :suggested_by => suggested_by )
-      self.issue.advance_status! if has_permissions?
+      self.issue = Issue.find_or_create_by( :name => issue_name )
+      self.issue.suggested_by = suggested_by
+      self.issue.advance_status if has_permissions?
+      self.issue.save
       self.issue_id = issue.id
     end  
     issue
