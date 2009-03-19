@@ -26,4 +26,17 @@ Bill.blueprint do
   congressional_session { Sham.pi_session }
   chamber { Sham.bill_chamber }
   number { Sham.bill_number }
+end
+
+Politician.blueprint do 
+  active { 1 }
+  first_name { Faker::Name.name  }
+  middle_name { Faker::Name.name  }
+  last_name { Faker::Name.name  }
 end  
+
+Bill.blueprint do
+  chamber { Sham.bill_chamber }
+  congressional_session { Sham.pi_session }
+  number { Sham.bill_number }
+end    

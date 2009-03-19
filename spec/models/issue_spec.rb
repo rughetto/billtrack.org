@@ -156,6 +156,8 @@ describe Issue do
       @bills = []
       (1..5).each do |num|
         @bills << bill = Bill.make
+        bill.sponsors << Politician.make
+        bill.save
         BillIssue.create( :bill_id => bill.id, :issue_id => @issue.id)
       end  
     end  
@@ -169,28 +171,65 @@ describe Issue do
     end
       
     it 'should have politician_issues' do
-      @issue.politician_issues.size
+      @issue.politician_issues.size.should == 5
     end
     
-    it 'should have politicians'
-    it 'should have politician_issue_details'
+    it 'should have politicians' do
+      @issue.politicians.size.should == 5
+    end  
   end  
   
   describe 'merging issues' do
     before(:each) do
-      # @mergee = Issue.create(:name => 'parks')
-      # @extra = Issue.create(:name => 'parks district')
-      # both issues need 
-      #   several bills
-      #   several politicians
-      #   bills need sponsors and co-sponsors
-      #   bills need bill issues
+      BillIssue.delete_all
+      PoliticianIssue.delete_all
+      @base = Issue.create(:name => 'parks')
+      @extra = Issue.create(:name => 'parks district')
+      (1..3).each do |num|
+        bill = Bill.make
+        bill.sponsors << Politician.make
+        BillIssue.create(:bill_id => bill.id, :issue_id => @base.id)
+        
+        bill = Bill.make
+        bill.sponsors << Politician.make
+        BillIssue.create(:bill_id => bill.id, :issue_id => @extra.id)
+        
+        if num == 1
+          BillIssue.create(:bill_id => bill.id, :issue_id => @base.id)
+        end  
+      end
+      @extra.reload
+      @base.reload
     end  
-    it 'should deleted the merged issue'
-    it 'should add the usage_count from the merged issue into the mergee issue'
-    it 'should assign bill_issues from the merged issue to the mergee issue'
-    it 'should assign politician_issues_details from the merged issue to the mergee issue'
-    it 'should increase issue_count for politician_issues_detail that exists'
+    
+    it 'should have methods for Issue.merge, issue.merge_into_self and issue.merge_into_other' do
+      Issue.respond_to?(:merge).should == true
+      @base.respond_to?(:merge_into_self).should == true
+      @base.respond_to?(:merge_into_other).should == true
+    end  
+    
+    it 'should delete the merged issue' do
+      @base.merge_into_self(@extra)
+      lambda { Issue.find(@extra.id) }.should raise_error
+    end
+    
+    it 'should recompute the usage_count based of the merged issue\'s related records' do
+      @base.merge_into_self(@extra)
+      @base.reload
+      @base.usage_count.should == 6 # @base had 4, @extra had three, there was one duplicate so 6!
+    end
+      
+    it 'should assign bill_issues from the merged issue to the mergee issue' do
+      @base.merge_into_self(@extra)
+      @base.reload
+      @base.bill_issues.size.should == 6 # same calculations as above
+    end
+      
+    it 'should assign politician_issues_details from the merged issue to the mergee issue' do
+      @base.merge_into_self( @extra )
+      @base.reload
+      @base.politician_issue_details.size.should == 6 # there is one politician per bill, so same as above
+    end
   end  
   
 end

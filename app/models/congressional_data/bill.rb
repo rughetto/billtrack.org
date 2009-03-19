@@ -28,12 +28,12 @@ class Bill < ApiData
   has_many :cosponsors,           :through => :bill_sponsors, :conditions => 'bill_sponsors.type = "BillCoSponsor"', :source => :sponsor  
   has_many :relateds,             :class_name => "RelatedBill"
   has_many :related_bills,        :through => :relateds
-  has_many :bill_issues, :finder_sql => 
-    'SELECT bill_issues.* 
-     FROM billtrack_member.bill_issues, billtrack_data.bills
-     WHERE bill_issues.bill_id = #{id}' 
-  has_many :issues, :through => :bill_issues, :conditions => 'issues.status = "approved"'
- 
+  
+  has_many :bill_issues 
+  has_and_belongs_to_many :issues, :select => 'issues.*',
+                          :join_table => "billtrack_member#{ self.table_environment }.bill_issues",
+                          :conditions => 'issues.status = "approved"' 
+  
   # INSTANCE_METHODS ======================================= 
   # text_helpers -----------
   def title_short

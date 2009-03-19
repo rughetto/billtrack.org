@@ -11,22 +11,14 @@ class Issue < ActiveRecord::Base
   
   # RELATIONSHIPS ==============
   has_many :bill_issues
-  has_many :bills, :finder_sql => '
-    SELECT bills.* 
-    FROM billtrack_data#{ self.class.table_environment }.bills, 
-      billtrack_member#{ self.class.table_environment }.bill_issues
-    WHERE bills.id = bill_issues.bill_id
-      AND bill_issues.issue_id = #{id} '
+  has_and_belongs_to_many :bills, :select => "bills.*",
+                          :join_table => "billtrack_member#{ self.table_environment }.bill_issues"  
       
   has_many :politician_issues, :conditions => 'ISNULL(type)'
-  has_many :politicians, :finder_sql => '
-    SELECT politicians.* 
-    FROM billtrack_data#{ self.class.table_environment }.politicians, 
-      billtrack_member#{ self.class.table_environment }.politician_issues
-    WHERE politicians.id = politician_issues.politician_id
-      AND politician_issues.issue_id = #{id}
-      AND ISNULL( politician_issues.type )
-  '    
+  has_many :politician_issue_details
+  has_and_belongs_to_many :politicians, :select => 'politicians.*',
+                          :join_table => "billtrack_member#{ self.table_environment }.politician_issues",
+                          :conditions => "ISNULL( politician_issues.type )" 
   
   # VALIDATIONS ================
   validates_presence_of   :name
@@ -117,6 +109,40 @@ class Issue < ActiveRecord::Base
       set << find_or_create_by(:name => i.strip)
     end
     set  
+  end 
+  
+  # mergers
+  def self.merge(parent, child)
+    parent.merge_into_self(child)
+  end   
+  
+  def merge_into_other( other )
+    other.merge_into_self( self )
+  end
+  
+  def merge_into_self( other )
+    other.reassign_bill_issues( self ) # reassign bill_issues
+    other.reassign_politician_issues( self ) # reassign politician_issues
+    other.destroy # delete other
+  end
+  
+  def reassign_bill_issues( parent )
+    bill_issues.each do |bi|
+      BillIssue.find_or_create_by(
+        :bill_id => bi.bill_id,
+        :issue_id => parent.id
+      ) # this should create all the related politician_issues
+      bi.destroy
+    end  
+  end  
+  
+  def reassign_politician_issues( parent )
+    # reassign_bill_issues should create all the new politician_issues
+    # so we just need to destroy existing records
+    politician_issue_details.each do |pid|
+      pid.parent.destroy if pid.parent
+      pid.destroy
+    end
   end  
   
 end

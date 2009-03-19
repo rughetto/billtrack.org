@@ -19,7 +19,7 @@ class BillIssue < ActiveRecord::Base
     
   def find_or_create_issue
     if issue_name
-      self.issue = Issue.find_or_create_by( :name => issue_name )
+      self.issue = Issue.find_or_create_by( :name => issue_name.downcase )
       self.issue.suggested_by = suggested_by
       self.issue.advance_status if has_permissions?
       self.issue.save
