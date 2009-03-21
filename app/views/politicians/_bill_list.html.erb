@@ -3,7 +3,9 @@
   <p>No bills sponsored</p>
 <% else -%>  
   <% for @bill in @politician.sponsored_bills -%>
-    <%= partial 'bills/list_view' %>
+    <div class="bill">
+      <%= partial 'bills/list_view' %>
+    </div>  
   <% end -%>
 <% end -%>  
 <h3>Bills Cosponsored</h3>

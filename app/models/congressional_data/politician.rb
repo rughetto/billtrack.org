@@ -50,10 +50,10 @@ class Politician < ApiData
   has_many :sponsored_bills, :through => :bill_sponsors,  :source => :bill, :conditions => "ISNULL(bill_sponsors.type)"
   has_many :cosponsored_bills, :through => :bill_sponsors,  :source => :bill, :conditions => "NOT ISNULL(bill_sponsors.type)"
   
-  has_many :politician_issues
+  has_many :politician_issues, :conditions => "ISNULL(type)" # don't want the details for either of these relationships
   has_and_belongs_to_many :issues, 
                           :join_table => "billtrack_member#{ self.table_environment }.politician_issues",
-                          :conditions => 'issues.status = "approved"' 
+                          :conditions => 'issues.status = "approved" AND ISNULL( politician_issues.type )' 
   
   # VALIDATIONS 
   

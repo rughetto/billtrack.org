@@ -4,6 +4,8 @@
   <% for @bill in @bills -%>
     <li class="bill clearfix white_border">
       <%= partial :list_view %>
+      <% @issues = @bill.issues %>
+      <%= partial 'issues/cloud' %>
     </li>
   <% end -%>
   </ul>

@@ -86,11 +86,13 @@ describe Issue do
 
   describe 'counter cache:' do
     it 'usage count should increase when a new bill_issue refers to the tag' do
-      bi = BillIssue.create( :issue_name => 'new issue', :bill_id => 1 )
+      bill_1 = Bill.make
+      bill_2 = Bill.make
+      bi = BillIssue.create( :issue_name => 'new issue', :bill_id => bill_1.id )
       issue = bi.issue
       issue.reload
       issue.usage_count.should == 1
-      BillIssue.create( :issue_name => 'new issue', :bill_id => 2 )
+      BillIssue.create( :issue_name => 'new issue', :bill_id => bill_2.id )
       issue.reload
       issue.usage_count.should == 2
     end  
@@ -176,6 +178,21 @@ describe Issue do
     
     it 'should have politicians' do
       @issue.politicians.size.should == 5
+    end  
+  end  
+  
+  describe 'finders' do
+    it 'should find approved' do
+      lambda { @approved = Issue.approved }.should_not raise_error
+      @approved.each do |issue|
+        issue.status.should == :approved
+      end  
+    end
+    it 'should find unapproved' do
+      lambda { @approved = Issue.unapproved }.should_not raise_error
+      @approved.each do |issue|
+        issue.status.should == :suggested
+      end
     end  
   end  
   

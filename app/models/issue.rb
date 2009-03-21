@@ -20,6 +20,9 @@ class Issue < ActiveRecord::Base
                           :join_table => "billtrack_member#{ self.table_environment }.politician_issues",
                           :conditions => "ISNULL( politician_issues.type )" 
   
+  named_scope :approved, :conditions => {:status => 'approved'}
+  named_scope :unapproved, :conditions => "status != 'approved'"
+  
   # VALIDATIONS ================
   validates_presence_of   :name
   validates_uniqueness_of :name

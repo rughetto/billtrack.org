@@ -10,7 +10,7 @@ form { padding: 20px; }
 input { margin: 5px 0px; padding-top: 2px; }
 
 #all  { margin-left: auto; margin-right: auto; width: 924px; }
-#content { padding: 10px 20px 20px 20px; width: 884px; min-height: 400px;  }
+#content { padding: 10px 20px 20px 20px; width: 884px; min-height: 400px; }
 #fat_footer { padding: 15px 20px; min-height: 120px; }
 #fat_footer .quote_block { width: 450px; margin-left: 15px; padding-right: 30px; float:left;}
 #fat_footer .quote_block h6 {padding-top: 10px; padding-left: 15px;}
@@ -21,7 +21,7 @@ input { margin: 5px 0px; padding-top: 2px; }
 #secondary { float:left; width: 29.5%; }
 #message { padding: 6px 12px; margin-bottom: 12px; margin-right: 6px;}
 
-div.white_border {padding: 15px; width: 100%; margin-bottom: 15px; }
+div.white_border {padding: 15px; margin-bottom: 15px; }
 h1 .pagination { display: inline; margin-left: 25px;}
 .js_free {float:left; position:relative; top: -270px; padding-left: 25px;}
 
@@ -40,7 +40,7 @@ h1 .pagination { display: inline; margin-left: 25px;}
 .politicians.show #information h3.first {padding-top: 5px;}
 .politicians.show #information p {padding-left: 240px; line-height: 1.5;}
 .politicians.show #bills { margin-top: 5px; margin-bottom: 15px;}
-.politicians.show #bills .bill { margin-left: 15px; margin-bottom: 5px;}
+.politicians.show #bills .bill { margin-left: 15px; margin-bottom: 10px;}
 .politicians.show #bills h3 { padding-bottom: 0px; padding-top: 13px;}
 .politicians.show #bills h4 { display: inline; margin-right: 5px;}
 .politicians.show #bills p { display: inline; line-height: 1.5;}
@@ -51,8 +51,9 @@ h1 .pagination { display: inline; margin-left: 25px;}
 .bills.index .description { float: left; width: 300px; }
 .bills.index .description h4 { margin-bottom: 6px; /* margin-top: -10px; */  }
 .bills.index .description h4 a { vertical-align: 30%; padding-top: 15px;}
-.icon_parade { display: inline; margin: 0px 0px 0px 10px; padding: 0px;}
-.icon_parade img { padding-right: 2px;}
+
+.icon_parade { display: inline; margin-left: 5px; padding: 0px; vertical-align: bottom;}
+.icon_parade img { margin-right: 0px;}
 
 .cloud { margin: 5px 15px;}
 

@@ -7,14 +7,32 @@
     <%= partial :bill_list %>
   </div>
 </div>   
-<div id="secondary" class='district_map' >
-  <% throw_content :head do -%>
-    <%= js_include_tag :jquery, :district_map, 'jquery.jmap.js' %>
-  <% end -%>
-  <%= politician_map( @politician ) %> 
-  <noscript>
-    <div class="js_free">
-      This map requires javascript. Please turn on javascript to get full use of the site.
-    </div>  
-  </noscript>
+<div id="secondary">
+  <div class="district_map">
+    <% throw_content :head do -%>
+      <%= js_include_tag :jquery, :district_map, 'jquery.jmap.js' %>
+    <% end -%>
+    <%= politician_map( @politician ) %> 
+    <noscript>
+      <div class="js_free">
+        This map requires javascript. Please turn on javascript to get full use of the site.
+      </div>  
+    </noscript>
+  </div>  
+  
+  <% unless @politician.politician_issues.empty? %>
+    <div id="issues" class="white_border">
+      <h2>Issues</h2>
+      <div class="cloud">
+      <% last = @politician.politician_issues.last %>
+      <% for pi in @politician.politician_issues -%>
+        <% issue = pi.issue %>
+        <%= link_to issue.name, resource(issue), 
+              :class => 'tag', :style => tag_styling(pi, 0.85, 1.2) %><% 
+          unless pi == last %>, <% end %>
+      <% end -%>
+      </div>
+    </div>
+  <% end -%>  
+    
 </div> 
