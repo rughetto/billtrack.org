@@ -6,6 +6,7 @@ dependency "merb-assets",                 merb_gems_version
 dependency "merb-cache",                  merb_gems_version   
 dependency "merb-helpers",                merb_gems_version 
 dependency "merb-mailer",                 merb_gems_version  
+dependency 'tlsmail' # for passing mail through google apps' gmail
 
 dependency "merb-slices",                 merb_gems_version  
 dependency "merb-auth",                   merb_gems_version

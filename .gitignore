@@ -24,3 +24,4 @@ research/google_apps.txt
 *.api
 schema/fixture_dump
 config/deploy.rb
+config/*.password

@@ -22,6 +22,7 @@ Merb::BootLoader.before_app_loads do
   require File.join( File.dirname(__FILE__), '..', 'lib', 'fixturizer')
   require File.join( File.dirname(__FILE__), '..', 'lib', 'versatile_finders')
   require File.join( File.dirname(__FILE__), '..', 'lib', 'google_mapper')
+  require File.join( File.dirname(__FILE__), '..', 'lib', 'passworder')
   ActiveRecord::Base.class_eval do
     include CollectiveIdea::Acts::NestedSet
     extend Fixturizer::ActiveRecord
@@ -42,4 +43,17 @@ Merb::BootLoader.after_app_loads do
       register(:default, Merb::Cache::FileStore, :dir => Merb.root / :tmp / :cache) 
     end   
   end
+  
+  # MAIL ...
+  # Activate SSL Support
+  Net::SMTP.enable_tls(OpenSSL::SSL::VERIFY_NONE)
+
+  # Configure Merb Mailer
+  Merb::Mailer.config = {
+    :host   => 'smtp.gmail.com',
+    :port   => '587',
+    :user   => 'info@billtrack.org',
+    :pass   => Passworder.read('gmail.password'),
+    :auth   => :plain
+  }
 end
