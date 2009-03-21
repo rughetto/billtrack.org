@@ -1,0 +1,23 @@
+- Get email working on the server
+
+- Allow issue registration
+  - notification system
+  - scraping for actionable events, senate and house bill approval
+
+- Contact politicians interface
+
+- Member politician details/signup process
+
+(until this is done should make all issues approved?)  
+- Admin interface for Issue approval
+  - merge issues
+  - categorize/nest issues
+  - automatic upgrade of users who suggest X number of valid bill_issues
+- Admin interface for members
+  - disable spammers
+  - enable other administrators
+  
+- Bring news into bills for better information allowing better bill_issues
+
+- autocompletion for bill_issues form, on comma
+   

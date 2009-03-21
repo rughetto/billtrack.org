@@ -3,7 +3,7 @@ class Issues < Application
 
   # GET /issues
   def index
-    @issues = Issue.find(:all)
+    @issues = Issue.approved
     display @issues
   end
 

@@ -33,6 +33,9 @@ class Bill < ApiData
   has_and_belongs_to_many :issues, :select => 'issues.*',
                           :join_table => "billtrack_member#{ self.table_environment }.bill_issues",
                           :conditions => 'issues.status = "approved"' 
+                          
+  named_scope :only, :conditions => {:type => nil}
+  #named_scope :by_popluarity, :include => :bill_issues, :order => ""                        
   
   # INSTANCE_METHODS ======================================= 
   # text_helpers -----------

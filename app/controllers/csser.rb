@@ -1,6 +1,6 @@
 class Csser < Application
   def index
-    @issues = Issue.all(:conditions => {:status => 'approved'})
+    @issues = Issue.approved
     render
   end  
 end  
