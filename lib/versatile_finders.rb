@@ -20,6 +20,10 @@ module VersatileFinders
   def table_environment
     Merb.env == 'test' ? '_test' : ''
   end  
+  
+  def get(id)
+    find(id)
+  end  
 end
   
 class ActiveRecord::Base
