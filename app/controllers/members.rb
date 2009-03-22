@@ -1,5 +1,6 @@
 class Members < Application
   # provides :xml, :yaml, :js
+  # need to rewrite Member's to_xml method before making resources available in xml and json
 
   # GET /members
   def index
@@ -11,7 +12,14 @@ class Members < Application
   def show
     @member = Member.find_by_id(params[:id])
     raise NotFound unless @member
-    display @member
+    
+    if params[:view] == 'activation'
+      render params[:view].to_sym
+    elsif @member == session.user
+      render :dashboard
+    else
+      display @member
+    end      
   end
 
   # GET /members/new
@@ -25,7 +33,8 @@ class Members < Application
   def create
     @member = Member.new(params[:member])
     if @member.save
-      redirect url(:member, @member)
+      message[:notice] = 'Please activate your account by verifying your email!'
+      redirect url(:member, @member, :view => 'activation')
     else
       render :new
     end
@@ -33,15 +42,17 @@ class Members < Application
 
   # GET /members/:id/edit
   def edit
+    ensure_authenticated
     only_provides :html
-    @member = Member.find_by_id(params[:id])
+    @member = Member.find_by_id( session.user.id )
     raise NotFound unless @member
     render
   end
 
   # PUT /members/:id
   def update
-    @member = Member.find_by_id(params[:id])
+    ensure_authenticated
+    @member = Member.find_by_id( session.user.id )
     raise NotFound unless @member
     if @member.update_attributes(params[:member])
       redirect url(:member, @member)
@@ -51,14 +62,14 @@ class Members < Application
   end
 
   # DELETE /members/:id
-  def destroy
-    @member = Member.find_by_id(params[:id])
-    raise NotFound unless @member
-    if @member.destroy
-      redirect url(:members)
-    else
-      raise BadRequest
-    end
-  end
+  # def destroy
+  #   @member = Member.find_by_id(params[:id])
+  #   raise NotFound unless @member
+  #   if @member.destroy
+  #     redirect url(:members)
+  #   else
+  #     raise BadRequest
+  #   end
+  # end
 
 end

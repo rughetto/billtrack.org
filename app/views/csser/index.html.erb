@@ -7,10 +7,16 @@
   <% unless @authenticated %>
     <div id="member" class="login white_border">
       <%= partial login_partial %>
+      <h4>
+        Not yet a member? 
+        <%= link_to( 'Sign up!', 'signup' ) %>
+      </h4>
     </div>
   <% end -%>
+  <!--   
   <div id="news" class="white_border">
     <h2>News ...</h2>
   </div>
+  -->
 </div>    
   

@@ -2,7 +2,8 @@ class MerbAuthSliceActivation::Activations <  MerbAuthSliceActivation::Applicati
 
   private
   def redirect_after_activation
-    redirect "/", :message => {:notice => "Activation Successful"}
+    message[:notice] = "Your membership has been activated!"
+    redirect url(:member, session.user )
   end
 
 end # MerbAuthSliceActivation::Activations

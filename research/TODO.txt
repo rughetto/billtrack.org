@@ -1,7 +1,8 @@
-- Get email working on the server *** DONE
+  - Get email working on the server *** DONE
 
 - Allow issue registration
-  - notification system
+    - email configured for MERB ! *** DONE
+  - issue notification system
   - scraping for actionable events, senate and house bill approval
 
 - Contact politicians interface

@@ -1,0 +1,10 @@
+<div id='main' class="white_border">
+  <h1>Please activate your account!</h1>
+
+  <p>An email has been sent to your email address requesting its verification. When you get the email, you can enter the activation code in this form, or just follow the link provided.</p>
+
+  <%= form :action => '/activate'  do %>
+    <%= text_field :activation_code, :label => 'Activation Code', :size => 40 %><br/>
+    <%= submit 'Activate Account', :class => 'indented' %>
+  <% end =%>
+</div>

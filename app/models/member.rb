@@ -62,6 +62,7 @@ class Member < ActiveRecord::Base
   end  
   
   # RELATIONSHIPS ================
+  # these are all records loaded into memory ---------------
   def state
     @state ||= State.find_by_id(state_id)
   end   
@@ -83,6 +84,16 @@ class Member < ActiveRecord::Base
     raise ArgumentError, "expected Party object" if p.class != Party
     self.party_id = p.id
   end  
+  
+  def district
+    @district ||= District.find_by_id( district_id )
+  end
+  def district=( d )  
+    raise ArgumentError, 'expected District object' if d.class != District
+    self.district_id = d.id
+  end  
+  
+  has_many :district_maps, :primary_key => :zip_main, :foreign_key => :zip_main
   
   # PERMISSIONS ====================
   def roles
@@ -135,5 +146,11 @@ class Member < ActiveRecord::Base
   def has_permissions?( controller )
     roles.include?(:admin) || roles.include?(controller.to_s.downcase.to_sym)
   end   
+  
+  # DISTRICT CONNECTION --------------
+  def find_district
+    
+  end  
+  
   
 end

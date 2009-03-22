@@ -1,0 +1,13 @@
+<h1>My District</h1>
+<% if @member.district -%>
+  District #<%= @member.district.number %> in <%= @member.district.state %>
+  <p>map here!</p>
+<% else -%>
+  <p>There isn't currently enough information to determine your district. Please provide:</p>
+<% end -%>  
+
+<h1>My Politicians</h1>
+<p>Politicians Here</p>
+
+<h1>My Issues</h1>
+<p>Issues here </p>

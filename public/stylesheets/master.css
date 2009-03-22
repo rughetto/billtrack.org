@@ -24,9 +24,19 @@ input { margin: 5px 0px; padding-top: 2px; }
 div.white_border {padding: 15px; margin-bottom: 15px; }
 h1 .pagination { display: inline; margin-left: 25px;}
 .js_free {float:left; position:relative; top: -270px; padding-left: 25px;}
+.less { margin: 0px 6px; }
+#secondary  input.indented[type='submit'], #main.register input.indented[type='submit'] {margin-left: 125px; margin-top: 12px;}
+#main       input.indented[type='submit'] {margin-left: 170px; }
 
 .index #main ul { margin: 15px 0px; padding: 0px;}
 .index #main li { list-style-type: none; margin-bottom: 15px; padding: 10px 15px;} /* index action shows list of resources, no marker! */
+
+.login input[type="checkbox"] { margin: 4px 0px 0px -10px;}
+
+.icon_parade { display: inline; margin-left: 5px; padding: 0px; vertical-align: bottom;}
+.icon_parade img { margin-right: 0px;}
+
+.cloud { margin: 5px 15px;}
 
 .politicians #main {width: 55%;}
 .politicians #secondary { width: 366px;}
@@ -52,11 +62,8 @@ h1 .pagination { display: inline; margin-left: 25px;}
 .bills.index .description h4 { margin-bottom: 6px; /* margin-top: -10px; */  }
 .bills.index .description h4 a { vertical-align: 30%; padding-top: 15px;}
 
-.icon_parade { display: inline; margin-left: 5px; padding: 0px; vertical-align: bottom;}
-.icon_parade img { margin-right: 0px;}
-
-.cloud { margin: 5px 15px;}
-
+#member.login h4 a {margin-left: 20px;}
+#member.login h4 {margin-bottom: 10px;}
 
 /* Login and authentication forms */
 .unauthenticated #main { width: 25%; }
@@ -69,7 +76,6 @@ h1 .pagination { display: inline; margin-left: 25px;}
 .register h3 { padding-bottom: 6px; margin-top: 14px;}
 .register h3.first { margin-top: -12px;}
 .register h6 { margin-left: 12px; text-indent: -12px;}
-.register input[type="submit"] {margin-left: 125px; margin-top: 12px;}
 
 /* utility stuff */
 .clearfix { zoom: 1; } 
@@ -95,6 +101,7 @@ label { text-align: right;}
 input[type="submit"] { font-family: Georgia, serif; font-size: 16px; }
 .pagination { font-size: 16px; }
 .js_free { font-size: 20px; line-height: 1.7; color: white;}
+.less { font-size: 0.85em; }
 
 #header h1 { margin: 0px; padding: 0px; line-height: .25;}
 #bottom_menu { font-size: 11px; letter-spacing: 1px; }
@@ -102,9 +109,9 @@ input[type="submit"] { font-family: Georgia, serif; font-size: 16px; }
 #message { font-size: 15px;}
 
 .politicians.show #bills h3 { font-size: 16px; font-family: Georgia, serif;}
-.politicians.show #bills h4 { font-family: 'Trebuchet MS', Truebuchet, Veranda, sans-serif; font-size: 14px;}
+.politicians.show #bills h4, .login h4 { font-family: 'Trebuchet MS', Truebuchet, Veranda, sans-serif; font-size: 14px;}
 
-.unauthenticated #main label { text-align: left;}
+.unauthenticated #main label, .login label { text-align: left;}
 .unauthenticated #secondary h3 { font-size: 17px; }
 .unauthenticated #secondary h2 { font-size: 24px; font-weight: normal; }
 
@@ -123,8 +130,14 @@ a:visited {color: #333;}
 a:hover, a:active {color: #900; border-bottom: 1px solid silver; }
 h1 { color: #222;}
 h2, h3 { color: #222; }
+a img { border: 0px;}
+
 input[type="submit"] { border: 2px solid #790909; border-left: 2px solid #a63a3a; border-top: 2px solid #a63a3a; background: white url("../images/button_back.png") no-repeat 2px 2px; padding: 3px 10px; }
 input[type="submit"]:active { border: 2px solid #a63a3a; border-left: 2px solid #790909; border-top: 2px solid #790909; background: white url("../images/button_back_active.png") no-repeat 0px -3px; }
+/* gold attempt at button edge
+input[type="submit"] { border: 2px solid #630; border-left: 2px solid #960; border-top: 2px solid #960; background: white url("../images/button_back.png") no-repeat 2px 2px; padding: 3px 10px; }
+input[type="submit"]:active { border: 2px solid #a63a3a; border-left: 2px solid #790909; border-top: 2px solid #790909; background: white url("../images/button_back_active.png") no-repeat 0px -3px; }
+*/
 #all { background-color: white; border-left: 2px solid #0f2339; border-right: 2px solid #0f2339;}
 #top_menu ul.menu li, #bottom_menu ul.menu li{ border-left: 1px solid #CCC;}
 #top_menu ul.menu li.first, #bottom_menu ul.menu li.first { border-left: 0px;}
@@ -146,6 +159,8 @@ input[type="submit"]:active { border: 2px solid #a63a3a; border-left: 2px solid 
 .district_map { border: 4px solid white; }
 .headshot { border: 4px solid white;}
 .error * { color: #790909;}
+.less { color: #666; }
+
 /* party  */
 .democrat { color: #092743;}
 .republican { color: #4d0505;}
