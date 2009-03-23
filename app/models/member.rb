@@ -61,15 +61,50 @@ class Member < ActiveRecord::Base
     new_record? || !password.nil?
   end  
   
+  # HOOKS ========================
+  before_save :find_district, :if => :district_changing?
+  
+  def district_changing?
+    new_record? or district_id_changed? or zip_main_changed? or zip_plus_four_changed? or address_changed? or city_changed? || state_id_changed? 
+  end  
+  
+  def find_district
+    # have to use get_district_map instead of district_maps since it won't find the relationship 
+    # for unsaved record, even though relationship is not dependent on the record id, 
+    # which is nil for a new record
+    if district_changing?
+      if get_district_maps.size == 1
+        district_id_will_change!
+        self.district_id = get_district_maps.first.district_id 
+      elsif get_district_maps.size > 1
+        unless address.blank? # try to find the correct district from the address
+          address_str = address.to_s
+          address_str << " #{city}, " unless city.blank?
+          address_str << " #{state.code} " if state 
+          address_str << " #{zipcode} " if zipcode
+          sunlight_district = Sunlight::District.get( :address => address_str )
+          if sunlight_district
+            d = District.find_by( :state => sunlight_district.state, :number => sunlight_district.number ) 
+            district_id_will_change! if d
+            self.district_id = d.id if d
+          end  
+        end  
+      end
+    end  
+    district    
+  end 
+  
   # RELATIONSHIPS ================
-  # these are all records loaded into memory ---------------
+  # these related records are all records loaded into memory 
+  # hence the method call rather than the relationship definition
+  # ---------------
   def state
     @state ||= State.find_by_id(state_id)
   end   
   def state=( s )
     if s.class == String || s.class == Fixnum
       self.state_id = s.to_s
-    elsif s.class = State
+    elsif s.class == State
       self.state_id = s.id
     else
       raise ArgumentError, "should be State object or a Fixnum identifying the State id"
@@ -94,6 +129,9 @@ class Member < ActiveRecord::Base
   end  
   
   has_many :district_maps, :primary_key => :zip_main, :foreign_key => :zip_main
+  def get_district_maps
+    @dms ||= DistrictMap.all(:conditions => {:zip_main => zip_main})
+  end  
   
   # PERMISSIONS ====================
   def roles
@@ -139,18 +177,12 @@ class Member < ActiveRecord::Base
   end   
   
   def check_roles( r )
-    # intersection of r and self.class.acceptable_roles
-    r
+    r & self.class.acceptable_roles # intersection of two arrays, ie acceptable values
   end  
   
-  def has_permissions?( controller )
+  def has_permissions?( controller='' ) # default usage with no argument just checks for admin
     roles.include?(:admin) || roles.include?(controller.to_s.downcase.to_sym)
   end   
-  
-  # DISTRICT CONNECTION --------------
-  def find_district
-    
-  end  
   
   
 end

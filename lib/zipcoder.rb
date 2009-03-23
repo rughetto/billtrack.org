@@ -48,8 +48,8 @@ module Zipcoder
       def zipcode_from_db
         code = ""
         if self.zip_main
-          code << self.zip_main
-          code << "-#{self.zip_plus_four}" unless self.zip_plus_four.blank?
+          code << self.zip_main.to_s
+          code << "-#{self.zip_plus_four.to_s}" unless self.zip_plus_four.blank?
         end
         Zipcode.new(code)
       end  

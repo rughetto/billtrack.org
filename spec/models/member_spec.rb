@@ -1,10 +1,19 @@
 require File.join( File.dirname(__FILE__), '..', "spec_helper" )
 
 describe Member do
+  before(:each) do
+    Member.delete_all
+    @valid_hash = {
+      :username => 'user',
+      :password => 'password',
+      :password_confirmation => 'password',
+      :email => 'user@user.com',
+      :zipcode => '11111'
+    }
+  end  
 
   describe "validations" do
     before(:each) do
-      Member.delete_all
       @member = Member.new( 
         :username => 'user',
         :password => 'password',
@@ -151,7 +160,6 @@ describe Member do
     end
       
     it 'roles should only output values in Member.acceptable_roles' do
-      pending
       @member.roles = 'admin, issues, garbage'
       @member.roles.should == [:admin, :issues]
     end  
@@ -172,6 +180,85 @@ describe Member do
       controller = mock('Issues')
       controller.stub!(:to_s).and_return( 'Issues' )
       @member.has_permissions?( controller ).should == false
+    end  
+  end  
+
+  describe 'districting' do
+    before(:all) do
+      District.delete_all
+      DistrictMap.delete_all
+      # zip within one district 94102
+      d = District.create( :state => 'CA', :number => 8 )
+      d.should_not be_new_record
+      dm = DistrictMap.create( :district_id => d.id, :zipcode => '94102' )
+      dm.should_not be_new_record
+      
+      # zip has many districts 
+      d = District.create( :state => 'NC', :number => 13 )
+      d.should_not be_new_record
+      dm = DistrictMap.create( :district_id => d.id, :zipcode => '27511')
+      dm.should_not be_new_record
+      d = District.create( :state => 'NC', :number => 4 )
+      d.should_not be_new_record
+      dm = DistrictMap.create( :district_id => d.id, :zipcode => '27511')
+      dm.should_not be_new_record
+    
+      @complex_zip_hash = {
+        :zipcode => '27511',
+        :address => '900 Ralph Drive',
+        :city => 'Cary',
+        :state => State.find_by_code('NC')
+      }
+    end  
+    
+    it '#find_district should set district_id when there is only one district_map' do
+      member = Member.create( @valid_hash.merge( :zipcode => '94102') )
+      d = member.find_district
+      d.should_not be_nil
+      d.state.should == 'CA'
+      d.number.should == 8
+      member.district_id.should_not be_nil
+    end 
+    
+    it '#find_district should determine the district_id with a valid address and zip' do
+      member = Member.create( @valid_hash.merge( @complex_zip_hash ) )
+      d = member.find_district
+      member.district_id.should_not be_nil
+      d.should_not be_nil
+      d.state.should == 'NC'
+      d.number.should == 13
+    end 
+    
+    it '#district_changing? should be true for new records' do
+      member = Member.new( @valid_hash.merge( @complex_zip_hash ) )
+      member.should be_district_changing
+    end
+    
+    it '#district_changing? should non be true for saved records without an address change' do
+      member = Member.create( @valid_hash.merge( @complex_zip_hash ) )
+      member.should_not be_new_record
+      member.reload
+      member.should_not be_district_changing
+    end  
+    
+    it '#district_changing? should be true when any part of an address changes' do
+      member = Member.create( @valid_hash.merge( @complex_zip_hash ) )
+      member.should_not be_new_record
+      member.reload
+      member.zipcode = '10012'
+      member.should be_district_changing
+    end  
+    
+    it 'should assign district on create' do
+      member = Member.create( @valid_hash.merge( :zipcode => '94102') )
+      member.should_not be_new_record
+      member.district.should_not be_nil
+    end  
+    
+    it 'should save district information on create' do
+      member = Member.create( @valid_hash.merge( :zipcode => '94102') )
+      member.reload
+      member.district.should_not be_nil
     end  
   end  
 end
