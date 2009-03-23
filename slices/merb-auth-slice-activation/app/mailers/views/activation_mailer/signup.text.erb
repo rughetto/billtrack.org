@@ -1,7 +1,12 @@
-Your account has been created.
+<img src="http://billtrack.org/bill_track.png"><br/>
+<h1>Your membership at BillTrack.org has been created!</h1>
+<p>
+  In order to start getting notified about issues current in Congress, please verify your email. To do this, follow the link below or paste the code in the form.
+</p>
 
-  Username: <%= @user.send(Merb::Authentication::Strategies::Basic::Base.login_param.to_sym) %>
-
-Visit this url to activate your account:
-
+<p>
   <%= activation_url(@user) %>
+</p>
+
+<p>Thanks,<br/>
+Kane, creator of BillTrack.org</p>  
