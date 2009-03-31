@@ -58,11 +58,14 @@ class Politician < ApiData
   # VALIDATIONS 
   
   # INSTANCE METHODS 
-  def name
-    str = self[:type]
-    str << " " + self.first_name
-    str << " " + self.last_name
+  def formal_name       
+    @name ||= self[:type] + " " + self.first_name + " " + self.last_name
   end  
+  alias :name :formal_name 
+  
+  def basic_name 
+    @basic_name ||= ( nickname.blank? ? first_name : nickname ) + ' ' + last_name
+  end
   
   private
     def forward_names
@@ -141,6 +144,10 @@ class Politician < ApiData
   def self.name_lookup( n )
     looker = NameLookup.first(:conditions => {:name => n, :parent_type => 'Politician' })
     looker ? looker.parent : nil
+  end   
+  
+  def color  # for party affiliation
+    party ? party.color : "#666" 
   end  
   
 end

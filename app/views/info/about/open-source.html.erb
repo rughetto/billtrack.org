@@ -1,0 +1,25 @@
+<div id="main">
+  <h1>Bill Track is Open Source</h1>    
+
+  <p>Bill Track is an open-source project available under the XXX license.</p>
+
+  <p>
+    This website is comprised of two <a href="http://merbivore.com">Merb</a> applications. 
+    <a href="http://github.com/rughetto/api.billtrack.org">One handles the importing of data</a> from various sources. 
+    The other <a href="http://github.com/rughetto/billtrack.org">provides the visible website</a> with a host of member related data operations. Both applications are available at <a href="http://github.com/rughetto">github.com/rughetto</a>
+  </p>  
+  
+  <h2>Why Merb?</h2>
+  <p>
+    Merb is a Rails-like Ruby web framework that will be merging into Rails in the coming year. Most people that were developing in or on Merb have switched to Rails in preparation. When starting this application, I looked into Rails as an option. The determinant for picking Merb over Rails ended up being the authentication system. If you haven't checked into Merb's suggested authentication system, it is worth your time. It does some really cool things: 1) It handles the need to authenticate a user through throwing http authentication errors, instead of redirecting to login. This makes it play nicer with http standards. 2) It stores authentication information including the user in the session and efficiently. 3) It provides a series of authentication strategies and easy hooks for registering new authentication strategies. All in all, it is a very clean interface that was enough to convince me to go Merb. 
+  </p>
+  <p>Both Merb applications use ActiveRecord, so other than some peculiarities in the controller and view space, it acts like a Rails application. Yehuda Katz, maintainer of Merb and member of the Rails core-team, has promised a reasonable upgrade path for Merb applications to Rails 3. So when the merge happens, we can expect to be one big happy family again.</p>
+  
+  <h2>Why Two Apps &amp; Two Databases?</h2>
+  <p>
+    I am not a fan of DHH's notion that the only way to build an application is with one database. I saw this application having two different data concerns: 1) There is a lot of Congressional information coming from many great sources. This database aims to import and integrate congressional data. 2) There is a user/application space that integrates user information with the congressional data. In addition to hoping that people would find lots of use for the first database, and not much use for the second, I think the data in these database will scale and be accessed very differently.
+  </p>             
+  <p>
+    The first application deals solely with Congressional data and has many import schemes. It still need ways to make this data accessible. If you would like to contribute to making the whole database dump accessible or just adding JSON/XML accessor for the congressional data, please check out the <a href="/volunteer">volunteer/contribute</a> page.
+  </p>
+</div>         

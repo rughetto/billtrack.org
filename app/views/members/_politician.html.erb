@@ -1,0 +1,32 @@
+<div class="politician clearfix">
+  <%= image_tag @politician.thumbnail_path, :class => 'left white_border' %>
+  <h2>
+    <%= link_to @politician.basic_name, url(:politician, @politician ), 
+            :class => @politician.party ? @politician.party.name.downcase : '' %>
+  </h2>
+  <ul> 
+    <% if @politician.party -%>  
+      <li>
+        <%= party_star( @politician.party ) %>
+        <%= @politician.party.name %><% unless @politician.seat.blank? %>, <%= @politician.seat %><% end -%>
+      </li>
+    <% end -%>   
+    <li>
+      <strong>Issues</strong>:  
+      <% if @politician.politician_issues.size > 0 -%>
+        <% last = @politician.politician_issues.last %>
+        <% for pi in @politician.politician_issues -%>
+          <% issue = pi.issue %>
+          <%= link_to issue.name, resource(issue), 
+                :class => 'tag', :style => tag_styling(pi, 0.85, 1.2) %><% 
+            unless pi == last %>, <% end %>
+        <% end -%>
+      <% else -%>
+        no issues yet
+      <% end -%>   
+    </li>
+    <li>
+      <%= link_to 'Write your representative', @politician.webform %>
+    </li>
+   </ul>       
+</div>

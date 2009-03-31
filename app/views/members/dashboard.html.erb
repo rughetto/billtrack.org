@@ -1,13 +1,50 @@
-<h1>My District</h1>
-<% if @member.district -%>
-  District #<%= @member.district.number %> in <%= @member.district.state %>
-  <p>map here!</p>
-<% else -%>
-  <p>There isn't currently enough information to determine your district. Please provide:</p>
-<% end -%>  
-
-<h1>My Politicians</h1>
-<p>Politicians Here</p>
-
-<h1>My Issues</h1>
-<p>Issues here </p>
+<div id="main">
+  <h1>My District</h1>
+  <% if @member.district -%>
+    <h2>
+      District #<%= @member.district.number %> in <%= @member.district.state.name %> 
+      <%= link_to "change your district", url(:member, @member, :edit ) %>
+    </h2>
+    <div id="district_map" class="district_map">  
+      <% throw_content :head do -%>   
+        <%= js_include_tag :jquery %>
+      <% end -%>       
+      <% color = @member.representative ? @member.representative.color : '#666' %>
+      <%= district_map( @member.district, color ) %>    
+      <noscript>
+        <div class="js_free">
+          This map requires javascript. Please turn on javascript to get full use of the site.
+        </div>  
+      </noscript> 
+    </div>
+    <caption> 
+      <h6>
+        District outlines (beta) courtesy of 
+        <%= link_to 'Mobile Commons', 'http://congress.mcommons.com/' %>. 
+        Districts with more than one polygonal shape may not appear correctly. 
+      </h6>
+    </caption>  
+  <% else -%>
+    <p>There isn't currently enough information to determine your district. Please provide:</p>
+  <% end -%>    
+</div> 
+      
+<div id="secondary" > 
+  <div id="issues" class="white_border">
+    <h1 class="first">My Issues</h1>
+    <p>No issues yet. Register your interest in issues in the form below:</p>
+  </div>
+  <% if @member.district -%>
+    <div id="politicians">
+      <% unless @member.senators.empty? -%> 
+        <h1 class="first">My Senators</h1> 
+        <% for @politician in @member.senators %>
+          <%= partial :politician %>
+        <% end -%>
+        <h1>My Representative</h1>
+        <% @politician = @member.representative %> 
+        <%= partial :politician %> 
+      <% end -%>  
+    </div>   
+  <% end -%>  
+</div>

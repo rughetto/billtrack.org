@@ -4,7 +4,7 @@ module VersatileFinders
   end  
   
   def find_all_by( hash )
-    first(:conditions => hash )
+    all(:conditions => hash )
   end  
 
   def find_or_create_by( hash )

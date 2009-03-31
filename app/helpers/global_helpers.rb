@@ -29,6 +29,71 @@ module Merb
       end   
       html << "</div>"
       html
+    end
+    
+    def party_star( party, opts={:class => 'left', :size => 'small'} )  
+      image_tag( "#{party.name.downcase}_#{opts[:size]}.png", :class => opts[:class]) if ['democrat', 'republican'].include?( party.name.downcase ) 
+    end    
+    
+    def politician_map( politician )  
+      if politician.class == Representative 
+        color = politician.party.color if politician.party
+        color = defined?(color) ? color : '#666'
+        district_map( politician.district, color )
+      else
+        state_map( politician.state )
+      end    
+    end
+    
+    def district_map( district, color='#666' )   
+      html = "<script src=\"http://maps.google.com/maps?file=api&amp;v=2&amp;key=#{GoogleMapper.api_key}\"
+      type=\"text/javascript\"></script>"
+      
+      html << <<-HTML    
+      <script type="text/javascript">
+        //<![CDATA[
+          function map_initialize() {
+             if (GBrowserIsCompatible()) { 
+               var map = new GMap2(document.getElementById("district_map"));
+               map.setCenter(new GLatLng(#{district.latitude}, #{district.longitude}), #{district.state.zoom_level} );
+               #{ district.js_outline ? district.js_outline.gsub('#ff0000', color).gsub('"#000000",0,0.0', "\"#{color}\", 2, 0.5") : '' }; 
+               map.setUIToDefault();
+             }
+           }
+        //]]>
+      </script> 
+      <script>
+       $(document).ready(function() { 
+          map_initialize();  
+        });
+      </script>    
+      HTML
+      html
+    end
+    
+    def state_map( state )
+      html = "<script src=\"http://maps.google.com/maps?file=api&amp;v=2&amp;key=#{GoogleMapper.api_key}\"
+      type=\"text/javascript\"></script>"
+      html << <<-HTML
+      <script type="text/javascript">
+        //<![CDATA[
+          function map_initialize() {
+             if (GBrowserIsCompatible()) {
+               var map = new GMap2(document.getElementById("district_map"));
+               map.setCenter(new GLatLng(#{state.latitude}, #{state.longitude}), #{state.zoom_level});
+             }
+           }
+        //]]>
+      </script>
+      <script>
+       $(document).ready(function() { 
+          map_initialize();  
+        });
+      </script>
+      HTML
+      html  
     end   
   end
+ 
+   
 end

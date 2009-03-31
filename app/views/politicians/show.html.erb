@@ -8,11 +8,11 @@
   </div>
 </div>   
 <div id="secondary">
-  <div class="district_map">
-    <% throw_content :head do -%>
-      <%= js_include_tag :jquery, :district_map, 'jquery.jmap.js' %>
+  <div id="district_map" class="district_map">  
+    <% throw_content :head do -%>   
+      <%= js_include_tag :jquery %>
     <% end -%>
-    <%= politician_map( @politician ) %> 
+    <%= politician_map( @politician ) %>    
     <noscript>
       <div class="js_free">
         This map requires javascript. Please turn on javascript to get full use of the site.

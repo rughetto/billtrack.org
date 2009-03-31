@@ -24,8 +24,8 @@
             <%= image_tag "sm_star.png", :class => "spacer" %>
             
             <% if session.authenticated? -%>
-              <li class="first"><%= link_to 'My Bill Track', '/home' %></li>
-              <li><%= link_to 'Logout', 'logout' %></li>
+              <li class="first"><%= link_to 'My Bill Track', url(:member, session.user) %></li>
+              <li><%= link_to 'Logout', '/logout' %></li>
             <% else -%>  
               <li class="first">
                 <%= link_to 'Sign up', '/signup' %> 

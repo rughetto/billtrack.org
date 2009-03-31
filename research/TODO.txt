@@ -2,12 +2,20 @@
 
 - Allow issue registration
     - email configured for MERB ! *** DONE
-  - issue notification system
+  - issue notification system, and issue/member connective tissue
   - scraping for actionable events, senate and house bill approval
 
 - Contact politicians interface
 
-- Member politician details/signup process
+- Member signup process  
+  - figure out district on signup (*** DONE except ... need to make sure the district map data on production)
+  - dashboard for showing member their politicians  *** DONE
+  - dashboard also let's them register for issues    
+  
+- API on server
+  - import routines 
+  
+------------------  
 
 (until this is done should make all issues approved?)  
 - Admin interface for Issue approval

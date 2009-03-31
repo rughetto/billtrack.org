@@ -55,5 +55,5 @@ Merb::BootLoader.after_app_loads do
     :user   => 'info@billtrack.org',
     :pass   => Passworder.read('gmail.password'),
     :auth   => :plain
-  }
+  }  
 end

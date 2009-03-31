@@ -14,6 +14,17 @@ class Party < ApiData
   
   def self.find_or_create_by_abbreviation(abbrev)
     find_by_abbreviation(abbrev) || create(:abbreviation => abbrev)
+  end     
+  
+  def color   
+    case abbreviation 
+    when 'D'    
+      '#069'
+    when 'R'
+      '#900' 
+    else
+      '#666'
+    end        
   end  
 
 end

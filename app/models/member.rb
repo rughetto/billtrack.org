@@ -131,6 +131,29 @@ class Member < ActiveRecord::Base
   has_many :district_maps, :primary_key => :zip_main, :foreign_key => :zip_main
   def get_district_maps
     @dms ||= DistrictMap.all(:conditions => {:zip_main => zip_main})
+  end                
+  
+  def possible_representatives      
+    @representatives ||= Politician.find_by_sql(
+      "SELECT politicians.* FROM politicians, district_maps, districts WHERE
+      district_maps.zip_main = #{self.zip_main} AND
+      district_maps.district_id = districts.id AND
+      politicians.type = 'Representative' AND
+      politicians.district_id = districts.id;
+      "
+    )
+  end  
+  
+  def representative
+    @representative ||= self.district ? district.representative : nil
+  end      
+  
+  def senators   
+    if state
+      @senators ||= Senator.all(:conditions => {:state => self.state}, :order => "seat DESC") 
+    elsif district
+      @senators ||= district.senators
+    end    
   end  
   
   # PERMISSIONS ====================
