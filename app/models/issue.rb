@@ -54,7 +54,7 @@ class Issue < ActiveRecord::Base
   end  
   
   def self.statuses
-    @statuses ||= [:suggested, :approved]
+    @statuses ||= [:approved] #[:suggested, :approved]
   end  
   
   def status_index
