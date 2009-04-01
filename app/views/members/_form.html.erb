@@ -1,4 +1,5 @@
-<%= form_for @member, :action => url(:members, @member) do %>
+<%= form_for @member, :action => url(:members, @member) do %> 
+  <%= error_messages_for @member %>
   <h3 class="first">Required Fields</h3>
   <%= text_field :username, :label => 'Username', :size => 25 %> 
   <br/>   

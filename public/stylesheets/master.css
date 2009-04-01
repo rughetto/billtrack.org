@@ -70,7 +70,8 @@ h1 .pagination { display: inline; margin-left: 25px;}
 .members #secondary li { list-style-type: none; font-size: 14px; margin-bottom: 6px;} 
 .members button { margin-left: 10px; margin-bottom: 6px;} 
 .members .politician { margin-bottom: 10px;}  
-.members .politician img.left { margin-right: 5px;}
+.members .politician img.left { margin-right: 5px;} 
+.members #main h2 a  { font-size: 0.75em; padding-left: 25px; text-decoration: underline;}  
 
 #member.login h4 a {margin-left: 20px;}
 #member.login h4 {margin-bottom: 10px;}

@@ -1,4 +1,6 @@
 <div id="main" class="register">
+  <%= error_messages_for @member %>
+  
   <h1>Update Your Information</h1>
  
   <%= form_for @member, :action => resource( @member) do %>

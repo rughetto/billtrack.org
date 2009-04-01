@@ -58,7 +58,7 @@ class Member < ActiveRecord::Base
   end  
   
   def password_required?
-    new_record? || !password.nil?
+    new_record? || !password.blank?
   end  
   
   # HOOKS ========================
