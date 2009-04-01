@@ -1,3 +1,37 @@
-<h1>Members controller, edit action</h1>
+<div id="main" class="register">
+  <h1>Update Your Information</h1>
+ 
+  <%= form_for @member, :action => resource( @member) do %>
+    <div class="white_border">
+      <h2>District &amp; Related Address Information</h2>  
+      <%= text_area :address, :label => 'Street Address', :cols => 22, :rows => 3  %> 
+      <br/>
+      <%= text_field :city, :label => 'City', :size => 25 %> 
+      <br/>  
+      <% state_selected = @member.state ? @member.state.code : '' %>
+      <%= select :state_id, 
+        :label => 'State', 
+        :prompt => 'Select your state ...',
+        :collection => State.all, # not a database call since the table is loaded into memory
+        :text_method => :name,
+        :value_method => :code,
+        :selected => state_selected %> 
+      <br/>
+      <%= text_field :zipcode, :label => 'Zipcode', :size => 25 %>
+      <br/>
+    
+    </div> 
 
-<p>Edit this file in <tt>app/views/members/edit.html.erb</tt></p>
+    <div class="white_border">
+      <h2>Other Information</h2> 
+      <%= text_field :email, :label => 'Email Address', :size => 25 %>  
+      <br/>
+      <%= password_field :password, :label => 'Password', :size => 10 %> 
+      <br/>   
+      <%= password_field :password_confirmation, :label => 'Confirm Password', :size => 10 %>
+    </div> 
+  
+    <%= submit "Update!" %>
+  
+  <% end =%>
+</div>       

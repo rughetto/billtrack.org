@@ -3,7 +3,7 @@
   <% if @member.district -%>
     <h2>
       District #<%= @member.district.number %> in <%= @member.district.state.name %> 
-      <%= link_to "change your district", url(:member, @member, :edit ) %>
+      <%= link_to "change your district", url(:edit_member, @member ) %>
     </h2>
     <div id="district_map" class="district_map">  
       <% throw_content :head do -%>   
@@ -30,10 +30,12 @@
 </div> 
       
 <div id="secondary" > 
+  <!--
   <div id="issues" class="white_border">
     <h1 class="first">My Issues</h1>
     <p>No issues yet. Register your interest in issues in the form below:</p>
   </div>
+  -->
   <% if @member.district -%>
     <div id="politicians">
       <% unless @member.senators.empty? -%> 

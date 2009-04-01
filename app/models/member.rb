@@ -98,16 +98,16 @@ class Member < ActiveRecord::Base
   # these related records are all records loaded into memory 
   # hence the method call rather than the relationship definition
   # ---------------
-  def state
-    @state ||= State.find_by_id(state_id)
+  def state     
+    @state ||= State.find_on_code(state_id).first
   end   
   def state=( s )
-    if s.class == String || s.class == Fixnum
+    if s.class == String
       self.state_id = s.to_s
     elsif s.class == State
-      self.state_id = s.id
+      self.state_id = s.code
     else
-      raise ArgumentError, "should be State object or a Fixnum identifying the State id"
+      raise ArgumentError, "should be State object or abbreviation identifying the State"
     end    
     state 
   end  

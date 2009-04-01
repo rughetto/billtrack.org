@@ -55,9 +55,9 @@ class Members < Application
     @member = Member.find_by_id( session.user.id )
     raise NotFound unless @member
     if @member.update_attributes(params[:member])
-      redirect url(:member, @member)
-    else
-      raise BadRequest
+      redirect resource(@member)
+    else    
+      render :edit
     end
   end
 
